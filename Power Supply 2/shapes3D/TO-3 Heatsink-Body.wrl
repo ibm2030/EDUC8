@@ -1,0 +1,2997 @@
+#VRML V2.0 utf8
+
+
+Group {
+  children 
+    DEF o0 Group {
+      children 
+        DEF o1 Group {
+          children 
+            DEF o2 Transform {
+              translation -0 -0 -0
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                DEF o3 Group {
+                  children [ 
+                    DEF o4 Group {
+                      children 
+                        DEF o5 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children [ 
+                            DEF o6 Group {
+                              children 
+                                DEF o7 Transform {
+                                  translation 0 0 0
+                                  rotation 0 0 1  0
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o8 Group {
+                                      children 
+                                        DEF o9 Transform {
+                                          scale 2.9224 2.9224 2.9224
+                                          children [ 
+                                            DEF o10 Group {
+                                              children [ 
+                                                DEF o11 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    DEF o12 Coordinate {
+                                                      point [ 25 0 0,
+                                                          -25 0 0 ]
+
+                                                    }
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o13 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o14 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "X_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o15 Group {
+                                              children 
+                                                DEF o16 Group {
+                                                  children [ 
+                                                    DEF o17 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o18 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o19 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "X_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o20 Group {
+                              children 
+                                DEF o21 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  2.0943949
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o22 Group {
+                                      children 
+                                        DEF o23 Transform {
+                                          scale 1.5912 1.5912 1.5912
+                                          children [ 
+                                            DEF o24 Group {
+                                              children [ 
+                                                DEF o25 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o12
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o26 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o27 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "Y_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o28 Group {
+                                              children 
+                                                DEF o29 Group {
+                                                  children [ 
+                                                    DEF o30 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o31 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o32 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "Y_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o33 Group {
+                              children 
+                                DEF o34 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  4.1887903
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o35 Group {
+                                      children 
+                                        DEF o36 Transform {
+                                          scale 1.5912 1.5912 1.5912
+                                          children [ 
+                                            DEF o37 Group {
+                                              children [ 
+                                                DEF o38 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o12
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o39 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o40 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "Z_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o41 Group {
+                                              children 
+                                                DEF o42 Group {
+                                                  children [ 
+                                                    DEF o43 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o44 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o45 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "Z_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o46 Group {
+                              children 
+                                DEF o47 Transform {
+                                  translation 0 0 0
+                                  rotation 0 0 1  0
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+
+                                }
+
+                            },
+                              
+                            DEF o48 Group {
+                              children 
+                                DEF o49 Transform {
+                                  translation 0 0 0
+                                  rotation 1 0 0  1.5707964
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+
+                                }
+
+                            },
+                              
+                            DEF o50 Group {
+                              children 
+                                DEF o51 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  2.0943949
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+
+                                }
+
+                            } ]
+
+                        }
+
+                    },
+                      
+                    DEF o52 Group {
+                      children 
+                        DEF o53 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children 
+                            DEF o54 Group {
+
+                            }
+
+                        }
+
+                    },
+                      
+                    DEF o55 Group {
+                      children 
+                        DEF o56 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o57 Group {
+                      children 
+                        DEF o58 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o59 Group {
+                      children 
+                        DEF o60 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o61 Group {
+                      children 
+                        DEF o62 Transform {
+                          translation 0 -16 -1.7763568e-015
+                          rotation 1 0 0  1.5707964
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children 
+                            DEF o63 Group {
+
+                            }
+
+                        }
+
+                    },
+                      
+                    DEF o64 Group {
+                      children 
+                        DEF o65 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o66 Group {
+                      children 
+                        DEF o67 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o68 Group {
+                      children 
+                        DEF o69 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o70 Group {
+                      children 
+                        DEF o71 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o72 Group {
+                      children 
+                        DEF o73 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o74 Group {
+                      children 
+                        DEF o75 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o76 Group {
+                      children 
+                        DEF o77 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o78 Group {
+                      children 
+                        DEF o79 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children 
+                            DEF o80 Group {
+                              children [ 
+                                DEF o81 Group {
+                                  children 
+                                    DEF o82 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+                                          emissiveColor 0.098039217 0.098039217 0.098039217
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      PointSet {
+                                        coord 
+                                        DEF o83 Coordinate {
+                                          point [ 52.700001 -18.299999 10.4,
+                                              52.700001 -18.299999 23.4,
+                                              52.700001 -16.299999 25.4,
+                                              52.700001 -16 25.4,
+                                              52.700001 -16 8.3999996,
+                                              52.700001 -16.299999 8.3999996,
+                                              55.900002 -18.299999 23.4,
+                                              55.900002 -18.299999 10.4,
+                                              52.700001 -18.299999 10.4,
+                                              52.700001 -18.299999 23.4,
+                                              55.900002 -18.299999 10.4,
+                                              55.900002 -16.299999 8.3999996,
+                                              52.700001 -18.299999 10.4,
+                                              52.700001 -16.299999 8.3999996,
+                                              52.700001 -16.299999 25.4,
+                                              52.700001 -18.299999 23.4,
+                                              55.900002 -16.299999 25.4,
+                                              55.900002 -18.299999 23.4,
+                                              55.900002 -16 8.3999996,
+                                              55.900002 -16.299999 8.3999996,
+                                              52.700001 -16.299999 8.3999996,
+                                              52.700001 -16 8.3999996,
+                                              52.700001 -16 25.4,
+                                              52.700001 -16.299999 25.4,
+                                              55.900002 -16.299999 25.4,
+                                              55.900002 -16 25.4,
+                                              -4.5 -16 1.1,
+                                              56.200001 -16 1.1,
+                                              56.200001 -16 30.6,
+                                              -4.5 -16 30.6,
+                                              52.700001 -16 8.3999996,
+                                              52.700001 -16 25.4,
+                                              55.900002 -16 25.4,
+                                              55.900002 -16 8.3999996,
+                                              45.924999 -16 8.3999996,
+                                              45.924999 -16 25.4,
+                                              49.125 -16 25.4,
+                                              49.125 -16 8.3999996,
+                                              39.150002 -16 8.3999996,
+                                              39.150002 -16 25.4,
+                                              42.349998 -16 25.4,
+                                              42.349998 -16 8.3999996,
+                                              32.375 -16 8.3999996,
+                                              32.375 -16 25.4,
+                                              35.575001 -16 25.4,
+                                              35.575001 -16 8.3999996,
+                                              25.6 -16 8.3999996,
+                                              25.6 -16 25.4,
+                                              28.799999 -16 25.4,
+                                              28.799999 -16 8.3999996,
+                                              18.825001 -16 8.3999996,
+                                              18.825001 -16 25.4,
+                                              22.025 -16 25.4,
+                                              22.025 -16 8.3999996,
+                                              12.05 -16 8.3999996,
+                                              12.05 -16 25.4,
+                                              15.25 -16 25.4,
+                                              15.25 -16 8.3999996,
+                                              5.2750001 -16 8.3999996,
+                                              5.2750001 -16 25.4,
+                                              8.4750004 -16 25.4,
+                                              8.4750004 -16 8.3999996,
+                                              -1.5 -16 8.3999996,
+                                              -1.5 -16 25.4,
+                                              1.7 -16 25.4,
+                                              1.7 -16 8.3999996,
+                                              55.900002 -18.299999 23.4,
+                                              55.900002 -18.299999 10.4,
+                                              55.900002 -16.299999 8.3999996,
+                                              55.900002 -16 8.3999996,
+                                              55.900002 -16 25.4,
+                                              55.900002 -16.299999 25.4,
+                                              -4.5 -14.9 0,
+                                              -4.5 -15.144773 0.027579296,
+                                              -4.5 -15.377272 0.10893425,
+                                              -4.5 -15.585838 0.23998538,
+                                              -4.5 -15.760015 0.41416121,
+                                              -4.5 -15.891066 0.62272787,
+                                              -4.5 -15.972421 0.85522699,
+                                              -4.5 -16 1.1,
+                                              56.200001 -16 1.1,
+                                              56.200001 -14.9 0,
+                                              56.200001 -15.144773 0.027579296,
+                                              56.200001 -15.377272 0.10893425,
+                                              56.200001 -15.585838 0.23998538,
+                                              56.200001 -15.760015 0.41416121,
+                                              56.200001 -15.891066 0.62272787,
+                                              56.200001 -15.972421 0.85522699,
+                                              -4.5 -16 30.6,
+                                              -4.5 -15 30.6,
+                                              -4.5 -15 1.1,
+                                              -4.5 -16 1.1,
+                                              56.200001 -16 1.1,
+                                              56.200001 -15 1.1,
+                                              56.200001 -15 30.6,
+                                              56.200001 -16 30.6,
+                                              56.200001 -16 30.6,
+                                              56.200001 -15 30.6,
+                                              -4.5 -15 30.6,
+                                              -4.5 -16 30.6,
+                                              45.924999 -18.299999 10.4,
+                                              45.924999 -18.299999 23.4,
+                                              45.924999 -16.299999 25.4,
+                                              45.924999 -16 25.4,
+                                              45.924999 -16 8.3999996,
+                                              45.924999 -16.299999 8.3999996,
+                                              49.125 -16 8.3999996,
+                                              49.125 -16.299999 8.3999996,
+                                              45.924999 -16.299999 8.3999996,
+                                              45.924999 -16 8.3999996,
+                                              45.924999 -16 25.4,
+                                              45.924999 -16.299999 25.4,
+                                              49.125 -16.299999 25.4,
+                                              49.125 -16 25.4,
+                                              49.125 -18.299999 23.4,
+                                              49.125 -18.299999 10.4,
+                                              49.125 -16.299999 8.3999996,
+                                              49.125 -16 8.3999996,
+                                              49.125 -16 25.4,
+                                              49.125 -16.299999 25.4,
+                                              39.150002 -18.299999 10.4,
+                                              39.150002 -18.299999 23.4,
+                                              39.150002 -16.299999 25.4,
+                                              39.150002 -16 25.4,
+                                              39.150002 -16 8.3999996,
+                                              39.150002 -16.299999 8.3999996,
+                                              42.349998 -16 8.3999996,
+                                              42.349998 -16.299999 8.3999996,
+                                              39.150002 -16.299999 8.3999996,
+                                              39.150002 -16 8.3999996,
+                                              39.150002 -16 25.4,
+                                              39.150002 -16.299999 25.4,
+                                              42.349998 -16.299999 25.4,
+                                              42.349998 -16 25.4,
+                                              42.349998 -18.299999 23.4,
+                                              42.349998 -18.299999 10.4,
+                                              42.349998 -16.299999 8.3999996,
+                                              42.349998 -16 8.3999996,
+                                              42.349998 -16 25.4,
+                                              42.349998 -16.299999 25.4,
+                                              32.375 -18.299999 10.4,
+                                              32.375 -18.299999 23.4,
+                                              32.375 -16.299999 25.4,
+                                              32.375 -16 25.4,
+                                              32.375 -16 8.3999996,
+                                              32.375 -16.299999 8.3999996,
+                                              35.575001 -16 8.3999996,
+                                              35.575001 -16.299999 8.3999996,
+                                              32.375 -16.299999 8.3999996,
+                                              32.375 -16 8.3999996,
+                                              32.375 -16 25.4,
+                                              32.375 -16.299999 25.4,
+                                              35.575001 -16.299999 25.4,
+                                              35.575001 -16 25.4,
+                                              35.575001 -18.299999 23.4,
+                                              35.575001 -18.299999 10.4,
+                                              35.575001 -16.299999 8.3999996,
+                                              35.575001 -16 8.3999996,
+                                              35.575001 -16 25.4,
+                                              35.575001 -16.299999 25.4,
+                                              25.6 -18.299999 10.4,
+                                              25.6 -18.299999 23.4,
+                                              25.6 -16.299999 25.4,
+                                              25.6 -16 25.4,
+                                              25.6 -16 8.3999996,
+                                              25.6 -16.299999 8.3999996,
+                                              28.799999 -16 8.3999996,
+                                              28.799999 -16.299999 8.3999996,
+                                              25.6 -16.299999 8.3999996,
+                                              25.6 -16 8.3999996,
+                                              25.6 -16 25.4,
+                                              25.6 -16.299999 25.4,
+                                              28.799999 -16.299999 25.4,
+                                              28.799999 -16 25.4,
+                                              28.799999 -18.299999 23.4,
+                                              28.799999 -18.299999 10.4,
+                                              28.799999 -16.299999 8.3999996,
+                                              28.799999 -16 8.3999996,
+                                              28.799999 -16 25.4,
+                                              28.799999 -16.299999 25.4,
+                                              18.825001 -18.299999 10.4,
+                                              18.825001 -18.299999 23.4,
+                                              18.825001 -16.299999 25.4,
+                                              18.825001 -16 25.4,
+                                              18.825001 -16 8.3999996,
+                                              18.825001 -16.299999 8.3999996,
+                                              22.025 -16 8.3999996,
+                                              22.025 -16.299999 8.3999996,
+                                              18.825001 -16.299999 8.3999996,
+                                              18.825001 -16 8.3999996,
+                                              18.825001 -16 25.4,
+                                              18.825001 -16.299999 25.4,
+                                              22.025 -16.299999 25.4,
+                                              22.025 -16 25.4,
+                                              22.025 -18.299999 23.4,
+                                              22.025 -18.299999 10.4,
+                                              22.025 -16.299999 8.3999996,
+                                              22.025 -16 8.3999996,
+                                              22.025 -16 25.4,
+                                              22.025 -16.299999 25.4,
+                                              12.05 -18.299999 10.4,
+                                              12.05 -18.299999 23.4,
+                                              12.05 -16.299999 25.4,
+                                              12.05 -16 25.4,
+                                              12.05 -16 8.3999996,
+                                              12.05 -16.299999 8.3999996,
+                                              15.25 -16 8.3999996,
+                                              15.25 -16.299999 8.3999996,
+                                              12.05 -16.299999 8.3999996,
+                                              12.05 -16 8.3999996,
+                                              12.05 -16 25.4,
+                                              12.05 -16.299999 25.4,
+                                              15.25 -16.299999 25.4,
+                                              15.25 -16 25.4,
+                                              15.25 -18.299999 23.4,
+                                              15.25 -18.299999 10.4,
+                                              15.25 -16.299999 8.3999996,
+                                              15.25 -16 8.3999996,
+                                              15.25 -16 25.4,
+                                              15.25 -16.299999 25.4,
+                                              5.2750001 -18.299999 10.4,
+                                              5.2750001 -18.299999 23.4,
+                                              5.2750001 -16.299999 25.4,
+                                              5.2750001 -16 25.4,
+                                              5.2750001 -16 8.3999996,
+                                              5.2750001 -16.299999 8.3999996,
+                                              8.4750004 -16 8.3999996,
+                                              8.4750004 -16.299999 8.3999996,
+                                              5.2750001 -16.299999 8.3999996,
+                                              5.2750001 -16 8.3999996,
+                                              5.2750001 -16 25.4,
+                                              5.2750001 -16.299999 25.4,
+                                              8.4750004 -16.299999 25.4,
+                                              8.4750004 -16 25.4,
+                                              8.4750004 -18.299999 23.4,
+                                              8.4750004 -18.299999 10.4,
+                                              8.4750004 -16.299999 8.3999996,
+                                              8.4750004 -16 8.3999996,
+                                              8.4750004 -16 25.4,
+                                              8.4750004 -16.299999 25.4,
+                                              -1.5 -18.299999 10.4,
+                                              -1.5 -18.299999 23.4,
+                                              -1.5 -16.299999 25.4,
+                                              -1.5 -16 25.4,
+                                              -1.5 -16 8.3999996,
+                                              -1.5 -16.299999 8.3999996,
+                                              1.7 -16 8.3999996,
+                                              1.7 -16.299999 8.3999996,
+                                              -1.5 -16.299999 8.3999996,
+                                              -1.5 -16 8.3999996,
+                                              -1.5 -16 25.4,
+                                              -1.5 -16.299999 25.4,
+                                              1.7 -16.299999 25.4,
+                                              1.7 -16 25.4,
+                                              1.7 -18.299999 23.4,
+                                              1.7 -18.299999 10.4,
+                                              1.7 -16.299999 8.3999996,
+                                              1.7 -16 8.3999996,
+                                              1.7 -16 25.4,
+                                              1.7 -16.299999 25.4,
+                                              -4.5 -14.9 1,
+                                              -4.5 -14.922252 1.0025072,
+                                              -4.5 -14.943388 1.0099031,
+                                              -4.5 -14.962349 1.0218168,
+                                              -4.5 -14.978183 1.0376511,
+                                              -4.5 -14.990097 1.0566117,
+                                              -4.5 -14.997493 1.0777479,
+                                              -4.5 -15 1.1,
+                                              -4.5 -16 1.1,
+                                              -4.5 -14.9 0,
+                                              -4.5 -15.144773 0.027579296,
+                                              -4.5 -15.377272 0.10893425,
+                                              -4.5 -15.585838 0.23998538,
+                                              -4.5 -15.760015 0.41416121,
+                                              -4.5 -15.891066 0.62272787,
+                                              -4.5 -15.972421 0.85522699,
+                                              56.200001 -14.9 0,
+                                              56.200001 -15.144773 0.027579296,
+                                              56.200001 -15.377272 0.10893425,
+                                              56.200001 -15.585838 0.23998538,
+                                              56.200001 -15.760015 0.41416121,
+                                              56.200001 -15.891066 0.62272787,
+                                              56.200001 -15.972421 0.85522699,
+                                              56.200001 -16 1.1,
+                                              56.200001 -15 1.1,
+                                              56.200001 -14.9 1,
+                                              56.200001 -14.922252 1.0025072,
+                                              56.200001 -14.943388 1.0099031,
+                                              56.200001 -14.962349 1.0218168,
+                                              56.200001 -14.978183 1.0376511,
+                                              56.200001 -14.990097 1.0566117,
+                                              56.200001 -14.997493 1.0777479,
+                                              -4.5 14.9 0,
+                                              56.200001 14.9 0,
+                                              56.200001 -14.9 0,
+                                              -4.5 -14.9 0,
+                                              29.1 5.8000002 0,
+                                              29.041883 6.2786312 0,
+                                              28.870913 6.7294464 0,
+                                              28.597021 7.1262455 0,
+                                              28.23613 7.4459677 0,
+                                              27.80921 7.6700325 0,
+                                              27.341074 7.7854176 0,
+                                              26.858927 7.7854176 0,
+                                              26.390791 7.6700325 0,
+                                              25.963871 7.4459677 0,
+                                              25.602978 7.1262455 0,
+                                              25.329088 6.7294464 0,
+                                              25.158117 6.2786312 0,
+                                              25.1 5.8000002 0,
+                                              25.1 -5.8000002 0,
+                                              25.158117 -6.2786312 0,
+                                              25.329088 -6.7294464 0,
+                                              25.602978 -7.1262455 0,
+                                              25.963871 -7.4459677 0,
+                                              26.390791 -7.6700325 0,
+                                              26.858927 -7.7854176 0,
+                                              27.341074 -7.7854176 0,
+                                              27.80921 -7.6700325 0,
+                                              28.23613 -7.4459677 0,
+                                              28.597021 -7.1262455 0,
+                                              28.870913 -6.7294464 0,
+                                              29.041883 -6.2786312 0,
+                                              29.1 -5.8000002 0,
+                                              36.5 2 0,
+                                              36.02137 1.9418837 0,
+                                              35.570553 1.7709121 0,
+                                              35.173756 1.4970216 0,
+                                              34.854031 1.1361295 0,
+                                              34.629967 0.7092098 0,
+                                              34.514584 0.24107336 0,
+                                              34.514584 -0.24107336 0,
+                                              34.629967 -0.7092098 0,
+                                              34.854031 -1.1361295 0,
+                                              35.173756 -1.4970216 0,
+                                              35.570553 -1.7709121 0,
+                                              36.02137 -1.9418837 0,
+                                              36.5 -2 0,
+                                              40.099998 -2 0,
+                                              40.578632 -1.9418837 0,
+                                              41.029446 -1.7709121 0,
+                                              41.426247 -1.4970216 0,
+                                              41.745968 -1.1361295 0,
+                                              41.970032 -0.7092098 0,
+                                              42.085419 -0.24107336 0,
+                                              42.085419 0.24107336 0,
+                                              41.970032 0.7092098 0,
+                                              41.745968 1.1361295 0,
+                                              41.426247 1.4970216 0,
+                                              41.029446 1.7709121 0,
+                                              40.578632 1.9418837 0,
+                                              40.099998 2 0,
+                                              10.7 2 0,
+                                              10.221369 1.9418837 0,
+                                              9.7705536 1.7709121 0,
+                                              9.3737545 1.4970216 0,
+                                              9.0540323 1.1361295 0,
+                                              8.8299675 0.7092098 0,
+                                              8.7145824 0.24107336 0,
+                                              8.7145824 -0.24107336 0,
+                                              8.8299675 -0.7092098 0,
+                                              9.0540323 -1.1361295 0,
+                                              9.3737545 -1.4970216 0,
+                                              9.7705536 -1.7709121 0,
+                                              10.221369 -1.9418837 0,
+                                              10.7 -2 0,
+                                              13.3 -2 0,
+                                              13.778631 -1.9418837 0,
+                                              14.229446 -1.7709121 0,
+                                              14.626245 -1.4970216 0,
+                                              14.945968 -1.1361295 0,
+                                              15.170033 -0.7092098 0,
+                                              15.285418 -0.24107336 0,
+                                              15.285418 0.24107336 0,
+                                              15.170033 0.7092098 0,
+                                              14.945968 1.1361295 0,
+                                              14.626245 1.4970216 0,
+                                              14.229446 1.7709121 0,
+                                              13.778631 1.9418837 0,
+                                              13.3 2 0,
+                                              2 0 0,
+                                              1.9418837 0.47863132 0,
+                                              1.7709121 0.92944634 0,
+                                              1.4970216 1.3262453 0,
+                                              1.1361295 1.6459677 0,
+                                              0.7092098 1.8700324 0,
+                                              0.24107336 1.9854177 0,
+                                              -0.24107336 1.9854177 0,
+                                              -0.7092098 1.8700324 0,
+                                              -1.1361295 1.6459677 0,
+                                              -1.4970216 1.3262453 0,
+                                              -1.7709121 0.92944634 0,
+                                              -1.9418837 0.47863132 0,
+                                              -2 2.0212862e-015 0,
+                                              -1.9418837 -0.47863132 0,
+                                              -1.7709121 -0.92944634 0,
+                                              -1.4970216 -1.3262453 0,
+                                              -1.1361295 -1.6459677 0,
+                                              -0.7092098 -1.8700324 0,
+                                              -0.24107336 -1.9854177 0,
+                                              0.24107336 -1.9854177 0,
+                                              0.7092098 -1.8700324 0,
+                                              1.1361295 -1.6459677 0,
+                                              1.4970216 -1.3262453 0,
+                                              1.7709121 -0.92944634 0,
+                                              1.9418837 -0.47863132 0,
+                                              56.200001 -15 1.1,
+                                              -4.5 -15 1.1,
+                                              56.200001 -15 30.6,
+                                              -4.5 -15 30.6,
+                                              49.125 -18.299999 23.4,
+                                              49.125 -18.299999 10.4,
+                                              45.924999 -18.299999 10.4,
+                                              45.924999 -18.299999 23.4,
+                                              49.125 -16.299999 8.3999996,
+                                              49.125 -18.299999 10.4,
+                                              45.924999 -16.299999 8.3999996,
+                                              45.924999 -18.299999 10.4,
+                                              45.924999 -16.299999 25.4,
+                                              45.924999 -18.299999 23.4,
+                                              49.125 -16.299999 25.4,
+                                              49.125 -18.299999 23.4,
+                                              42.349998 -18.299999 23.4,
+                                              42.349998 -18.299999 10.4,
+                                              39.150002 -18.299999 10.4,
+                                              39.150002 -18.299999 23.4,
+                                              42.349998 -16.299999 8.3999996,
+                                              42.349998 -18.299999 10.4,
+                                              39.150002 -16.299999 8.3999996,
+                                              39.150002 -18.299999 10.4,
+                                              39.150002 -16.299999 25.4,
+                                              39.150002 -18.299999 23.4,
+                                              42.349998 -16.299999 25.4,
+                                              42.349998 -18.299999 23.4,
+                                              35.575001 -18.299999 23.4,
+                                              35.575001 -18.299999 10.4,
+                                              32.375 -18.299999 10.4,
+                                              32.375 -18.299999 23.4,
+                                              35.575001 -16.299999 8.3999996,
+                                              35.575001 -18.299999 10.4,
+                                              32.375 -16.299999 8.3999996,
+                                              32.375 -18.299999 10.4,
+                                              32.375 -16.299999 25.4,
+                                              32.375 -18.299999 23.4,
+                                              35.575001 -16.299999 25.4,
+                                              35.575001 -18.299999 23.4,
+                                              28.799999 -18.299999 23.4,
+                                              28.799999 -18.299999 10.4,
+                                              25.6 -18.299999 10.4,
+                                              25.6 -18.299999 23.4,
+                                              28.799999 -16.299999 8.3999996,
+                                              28.799999 -18.299999 10.4,
+                                              25.6 -16.299999 8.3999996,
+                                              25.6 -18.299999 10.4,
+                                              25.6 -16.299999 25.4,
+                                              25.6 -18.299999 23.4,
+                                              28.799999 -16.299999 25.4,
+                                              28.799999 -18.299999 23.4,
+                                              22.025 -18.299999 23.4,
+                                              22.025 -18.299999 10.4,
+                                              18.825001 -18.299999 10.4,
+                                              18.825001 -18.299999 23.4,
+                                              22.025 -16.299999 8.3999996,
+                                              22.025 -18.299999 10.4,
+                                              18.825001 -16.299999 8.3999996,
+                                              18.825001 -18.299999 10.4,
+                                              18.825001 -16.299999 25.4,
+                                              18.825001 -18.299999 23.4,
+                                              22.025 -16.299999 25.4,
+                                              22.025 -18.299999 23.4,
+                                              15.25 -18.299999 23.4,
+                                              15.25 -18.299999 10.4,
+                                              12.05 -18.299999 10.4,
+                                              12.05 -18.299999 23.4,
+                                              15.25 -16.299999 8.3999996,
+                                              15.25 -18.299999 10.4,
+                                              12.05 -16.299999 8.3999996,
+                                              12.05 -18.299999 10.4,
+                                              12.05 -16.299999 25.4,
+                                              12.05 -18.299999 23.4,
+                                              15.25 -16.299999 25.4,
+                                              15.25 -18.299999 23.4,
+                                              8.4750004 -18.299999 23.4,
+                                              8.4750004 -18.299999 10.4,
+                                              5.2750001 -18.299999 10.4,
+                                              5.2750001 -18.299999 23.4,
+                                              8.4750004 -16.299999 8.3999996,
+                                              8.4750004 -18.299999 10.4,
+                                              5.2750001 -16.299999 8.3999996,
+                                              5.2750001 -18.299999 10.4,
+                                              5.2750001 -16.299999 25.4,
+                                              5.2750001 -18.299999 23.4,
+                                              8.4750004 -16.299999 25.4,
+                                              8.4750004 -18.299999 23.4,
+                                              1.7 -18.299999 23.4,
+                                              1.7 -18.299999 10.4,
+                                              -1.5 -18.299999 10.4,
+                                              -1.5 -18.299999 23.4,
+                                              1.7 -18.299999 10.4,
+                                              1.7 -16.299999 8.3999996,
+                                              -1.5 -18.299999 10.4,
+                                              -1.5 -16.299999 8.3999996,
+                                              -1.5 -16.299999 25.4,
+                                              -1.5 -18.299999 23.4,
+                                              1.7 -16.299999 25.4,
+                                              1.7 -18.299999 23.4,
+                                              56.200001 -14.9 1,
+                                              56.200001 -14.922252 1.0025072,
+                                              56.200001 -14.943388 1.0099031,
+                                              56.200001 -14.962349 1.0218168,
+                                              56.200001 -14.978183 1.0376511,
+                                              56.200001 -14.990097 1.0566117,
+                                              56.200001 -14.997493 1.0777479,
+                                              56.200001 -15 1.1,
+                                              -4.5 -15 1.1,
+                                              -4.5 -14.9 1,
+                                              -4.5 -14.922252 1.0025072,
+                                              -4.5 -14.943388 1.0099031,
+                                              -4.5 -14.962349 1.0218168,
+                                              -4.5 -14.978183 1.0376511,
+                                              -4.5 -14.990097 1.0566117,
+                                              -4.5 -14.997493 1.0777479,
+                                              -4.5 -14.9 0,
+                                              -4.5 -14.9 1,
+                                              -4.5 14.9 1,
+                                              -4.5 14.9 0,
+                                              56.200001 14.9 0,
+                                              56.200001 14.9 1,
+                                              56.200001 -14.9 1,
+                                              56.200001 -14.9 0,
+                                              56.200001 14.9 0,
+                                              56.200001 15.144773 0.027579296,
+                                              56.200001 15.377272 0.10893425,
+                                              56.200001 15.585838 0.23998538,
+                                              56.200001 15.760015 0.41416121,
+                                              56.200001 15.891066 0.62272787,
+                                              56.200001 15.972421 0.85522699,
+                                              56.200001 16 1.1,
+                                              -4.5 16 1.1,
+                                              -4.5 14.9 0,
+                                              -4.5 15.144773 0.027579296,
+                                              -4.5 15.377272 0.10893425,
+                                              -4.5 15.585838 0.23998538,
+                                              -4.5 15.760015 0.41416121,
+                                              -4.5 15.891066 0.62272787,
+                                              -4.5 15.972421 0.85522699,
+                                              29.1 5.8000002 0,
+                                              29.1 5.8000002 1,
+                                              29.041883 6.2786312 1,
+                                              28.870913 6.7294464 1,
+                                              28.597021 7.1262455 1,
+                                              28.23613 7.4459677 1,
+                                              27.80921 7.6700325 1,
+                                              27.341074 7.7854176 1,
+                                              26.858927 7.7854176 1,
+                                              26.390791 7.6700325 1,
+                                              25.963871 7.4459677 1,
+                                              25.602978 7.1262455 1,
+                                              25.329088 6.7294464 1,
+                                              25.158117 6.2786312 1,
+                                              25.1 5.8000002 1,
+                                              25.1 5.8000002 0,
+                                              29.041883 6.2786312 0,
+                                              28.870913 6.7294464 0,
+                                              28.597021 7.1262455 0,
+                                              28.23613 7.4459677 0,
+                                              27.80921 7.6700325 0,
+                                              27.341074 7.7854176 0,
+                                              26.858927 7.7854176 0,
+                                              26.390791 7.6700325 0,
+                                              25.963871 7.4459677 0,
+                                              25.602978 7.1262455 0,
+                                              25.329088 6.7294464 0,
+                                              25.158117 6.2786312 0,
+                                              25.1 5.8000002 0,
+                                              25.1 5.8000002 1,
+                                              25.1 -5.8000002 1,
+                                              25.1 -5.8000002 0,
+                                              25.1 -5.8000002 0,
+                                              25.1 -5.8000002 1,
+                                              25.158117 -6.2786312 1,
+                                              25.329088 -6.7294464 1,
+                                              25.602978 -7.1262455 1,
+                                              25.963871 -7.4459677 1,
+                                              26.390791 -7.6700325 1,
+                                              26.858927 -7.7854176 1,
+                                              27.341074 -7.7854176 1,
+                                              27.80921 -7.6700325 1,
+                                              28.23613 -7.4459677 1,
+                                              28.597021 -7.1262455 1,
+                                              28.870913 -6.7294464 1,
+                                              29.041883 -6.2786312 1,
+                                              29.1 -5.8000002 1,
+                                              29.1 -5.8000002 0,
+                                              25.158117 -6.2786312 0,
+                                              25.329088 -6.7294464 0,
+                                              25.602978 -7.1262455 0,
+                                              25.963871 -7.4459677 0,
+                                              26.390791 -7.6700325 0,
+                                              26.858927 -7.7854176 0,
+                                              27.341074 -7.7854176 0,
+                                              27.80921 -7.6700325 0,
+                                              28.23613 -7.4459677 0,
+                                              28.597021 -7.1262455 0,
+                                              28.870913 -6.7294464 0,
+                                              29.041883 -6.2786312 0,
+                                              29.1 5.8000002 0,
+                                              29.1 5.8000002 1,
+                                              29.1 -5.8000002 1,
+                                              29.1 -5.8000002 0,
+                                              36.5 2 0,
+                                              36.5 2 1,
+                                              36.02137 1.9418837 1,
+                                              35.570553 1.7709121 1,
+                                              35.173756 1.4970216 1,
+                                              34.854031 1.1361295 1,
+                                              34.629967 0.7092098 1,
+                                              34.514584 0.24107336 1,
+                                              34.514584 -0.24107336 1,
+                                              34.629967 -0.7092098 1,
+                                              34.854031 -1.1361295 1,
+                                              35.173756 -1.4970216 1,
+                                              35.570553 -1.7709121 1,
+                                              36.02137 -1.9418837 1,
+                                              36.5 -2 1,
+                                              36.5 -2 0,
+                                              36.02137 1.9418837 0,
+                                              35.570553 1.7709121 0,
+                                              35.173756 1.4970216 0,
+                                              34.854031 1.1361295 0,
+                                              34.629967 0.7092098 0,
+                                              34.514584 0.24107336 0,
+                                              34.514584 -0.24107336 0,
+                                              34.629967 -0.7092098 0,
+                                              34.854031 -1.1361295 0,
+                                              35.173756 -1.4970216 0,
+                                              35.570553 -1.7709121 0,
+                                              36.02137 -1.9418837 0,
+                                              36.5 -2 0,
+                                              36.5 -2 1,
+                                              40.099998 -2 1,
+                                              40.099998 -2 0,
+                                              40.099998 -2 0,
+                                              40.099998 -2 1,
+                                              40.578632 -1.9418837 1,
+                                              41.029446 -1.7709121 1,
+                                              41.426247 -1.4970216 1,
+                                              41.745968 -1.1361295 1,
+                                              41.970032 -0.7092098 1,
+                                              42.085419 -0.24107336 1,
+                                              42.085419 0.24107336 1,
+                                              41.970032 0.7092098 1,
+                                              41.745968 1.1361295 1,
+                                              41.426247 1.4970216 1,
+                                              41.029446 1.7709121 1,
+                                              40.578632 1.9418837 1,
+                                              40.099998 2 1,
+                                              40.099998 2 0,
+                                              40.578632 -1.9418837 0,
+                                              41.029446 -1.7709121 0,
+                                              41.426247 -1.4970216 0,
+                                              41.745968 -1.1361295 0,
+                                              41.970032 -0.7092098 0,
+                                              42.085419 -0.24107336 0,
+                                              42.085419 0.24107336 0,
+                                              41.970032 0.7092098 0,
+                                              41.745968 1.1361295 0,
+                                              41.426247 1.4970216 0,
+                                              41.029446 1.7709121 0,
+                                              40.578632 1.9418837 0,
+                                              36.5 2 0,
+                                              36.5 2 1,
+                                              40.099998 2 1,
+                                              40.099998 2 0,
+                                              10.7 2 0,
+                                              10.7 2 1,
+                                              10.221369 1.9418837 1,
+                                              9.7705536 1.7709121 1,
+                                              9.3737545 1.4970216 1,
+                                              9.0540323 1.1361295 1,
+                                              8.8299675 0.7092098 1,
+                                              8.7145824 0.24107336 1,
+                                              8.7145824 -0.24107336 1,
+                                              8.8299675 -0.7092098 1,
+                                              9.0540323 -1.1361295 1,
+                                              9.3737545 -1.4970216 1,
+                                              9.7705536 -1.7709121 1,
+                                              10.221369 -1.9418837 1,
+                                              10.7 -2 1,
+                                              10.7 -2 0,
+                                              10.221369 1.9418837 0,
+                                              9.7705536 1.7709121 0,
+                                              9.3737545 1.4970216 0,
+                                              9.0540323 1.1361295 0,
+                                              8.8299675 0.7092098 0,
+                                              8.7145824 0.24107336 0,
+                                              8.7145824 -0.24107336 0,
+                                              8.8299675 -0.7092098 0,
+                                              9.0540323 -1.1361295 0,
+                                              9.3737545 -1.4970216 0,
+                                              9.7705536 -1.7709121 0,
+                                              10.221369 -1.9418837 0,
+                                              10.7 -2 0,
+                                              10.7 -2 1,
+                                              13.3 -2 1,
+                                              13.3 -2 0,
+                                              13.3 -2 0,
+                                              13.3 -2 1,
+                                              13.778631 -1.9418837 1,
+                                              14.229446 -1.7709121 1,
+                                              14.626245 -1.4970216 1,
+                                              14.945968 -1.1361295 1,
+                                              15.170033 -0.7092098 1,
+                                              15.285418 -0.24107336 1,
+                                              15.285418 0.24107336 1,
+                                              15.170033 0.7092098 1,
+                                              14.945968 1.1361295 1,
+                                              14.626245 1.4970216 1,
+                                              14.229446 1.7709121 1,
+                                              13.778631 1.9418837 1,
+                                              13.3 2 1,
+                                              13.3 2 0,
+                                              13.778631 -1.9418837 0,
+                                              14.229446 -1.7709121 0,
+                                              14.626245 -1.4970216 0,
+                                              14.945968 -1.1361295 0,
+                                              15.170033 -0.7092098 0,
+                                              15.285418 -0.24107336 0,
+                                              15.285418 0.24107336 0,
+                                              15.170033 0.7092098 0,
+                                              14.945968 1.1361295 0,
+                                              14.626245 1.4970216 0,
+                                              14.229446 1.7709121 0,
+                                              13.778631 1.9418837 0,
+                                              10.7 2 0,
+                                              10.7 2 1,
+                                              13.3 2 1,
+                                              13.3 2 0,
+                                              2 0 0,
+                                              2 0 1,
+                                              1.9418837 0.47863132 1,
+                                              1.7709121 0.92944634 1,
+                                              1.4970216 1.3262453 1,
+                                              1.1361295 1.6459677 1,
+                                              0.7092098 1.8700324 1,
+                                              0.24107336 1.9854177 1,
+                                              -0.24107336 1.9854177 1,
+                                              -0.7092098 1.8700324 1,
+                                              -1.1361295 1.6459677 1,
+                                              -1.4970216 1.3262453 1,
+                                              -1.7709121 0.92944634 1,
+                                              -1.9418837 0.47863132 1,
+                                              -2 2.0212862e-015 1,
+                                              -1.9418837 -0.47863132 1,
+                                              -1.7709121 -0.92944634 1,
+                                              -1.4970216 -1.3262453 1,
+                                              -1.1361295 -1.6459677 1,
+                                              -0.7092098 -1.8700324 1,
+                                              -0.24107336 -1.9854177 1,
+                                              0.24107336 -1.9854177 1,
+                                              0.7092098 -1.8700324 1,
+                                              1.1361295 -1.6459677 1,
+                                              1.4970216 -1.3262453 1,
+                                              1.7709121 -0.92944634 1,
+                                              1.9418837 -0.47863132 1,
+                                              2 0 1,
+                                              2 0 0,
+                                              1.9418837 0.47863132 0,
+                                              1.7709121 0.92944634 0,
+                                              1.4970216 1.3262453 0,
+                                              1.1361295 1.6459677 0,
+                                              0.7092098 1.8700324 0,
+                                              0.24107336 1.9854177 0,
+                                              -0.24107336 1.9854177 0,
+                                              -0.7092098 1.8700324 0,
+                                              -1.1361295 1.6459677 0,
+                                              -1.4970216 1.3262453 0,
+                                              -1.7709121 0.92944634 0,
+                                              -1.9418837 0.47863132 0,
+                                              -2 2.0212862e-015 0,
+                                              -1.9418837 -0.47863132 0,
+                                              -1.7709121 -0.92944634 0,
+                                              -1.4970216 -1.3262453 0,
+                                              -1.1361295 -1.6459677 0,
+                                              -0.7092098 -1.8700324 0,
+                                              -0.24107336 -1.9854177 0,
+                                              0.24107336 -1.9854177 0,
+                                              0.7092098 -1.8700324 0,
+                                              1.1361295 -1.6459677 0,
+                                              1.4970216 -1.3262453 0,
+                                              1.7709121 -0.92944634 0,
+                                              1.9418837 -0.47863132 0,
+                                              -4.5 14.9 1,
+                                              56.200001 14.9 1,
+                                              56.200001 -14.9 1,
+                                              -4.5 -14.9 1,
+                                              29.1 5.8000002 1,
+                                              29.041883 6.2786312 1,
+                                              28.870913 6.7294464 1,
+                                              28.597021 7.1262455 1,
+                                              28.23613 7.4459677 1,
+                                              27.80921 7.6700325 1,
+                                              27.341074 7.7854176 1,
+                                              26.858927 7.7854176 1,
+                                              26.390791 7.6700325 1,
+                                              25.963871 7.4459677 1,
+                                              25.602978 7.1262455 1,
+                                              25.329088 6.7294464 1,
+                                              25.158117 6.2786312 1,
+                                              25.1 5.8000002 1,
+                                              25.1 -5.8000002 1,
+                                              25.158117 -6.2786312 1,
+                                              25.329088 -6.7294464 1,
+                                              25.602978 -7.1262455 1,
+                                              25.963871 -7.4459677 1,
+                                              26.390791 -7.6700325 1,
+                                              26.858927 -7.7854176 1,
+                                              27.341074 -7.7854176 1,
+                                              27.80921 -7.6700325 1,
+                                              28.23613 -7.4459677 1,
+                                              28.597021 -7.1262455 1,
+                                              28.870913 -6.7294464 1,
+                                              29.041883 -6.2786312 1,
+                                              29.1 -5.8000002 1,
+                                              36.5 2 1,
+                                              36.02137 1.9418837 1,
+                                              35.570553 1.7709121 1,
+                                              35.173756 1.4970216 1,
+                                              34.854031 1.1361295 1,
+                                              34.629967 0.7092098 1,
+                                              34.514584 0.24107336 1,
+                                              34.514584 -0.24107336 1,
+                                              34.629967 -0.7092098 1,
+                                              34.854031 -1.1361295 1,
+                                              35.173756 -1.4970216 1,
+                                              35.570553 -1.7709121 1,
+                                              36.02137 -1.9418837 1,
+                                              36.5 -2 1,
+                                              40.099998 -2 1,
+                                              40.578632 -1.9418837 1,
+                                              41.029446 -1.7709121 1,
+                                              41.426247 -1.4970216 1,
+                                              41.745968 -1.1361295 1,
+                                              41.970032 -0.7092098 1,
+                                              42.085419 -0.24107336 1,
+                                              42.085419 0.24107336 1,
+                                              41.970032 0.7092098 1,
+                                              41.745968 1.1361295 1,
+                                              41.426247 1.4970216 1,
+                                              41.029446 1.7709121 1,
+                                              40.578632 1.9418837 1,
+                                              40.099998 2 1,
+                                              10.7 2 1,
+                                              10.221369 1.9418837 1,
+                                              9.7705536 1.7709121 1,
+                                              9.3737545 1.4970216 1,
+                                              9.0540323 1.1361295 1,
+                                              8.8299675 0.7092098 1,
+                                              8.7145824 0.24107336 1,
+                                              8.7145824 -0.24107336 1,
+                                              8.8299675 -0.7092098 1,
+                                              9.0540323 -1.1361295 1,
+                                              9.3737545 -1.4970216 1,
+                                              9.7705536 -1.7709121 1,
+                                              10.221369 -1.9418837 1,
+                                              10.7 -2 1,
+                                              13.3 -2 1,
+                                              13.778631 -1.9418837 1,
+                                              14.229446 -1.7709121 1,
+                                              14.626245 -1.4970216 1,
+                                              14.945968 -1.1361295 1,
+                                              15.170033 -0.7092098 1,
+                                              15.285418 -0.24107336 1,
+                                              15.285418 0.24107336 1,
+                                              15.170033 0.7092098 1,
+                                              14.945968 1.1361295 1,
+                                              14.626245 1.4970216 1,
+                                              14.229446 1.7709121 1,
+                                              13.778631 1.9418837 1,
+                                              13.3 2 1,
+                                              2 0 1,
+                                              1.9418837 0.47863132 1,
+                                              1.7709121 0.92944634 1,
+                                              1.4970216 1.3262453 1,
+                                              1.1361295 1.6459677 1,
+                                              0.7092098 1.8700324 1,
+                                              0.24107336 1.9854177 1,
+                                              -0.24107336 1.9854177 1,
+                                              -0.7092098 1.8700324 1,
+                                              -1.1361295 1.6459677 1,
+                                              -1.4970216 1.3262453 1,
+                                              -1.7709121 0.92944634 1,
+                                              -1.9418837 0.47863132 1,
+                                              -2 2.0212862e-015 1,
+                                              -1.9418837 -0.47863132 1,
+                                              -1.7709121 -0.92944634 1,
+                                              -1.4970216 -1.3262453 1,
+                                              -1.1361295 -1.6459677 1,
+                                              -0.7092098 -1.8700324 1,
+                                              -0.24107336 -1.9854177 1,
+                                              0.24107336 -1.9854177 1,
+                                              0.7092098 -1.8700324 1,
+                                              1.1361295 -1.6459677 1,
+                                              1.4970216 -1.3262453 1,
+                                              1.7709121 -0.92944634 1,
+                                              1.9418837 -0.47863132 1,
+                                              -4.5 14.9 0,
+                                              -4.5 15.144773 0.027579296,
+                                              -4.5 15.377272 0.10893425,
+                                              -4.5 15.585838 0.23998538,
+                                              -4.5 15.760015 0.41416121,
+                                              -4.5 15.891066 0.62272787,
+                                              -4.5 15.972421 0.85522699,
+                                              -4.5 16 1.1,
+                                              -4.5 15 1.1,
+                                              -4.5 14.9 1,
+                                              -4.5 14.922252 1.0025072,
+                                              -4.5 14.943388 1.0099031,
+                                              -4.5 14.962349 1.0218168,
+                                              -4.5 14.978183 1.0376511,
+                                              -4.5 14.990097 1.0566117,
+                                              -4.5 14.997493 1.0777479,
+                                              56.200001 14.9 1,
+                                              56.200001 14.922252 1.0025072,
+                                              56.200001 14.943388 1.0099031,
+                                              56.200001 14.962349 1.0218168,
+                                              56.200001 14.978183 1.0376511,
+                                              56.200001 14.990097 1.0566117,
+                                              56.200001 14.997493 1.0777479,
+                                              56.200001 15 1.1,
+                                              56.200001 16 1.1,
+                                              56.200001 14.9 0,
+                                              56.200001 15.144773 0.027579296,
+                                              56.200001 15.377272 0.10893425,
+                                              56.200001 15.585838 0.23998538,
+                                              56.200001 15.760015 0.41416121,
+                                              56.200001 15.891066 0.62272787,
+                                              56.200001 15.972421 0.85522699,
+                                              56.200001 16 1.1,
+                                              -4.5 16 1.1,
+                                              -4.5 16 30.6,
+                                              56.200001 16 30.6,
+                                              52.700001 16 25.4,
+                                              55.900002 16 25.4,
+                                              52.700001 16 8.3999996,
+                                              55.900002 16 8.3999996,
+                                              45.924999 16 25.4,
+                                              49.125 16 25.4,
+                                              45.924999 16 8.3999996,
+                                              49.125 16 8.3999996,
+                                              39.150002 16 25.4,
+                                              42.349998 16 25.4,
+                                              39.150002 16 8.3999996,
+                                              42.349998 16 8.3999996,
+                                              32.375 16 25.4,
+                                              35.575001 16 25.4,
+                                              32.375 16 8.3999996,
+                                              35.575001 16 8.3999996,
+                                              25.6 16 25.4,
+                                              28.799999 16 25.4,
+                                              25.6 16 8.3999996,
+                                              28.799999 16 8.3999996,
+                                              18.825001 16 25.4,
+                                              22.025 16 25.4,
+                                              18.825001 16 8.3999996,
+                                              22.025 16 8.3999996,
+                                              12.05 16 25.4,
+                                              15.25 16 25.4,
+                                              12.05 16 8.3999996,
+                                              15.25 16 8.3999996,
+                                              5.2750001 16 25.4,
+                                              8.4750004 16 25.4,
+                                              5.2750001 16 8.3999996,
+                                              8.4750004 16 8.3999996,
+                                              -1.5 16 25.4,
+                                              1.7 16 25.4,
+                                              -1.5 16 8.3999996,
+                                              1.7 16 8.3999996,
+                                              -4.5 14.9 1,
+                                              -4.5 14.922252 1.0025072,
+                                              -4.5 14.943388 1.0099031,
+                                              -4.5 14.962349 1.0218168,
+                                              -4.5 14.978183 1.0376511,
+                                              -4.5 14.990097 1.0566117,
+                                              -4.5 14.997493 1.0777479,
+                                              -4.5 15 1.1,
+                                              56.200001 15 1.1,
+                                              56.200001 14.9 1,
+                                              56.200001 14.922252 1.0025072,
+                                              56.200001 14.943388 1.0099031,
+                                              56.200001 14.962349 1.0218168,
+                                              56.200001 14.978183 1.0376511,
+                                              56.200001 14.990097 1.0566117,
+                                              56.200001 14.997493 1.0777479,
+                                              -4.5 16 1.1,
+                                              -4.5 15 1.1,
+                                              -4.5 15 30.6,
+                                              -4.5 16 30.6,
+                                              56.200001 16 30.6,
+                                              56.200001 15 30.6,
+                                              56.200001 15 1.1,
+                                              56.200001 16 1.1,
+                                              -4.5 16 30.6,
+                                              -4.5 15 30.6,
+                                              56.200001 15 30.6,
+                                              56.200001 16 30.6,
+                                              52.700001 16 25.4,
+                                              52.700001 16.299999 25.4,
+                                              55.900002 16.299999 25.4,
+                                              55.900002 16 25.4,
+                                              55.900002 16 25.4,
+                                              55.900002 16.299999 25.4,
+                                              55.900002 18.299999 23.4,
+                                              55.900002 18.299999 10.4,
+                                              55.900002 16.299999 8.3999996,
+                                              55.900002 16 8.3999996,
+                                              55.900002 16 8.3999996,
+                                              55.900002 16.299999 8.3999996,
+                                              52.700001 16.299999 8.3999996,
+                                              52.700001 16 8.3999996,
+                                              52.700001 16 8.3999996,
+                                              52.700001 16.299999 8.3999996,
+                                              52.700001 18.299999 10.4,
+                                              52.700001 18.299999 23.4,
+                                              52.700001 16.299999 25.4,
+                                              52.700001 16 25.4,
+                                              45.924999 16 25.4,
+                                              45.924999 16.299999 25.4,
+                                              49.125 16.299999 25.4,
+                                              49.125 16 25.4,
+                                              45.924999 16 8.3999996,
+                                              45.924999 16.299999 8.3999996,
+                                              45.924999 18.299999 10.4,
+                                              45.924999 18.299999 23.4,
+                                              45.924999 16.299999 25.4,
+                                              45.924999 16 25.4,
+                                              49.125 16 25.4,
+                                              49.125 16.299999 25.4,
+                                              49.125 18.299999 23.4,
+                                              49.125 18.299999 10.4,
+                                              49.125 16.299999 8.3999996,
+                                              49.125 16 8.3999996,
+                                              49.125 16 8.3999996,
+                                              49.125 16.299999 8.3999996,
+                                              45.924999 16.299999 8.3999996,
+                                              45.924999 16 8.3999996,
+                                              39.150002 16 25.4,
+                                              39.150002 16.299999 25.4,
+                                              42.349998 16.299999 25.4,
+                                              42.349998 16 25.4,
+                                              39.150002 16 8.3999996,
+                                              39.150002 16.299999 8.3999996,
+                                              39.150002 18.299999 10.4,
+                                              39.150002 18.299999 23.4,
+                                              39.150002 16.299999 25.4,
+                                              39.150002 16 25.4,
+                                              42.349998 16 25.4,
+                                              42.349998 16.299999 25.4,
+                                              42.349998 18.299999 23.4,
+                                              42.349998 18.299999 10.4,
+                                              42.349998 16.299999 8.3999996,
+                                              42.349998 16 8.3999996,
+                                              42.349998 16 8.3999996,
+                                              42.349998 16.299999 8.3999996,
+                                              39.150002 16.299999 8.3999996,
+                                              39.150002 16 8.3999996,
+                                              32.375 16 25.4,
+                                              32.375 16.299999 25.4,
+                                              35.575001 16.299999 25.4,
+                                              35.575001 16 25.4,
+                                              32.375 16 8.3999996,
+                                              32.375 16.299999 8.3999996,
+                                              32.375 18.299999 10.4,
+                                              32.375 18.299999 23.4,
+                                              32.375 16.299999 25.4,
+                                              32.375 16 25.4,
+                                              35.575001 16 25.4,
+                                              35.575001 16.299999 25.4,
+                                              35.575001 18.299999 23.4,
+                                              35.575001 18.299999 10.4,
+                                              35.575001 16.299999 8.3999996,
+                                              35.575001 16 8.3999996,
+                                              35.575001 16 8.3999996,
+                                              35.575001 16.299999 8.3999996,
+                                              32.375 16.299999 8.3999996,
+                                              32.375 16 8.3999996,
+                                              25.6 16 25.4,
+                                              25.6 16.299999 25.4,
+                                              28.799999 16.299999 25.4,
+                                              28.799999 16 25.4,
+                                              25.6 16 8.3999996,
+                                              25.6 16.299999 8.3999996,
+                                              25.6 18.299999 10.4,
+                                              25.6 18.299999 23.4,
+                                              25.6 16.299999 25.4,
+                                              25.6 16 25.4,
+                                              28.799999 16 25.4,
+                                              28.799999 16.299999 25.4,
+                                              28.799999 18.299999 23.4,
+                                              28.799999 18.299999 10.4,
+                                              28.799999 16.299999 8.3999996,
+                                              28.799999 16 8.3999996,
+                                              28.799999 16 8.3999996,
+                                              28.799999 16.299999 8.3999996,
+                                              25.6 16.299999 8.3999996,
+                                              25.6 16 8.3999996,
+                                              18.825001 16 25.4,
+                                              18.825001 16.299999 25.4,
+                                              22.025 16.299999 25.4,
+                                              22.025 16 25.4,
+                                              18.825001 16 8.3999996,
+                                              18.825001 16.299999 8.3999996,
+                                              18.825001 18.299999 10.4,
+                                              18.825001 18.299999 23.4,
+                                              18.825001 16.299999 25.4,
+                                              18.825001 16 25.4,
+                                              22.025 16 25.4,
+                                              22.025 16.299999 25.4,
+                                              22.025 18.299999 23.4,
+                                              22.025 18.299999 10.4,
+                                              22.025 16.299999 8.3999996,
+                                              22.025 16 8.3999996,
+                                              22.025 16 8.3999996,
+                                              22.025 16.299999 8.3999996,
+                                              18.825001 16.299999 8.3999996,
+                                              18.825001 16 8.3999996,
+                                              12.05 16 25.4,
+                                              12.05 16.299999 25.4,
+                                              15.25 16.299999 25.4,
+                                              15.25 16 25.4,
+                                              12.05 16 8.3999996,
+                                              12.05 16.299999 8.3999996,
+                                              12.05 18.299999 10.4,
+                                              12.05 18.299999 23.4,
+                                              12.05 16.299999 25.4,
+                                              12.05 16 25.4,
+                                              15.25 16 25.4,
+                                              15.25 16.299999 25.4,
+                                              15.25 18.299999 23.4,
+                                              15.25 18.299999 10.4,
+                                              15.25 16.299999 8.3999996,
+                                              15.25 16 8.3999996,
+                                              15.25 16 8.3999996,
+                                              15.25 16.299999 8.3999996,
+                                              12.05 16.299999 8.3999996,
+                                              12.05 16 8.3999996,
+                                              5.2750001 16 25.4,
+                                              5.2750001 16.299999 25.4,
+                                              8.4750004 16.299999 25.4,
+                                              8.4750004 16 25.4,
+                                              5.2750001 16 8.3999996,
+                                              5.2750001 16.299999 8.3999996,
+                                              5.2750001 18.299999 10.4,
+                                              5.2750001 18.299999 23.4,
+                                              5.2750001 16.299999 25.4,
+                                              5.2750001 16 25.4,
+                                              8.4750004 16 25.4,
+                                              8.4750004 16.299999 25.4,
+                                              8.4750004 18.299999 23.4,
+                                              8.4750004 18.299999 10.4,
+                                              8.4750004 16.299999 8.3999996,
+                                              8.4750004 16 8.3999996,
+                                              8.4750004 16 8.3999996,
+                                              8.4750004 16.299999 8.3999996,
+                                              5.2750001 16.299999 8.3999996,
+                                              5.2750001 16 8.3999996,
+                                              -1.5 16 25.4,
+                                              -1.5 16.299999 25.4,
+                                              1.7 16.299999 25.4,
+                                              1.7 16 25.4,
+                                              -1.5 16 8.3999996,
+                                              -1.5 16.299999 8.3999996,
+                                              -1.5 18.299999 10.4,
+                                              -1.5 18.299999 23.4,
+                                              -1.5 16.299999 25.4,
+                                              -1.5 16 25.4,
+                                              1.7 16 25.4,
+                                              1.7 16.299999 25.4,
+                                              1.7 18.299999 23.4,
+                                              1.7 18.299999 10.4,
+                                              1.7 16.299999 8.3999996,
+                                              1.7 16 8.3999996,
+                                              1.7 16 8.3999996,
+                                              1.7 16.299999 8.3999996,
+                                              -1.5 16.299999 8.3999996,
+                                              -1.5 16 8.3999996,
+                                              -4.5 15 1.1,
+                                              56.200001 15 1.1,
+                                              -4.5 15 30.6,
+                                              56.200001 15 30.6,
+                                              52.700001 16.299999 25.4,
+                                              52.700001 18.299999 23.4,
+                                              55.900002 16.299999 25.4,
+                                              55.900002 18.299999 23.4,
+                                              55.900002 18.299999 23.4,
+                                              55.900002 18.299999 10.4,
+                                              52.700001 18.299999 10.4,
+                                              52.700001 18.299999 23.4,
+                                              55.900002 16.299999 8.3999996,
+                                              55.900002 18.299999 10.4,
+                                              52.700001 16.299999 8.3999996,
+                                              52.700001 18.299999 10.4,
+                                              45.924999 16.299999 25.4,
+                                              45.924999 18.299999 23.4,
+                                              49.125 16.299999 25.4,
+                                              49.125 18.299999 23.4,
+                                              49.125 16.299999 8.3999996,
+                                              49.125 18.299999 10.4,
+                                              45.924999 16.299999 8.3999996,
+                                              45.924999 18.299999 10.4,
+                                              49.125 18.299999 23.4,
+                                              49.125 18.299999 10.4,
+                                              45.924999 18.299999 10.4,
+                                              45.924999 18.299999 23.4,
+                                              39.150002 16.299999 25.4,
+                                              39.150002 18.299999 23.4,
+                                              42.349998 16.299999 25.4,
+                                              42.349998 18.299999 23.4,
+                                              42.349998 16.299999 8.3999996,
+                                              42.349998 18.299999 10.4,
+                                              39.150002 16.299999 8.3999996,
+                                              39.150002 18.299999 10.4,
+                                              42.349998 18.299999 23.4,
+                                              42.349998 18.299999 10.4,
+                                              39.150002 18.299999 10.4,
+                                              39.150002 18.299999 23.4,
+                                              32.375 16.299999 25.4,
+                                              32.375 18.299999 23.4,
+                                              35.575001 16.299999 25.4,
+                                              35.575001 18.299999 23.4,
+                                              35.575001 16.299999 8.3999996,
+                                              35.575001 18.299999 10.4,
+                                              32.375 16.299999 8.3999996,
+                                              32.375 18.299999 10.4,
+                                              35.575001 18.299999 23.4,
+                                              35.575001 18.299999 10.4,
+                                              32.375 18.299999 10.4,
+                                              32.375 18.299999 23.4,
+                                              25.6 16.299999 25.4,
+                                              25.6 18.299999 23.4,
+                                              28.799999 16.299999 25.4,
+                                              28.799999 18.299999 23.4,
+                                              28.799999 16.299999 8.3999996,
+                                              28.799999 18.299999 10.4,
+                                              25.6 16.299999 8.3999996,
+                                              25.6 18.299999 10.4,
+                                              28.799999 18.299999 23.4,
+                                              28.799999 18.299999 10.4,
+                                              25.6 18.299999 10.4,
+                                              25.6 18.299999 23.4,
+                                              18.825001 16.299999 25.4,
+                                              18.825001 18.299999 23.4,
+                                              22.025 16.299999 25.4,
+                                              22.025 18.299999 23.4,
+                                              22.025 16.299999 8.3999996,
+                                              22.025 18.299999 10.4,
+                                              18.825001 16.299999 8.3999996,
+                                              18.825001 18.299999 10.4,
+                                              22.025 18.299999 23.4,
+                                              22.025 18.299999 10.4,
+                                              18.825001 18.299999 10.4,
+                                              18.825001 18.299999 23.4,
+                                              12.05 16.299999 25.4,
+                                              12.05 18.299999 23.4,
+                                              15.25 16.299999 25.4,
+                                              15.25 18.299999 23.4,
+                                              15.25 16.299999 8.3999996,
+                                              15.25 18.299999 10.4,
+                                              12.05 16.299999 8.3999996,
+                                              12.05 18.299999 10.4,
+                                              15.25 18.299999 23.4,
+                                              15.25 18.299999 10.4,
+                                              12.05 18.299999 10.4,
+                                              12.05 18.299999 23.4,
+                                              5.2750001 16.299999 25.4,
+                                              5.2750001 18.299999 23.4,
+                                              8.4750004 16.299999 25.4,
+                                              8.4750004 18.299999 23.4,
+                                              8.4750004 16.299999 8.3999996,
+                                              8.4750004 18.299999 10.4,
+                                              5.2750001 16.299999 8.3999996,
+                                              5.2750001 18.299999 10.4,
+                                              8.4750004 18.299999 23.4,
+                                              8.4750004 18.299999 10.4,
+                                              5.2750001 18.299999 10.4,
+                                              5.2750001 18.299999 23.4,
+                                              -1.5 16.299999 25.4,
+                                              -1.5 18.299999 23.4,
+                                              1.7 16.299999 25.4,
+                                              1.7 18.299999 23.4,
+                                              1.7 16.299999 8.3999996,
+                                              1.7 18.299999 10.4,
+                                              -1.5 16.299999 8.3999996,
+                                              -1.5 18.299999 10.4,
+                                              1.7 18.299999 23.4,
+                                              1.7 18.299999 10.4,
+                                              -1.5 18.299999 10.4,
+                                              -1.5 18.299999 23.4,
+                                              52.700001 -18.299999 10.4,
+                                              52.700001 -18.299999 23.4,
+                                              52.700001 -16.299999 8.3999996,
+                                              52.700001 -16.299999 25.4,
+                                              52.700001 -16 8.3999996,
+                                              52.700001 -16 25.4,
+                                              55.900002 -18.299999 10.4,
+                                              55.900002 -18.299999 23.4,
+                                              55.900002 -16.299999 8.3999996,
+                                              55.900002 -16.299999 25.4,
+                                              55.900002 -16 8.3999996,
+                                              55.900002 -16 25.4,
+                                              -4.5 -16 1.1,
+                                              56.200001 -16 1.1,
+                                              -4.5 -16 30.6,
+                                              56.200001 -16 30.6,
+                                              45.924999 -16 8.3999996,
+                                              45.924999 -16 25.4,
+                                              49.125 -16 8.3999996,
+                                              49.125 -16 25.4,
+                                              39.150002 -16 8.3999996,
+                                              39.150002 -16 25.4,
+                                              42.349998 -16 8.3999996,
+                                              42.349998 -16 25.4,
+                                              32.375 -16 8.3999996,
+                                              32.375 -16 25.4,
+                                              35.575001 -16 8.3999996,
+                                              35.575001 -16 25.4,
+                                              25.6 -16 8.3999996,
+                                              25.6 -16 25.4,
+                                              28.799999 -16 8.3999996,
+                                              28.799999 -16 25.4,
+                                              18.825001 -16 8.3999996,
+                                              18.825001 -16 25.4,
+                                              22.025 -16 8.3999996,
+                                              22.025 -16 25.4,
+                                              12.05 -16 8.3999996,
+                                              12.05 -16 25.4,
+                                              15.25 -16 8.3999996,
+                                              15.25 -16 25.4,
+                                              5.2750001 -16 8.3999996,
+                                              5.2750001 -16 25.4,
+                                              8.4750004 -16 8.3999996,
+                                              8.4750004 -16 25.4,
+                                              -1.5 -16 8.3999996,
+                                              -1.5 -16 25.4,
+                                              1.7 -16 8.3999996,
+                                              1.7 -16 25.4,
+                                              -4.5 -14.9 0,
+                                              56.200001 -14.9 0,
+                                              -4.5 -15 30.6,
+                                              -4.5 -15 1.1,
+                                              56.200001 -15 1.1,
+                                              56.200001 -15 30.6,
+                                              45.924999 -18.299999 10.4,
+                                              45.924999 -18.299999 23.4,
+                                              45.924999 -16.299999 8.3999996,
+                                              45.924999 -16.299999 25.4,
+                                              49.125 -16.299999 8.3999996,
+                                              49.125 -16.299999 25.4,
+                                              49.125 -18.299999 10.4,
+                                              49.125 -18.299999 23.4,
+                                              39.150002 -18.299999 10.4,
+                                              39.150002 -18.299999 23.4,
+                                              39.150002 -16.299999 8.3999996,
+                                              39.150002 -16.299999 25.4,
+                                              42.349998 -16.299999 8.3999996,
+                                              42.349998 -16.299999 25.4,
+                                              42.349998 -18.299999 10.4,
+                                              42.349998 -18.299999 23.4,
+                                              32.375 -18.299999 10.4,
+                                              32.375 -18.299999 23.4,
+                                              32.375 -16.299999 8.3999996,
+                                              32.375 -16.299999 25.4,
+                                              35.575001 -16.299999 8.3999996,
+                                              35.575001 -16.299999 25.4,
+                                              35.575001 -18.299999 10.4,
+                                              35.575001 -18.299999 23.4,
+                                              25.6 -18.299999 10.4,
+                                              25.6 -18.299999 23.4,
+                                              25.6 -16.299999 8.3999996,
+                                              25.6 -16.299999 25.4,
+                                              28.799999 -16.299999 8.3999996,
+                                              28.799999 -16.299999 25.4,
+                                              28.799999 -18.299999 10.4,
+                                              28.799999 -18.299999 23.4,
+                                              18.825001 -18.299999 10.4,
+                                              18.825001 -18.299999 23.4,
+                                              18.825001 -16.299999 8.3999996,
+                                              18.825001 -16.299999 25.4,
+                                              22.025 -16.299999 8.3999996,
+                                              22.025 -16.299999 25.4,
+                                              22.025 -18.299999 10.4,
+                                              22.025 -18.299999 23.4,
+                                              12.05 -18.299999 10.4,
+                                              12.05 -18.299999 23.4,
+                                              12.05 -16.299999 8.3999996,
+                                              12.05 -16.299999 25.4,
+                                              15.25 -16.299999 8.3999996,
+                                              15.25 -16.299999 25.4,
+                                              15.25 -18.299999 10.4,
+                                              15.25 -18.299999 23.4,
+                                              5.2750001 -18.299999 10.4,
+                                              5.2750001 -18.299999 23.4,
+                                              5.2750001 -16.299999 8.3999996,
+                                              5.2750001 -16.299999 25.4,
+                                              8.4750004 -16.299999 8.3999996,
+                                              8.4750004 -16.299999 25.4,
+                                              8.4750004 -18.299999 10.4,
+                                              8.4750004 -18.299999 23.4,
+                                              -1.5 -18.299999 10.4,
+                                              -1.5 -18.299999 23.4,
+                                              -1.5 -16.299999 8.3999996,
+                                              -1.5 -16.299999 25.4,
+                                              1.7 -16.299999 8.3999996,
+                                              1.7 -16.299999 25.4,
+                                              1.7 -18.299999 10.4,
+                                              1.7 -18.299999 23.4,
+                                              -4.5 -14.9 1,
+                                              56.200001 -14.9 1,
+                                              -4.5 14.9 0,
+                                              56.200001 14.9 0,
+                                              29.1 5.8000002 0,
+                                              25.1 5.8000002 0,
+                                              25.1 -5.8000002 0,
+                                              29.1 -5.8000002 0,
+                                              36.5 2 0,
+                                              36.5 -2 0,
+                                              40.099998 -2 0,
+                                              40.099998 2 0,
+                                              10.7 2 0,
+                                              10.7 -2 0,
+                                              13.3 -2 0,
+                                              13.3 2 0,
+                                              2 0 0,
+                                              -4.5 14.9 1,
+                                              56.200001 14.9 1,
+                                              56.200001 16 1.1,
+                                              -4.5 16 1.1,
+                                              29.1 5.8000002 1,
+                                              25.1 5.8000002 1,
+                                              25.1 -5.8000002 1,
+                                              29.1 -5.8000002 1,
+                                              36.5 2 1,
+                                              36.5 -2 1,
+                                              40.099998 -2 1,
+                                              40.099998 2 1,
+                                              10.7 2 1,
+                                              10.7 -2 1,
+                                              13.3 -2 1,
+                                              13.3 2 1,
+                                              2 0 1,
+                                              -4.5 15 1.1,
+                                              56.200001 15 1.1,
+                                              56.200001 16 30.6,
+                                              -4.5 16 30.6,
+                                              52.700001 16 25.4,
+                                              55.900002 16 25.4,
+                                              55.900002 16 8.3999996,
+                                              52.700001 16 8.3999996,
+                                              45.924999 16 25.4,
+                                              49.125 16 25.4,
+                                              45.924999 16 8.3999996,
+                                              49.125 16 8.3999996,
+                                              39.150002 16 25.4,
+                                              42.349998 16 25.4,
+                                              39.150002 16 8.3999996,
+                                              42.349998 16 8.3999996,
+                                              32.375 16 25.4,
+                                              35.575001 16 25.4,
+                                              32.375 16 8.3999996,
+                                              35.575001 16 8.3999996,
+                                              25.6 16 25.4,
+                                              28.799999 16 25.4,
+                                              25.6 16 8.3999996,
+                                              28.799999 16 8.3999996,
+                                              18.825001 16 25.4,
+                                              22.025 16 25.4,
+                                              18.825001 16 8.3999996,
+                                              22.025 16 8.3999996,
+                                              12.05 16 25.4,
+                                              15.25 16 25.4,
+                                              12.05 16 8.3999996,
+                                              15.25 16 8.3999996,
+                                              5.2750001 16 25.4,
+                                              8.4750004 16 25.4,
+                                              5.2750001 16 8.3999996,
+                                              8.4750004 16 8.3999996,
+                                              -1.5 16 25.4,
+                                              1.7 16 25.4,
+                                              -1.5 16 8.3999996,
+                                              1.7 16 8.3999996,
+                                              -4.5 15 30.6,
+                                              56.200001 15 30.6,
+                                              52.700001 16.299999 25.4,
+                                              55.900002 16.299999 25.4,
+                                              55.900002 18.299999 23.4,
+                                              55.900002 18.299999 10.4,
+                                              55.900002 16.299999 8.3999996,
+                                              52.700001 16.299999 8.3999996,
+                                              52.700001 18.299999 10.4,
+                                              52.700001 18.299999 23.4,
+                                              45.924999 16.299999 25.4,
+                                              49.125 16.299999 25.4,
+                                              45.924999 16.299999 8.3999996,
+                                              45.924999 18.299999 10.4,
+                                              45.924999 18.299999 23.4,
+                                              49.125 18.299999 23.4,
+                                              49.125 18.299999 10.4,
+                                              49.125 16.299999 8.3999996,
+                                              39.150002 16.299999 25.4,
+                                              42.349998 16.299999 25.4,
+                                              39.150002 16.299999 8.3999996,
+                                              39.150002 18.299999 10.4,
+                                              39.150002 18.299999 23.4,
+                                              42.349998 18.299999 23.4,
+                                              42.349998 18.299999 10.4,
+                                              42.349998 16.299999 8.3999996,
+                                              32.375 16.299999 25.4,
+                                              35.575001 16.299999 25.4,
+                                              32.375 16.299999 8.3999996,
+                                              32.375 18.299999 10.4,
+                                              32.375 18.299999 23.4,
+                                              35.575001 18.299999 23.4,
+                                              35.575001 18.299999 10.4,
+                                              35.575001 16.299999 8.3999996,
+                                              25.6 16.299999 25.4,
+                                              28.799999 16.299999 25.4,
+                                              25.6 16.299999 8.3999996,
+                                              25.6 18.299999 10.4,
+                                              25.6 18.299999 23.4,
+                                              28.799999 18.299999 23.4,
+                                              28.799999 18.299999 10.4,
+                                              28.799999 16.299999 8.3999996,
+                                              18.825001 16.299999 25.4,
+                                              22.025 16.299999 25.4,
+                                              18.825001 16.299999 8.3999996,
+                                              18.825001 18.299999 10.4,
+                                              18.825001 18.299999 23.4,
+                                              22.025 18.299999 23.4,
+                                              22.025 18.299999 10.4,
+                                              22.025 16.299999 8.3999996,
+                                              12.05 16.299999 25.4,
+                                              15.25 16.299999 25.4,
+                                              12.05 16.299999 8.3999996,
+                                              12.05 18.299999 10.4,
+                                              12.05 18.299999 23.4,
+                                              15.25 18.299999 23.4,
+                                              15.25 18.299999 10.4,
+                                              15.25 16.299999 8.3999996,
+                                              5.2750001 16.299999 25.4,
+                                              8.4750004 16.299999 25.4,
+                                              5.2750001 16.299999 8.3999996,
+                                              5.2750001 18.299999 10.4,
+                                              5.2750001 18.299999 23.4,
+                                              8.4750004 18.299999 23.4,
+                                              8.4750004 18.299999 10.4,
+                                              8.4750004 16.299999 8.3999996,
+                                              -1.5 16.299999 25.4,
+                                              1.7 16.299999 25.4,
+                                              -1.5 16.299999 8.3999996,
+                                              -1.5 18.299999 10.4,
+                                              -1.5 18.299999 23.4,
+                                              1.7 18.299999 23.4,
+                                              1.7 18.299999 10.4,
+                                              1.7 16.299999 8.3999996 ]
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                },
+                                  
+                                DEF o84 Group {
+                                  children 
+                                    DEF o85 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+                                          diffuseColor 0.098039217 0.098039217 0.098039217
+                                          shininess 1
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      IndexedLineSet {
+                                        coord 
+                                        USE o83
+                                        coordIndex [ 0, 1, -1, 0, 5, -1, 2, 1,
+                                            -1, 4, 5, -1, 3, 2, -1, 4,
+                                            3, -1, 6, 7, -1, 7, 8, -1,
+                                            9, 6, -1, 10, 11, -1, 11, 13,
+                                            -1, 14, 16, -1, 16, 17, -1, 18,
+                                            19, -1, 18, 21, -1, 22, 25, -1,
+                                            25, 24, -1, 26, 27, -1, 29, 26,
+                                            -1, 27, 28, -1, 28, 29, -1, 32,
+                                            33, -1, 34, 35, -1, 37, 34, -1,
+                                            35, 36, -1, 36, 37, -1, 38, 39,
+                                            -1, 41, 38, -1, 39, 40, -1, 40,
+                                            41, -1, 42, 43, -1, 45, 42, -1,
+                                            43, 44, -1, 44, 45, -1, 46, 47,
+                                            -1, 49, 46, -1, 47, 48, -1, 48,
+                                            49, -1, 50, 51, -1, 53, 50, -1,
+                                            51, 52, -1, 52, 53, -1, 54, 55,
+                                            -1, 57, 54, -1, 55, 56, -1, 56,
+                                            57, -1, 58, 59, -1, 61, 58, -1,
+                                            59, 60, -1, 60, 61, -1, 62, 63,
+                                            -1, 65, 62, -1, 63, 64, -1, 64,
+                                            65, -1, 72, 73, 74, 75, 76, 77,
+                                            78, 79, -1, 81, 82, 83, 84, 85,
+                                            86, 87, 80, -1, 81, 72, -1, 88,
+                                            89, -1, 90, 91, -1, 89, 90, -1,
+                                            92, 93, -1, 95, 94, -1, 93, 94,
+                                            -1, 97, 98, -1, 100, 101, -1, 105,
+                                            100, -1, 102, 101, -1, 104, 105, -1,
+                                            103, 102, -1, 106, 107, -1, 107, 108,
+                                            -1, 111, 112, -1, 113, 112, -1, 114,
+                                            115, -1, 116, 115, -1, 119, 114, -1,
+                                            120, 121, -1, 125, 120, -1, 122, 121,
+                                            -1, 124, 125, -1, 123, 122, -1, 126,
+                                            127, -1, 127, 128, -1, 131, 132, -1,
+                                            133, 132, -1, 134, 135, -1, 136, 135,
+                                            -1, 139, 134, -1, 140, 141, -1, 145,
+                                            140, -1, 142, 141, -1, 144, 145, -1,
+                                            143, 142, -1, 146, 147, -1, 147, 148,
+                                            -1, 151, 152, -1, 153, 152, -1, 154,
+                                            155, -1, 156, 155, -1, 159, 154, -1,
+                                            160, 161, -1, 165, 160, -1, 162, 161,
+                                            -1, 164, 165, -1, 163, 162, -1, 166,
+                                            167, -1, 167, 168, -1, 171, 172, -1,
+                                            173, 172, -1, 174, 175, -1, 176, 175,
+                                            -1, 179, 174, -1, 180, 181, -1, 185,
+                                            180, -1, 182, 181, -1, 184, 185, -1,
+                                            183, 182, -1, 186, 187, -1, 187, 188,
+                                            -1, 191, 192, -1, 193, 192, -1, 194,
+                                            195, -1, 196, 195, -1, 199, 194, -1,
+                                            200, 201, -1, 205, 200, -1, 202, 201,
+                                            -1, 204, 205, -1, 203, 202, -1, 206,
+                                            207, -1, 207, 208, -1, 211, 212, -1,
+                                            213, 212, -1, 214, 215, -1, 216, 215,
+                                            -1, 219, 214, -1, 220, 221, -1, 225,
+                                            220, -1, 222, 221, -1, 224, 225, -1,
+                                            223, 222, -1, 226, 227, -1, 227, 228,
+                                            -1, 231, 232, -1, 233, 232, -1, 234,
+                                            235, -1, 236, 235, -1, 239, 234, -1,
+                                            240, 241, -1, 240, 245, -1, 242, 241,
+                                            -1, 244, 245, -1, 243, 242, -1, 246,
+                                            247, -1, 247, 248, -1, 251, 252, -1,
+                                            253, 252, -1, 254, 255, -1, 255, 256,
+                                            -1, 259, 254, -1, 260, 261, 262, 263,
+                                            264, 265, 266, 267, -1, 269, 260, -1,
+                                            285, 286, 287, 288, 289, 290, 291, 284,
+                                            -1, 276, 285, -1, 292, 293, -1, 293,
+                                            294, -1, 295, 292, -1, 296, 297, 298,
+                                            299, 300, 301, 302, 303, 304, 305, 306,
+                                            307, 308, 309, -1, 309, 310, -1, 310,
+                                            311, 312, 313, 314, 315, 316, 317, 318,
+                                            319, 320, 321, 322, 323, -1, 296, 323,
+                                            -1, 324, 325, 326, 327, 328, 329, 330,
+                                            331, 332, 333, 334, 335, 336, 337, -1,
+                                            337, 338, -1, 338, 339, 340, 341, 342,
+                                            343, 344, 345, 346, 347, 348, 349, 350,
+                                            351, -1, 324, 351, -1, 352, 353, 354,
+                                            355, 356, 357, 358, 359, 360, 361, 362,
+                                            363, 364, 365, -1, 365, 366, -1, 366,
+                                            367, 368, 369, 370, 371, 372, 373, 374,
+                                            375, 376, 377, 378, 379, -1, 352, 379,
+                                            -1, 380, 381, 382, 383, 384, 385, 386,
+                                            387, 388, 389, 390, 391, 392, 393, 394,
+                                            395, 396, 397, 398, 399, 400, 401, 402,
+                                            403, 404, 405, 380, -1, 406, 407, -1,
+                                            411, 412, -1, 413, 410, -1, 423, 424,
+                                            -1, 425, 422, -1, 435, 436, -1, 437,
+                                            434, -1, 447, 448, -1, 449, 446, -1,
+                                            459, 460, -1, 461, 458, -1, 471, 472,
+                                            -1, 473, 470, -1, 483, 484, -1, 485,
+                                            482, -1, 495, 496, -1, 497, 494, -1,
+                                            506, 515, -1, 525, 524, -1, 523, 524,
+                                            -1, 526, 527, -1, 527, 528, -1, 530,
+                                            531, 532, 533, 534, 535, 536, 537, -1,
+                                            539, 540, 541, 542, 543, 544, 545, 538,
+                                            -1, 537, 538, -1, 546, 547, -1, 561,
+                                            560, -1, 547, 548, 549, 550, 551, 552,
+                                            553, 554, 555, 556, 557, 558, 559, 560,
+                                            -1, 577, 576, -1, 575, 576, -1, 593,
+                                            592, -1, 579, 580, 581, 582, 583, 584,
+                                            585, 586, 587, 588, 589, 590, 591, 592,
+                                            -1, 607, 608, -1, 610, 611, -1, 625,
+                                            624, -1, 611, 612, 613, 614, 615, 616,
+                                            617, 618, 619, 620, 621, 622, 623, 624,
+                                            -1, 641, 640, -1, 639, 640, -1, 657,
+                                            656, -1, 643, 644, 645, 646, 647, 648,
+                                            649, 650, 651, 652, 653, 654, 655, 656,
+                                            -1, 671, 672, -1, 674, 675, -1, 689,
+                                            688, -1, 675, 676, 677, 678, 679, 680,
+                                            681, 682, 683, 684, 685, 686, 687, 688,
+                                            -1, 705, 704, -1, 703, 704, -1, 721,
+                                            720, -1, 707, 708, 709, 710, 711, 712,
+                                            713, 714, 715, 716, 717, 718, 719, 720,
+                                            -1, 735, 736, -1, 738, 739, -1, 739,
+                                            740, 741, 742, 743, 744, 745, 746, 747,
+                                            748, 749, 750, 751, 752, 753, 754, 755,
+                                            756, 757, 758, 759, 760, 761, 762, 763,
+                                            764, 765, -1, 792, 793, -1, 915, 916,
+                                            917, 918, 919, 920, 921, 914, -1, 913,
+                                            914, -1, 922, 923, 924, 925, 926, 927,
+                                            928, 929, -1, 929, 930, -1, 941, 938,
+                                            -1, 939, 940, -1, 940, 941, -1, 942,
+                                            943, -1, 943, 945, -1, 945, 944, -1,
+                                            944, 942, -1, 946, 947, -1, 948, 946,
+                                            -1, 947, 949, -1, 949, 948, -1, 950,
+                                            951, -1, 952, 950, -1, 951, 953, -1,
+                                            953, 952, -1, 954, 955, -1, 956, 954,
+                                            -1, 955, 957, -1, 957, 956, -1, 958,
+                                            959, -1, 960, 958, -1, 959, 961, -1,
+                                            961, 960, -1, 962, 963, -1, 964, 962,
+                                            -1, 963, 965, -1, 965, 964, -1, 966,
+                                            967, -1, 968, 966, -1, 967, 969, -1,
+                                            969, 968, -1, 970, 971, -1, 972, 970,
+                                            -1, 971, 973, -1, 973, 972, -1, 974,
+                                            975, -1, 976, 974, -1, 975, 977, -1,
+                                            977, 976, -1, 985, 986, -1, 997, 996,
+                                            -1, 995, 996, -1, 998, 999, -1, 999,
+                                            1000, -1, 1003, 1004, -1, 1006, 1007, -1,
+                                            1007, 1008, -1, 1009, 1008, -1, 1011, 1012,
+                                            -1, 1012, 1013, -1, 1015, 1014, -1, 1014,
+                                            1013, -1, 1017, 1018, -1, 1019, 1018, -1,
+                                            1021, 1022, -1, 1022, 1023, -1, 1024, 1023,
+                                            -1, 1026, 1027, -1, 1027, 1028, -1, 1029,
+                                            1028, -1, 1030, 1031, -1, 1031, 1032, -1,
+                                            1032, 1033, -1, 1034, 1033, -1, 1037, 1038,
+                                            -1, 1038, 1039, -1, 1041, 1040, -1, 1040,
+                                            1039, -1, 1043, 1044, -1, 1046, 1047, -1,
+                                            1047, 1048, -1, 1049, 1048, -1, 1050, 1051,
+                                            -1, 1051, 1052, -1, 1052, 1053, -1, 1054,
+                                            1053, -1, 1057, 1058, -1, 1058, 1059, -1,
+                                            1061, 1060, -1, 1060, 1059, -1, 1063, 1064,
+                                            -1, 1066, 1067, -1, 1067, 1068, -1, 1069,
+                                            1068, -1, 1070, 1071, -1, 1071, 1072, -1,
+                                            1072, 1073, -1, 1074, 1073, -1, 1077, 1078,
+                                            -1, 1078, 1079, -1, 1081, 1080, -1, 1080,
+                                            1079, -1, 1083, 1084, -1, 1086, 1087, -1,
+                                            1087, 1088, -1, 1089, 1088, -1, 1090, 1091,
+                                            -1, 1091, 1092, -1, 1092, 1093, -1, 1094,
+                                            1093, -1, 1097, 1098, -1, 1098, 1099, -1,
+                                            1101, 1100, -1, 1100, 1099, -1, 1103, 1104,
+                                            -1, 1106, 1107, -1, 1107, 1108, -1, 1109,
+                                            1108, -1, 1110, 1111, -1, 1111, 1112, -1,
+                                            1112, 1113, -1, 1114, 1113, -1, 1117, 1118,
+                                            -1, 1118, 1119, -1, 1121, 1120, -1, 1120,
+                                            1119, -1, 1123, 1124, -1, 1126, 1127, -1,
+                                            1127, 1128, -1, 1129, 1128, -1, 1130, 1131,
+                                            -1, 1131, 1132, -1, 1132, 1133, -1, 1134,
+                                            1133, -1, 1137, 1138, -1, 1138, 1139, -1,
+                                            1141, 1140, -1, 1140, 1139, -1, 1143, 1144,
+                                            -1, 1146, 1147, -1, 1147, 1148, -1, 1149,
+                                            1148, -1, 1150, 1151, -1, 1151, 1152, -1,
+                                            1152, 1153, -1, 1154, 1153, -1, 1157, 1158,
+                                            -1, 1158, 1159, -1, 1161, 1160, -1, 1160,
+                                            1159, -1, 1163, 1164, -1, 1166, 1167, -1,
+                                            1167, 1168, -1, 1169, 1168, -1, 1170, 1171,
+                                            -1, 1171, 1172, -1, 1172, 1173, -1, 1174,
+                                            1173, -1, 1177, 1178, -1, 1178, 1179, -1,
+                                            1181, 1180, -1, 1180, 1179, -1, 1183, 1184,
+                                            -1, 1191, 1193, -1, 1195, 1196, -1, 1203,
+                                            1205, -1, 1207, 1209, -1, 1215, 1217, -1,
+                                            1219, 1221, -1, 1227, 1229, -1, 1231, 1233,
+                                            -1, 1239, 1241, -1, 1243, 1245, -1, 1251,
+                                            1253, -1, 1255, 1257, -1, 1263, 1265, -1,
+                                            1267, 1269, -1, 1275, 1277, -1, 1279, 1281,
+                                            -1, 1287, 1289, -1, 1291, 1293, -1 ]
+
+                                      }
+
+                                    }
+
+                                },
+                                  
+                                DEF o86 Group {
+                                  children 
+                                    DEF o87 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+                                          diffuseColor 0.40799999 0.40799999 0.40799999
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      IndexedFaceSet {
+                                        coord 
+                                        USE o83
+                                        coordIndex [ 4, 5, 0, -1, 3, 0, 1, -1,
+                                            3, 1, 2, -1, 3, 4, 0, -1,
+                                            7, 9, 8, -1, 7, 6, 9, -1,
+                                            13, 11, 10, -1, 13, 10, 12, -1,
+                                            15, 17, 14, -1, 14, 17, 16, -1,
+                                            21, 18, 19, -1, 21, 19, 20, -1,
+                                            25, 22, 23, -1, 25, 23, 24, -1,
+                                            31, 32, 28, -1, 36, 31, 28, -1,
+                                            35, 36, 28, -1, 40, 35, 28, -1,
+                                            39, 40, 28, -1, 30, 31, 36, -1,
+                                            44, 39, 28, -1, 43, 44, 28, -1,
+                                            37, 30, 36, -1, 27, 33, 30, -1,
+                                            27, 30, 37, -1, 34, 35, 40, -1,
+                                            34, 27, 37, -1, 48, 43, 28, -1,
+                                            47, 48, 28, -1, 41, 34, 40, -1,
+                                            41, 27, 34, -1, 38, 27, 41, -1,
+                                            45, 38, 39, -1, 45, 39, 44, -1,
+                                            45, 27, 38, -1, 49, 42, 43, -1,
+                                            49, 43, 48, -1, 53, 46, 47, -1,
+                                            53, 47, 52, -1, 50, 51, 56, -1,
+                                            29, 60, 55, -1, 29, 64, 59, -1,
+                                            29, 51, 52, -1, 29, 55, 56, -1,
+                                            29, 59, 60, -1, 29, 47, 28, -1,
+                                            29, 52, 47, -1, 29, 56, 51, -1,
+                                            63, 64, 29, -1, 57, 50, 56, -1,
+                                            61, 55, 60, -1, 61, 54, 55, -1,
+                                            65, 59, 64, -1, 65, 58, 59, -1,
+                                            62, 63, 29, -1, 26, 54, 61, -1,
+                                            26, 58, 65, -1, 26, 57, 54, -1,
+                                            26, 61, 58, -1, 26, 65, 62, -1,
+                                            26, 62, 29, -1, 26, 27, 45, -1,
+                                            26, 45, 42, -1, 26, 42, 49, -1,
+                                            26, 49, 46, -1, 26, 46, 53, -1,
+                                            26, 53, 50, -1, 26, 50, 57, -1,
+                                            27, 28, 32, -1, 27, 32, 33, -1,
+                                            70, 71, 66, -1, 67, 70, 66, -1,
+                                            69, 67, 68, -1, 69, 70, 67, -1,
+                                            72, 82, 73, -1, 81, 82, 72, -1,
+                                            73, 83, 74, -1, 74, 83, 75, -1,
+                                            82, 83, 73, -1, 83, 84, 75, -1,
+                                            75, 85, 76, -1, 76, 85, 77, -1,
+                                            84, 85, 75, -1, 85, 86, 77, -1,
+                                            77, 87, 78, -1, 86, 87, 77, -1,
+                                            78, 80, 79, -1, 87, 80, 78, -1,
+                                            91, 88, 89, -1, 91, 89, 90, -1,
+                                            95, 92, 93, -1, 95, 93, 94, -1,
+                                            99, 96, 97, -1, 99, 97, 98, -1,
+                                            104, 105, 100, -1, 103, 100, 101, -1,
+                                            103, 101, 102, -1, 103, 104, 100, -1,
+                                            109, 106, 107, -1, 109, 107, 108, -1,
+                                            113, 110, 111, -1, 113, 111, 112, -1,
+                                            118, 119, 114, -1, 115, 118, 114, -1,
+                                            117, 115, 116, -1, 117, 118, 115, -1,
+                                            124, 125, 120, -1, 123, 120, 121, -1,
+                                            123, 121, 122, -1, 123, 124, 120, -1,
+                                            129, 126, 127, -1, 129, 127, 128, -1,
+                                            133, 130, 131, -1, 133, 131, 132, -1,
+                                            138, 139, 134, -1, 135, 138, 134, -1,
+                                            137, 135, 136, -1, 137, 138, 135, -1,
+                                            144, 145, 140, -1, 143, 140, 141, -1,
+                                            143, 141, 142, -1, 143, 144, 140, -1,
+                                            149, 146, 147, -1, 149, 147, 148, -1,
+                                            153, 150, 151, -1, 153, 151, 152, -1,
+                                            158, 159, 154, -1, 155, 158, 154, -1,
+                                            157, 155, 156, -1, 157, 158, 155, -1,
+                                            164, 165, 160, -1, 163, 160, 161, -1,
+                                            163, 161, 162, -1, 163, 164, 160, -1,
+                                            169, 166, 167, -1, 169, 167, 168, -1,
+                                            173, 170, 171, -1, 173, 171, 172, -1,
+                                            178, 179, 174, -1, 175, 178, 174, -1,
+                                            177, 175, 176, -1, 177, 178, 175, -1,
+                                            184, 185, 180, -1, 183, 180, 181, -1,
+                                            183, 181, 182, -1, 183, 184, 180, -1,
+                                            189, 186, 187, -1, 189, 187, 188, -1,
+                                            193, 190, 191, -1, 193, 191, 192, -1,
+                                            198, 199, 194, -1, 195, 198, 194, -1,
+                                            197, 195, 196, -1, 197, 198, 195, -1,
+                                            204, 205, 200, -1, 203, 200, 201, -1,
+                                            203, 201, 202, -1, 203, 204, 200, -1,
+                                            209, 206, 207, -1, 209, 207, 208, -1,
+                                            213, 210, 211, -1, 213, 211, 212, -1,
+                                            218, 219, 214, -1, 215, 218, 214, -1,
+                                            217, 215, 216, -1, 217, 218, 215, -1,
+                                            224, 225, 220, -1, 223, 220, 221, -1,
+                                            223, 221, 222, -1, 223, 224, 220, -1,
+                                            229, 226, 227, -1, 229, 227, 228, -1,
+                                            233, 230, 231, -1, 233, 231, 232, -1,
+                                            238, 239, 234, -1, 235, 238, 234, -1,
+                                            237, 235, 236, -1, 237, 238, 235, -1,
+                                            244, 245, 240, -1, 243, 240, 241, -1,
+                                            243, 241, 242, -1, 243, 244, 240, -1,
+                                            249, 246, 247, -1, 249, 247, 248, -1,
+                                            253, 250, 251, -1, 253, 251, 252, -1,
+                                            258, 259, 254, -1, 255, 258, 254, -1,
+                                            257, 255, 256, -1, 257, 258, 255, -1,
+                                            270, 261, 269, -1, 269, 261, 260, -1,
+                                            271, 262, 270, -1, 270, 262, 261, -1,
+                                            272, 263, 271, -1, 271, 263, 262, -1,
+                                            272, 264, 263, -1, 272, 273, 264, -1,
+                                            264, 274, 265, -1, 265, 274, 266, -1,
+                                            273, 274, 264, -1, 274, 275, 266, -1,
+                                            266, 268, 267, -1, 275, 268, 266, -1,
+                                            286, 277, 285, -1, 285, 277, 276, -1,
+                                            283, 282, 284, -1, 284, 282, 291, -1,
+                                            287, 278, 286, -1, 286, 278, 277, -1,
+                                            291, 281, 290, -1, 282, 281, 291, -1,
+                                            290, 280, 289, -1, 281, 280, 290, -1,
+                                            288, 279, 287, -1, 289, 279, 288, -1,
+                                            287, 279, 278, -1, 280, 279, 289, -1,
+                                            342, 294, 341, -1, 340, 341, 294, -1,
+                                            343, 294, 342, -1, 339, 340, 294, -1,
+                                            344, 294, 343, -1, 338, 339, 294, -1,
+                                            345, 294, 344, -1, 293, 294, 345, -1,
+                                            346, 293, 345, -1, 347, 293, 346, -1,
+                                            348, 293, 347, -1, 349, 293, 348, -1,
+                                            350, 293, 349, -1, 351, 293, 350, -1,
+                                            320, 338, 294, -1, 319, 320, 294, -1,
+                                            321, 338, 320, -1, 321, 337, 338, -1,
+                                            318, 319, 294, -1, 322, 336, 337, -1,
+                                            322, 337, 321, -1, 317, 318, 294, -1,
+                                            323, 332, 333, -1, 323, 333, 334, -1,
+                                            323, 334, 335, -1, 323, 335, 336, -1,
+                                            323, 336, 322, -1, 331, 332, 323, -1,
+                                            316, 317, 294, -1, 330, 331, 323, -1,
+                                            296, 325, 326, -1, 296, 326, 327, -1,
+                                            296, 327, 328, -1, 296, 328, 329, -1,
+                                            296, 329, 330, -1, 296, 330, 323, -1,
+                                            297, 324, 325, -1, 297, 325, 296, -1,
+                                            298, 351, 324, -1, 298, 324, 297, -1,
+                                            299, 351, 298, -1, 299, 293, 351, -1,
+                                            300, 293, 299, -1, 301, 293, 300, -1,
+                                            302, 293, 301, -1, 369, 310, 311, -1,
+                                            370, 310, 369, -1, 368, 311, 312, -1,
+                                            368, 369, 311, -1, 371, 310, 370, -1,
+                                            367, 368, 312, -1, 367, 312, 313, -1,
+                                            372, 310, 371, -1, 366, 367, 313, -1,
+                                            373, 309, 310, -1, 373, 310, 372, -1,
+                                            374, 309, 373, -1, 375, 309, 374, -1,
+                                            376, 308, 309, -1, 376, 309, 375, -1,
+                                            377, 307, 308, -1, 377, 308, 376, -1,
+                                            378, 306, 307, -1, 378, 307, 377, -1,
+                                            379, 306, 378, -1, 295, 313, 314, -1,
+                                            295, 314, 315, -1, 295, 315, 316, -1,
+                                            295, 366, 313, -1, 295, 316, 294, -1,
+                                            295, 363, 364, -1, 295, 364, 365, -1,
+                                            295, 365, 366, -1, 403, 361, 362, -1,
+                                            402, 362, 363, -1, 402, 403, 362, -1,
+                                            404, 360, 361, -1, 404, 361, 403, -1,
+                                            401, 363, 295, -1, 401, 402, 363, -1,
+                                            405, 359, 360, -1, 405, 360, 404, -1,
+                                            400, 401, 295, -1, 380, 359, 405, -1,
+                                            380, 358, 359, -1, 399, 400, 295, -1,
+                                            381, 358, 380, -1, 381, 357, 358, -1,
+                                            398, 399, 295, -1, 382, 357, 381, -1,
+                                            382, 356, 357, -1, 397, 398, 295, -1,
+                                            383, 356, 382, -1, 383, 355, 356, -1,
+                                            396, 397, 295, -1, 384, 355, 383, -1,
+                                            384, 354, 355, -1, 395, 396, 295, -1,
+                                            385, 354, 384, -1, 394, 395, 295, -1,
+                                            393, 394, 295, -1, 292, 392, 393, -1,
+                                            292, 304, 305, -1, 292, 305, 306, -1,
+                                            292, 354, 385, -1, 292, 393, 295, -1,
+                                            292, 352, 353, -1, 292, 353, 354, -1,
+                                            292, 306, 379, -1, 292, 379, 352, -1,
+                                            292, 385, 386, -1, 292, 386, 387, -1,
+                                            292, 387, 388, -1, 292, 388, 389, -1,
+                                            292, 389, 390, -1, 292, 390, 391, -1,
+                                            292, 391, 392, -1, 292, 293, 303, -1,
+                                            303, 293, 302, -1, 292, 303, 304, -1,
+                                            406, 407, 408, -1, 408, 407, 409, -1,
+                                            411, 413, 412, -1, 411, 410, 413, -1,
+                                            415, 417, 414, -1, 414, 417, 416, -1,
+                                            419, 421, 418, -1, 418, 421, 420, -1,
+                                            423, 425, 424, -1, 423, 422, 425, -1,
+                                            427, 428, 426, -1, 427, 429, 428, -1,
+                                            431, 433, 430, -1, 430, 433, 432, -1,
+                                            435, 437, 436, -1, 435, 434, 437, -1,
+                                            439, 440, 438, -1, 439, 441, 440, -1,
+                                            443, 445, 442, -1, 442, 445, 444, -1,
+                                            447, 449, 448, -1, 447, 446, 449, -1,
+                                            451, 452, 450, -1, 451, 453, 452, -1,
+                                            455, 456, 454, -1, 455, 457, 456, -1,
+                                            459, 461, 460, -1, 459, 458, 461, -1,
+                                            463, 464, 462, -1, 463, 465, 464, -1,
+                                            467, 468, 466, -1, 467, 469, 468, -1,
+                                            471, 473, 472, -1, 471, 470, 473, -1,
+                                            475, 476, 474, -1, 475, 477, 476, -1,
+                                            479, 481, 478, -1, 478, 481, 480, -1,
+                                            483, 485, 484, -1, 483, 482, 485, -1,
+                                            487, 488, 486, -1, 487, 489, 488, -1,
+                                            491, 492, 490, -1, 491, 493, 492, -1,
+                                            495, 497, 496, -1, 495, 494, 497, -1,
+                                            501, 499, 498, -1, 501, 498, 500, -1,
+                                            503, 505, 502, -1, 502, 505, 504, -1,
+                                            506, 516, 507, -1, 515, 516, 506, -1,
+                                            507, 517, 508, -1, 508, 517, 509, -1,
+                                            516, 517, 507, -1, 517, 518, 509, -1,
+                                            509, 519, 510, -1, 510, 519, 511, -1,
+                                            518, 519, 509, -1, 519, 520, 511, -1,
+                                            511, 521, 512, -1, 520, 521, 511, -1,
+                                            512, 514, 513, -1, 521, 514, 512, -1,
+                                            525, 522, 523, -1, 525, 523, 524, -1,
+                                            529, 526, 527, -1, 529, 527, 528, -1,
+                                            530, 540, 531, -1, 539, 540, 530, -1,
+                                            531, 541, 532, -1, 532, 541, 533, -1,
+                                            540, 541, 531, -1, 541, 542, 533, -1,
+                                            533, 543, 534, -1, 534, 543, 535, -1,
+                                            542, 543, 533, -1, 543, 544, 535, -1,
+                                            535, 545, 536, -1, 544, 545, 535, -1,
+                                            536, 538, 537, -1, 545, 538, 536, -1,
+                                            562, 546, 547, -1, 562, 547, 548, -1,
+                                            563, 548, 549, -1, 563, 562, 548, -1,
+                                            564, 549, 550, -1, 564, 563, 549, -1,
+                                            565, 550, 551, -1, 565, 564, 550, -1,
+                                            566, 551, 552, -1, 566, 565, 551, -1,
+                                            567, 552, 553, -1, 567, 566, 552, -1,
+                                            568, 553, 554, -1, 568, 567, 553, -1,
+                                            569, 554, 555, -1, 569, 568, 554, -1,
+                                            570, 555, 556, -1, 570, 569, 555, -1,
+                                            571, 556, 557, -1, 571, 570, 556, -1,
+                                            572, 557, 558, -1, 572, 571, 557, -1,
+                                            573, 558, 559, -1, 573, 572, 558, -1,
+                                            561, 559, 560, -1, 561, 573, 559, -1,
+                                            577, 574, 575, -1, 577, 575, 576, -1,
+                                            594, 578, 579, -1, 594, 579, 580, -1,
+                                            595, 580, 581, -1, 595, 594, 580, -1,
+                                            596, 581, 582, -1, 596, 595, 581, -1,
+                                            597, 582, 583, -1, 597, 596, 582, -1,
+                                            598, 583, 584, -1, 598, 597, 583, -1,
+                                            599, 584, 585, -1, 599, 598, 584, -1,
+                                            600, 585, 586, -1, 600, 586, 587, -1,
+                                            600, 599, 585, -1, 601, 600, 587, -1,
+                                            602, 587, 588, -1, 602, 601, 587, -1,
+                                            603, 588, 589, -1, 603, 602, 588, -1,
+                                            604, 589, 590, -1, 604, 603, 589, -1,
+                                            605, 590, 591, -1, 605, 604, 590, -1,
+                                            593, 591, 592, -1, 593, 605, 591, -1,
+                                            606, 609, 607, -1, 607, 609, 608, -1,
+                                            626, 610, 611, -1, 626, 611, 612, -1,
+                                            627, 612, 613, -1, 627, 626, 612, -1,
+                                            628, 613, 614, -1, 628, 627, 613, -1,
+                                            629, 614, 615, -1, 629, 628, 614, -1,
+                                            630, 615, 616, -1, 630, 629, 615, -1,
+                                            631, 616, 617, -1, 631, 630, 616, -1,
+                                            632, 617, 618, -1, 632, 631, 617, -1,
+                                            633, 618, 619, -1, 633, 632, 618, -1,
+                                            634, 619, 620, -1, 634, 633, 619, -1,
+                                            635, 620, 621, -1, 635, 634, 620, -1,
+                                            636, 621, 622, -1, 636, 635, 621, -1,
+                                            637, 622, 623, -1, 637, 636, 622, -1,
+                                            625, 623, 624, -1, 625, 637, 623, -1,
+                                            641, 638, 639, -1, 641, 639, 640, -1,
+                                            658, 642, 643, -1, 658, 643, 644, -1,
+                                            659, 644, 645, -1, 659, 658, 644, -1,
+                                            660, 645, 646, -1, 660, 659, 645, -1,
+                                            661, 646, 647, -1, 661, 660, 646, -1,
+                                            662, 647, 648, -1, 662, 661, 647, -1,
+                                            663, 648, 649, -1, 663, 662, 648, -1,
+                                            664, 649, 650, -1, 664, 663, 649, -1,
+                                            665, 650, 651, -1, 665, 664, 650, -1,
+                                            666, 651, 652, -1, 666, 665, 651, -1,
+                                            667, 652, 653, -1, 667, 666, 652, -1,
+                                            668, 653, 654, -1, 668, 667, 653, -1,
+                                            669, 654, 655, -1, 669, 668, 654, -1,
+                                            657, 655, 656, -1, 657, 669, 655, -1,
+                                            670, 673, 671, -1, 671, 673, 672, -1,
+                                            690, 674, 675, -1, 690, 675, 676, -1,
+                                            691, 676, 677, -1, 691, 690, 676, -1,
+                                            692, 677, 678, -1, 692, 691, 677, -1,
+                                            693, 678, 679, -1, 693, 692, 678, -1,
+                                            694, 679, 680, -1, 694, 693, 679, -1,
+                                            695, 680, 681, -1, 695, 694, 680, -1,
+                                            696, 681, 682, -1, 696, 695, 681, -1,
+                                            697, 682, 683, -1, 697, 696, 682, -1,
+                                            698, 683, 684, -1, 698, 697, 683, -1,
+                                            699, 684, 685, -1, 699, 698, 684, -1,
+                                            700, 685, 686, -1, 700, 699, 685, -1,
+                                            701, 686, 687, -1, 701, 700, 686, -1,
+                                            689, 687, 688, -1, 689, 701, 687, -1,
+                                            705, 702, 703, -1, 705, 703, 704, -1,
+                                            722, 706, 707, -1, 722, 707, 708, -1,
+                                            723, 708, 709, -1, 723, 722, 708, -1,
+                                            724, 709, 710, -1, 724, 723, 709, -1,
+                                            725, 710, 711, -1, 725, 724, 710, -1,
+                                            726, 711, 712, -1, 726, 725, 711, -1,
+                                            727, 712, 713, -1, 727, 726, 712, -1,
+                                            728, 713, 714, -1, 728, 727, 713, -1,
+                                            729, 714, 715, -1, 729, 728, 714, -1,
+                                            730, 715, 716, -1, 730, 729, 715, -1,
+                                            731, 716, 717, -1, 731, 730, 716, -1,
+                                            732, 717, 718, -1, 732, 731, 717, -1,
+                                            733, 718, 719, -1, 733, 732, 718, -1,
+                                            721, 719, 720, -1, 721, 733, 719, -1,
+                                            734, 737, 735, -1, 735, 737, 736, -1,
+                                            767, 738, 739, -1, 767, 739, 740, -1,
+                                            768, 740, 741, -1, 768, 767, 740, -1,
+                                            769, 741, 742, -1, 769, 768, 741, -1,
+                                            770, 742, 743, -1, 770, 769, 742, -1,
+                                            771, 743, 744, -1, 771, 770, 743, -1,
+                                            772, 744, 745, -1, 772, 771, 744, -1,
+                                            773, 745, 746, -1, 773, 772, 745, -1,
+                                            774, 746, 747, -1, 774, 773, 746, -1,
+                                            775, 747, 748, -1, 775, 774, 747, -1,
+                                            776, 748, 749, -1, 776, 775, 748, -1,
+                                            777, 749, 750, -1, 777, 776, 749, -1,
+                                            778, 777, 750, -1, 778, 750, 751, -1,
+                                            779, 778, 751, -1, 779, 751, 752, -1,
+                                            780, 752, 753, -1, 780, 779, 752, -1,
+                                            781, 753, 754, -1, 781, 780, 753, -1,
+                                            782, 754, 755, -1, 782, 781, 754, -1,
+                                            783, 755, 756, -1, 783, 782, 755, -1,
+                                            784, 756, 757, -1, 784, 783, 756, -1,
+                                            785, 757, 758, -1, 785, 784, 757, -1,
+                                            786, 758, 759, -1, 786, 785, 758, -1,
+                                            787, 759, 760, -1, 787, 786, 759, -1,
+                                            788, 760, 761, -1, 788, 787, 760, -1,
+                                            789, 761, 762, -1, 789, 788, 761, -1,
+                                            790, 762, 763, -1, 790, 789, 762, -1,
+                                            791, 763, 764, -1, 791, 790, 763, -1,
+                                            766, 764, 765, -1, 766, 791, 764, -1,
+                                            794, 842, 841, -1, 841, 840, 794, -1,
+                                            794, 843, 842, -1, 840, 839, 794, -1,
+                                            794, 844, 843, -1, 839, 838, 794, -1,
+                                            794, 845, 844, -1, 794, 793, 845, -1,
+                                            793, 846, 845, -1, 793, 847, 846, -1,
+                                            793, 848, 847, -1, 793, 849, 848, -1,
+                                            793, 850, 849, -1, 793, 851, 850, -1,
+                                            838, 820, 794, -1, 820, 819, 794, -1,
+                                            838, 821, 820, -1, 837, 821, 838, -1,
+                                            819, 818, 794, -1, 836, 822, 837, -1,
+                                            837, 822, 821, -1, 818, 817, 794, -1,
+                                            832, 823, 833, -1, 833, 823, 834, -1,
+                                            834, 823, 835, -1, 835, 823, 836, -1,
+                                            836, 823, 822, -1, 832, 831, 823, -1,
+                                            817, 816, 794, -1, 831, 830, 823, -1,
+                                            825, 796, 826, -1, 826, 796, 827, -1,
+                                            827, 796, 828, -1, 828, 796, 829, -1,
+                                            829, 796, 830, -1, 830, 796, 823, -1,
+                                            824, 797, 825, -1, 825, 797, 796, -1,
+                                            851, 798, 824, -1, 824, 798, 797, -1,
+                                            851, 799, 798, -1, 793, 799, 851, -1,
+                                            793, 800, 799, -1, 793, 801, 800, -1,
+                                            793, 802, 801, -1, 810, 869, 811, -1,
+                                            810, 870, 869, -1, 811, 868, 812, -1,
+                                            869, 868, 811, -1, 810, 871, 870, -1,
+                                            868, 867, 812, -1, 812, 867, 813, -1,
+                                            810, 872, 871, -1, 867, 866, 813, -1,
+                                            809, 873, 810, -1, 810, 873, 872, -1,
+                                            809, 874, 873, -1, 809, 875, 874, -1,
+                                            808, 876, 809, -1, 809, 876, 875, -1,
+                                            807, 877, 808, -1, 808, 877, 876, -1,
+                                            806, 878, 807, -1, 807, 878, 877, -1,
+                                            806, 879, 878, -1, 813, 795, 814, -1,
+                                            814, 795, 815, -1, 815, 795, 816, -1,
+                                            866, 795, 813, -1, 816, 795, 794, -1,
+                                            863, 795, 864, -1, 864, 795, 865, -1,
+                                            865, 795, 866, -1, 861, 903, 862, -1,
+                                            862, 902, 863, -1, 903, 902, 862, -1,
+                                            860, 904, 861, -1, 861, 904, 903, -1,
+                                            863, 901, 795, -1, 902, 901, 863, -1,
+                                            859, 905, 860, -1, 860, 905, 904, -1,
+                                            901, 900, 795, -1, 859, 880, 905, -1,
+                                            858, 880, 859, -1, 900, 899, 795, -1,
+                                            858, 881, 880, -1, 857, 881, 858, -1,
+                                            899, 898, 795, -1, 857, 882, 881, -1,
+                                            856, 882, 857, -1, 898, 897, 795, -1,
+                                            856, 883, 882, -1, 855, 883, 856, -1,
+                                            897, 896, 795, -1, 855, 884, 883, -1,
+                                            854, 884, 855, -1, 896, 895, 795, -1,
+                                            854, 885, 884, -1, 895, 894, 795, -1,
+                                            894, 893, 795, -1, 892, 792, 893, -1,
+                                            804, 792, 805, -1, 805, 792, 806, -1,
+                                            854, 792, 885, -1, 893, 792, 795, -1,
+                                            852, 792, 853, -1, 853, 792, 854, -1,
+                                            806, 792, 879, -1, 879, 792, 852, -1,
+                                            885, 792, 886, -1, 886, 792, 887, -1,
+                                            887, 792, 888, -1, 888, 792, 889, -1,
+                                            889, 792, 890, -1, 890, 792, 891, -1,
+                                            891, 792, 892, -1, 793, 792, 803, -1,
+                                            793, 803, 802, -1, 803, 792, 804, -1,
+                                            916, 907, 915, -1, 915, 907, 906, -1,
+                                            913, 912, 914, -1, 914, 912, 921, -1,
+                                            917, 908, 916, -1, 916, 908, 907, -1,
+                                            921, 911, 920, -1, 912, 911, 921, -1,
+                                            920, 910, 919, -1, 911, 910, 920, -1,
+                                            918, 909, 917, -1, 919, 909, 918, -1,
+                                            917, 909, 908, -1, 910, 909, 919, -1,
+                                            932, 923, 931, -1, 931, 923, 922, -1,
+                                            933, 924, 932, -1, 932, 924, 923, -1,
+                                            934, 925, 933, -1, 933, 925, 924, -1,
+                                            934, 926, 925, -1, 934, 935, 926, -1,
+                                            926, 936, 927, -1, 927, 936, 928, -1,
+                                            935, 936, 926, -1, 936, 937, 928, -1,
+                                            928, 930, 929, -1, 937, 930, 928, -1,
+                                            944, 945, 938, -1, 949, 944, 938, -1,
+                                            948, 949, 938, -1, 953, 948, 938, -1,
+                                            952, 953, 938, -1, 942, 944, 949, -1,
+                                            957, 952, 938, -1, 941, 943, 942, -1,
+                                            956, 957, 938, -1, 947, 942, 949, -1,
+                                            947, 941, 942, -1, 946, 941, 947, -1,
+                                            961, 956, 938, -1, 960, 961, 938, -1,
+                                            951, 946, 948, -1, 951, 948, 953, -1,
+                                            951, 941, 946, -1, 950, 941, 951, -1,
+                                            955, 950, 952, -1, 955, 952, 957, -1,
+                                            959, 954, 956, -1, 959, 956, 961, -1,
+                                            963, 958, 960, -1, 963, 960, 965, -1,
+                                            939, 973, 968, -1, 939, 964, 965, -1,
+                                            939, 968, 969, -1, 939, 972, 973, -1,
+                                            939, 960, 938, -1, 939, 965, 960, -1,
+                                            939, 969, 964, -1, 962, 964, 969, -1,
+                                            977, 972, 939, -1, 976, 977, 939, -1,
+                                            967, 962, 969, -1, 966, 968, 973, -1,
+                                            971, 966, 973, -1, 975, 972, 977, -1,
+                                            975, 970, 972, -1, 940, 976, 939, -1,
+                                            940, 970, 975, -1, 940, 966, 971, -1,
+                                            940, 967, 966, -1, 940, 971, 970, -1,
+                                            940, 975, 974, -1, 940, 974, 976, -1,
+                                            940, 941, 950, -1, 940, 950, 955, -1,
+                                            940, 955, 954, -1, 940, 954, 959, -1,
+                                            940, 959, 958, -1, 940, 958, 963, -1,
+                                            940, 963, 962, -1, 940, 962, 967, -1,
+                                            941, 938, 945, -1, 941, 945, 943, -1,
+                                            978, 988, 979, -1, 987, 988, 978, -1,
+                                            979, 989, 980, -1, 980, 989, 981, -1,
+                                            988, 989, 979, -1, 989, 990, 981, -1,
+                                            981, 991, 982, -1, 982, 991, 983, -1,
+                                            990, 991, 981, -1, 991, 992, 983, -1,
+                                            983, 993, 984, -1, 992, 993, 983, -1,
+                                            984, 986, 985, -1, 993, 986, 984, -1,
+                                            997, 994, 995, -1, 997, 995, 996, -1,
+                                            1001, 998, 999, -1, 1001, 999, 1000, -1,
+                                            1005, 1002, 1003, -1, 1005, 1003, 1004, -1,
+                                            1006, 1009, 1007, -1, 1007, 1009, 1008, -1,
+                                            1011, 1010, 1012, -1, 1010, 1013, 1012, -1,
+                                            1013, 1015, 1014, -1, 1010, 1015, 1013, -1,
+                                            1016, 1019, 1017, -1, 1017, 1019, 1018, -1,
+                                            1021, 1020, 1022, -1, 1020, 1023, 1022, -1,
+                                            1023, 1025, 1024, -1, 1020, 1025, 1023, -1,
+                                            1026, 1028, 1027, -1, 1026, 1029, 1028, -1,
+                                            1031, 1030, 1032, -1, 1030, 1033, 1032, -1,
+                                            1033, 1035, 1034, -1, 1030, 1035, 1033, -1,
+                                            1037, 1036, 1038, -1, 1036, 1039, 1038, -1,
+                                            1039, 1041, 1040, -1, 1036, 1041, 1039, -1,
+                                            1042, 1044, 1043, -1, 1042, 1045, 1044, -1,
+                                            1046, 1049, 1047, -1, 1047, 1049, 1048, -1,
+                                            1051, 1050, 1052, -1, 1050, 1053, 1052, -1,
+                                            1053, 1055, 1054, -1, 1050, 1055, 1053, -1,
+                                            1057, 1056, 1058, -1, 1056, 1059, 1058, -1,
+                                            1059, 1061, 1060, -1, 1056, 1061, 1059, -1,
+                                            1062, 1065, 1063, -1, 1063, 1065, 1064, -1,
+                                            1066, 1069, 1067, -1, 1067, 1069, 1068, -1,
+                                            1071, 1070, 1072, -1, 1070, 1073, 1072, -1,
+                                            1073, 1075, 1074, -1, 1070, 1075, 1073, -1,
+                                            1077, 1076, 1078, -1, 1076, 1079, 1078, -1,
+                                            1079, 1081, 1080, -1, 1076, 1081, 1079, -1,
+                                            1082, 1085, 1083, -1, 1083, 1085, 1084, -1,
+                                            1086, 1089, 1087, -1, 1087, 1089, 1088, -1,
+                                            1091, 1090, 1092, -1, 1090, 1093, 1092, -1,
+                                            1093, 1095, 1094, -1, 1090, 1095, 1093, -1,
+                                            1097, 1096, 1098, -1, 1096, 1099, 1098, -1,
+                                            1099, 1101, 1100, -1, 1096, 1101, 1099, -1,
+                                            1102, 1105, 1103, -1, 1103, 1105, 1104, -1,
+                                            1106, 1109, 1107, -1, 1107, 1109, 1108, -1,
+                                            1111, 1110, 1112, -1, 1110, 1113, 1112, -1,
+                                            1113, 1115, 1114, -1, 1110, 1115, 1113, -1,
+                                            1117, 1116, 1118, -1, 1116, 1119, 1118, -1,
+                                            1119, 1121, 1120, -1, 1116, 1121, 1119, -1,
+                                            1122, 1125, 1123, -1, 1123, 1125, 1124, -1,
+                                            1126, 1129, 1127, -1, 1127, 1129, 1128, -1,
+                                            1131, 1130, 1132, -1, 1130, 1133, 1132, -1,
+                                            1133, 1135, 1134, -1, 1130, 1135, 1133, -1,
+                                            1137, 1136, 1138, -1, 1136, 1139, 1138, -1,
+                                            1139, 1141, 1140, -1, 1136, 1141, 1139, -1,
+                                            1142, 1145, 1143, -1, 1143, 1145, 1144, -1,
+                                            1146, 1149, 1147, -1, 1147, 1149, 1148, -1,
+                                            1151, 1150, 1152, -1, 1150, 1153, 1152, -1,
+                                            1153, 1155, 1154, -1, 1150, 1155, 1153, -1,
+                                            1157, 1156, 1158, -1, 1156, 1159, 1158, -1,
+                                            1159, 1161, 1160, -1, 1156, 1161, 1159, -1,
+                                            1162, 1165, 1163, -1, 1163, 1165, 1164, -1,
+                                            1166, 1169, 1167, -1, 1167, 1169, 1168, -1,
+                                            1171, 1170, 1172, -1, 1170, 1173, 1172, -1,
+                                            1173, 1175, 1174, -1, 1170, 1175, 1173, -1,
+                                            1177, 1176, 1178, -1, 1176, 1179, 1178, -1,
+                                            1179, 1181, 1180, -1, 1176, 1181, 1179, -1,
+                                            1182, 1185, 1183, -1, 1183, 1185, 1184, -1,
+                                            1187, 1188, 1186, -1, 1189, 1188, 1187, -1,
+                                            1193, 1191, 1190, -1, 1193, 1190, 1192, -1,
+                                            1197, 1195, 1196, -1, 1194, 1195, 1197, -1,
+                                            1200, 1199, 1198, -1, 1201, 1199, 1200, -1,
+                                            1205, 1203, 1202, -1, 1205, 1202, 1204, -1,
+                                            1208, 1207, 1206, -1, 1209, 1207, 1208, -1,
+                                            1213, 1211, 1212, -1, 1210, 1211, 1213, -1,
+                                            1217, 1215, 1214, -1, 1217, 1214, 1216, -1,
+                                            1220, 1219, 1218, -1, 1221, 1219, 1220, -1,
+                                            1225, 1223, 1224, -1, 1222, 1223, 1225, -1,
+                                            1229, 1227, 1226, -1, 1229, 1226, 1228, -1,
+                                            1232, 1231, 1230, -1, 1233, 1231, 1232, -1,
+                                            1237, 1235, 1236, -1, 1234, 1235, 1237, -1,
+                                            1241, 1239, 1238, -1, 1241, 1238, 1240, -1,
+                                            1244, 1243, 1242, -1, 1245, 1243, 1244, -1,
+                                            1249, 1247, 1248, -1, 1246, 1247, 1249, -1,
+                                            1253, 1251, 1250, -1, 1253, 1250, 1252, -1,
+                                            1256, 1255, 1254, -1, 1257, 1255, 1256, -1,
+                                            1261, 1259, 1260, -1, 1258, 1259, 1261, -1,
+                                            1265, 1263, 1262, -1, 1265, 1262, 1264, -1,
+                                            1268, 1267, 1266, -1, 1269, 1267, 1268, -1,
+                                            1273, 1271, 1272, -1, 1270, 1271, 1273, -1,
+                                            1276, 1275, 1274, -1, 1277, 1275, 1276, -1,
+                                            1280, 1279, 1278, -1, 1281, 1279, 1280, -1,
+                                            1285, 1283, 1284, -1, 1282, 1283, 1285, -1,
+                                            1289, 1287, 1286, -1, 1289, 1286, 1288, -1,
+                                            1292, 1291, 1290, -1, 1293, 1291, 1292, -1,
+                                            1297, 1295, 1296, -1, 1294, 1295, 1297, -1 ]
+                                        ccw TRUE
+                                        solid FALSE
+                                        convex TRUE
+                                        creaseAngle 0
+
+                                      }
+
+                                    }
+
+                                } ]
+
+                            }
+
+                        }
+
+                    } ]
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

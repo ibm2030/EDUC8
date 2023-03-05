@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Input:Output-Interface-rescue")(type "Legacy")(uri "${KIPRJMOD}/Input:Output Interface-rescue.lib")(options "")(descr ""))
+)

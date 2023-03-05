@@ -1,0 +1,386 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": true,
+        "courtyard_line_width": 0.05,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": true,
+        "silk_line_width": 0.12,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": true
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.25,
+          "via_gap": 0.25,
+          "width": 0.2
+        }
+      ],
+      "drc_exclusions": [],
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_diameter": 0.4,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_paste_clearance": 0.0,
+        "solder_paste_margin_ratio": -0.0
+      },
+      "track_widths": [
+        0.25,
+        0.5,
+        2.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 2.0,
+          "drill": 0.8
+        }
+      ]
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [
+      "pin_not_driven|2082800|406400|c6453e4e-0624-45a8-ae21-b25b710e1df8|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2082800|838200|6ea456c9-f496-4c0e-8f71-6f473b6806fc|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2298700|2159000|646b3c91-4d9d-497e-b384-5bc70d20db27|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2438400|1473200|95f8a0fc-0ff7-406d-bff7-3183277d7611|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2476500|203200|3b70006b-b800-42c8-ad2a-b0c2ebcf2e3f|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2489200|1028700|e0df582a-2305-45d6-a3b7-d449a9b8744a|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2628900|1574800|3db6e85d-3ce5-4cd1-ae0c-a2fdd98262fc|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2641600|1905000|20fed574-e22c-4a85-81f9-de9d92894fac|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2692400|977900|f9999602-4211-4cea-a13c-958dbd5af9b4|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2844800|1752600|f2e6ad44-9e44-451a-9868-4992ca5d8907|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|3873500|457200|e755949b-f15e-4791-b7eb-5db76b3c6c3a|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|584200|1219200|cd851d52-190d-4d28-add1-6b1f715f092f|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|584200|635000|ac63e6d7-5977-4867-905b-e1ace99a8c1a|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|596900|1663700|c99c5c58-1347-4e96-9233-2e792823d66a|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|596900|2247900|5676544f-1fd3-4016-8df3-8cc011518755|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|850900|1803400|b9473939-f0b6-41a1-8f71-3488082f35ae|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|850900|2387600|2bf9e4a8-71eb-480b-ad09-efc33f62af24|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1231900|2514600|b8f698ba-6042-46f0-a2e1-7d8fe59d1c9e|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|977900|2768600|28f09e73-0795-461d-adb7-c591d05be0c1|00000000-0000-0000-0000-000000000000"
+    ],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Input:Output Interface.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "Input:Output Interface.net",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "./",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "441a9b80-1f11-491c-ab7d-2320a3ca1924",
+      ""
+    ]
+  ],
+  "text_variables": {}
+}

@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch</source>
+    <date>Monday, 04 April 2022 at 01:19:06 pm</date>
+    <tool>Eeschema (6.0.4-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EDUC-8 Motherboard</title>
+        <company/>
+        <rev/>
+        <date>2019-07-25</date>
+        <source>motherboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000665c4fdd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000665c57de</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000665c5b59</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064781e8d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006478297c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064782d92</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064782f9e</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000647832d7</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006478363c</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d7d20dc</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d79786c</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d71e733</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d72150b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d724532</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d5c8494</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>36-way-edge-connector</value>
+      <footprint>EDUC-8:36_way_3.96mm_card_edge_socket</footprint>
+      <libsource lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6743a1</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x08_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005fdaa43e</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x08_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7e1860</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x16_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x16_Female" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f4bbb68</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000649d099b</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f8a07af</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064d94b65</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064a921b1</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x08_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7b3427</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000649d1a1c</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064a9121d</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064a926c2</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064d32b35</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064d9542a</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000693ef7cc</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062c46b64</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062c4728e</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062c478fa</tstamps>
+    </comp>
+    <comp ref="J29">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006a0c2973</tstamps>
+    </comp>
+    <comp ref="J30">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006a25ddc0</tstamps>
+    </comp>
+    <comp ref="J31">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006a26017b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000665096c7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006650abb3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>680R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006650afde</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006650b1ff</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Female">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x16_Female">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="motherboard-rescue" part="36-way-edge-connector-Educ-8-connectors-motherboard-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">36-way-edge-connector-Educ-8-connectors-motherboard-rescue</field>
+      </fields>
+      <pins>
+        <pin num="0" name="GND" type="input"/>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+        <pin num="17" name="17" type="input"/>
+        <pin num="18" name="18" type="input"/>
+        <pin num="A" name="A" type="input"/>
+        <pin num="B" name="B" type="input"/>
+        <pin num="C" name="C" type="input"/>
+        <pin num="D" name="D" type="input"/>
+        <pin num="E" name="E" type="input"/>
+        <pin num="F" name="F" type="input"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="H" name="H" type="input"/>
+        <pin num="J" name="J" type="input"/>
+        <pin num="K" name="K" type="input"/>
+        <pin num="L" name="L" type="input"/>
+        <pin num="M" name="M" type="input"/>
+        <pin num="N" name="N" type="input"/>
+        <pin num="P" name="P" type="input"/>
+        <pin num="Q" name="Q" type="input"/>
+        <pin num="R" name="R" type="input"/>
+        <pin num="S" name="S" type="input"/>
+        <pin num="T" name="T" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="motherboard-rescue">
+      <uri>/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/motherboard/motherboard-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="**MA5">
+      <node ref="J8" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J8" pin="B" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J24" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J24" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J30" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J5" pin="D" pinfunction="D" pintype="input"/>
+      <node ref="J5" pin="E" pinfunction="E" pintype="input"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J6" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J6" pin="D" pinfunction="D" pintype="input"/>
+      <node ref="J6" pin="E" pinfunction="E" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="A-BUS">
+      <node ref="J5" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J5" pin="F" pinfunction="F" pintype="input"/>
+      <node ref="J6" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J6" pin="F" pinfunction="F" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="AC0">
+      <node ref="J10" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J10" pin="J" pinfunction="J" pintype="input"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="AC0_TO_IOT">
+      <node ref="J5" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J5" pin="N" pinfunction="N" pintype="input"/>
+    </net>
+    <net code="6" name="AC1">
+      <node ref="J10" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J10" pin="K" pinfunction="K" pintype="input"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="AC2">
+      <node ref="J10" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J10" pin="L" pinfunction="L" pintype="input"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="8" name="AC3">
+      <node ref="J10" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J10" pin="M" pinfunction="M" pintype="input"/>
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="9" name="AC4">
+      <node ref="J10" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J10" pin="N" pinfunction="N" pintype="input"/>
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="10" name="AC5">
+      <node ref="J10" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J10" pin="P" pinfunction="P" pintype="input"/>
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="11" name="AC6">
+      <node ref="J10" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J10" pin="Q" pinfunction="Q" pintype="input"/>
+      <node ref="J12" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="12" name="AC7">
+      <node ref="J10" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J10" pin="R" pinfunction="R" pintype="input"/>
+      <node ref="J12" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="13" name="AC=-VE">
+      <node ref="J9" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J9" pin="H" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="14" name="AC=0">
+      <node ref="J5" pin="17" pinfunction="17" pintype="input"/>
+      <node ref="J5" pin="S" pinfunction="S" pintype="input"/>
+      <node ref="J6" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J6" pin="P" pinfunction="P" pintype="input"/>
+    </net>
+    <net code="15" name="B-BUS">
+      <node ref="J5" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J5" pin="G" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="C-BUS">
+      <node ref="J5" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J5" pin="H" pinfunction="H" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="D-BUS">
+      <node ref="J5" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J5" pin="J" pinfunction="J" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="FAST_SLOW">
+      <node ref="J22" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J10" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J21" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J5" pin="18" pinfunction="18" pintype="input"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J5" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J5" pin="T" pinfunction="T" pintype="input"/>
+      <node ref="J6" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J6" pin="18" pinfunction="18" pintype="input"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J6" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J6" pin="T" pinfunction="T" pintype="input"/>
+      <node ref="J7" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J8" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J9" pin="0" pinfunction="GND" pintype="input"/>
+      <node ref="J9" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J9" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J9" pin="Q" pinfunction="Q" pintype="input"/>
+      <node ref="J9" pin="R" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="23" name="HALT_COMMAND">
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="ID0~{CLK}">
+      <node ref="J11" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J11" pin="R" pinfunction="R" pintype="input"/>
+      <node ref="J28" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="26" name="ID0~{DATA}">
+      <node ref="J11" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J11" pin="N" pinfunction="N" pintype="input"/>
+      <node ref="J28" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="27" name="ID0~{FLAG_RESET}">
+      <node ref="J11" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J11" pin="Q" pinfunction="Q" pintype="input"/>
+      <node ref="J28" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="28" name="ID0~{FLAG}">
+      <node ref="J11" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J11" pin="P" pinfunction="P" pintype="input"/>
+      <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="ID1~{CLK}">
+      <node ref="J11" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J11" pin="M" pinfunction="M" pintype="input"/>
+      <node ref="J27" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="30" name="ID1~{DATA}">
+      <node ref="J11" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J11" pin="J" pinfunction="J" pintype="input"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="31" name="ID1~{FLAG_RESET}">
+      <node ref="J11" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J11" pin="L" pinfunction="L" pintype="input"/>
+      <node ref="J27" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="32" name="ID1~{FLAG}">
+      <node ref="J11" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J11" pin="K" pinfunction="K" pintype="input"/>
+      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="33" name="IO_DEVICE_SELECT">
+      <node ref="J6" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J6" pin="G" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="34" name="IO_GATING">
+      <node ref="J6" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J6" pin="H" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="36" name="LA2">
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="37" name="MA0">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J8" pin="D" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="38" name="MA1">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J8" pin="E" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="39" name="MA2">
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J8" pin="F" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="40" name="MA3">
+      <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J8" pin="G" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="41" name="MA4">
+      <node ref="J14" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J8" pin="H" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="42" name="MA5">
+      <node ref="J14" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="43" name="MA6">
+      <node ref="J14" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="44" name="MA7">
+      <node ref="J14" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="45" name="MB0">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J7" pin="J" pinfunction="J" pintype="input"/>
+      <node ref="J8" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J8" pin="J" pinfunction="J" pintype="input"/>
+    </net>
+    <net code="46" name="MB1">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J7" pin="K" pinfunction="K" pintype="input"/>
+      <node ref="J8" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J8" pin="K" pinfunction="K" pintype="input"/>
+    </net>
+    <net code="47" name="MB2">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J7" pin="L" pinfunction="L" pintype="input"/>
+      <node ref="J8" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J8" pin="L" pinfunction="L" pintype="input"/>
+    </net>
+    <net code="48" name="MB3">
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J7" pin="M" pinfunction="M" pintype="input"/>
+      <node ref="J8" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J8" pin="M" pinfunction="M" pintype="input"/>
+    </net>
+    <net code="49" name="MB4">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J7" pin="N" pinfunction="N" pintype="input"/>
+      <node ref="J8" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J8" pin="N" pinfunction="N" pintype="input"/>
+    </net>
+    <net code="50" name="MB5">
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J7" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J7" pin="P" pinfunction="P" pintype="input"/>
+      <node ref="J8" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J8" pin="P" pinfunction="P" pintype="input"/>
+    </net>
+    <net code="51" name="MB6">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J7" pin="Q" pinfunction="Q" pintype="input"/>
+      <node ref="J8" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J8" pin="Q" pinfunction="Q" pintype="input"/>
+    </net>
+    <net code="52" name="MB7">
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J7" pin="R" pinfunction="R" pintype="input"/>
+      <node ref="J8" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J8" pin="R" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="53" name="MB=0">
+      <node ref="J8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J8" pin="A" pinfunction="A" pintype="input"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J9" pin="A" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="55" name="MCPB">
+      <node ref="J5" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J5" pin="L" pinfunction="L" pintype="input"/>
+      <node ref="J6" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J6" pin="M" pinfunction="M" pintype="input"/>
+    </net>
+    <net code="57" name="OD0~{CLK}">
+      <node ref="J11" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J11" pin="H" pinfunction="H" pintype="input"/>
+      <node ref="J26" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="58" name="OD0~{DATA}">
+      <node ref="J11" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J11" pin="E" pinfunction="E" pintype="input"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="59" name="OD0~{FLAG_RESET}">
+      <node ref="J11" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J11" pin="G" pinfunction="G" pintype="input"/>
+      <node ref="J26" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="60" name="OD0~{FLAG}">
+      <node ref="J11" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J11" pin="F" pinfunction="F" pintype="input"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="61" name="OD1_~{DATA}">
+      <node ref="J11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J11" pin="A" pinfunction="A" pintype="input"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="62" name="OD1~{CLK}">
+      <node ref="J11" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J11" pin="D" pinfunction="D" pintype="input"/>
+      <node ref="J25" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="63" name="OD1~{FLAG_RESET}">
+      <node ref="J11" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J11" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J25" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="64" name="OD1~{FLAG}">
+      <node ref="J11" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J11" pin="B" pinfunction="B" pintype="input"/>
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="66" name="PC0">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J9" pin="J" pinfunction="J" pintype="input"/>
+    </net>
+    <net code="67" name="PC1">
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J9" pin="K" pinfunction="K" pintype="input"/>
+    </net>
+    <net code="68" name="PC2">
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J9" pin="L" pinfunction="L" pintype="input"/>
+    </net>
+    <net code="69" name="PC3">
+      <node ref="J14" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J9" pin="M" pinfunction="M" pintype="input"/>
+    </net>
+    <net code="70" name="PC4">
+      <node ref="J14" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J9" pin="N" pinfunction="N" pintype="input"/>
+    </net>
+    <net code="71" name="PC5">
+      <node ref="J14" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J9" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J9" pin="P" pinfunction="P" pintype="input"/>
+    </net>
+    <net code="72" name="PC6">
+      <node ref="J14" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="73" name="PC7">
+      <node ref="J14" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="74" name="SKP_ON_IOT_FLAG">
+      <node ref="J6" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J6" pin="K" pinfunction="K" pintype="input"/>
+    </net>
+    <net code="75" name="SR0">
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="76" name="SR1">
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="77" name="SR2">
+      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="78" name="SR3">
+      <node ref="J19" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="79" name="SR4">
+      <node ref="J19" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="80" name="SR5">
+      <node ref="J19" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="81" name="SR6">
+      <node ref="J19" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="82" name="SR7">
+      <node ref="J19" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="83" name="T1">
+      <node ref="J5" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J5" pin="Q" pinfunction="Q" pintype="input"/>
+      <node ref="J6" pin="17" pinfunction="17" pintype="input"/>
+      <node ref="J6" pin="S" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="84" name="T2-9">
+      <node ref="J5" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="J5" pin="P" pinfunction="P" pintype="input"/>
+      <node ref="J6" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J6" pin="R" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="86" name="T13">
+      <node ref="J6" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="J6" pin="Q" pinfunction="Q" pintype="input"/>
+    </net>
+    <net code="89" name="unconnected-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="2" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J5-PadA)">
+      <node ref="J5" pin="A" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="92" name="unconnected-(J5-PadB)">
+      <node ref="J5" pin="B" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="93" name="unconnected-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="2" pintype="input+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J6-PadA)">
+      <node ref="J6" pin="A" pinfunction="A" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J6-PadB)">
+      <node ref="J6" pin="B" pinfunction="B" pintype="input+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J7-Pad17)">
+      <node ref="J7" pin="17" pinfunction="17" pintype="input+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J7-Pad18)">
+      <node ref="J7" pin="18" pinfunction="18" pintype="input+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J7-PadS)">
+      <node ref="J7" pin="S" pinfunction="S" pintype="input+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J7-PadT)">
+      <node ref="J7" pin="T" pinfunction="T" pintype="input+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J8-Pad17)">
+      <node ref="J8" pin="17" pinfunction="17" pintype="input+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J8-Pad18)">
+      <node ref="J8" pin="18" pinfunction="18" pintype="input+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J8-PadS)">
+      <node ref="J8" pin="S" pinfunction="S" pintype="input+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J8-PadT)">
+      <node ref="J8" pin="T" pinfunction="T" pintype="input+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J9-Pad7)">
+      <node ref="J9" pin="7" pinfunction="7" pintype="input+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J9-Pad17)">
+      <node ref="J9" pin="17" pinfunction="17" pintype="input+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J9-Pad18)">
+      <node ref="J9" pin="18" pinfunction="18" pintype="input+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J9-PadG)">
+      <node ref="J9" pin="G" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="109" name="unconnected-(J9-PadS)">
+      <node ref="J9" pin="S" pinfunction="S" pintype="input+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J9-PadT)">
+      <node ref="J9" pin="T" pinfunction="T" pintype="input+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J10-Pad17)">
+      <node ref="J10" pin="17" pinfunction="17" pintype="input+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J10-Pad18)">
+      <node ref="J10" pin="18" pinfunction="18" pintype="input+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J10-PadS)">
+      <node ref="J10" pin="S" pinfunction="S" pintype="input+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J10-PadT)">
+      <node ref="J10" pin="T" pinfunction="T" pintype="input+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J11-Pad0)">
+      <node ref="J11" pin="0" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="116" name="unconnected-(J11-Pad17)">
+      <node ref="J11" pin="17" pinfunction="17" pintype="input+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J11-Pad18)">
+      <node ref="J11" pin="18" pinfunction="18" pintype="input+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J11-PadS)">
+      <node ref="J11" pin="S" pinfunction="S" pintype="input+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J11-PadT)">
+      <node ref="J11" pin="T" pinfunction="T" pintype="input+no_connect"/>
+    </net>
+    <net code="120" name="~{AND}">
+      <node ref="J10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J10" pin="A" pinfunction="A" pintype="input"/>
+      <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J7" pin="A" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="121" name="~{CANCEL+DEP+EXM}">
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="122" name="~{CLA}">
+      <node ref="J10" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J10" pin="H" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="123" name="~{CLEAR_IOT_FLAG}">
+      <node ref="J6" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J6" pin="J" pinfunction="J" pintype="input"/>
+    </net>
+    <net code="124" name="~{CMA}">
+      <node ref="J10" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J10" pin="G" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="125" name="~{DCA}">
+      <node ref="J10" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J10" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J7" pin="D" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="126" name="~{DEFER}">
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="127" name="~{DEP+EXM}">
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="128" name="~{DEP}">
+      <node ref="J21" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="129" name="~{EXEC}">
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="130" name="~{EXT.DEP}">
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="131" name="~{EXT.LA}">
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J29" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="134" name="~{FETCH}">
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="135" name="~{HLT}">
+      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="136" name="~{IAC}">
+      <node ref="J10" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J10" pin="E" pinfunction="E" pintype="input"/>
+      <node ref="J9" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J9" pin="F" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="137" name="~{IOT_SHIFT}">
+      <node ref="J5" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J5" pin="M" pinfunction="M" pintype="input"/>
+      <node ref="J6" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="J6" pin="N" pinfunction="N" pintype="input"/>
+    </net>
+    <net code="138" name="~{IOT_SKP}">
+      <node ref="J6" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J6" pin="L" pinfunction="L" pintype="input"/>
+    </net>
+    <net code="139" name="~{IOT}">
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J7" pin="G" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="140" name="~{ISZ}">
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J7" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J8" pin="C" pinfunction="C" pintype="input"/>
+      <node ref="J9" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J9" pin="C" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="141" name="~{JMP}">
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J7" pin="F" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="142" name="~{JMS}">
+      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J7" pin="E" pinfunction="E" pintype="input"/>
+      <node ref="J9" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J9" pin="D" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="143" name="~{LA1}">
+      <node ref="J23" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="144" name="~{OPR}">
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="J7" pin="H" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="145" name="~{RAL}">
+      <node ref="J10" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J10" pin="F" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="146" name="~{RAR}">
+      <node ref="J10" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J10" pin="D" pinfunction="D" pintype="input"/>
+      <node ref="J9" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J9" pin="E" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="147" name="~{RUN_COMMAND}">
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="148" name="~{RUN}">
+      <node ref="J16" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="153" name="~{T2-9.(TAD+IAC+CMA})">
+      <node ref="J5" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="J5" pin="R" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="154" name="~{T13.RAR}">
+      <node ref="J5" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J5" pin="K" pinfunction="K" pintype="input"/>
+    </net>
+    <net code="157" name="~{TAD}">
+      <node ref="J10" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J10" pin="B" pinfunction="B" pintype="input"/>
+      <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J7" pin="B" pinfunction="B" pintype="input"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J9" pin="B" pinfunction="B" pintype="input"/>
+    </net>
+  </nets>
+</export>

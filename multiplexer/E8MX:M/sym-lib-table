@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name multiplexer-rescue)(type Legacy)(uri ${KIPRJMOD}/multiplexer-rescue.lib)(options "")(descr ""))
+)

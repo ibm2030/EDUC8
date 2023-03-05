@@ -1,0 +1,976 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Level Buffers"
+Date "2021-07-26"
+Rev "1/0"
+Comp "Electronics Australia"
+Comment1 "Designed by Jamieson Rowe"
+Comment2 "Drawn by: Gwyllym Suter"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6100CB0A
+P 2300 2500
+AR Path="/6100CB0A" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6100CB0A" Ref="Q3"  Part="1" 
+F 0 "Q3" H 2491 2546 50  0000 L CNN
+F 1 "BC108" H 2491 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 2500 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 2300 2500 50  0001 L CNN
+	1    2300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6100CB10
+P 1850 2500
+AR Path="/6100CB10" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6100CB10" Ref="R12"  Part="1" 
+F 0 "R12" V 1643 2500 50  0000 C CNN
+F 1 "39k" V 1734 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6100CB16
+P 2400 1950
+AR Path="/6100CB16" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6100CB16" Ref="R6"  Part="1" 
+F 0 "R6" H 2470 1996 50  0000 L CNN
+F 1 "10k" H 2470 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 1950 50  0001 C CNN
+F 3 "~" H 2400 1950 50  0001 C CNN
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2100 2400 2200
+Wire Wire Line
+	2100 2500 2000 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6100CB20
+P 2400 2700
+AR Path="/6100CB20" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6100CB20" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2400 2450 50  0001 C CNN
+F 1 "GND" H 2405 2527 50  0000 C CNN
+F 2 "" H 2400 2700 50  0001 C CNN
+F 3 "" H 2400 2700 50  0001 C CNN
+	1    2400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6100CB26
+P 2400 1700
+AR Path="/6100CB26" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6100CB26" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2400 1550 50  0001 C CNN
+F 1 "+5V" H 2415 1873 50  0000 C CNN
+F 2 "" H 2400 1700 50  0001 C CNN
+F 3 "" H 2400 1700 50  0001 C CNN
+	1    2400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1700 2400 1800
+Text HLabel 1700 2500 0    50   Input ~ 0
+BI_1
+Text HLabel 2550 2200 2    50   Output ~ 0
+B0_1
+Wire Wire Line
+	2550 2200 2400 2200
+Connection ~ 2400 2200
+Wire Wire Line
+	2400 2200 2400 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6100F5A3
+P 3750 2500
+AR Path="/6100F5A3" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6100F5A3" Ref="Q4"  Part="1" 
+F 0 "Q4" H 3941 2546 50  0000 L CNN
+F 1 "BC108" H 3941 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 3950 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 3750 2500 50  0001 L CNN
+	1    3750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6100F5A9
+P 3300 2500
+AR Path="/6100F5A9" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6100F5A9" Ref="R13"  Part="1" 
+F 0 "R13" V 3093 2500 50  0000 C CNN
+F 1 "39k" V 3184 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 2500 50  0001 C CNN
+F 3 "~" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6100F5AF
+P 3850 1950
+AR Path="/6100F5AF" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6100F5AF" Ref="R7"  Part="1" 
+F 0 "R7" H 3920 1996 50  0000 L CNN
+F 1 "10k" H 3920 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3780 1950 50  0001 C CNN
+F 3 "~" H 3850 1950 50  0001 C CNN
+	1    3850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2100 3850 2200
+Wire Wire Line
+	3550 2500 3450 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6100F5B7
+P 3850 2700
+AR Path="/6100F5B7" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6100F5B7" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 3850 2450 50  0001 C CNN
+F 1 "GND" H 3855 2527 50  0000 C CNN
+F 2 "" H 3850 2700 50  0001 C CNN
+F 3 "" H 3850 2700 50  0001 C CNN
+	1    3850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6100F5BD
+P 3850 1700
+AR Path="/6100F5BD" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6100F5BD" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3850 1550 50  0001 C CNN
+F 1 "+5V" H 3865 1873 50  0000 C CNN
+F 2 "" H 3850 1700 50  0001 C CNN
+F 3 "" H 3850 1700 50  0001 C CNN
+	1    3850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1700 3850 1800
+Text HLabel 3150 2500 0    50   Input ~ 0
+BI_2
+Text HLabel 4000 2200 2    50   Output ~ 0
+B0_2
+Wire Wire Line
+	4000 2200 3850 2200
+Connection ~ 3850 2200
+Wire Wire Line
+	3850 2200 3850 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6101864D
+P 5150 2500
+AR Path="/6101864D" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6101864D" Ref="Q5"  Part="1" 
+F 0 "Q5" H 5341 2546 50  0000 L CNN
+F 1 "BC108" H 5341 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 5350 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 5150 2500 50  0001 L CNN
+	1    5150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61018653
+P 4700 2500
+AR Path="/61018653" Ref="R?"  Part="1" 
+AR Path="/61009DBF/61018653" Ref="R14"  Part="1" 
+F 0 "R14" V 4493 2500 50  0000 C CNN
+F 1 "39k" V 4584 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 2500 50  0001 C CNN
+F 3 "~" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61018659
+P 5250 1950
+AR Path="/61018659" Ref="R?"  Part="1" 
+AR Path="/61009DBF/61018659" Ref="R8"  Part="1" 
+F 0 "R8" H 5320 1996 50  0000 L CNN
+F 1 "10k" H 5320 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 1950 50  0001 C CNN
+F 3 "~" H 5250 1950 50  0001 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2100 5250 2200
+Wire Wire Line
+	4950 2500 4850 2500
+$Comp
+L power:GND #PWR?
+U 1 1 61018661
+P 5250 2700
+AR Path="/61018661" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/61018661" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 5250 2450 50  0001 C CNN
+F 1 "GND" H 5255 2527 50  0000 C CNN
+F 2 "" H 5250 2700 50  0001 C CNN
+F 3 "" H 5250 2700 50  0001 C CNN
+	1    5250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61018667
+P 5250 1700
+AR Path="/61018667" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/61018667" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 5250 1550 50  0001 C CNN
+F 1 "+5V" H 5265 1873 50  0000 C CNN
+F 2 "" H 5250 1700 50  0001 C CNN
+F 3 "" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1700 5250 1800
+Text HLabel 4550 2500 0    50   Input ~ 0
+BI_3
+Text HLabel 5400 2200 2    50   Output ~ 0
+B0_3
+Wire Wire Line
+	5400 2200 5250 2200
+Connection ~ 5250 2200
+Wire Wire Line
+	5250 2200 5250 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 61018673
+P 6600 2500
+AR Path="/61018673" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/61018673" Ref="Q6"  Part="1" 
+F 0 "Q6" H 6791 2546 50  0000 L CNN
+F 1 "BC108" H 6791 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 6800 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 6600 2500 50  0001 L CNN
+	1    6600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61018679
+P 6150 2500
+AR Path="/61018679" Ref="R?"  Part="1" 
+AR Path="/61009DBF/61018679" Ref="R15"  Part="1" 
+F 0 "R15" V 5943 2500 50  0000 C CNN
+F 1 "39k" V 6034 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 2500 50  0001 C CNN
+F 3 "~" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6101867F
+P 6700 1950
+AR Path="/6101867F" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6101867F" Ref="R9"  Part="1" 
+F 0 "R9" H 6770 1996 50  0000 L CNN
+F 1 "10k" H 6770 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 1950 50  0001 C CNN
+F 3 "~" H 6700 1950 50  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2100 6700 2200
+Wire Wire Line
+	6400 2500 6300 2500
+$Comp
+L power:GND #PWR?
+U 1 1 61018687
+P 6700 2700
+AR Path="/61018687" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/61018687" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6700 2450 50  0001 C CNN
+F 1 "GND" H 6705 2527 50  0000 C CNN
+F 2 "" H 6700 2700 50  0001 C CNN
+F 3 "" H 6700 2700 50  0001 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6101868D
+P 6700 1700
+AR Path="/6101868D" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6101868D" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 6700 1550 50  0001 C CNN
+F 1 "+5V" H 6715 1873 50  0000 C CNN
+F 2 "" H 6700 1700 50  0001 C CNN
+F 3 "" H 6700 1700 50  0001 C CNN
+	1    6700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1700 6700 1800
+Text HLabel 6000 2500 0    50   Input ~ 0
+BI_4
+Text HLabel 6850 2200 2    50   Output ~ 0
+B0_4
+Wire Wire Line
+	6850 2200 6700 2200
+Connection ~ 6700 2200
+Wire Wire Line
+	6700 2200 6700 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6101D215
+P 8000 2500
+AR Path="/6101D215" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6101D215" Ref="Q7"  Part="1" 
+F 0 "Q7" H 8191 2546 50  0000 L CNN
+F 1 "BC108" H 8191 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 8200 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8000 2500 50  0001 L CNN
+	1    8000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6101D21B
+P 7550 2500
+AR Path="/6101D21B" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6101D21B" Ref="R16"  Part="1" 
+F 0 "R16" V 7343 2500 50  0000 C CNN
+F 1 "39k" V 7434 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 2500 50  0001 C CNN
+F 3 "~" H 7550 2500 50  0001 C CNN
+	1    7550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6101D221
+P 8100 1950
+AR Path="/6101D221" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6101D221" Ref="R10"  Part="1" 
+F 0 "R10" H 8170 1996 50  0000 L CNN
+F 1 "10k" H 8170 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8030 1950 50  0001 C CNN
+F 3 "~" H 8100 1950 50  0001 C CNN
+	1    8100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2100 8100 2200
+Wire Wire Line
+	7800 2500 7700 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6101D229
+P 8100 2700
+AR Path="/6101D229" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6101D229" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 8100 2450 50  0001 C CNN
+F 1 "GND" H 8105 2527 50  0000 C CNN
+F 2 "" H 8100 2700 50  0001 C CNN
+F 3 "" H 8100 2700 50  0001 C CNN
+	1    8100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6101D22F
+P 8100 1700
+AR Path="/6101D22F" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6101D22F" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 8100 1550 50  0001 C CNN
+F 1 "+5V" H 8115 1873 50  0000 C CNN
+F 2 "" H 8100 1700 50  0001 C CNN
+F 3 "" H 8100 1700 50  0001 C CNN
+	1    8100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1700 8100 1800
+Text HLabel 7400 2500 0    50   Input ~ 0
+BI_5
+Text HLabel 8250 2200 2    50   Output ~ 0
+B0_5
+Wire Wire Line
+	8250 2200 8100 2200
+Connection ~ 8100 2200
+Wire Wire Line
+	8100 2200 8100 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6101D23B
+P 9450 2500
+AR Path="/6101D23B" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6101D23B" Ref="Q8"  Part="1" 
+F 0 "Q8" H 9641 2546 50  0000 L CNN
+F 1 "BC108" H 9641 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 9650 2425 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9450 2500 50  0001 L CNN
+	1    9450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6101D241
+P 9000 2500
+AR Path="/6101D241" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6101D241" Ref="R17"  Part="1" 
+F 0 "R17" V 8793 2500 50  0000 C CNN
+F 1 "39k" V 8884 2500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6101D247
+P 9550 1950
+AR Path="/6101D247" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6101D247" Ref="R11"  Part="1" 
+F 0 "R11" H 9620 1996 50  0000 L CNN
+F 1 "10k" H 9620 1905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9480 1950 50  0001 C CNN
+F 3 "~" H 9550 1950 50  0001 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2100 9550 2200
+Wire Wire Line
+	9250 2500 9150 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6101D24F
+P 9550 2700
+AR Path="/6101D24F" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6101D24F" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 9550 2450 50  0001 C CNN
+F 1 "GND" H 9555 2527 50  0000 C CNN
+F 2 "" H 9550 2700 50  0001 C CNN
+F 3 "" H 9550 2700 50  0001 C CNN
+	1    9550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6101D255
+P 9550 1700
+AR Path="/6101D255" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6101D255" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 9550 1550 50  0001 C CNN
+F 1 "+5V" H 9565 1873 50  0000 C CNN
+F 2 "" H 9550 1700 50  0001 C CNN
+F 3 "" H 9550 1700 50  0001 C CNN
+	1    9550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1700 9550 1800
+Text HLabel 8850 2500 0    50   Input ~ 0
+BI_6
+Text HLabel 9700 2200 2    50   Output ~ 0
+B0_6
+Wire Wire Line
+	9700 2200 9550 2200
+Connection ~ 9550 2200
+Wire Wire Line
+	9550 2200 9550 2300
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E358
+P 2300 4450
+AR Path="/6102E358" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E358" Ref="Q9"  Part="1" 
+F 0 "Q9" H 2491 4496 50  0000 L CNN
+F 1 "BC108" H 2491 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 2500 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 2300 4450 50  0001 L CNN
+	1    2300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E35E
+P 1850 4450
+AR Path="/6102E35E" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E35E" Ref="R24"  Part="1" 
+F 0 "R24" V 1643 4450 50  0000 C CNN
+F 1 "39k" V 1734 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 4450 50  0001 C CNN
+F 3 "~" H 1850 4450 50  0001 C CNN
+	1    1850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E364
+P 2400 3900
+AR Path="/6102E364" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E364" Ref="R18"  Part="1" 
+F 0 "R18" H 2470 3946 50  0000 L CNN
+F 1 "10k" H 2470 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 3900 50  0001 C CNN
+F 3 "~" H 2400 3900 50  0001 C CNN
+	1    2400 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4050 2400 4150
+Wire Wire Line
+	2100 4450 2000 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E36C
+P 2400 4650
+AR Path="/6102E36C" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E36C" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 2400 4400 50  0001 C CNN
+F 1 "GND" H 2405 4477 50  0000 C CNN
+F 2 "" H 2400 4650 50  0001 C CNN
+F 3 "" H 2400 4650 50  0001 C CNN
+	1    2400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E372
+P 2400 3650
+AR Path="/6102E372" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E372" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 2400 3500 50  0001 C CNN
+F 1 "+5V" H 2415 3823 50  0000 C CNN
+F 2 "" H 2400 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+	1    2400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3650 2400 3750
+Text HLabel 1700 4450 0    50   Input ~ 0
+BI_7
+Text HLabel 2550 4150 2    50   Output ~ 0
+B0_7
+Wire Wire Line
+	2550 4150 2400 4150
+Connection ~ 2400 4150
+Wire Wire Line
+	2400 4150 2400 4250
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E37E
+P 3750 4450
+AR Path="/6102E37E" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E37E" Ref="Q10"  Part="1" 
+F 0 "Q10" H 3941 4496 50  0000 L CNN
+F 1 "BC108" H 3941 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 3950 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 3750 4450 50  0001 L CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E384
+P 3300 4450
+AR Path="/6102E384" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E384" Ref="R25"  Part="1" 
+F 0 "R25" V 3093 4450 50  0000 C CNN
+F 1 "39k" V 3184 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3230 4450 50  0001 C CNN
+F 3 "~" H 3300 4450 50  0001 C CNN
+	1    3300 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E38A
+P 3850 3900
+AR Path="/6102E38A" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E38A" Ref="R19"  Part="1" 
+F 0 "R19" H 3920 3946 50  0000 L CNN
+F 1 "10k" H 3920 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3780 3900 50  0001 C CNN
+F 3 "~" H 3850 3900 50  0001 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4050 3850 4150
+Wire Wire Line
+	3550 4450 3450 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E392
+P 3850 4650
+AR Path="/6102E392" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E392" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 3850 4400 50  0001 C CNN
+F 1 "GND" H 3855 4477 50  0000 C CNN
+F 2 "" H 3850 4650 50  0001 C CNN
+F 3 "" H 3850 4650 50  0001 C CNN
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E398
+P 3850 3650
+AR Path="/6102E398" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E398" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 3850 3500 50  0001 C CNN
+F 1 "+5V" H 3865 3823 50  0000 C CNN
+F 2 "" H 3850 3650 50  0001 C CNN
+F 3 "" H 3850 3650 50  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3650 3850 3750
+Text HLabel 3150 4450 0    50   Input ~ 0
+BI_8
+Text HLabel 4000 4150 2    50   Output ~ 0
+B0_8
+Wire Wire Line
+	4000 4150 3850 4150
+Connection ~ 3850 4150
+Wire Wire Line
+	3850 4150 3850 4250
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E3A4
+P 5150 4450
+AR Path="/6102E3A4" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E3A4" Ref="Q11"  Part="1" 
+F 0 "Q11" H 5341 4496 50  0000 L CNN
+F 1 "BC108" H 5341 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 5350 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 5150 4450 50  0001 L CNN
+	1    5150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3AA
+P 4700 4450
+AR Path="/6102E3AA" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3AA" Ref="R26"  Part="1" 
+F 0 "R26" V 4493 4450 50  0000 C CNN
+F 1 "39k" V 4584 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 4450 50  0001 C CNN
+F 3 "~" H 4700 4450 50  0001 C CNN
+	1    4700 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3B0
+P 5250 3900
+AR Path="/6102E3B0" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3B0" Ref="R20"  Part="1" 
+F 0 "R20" H 5320 3946 50  0000 L CNN
+F 1 "10k" H 5320 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 3900 50  0001 C CNN
+F 3 "~" H 5250 3900 50  0001 C CNN
+	1    5250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4050 5250 4150
+Wire Wire Line
+	4950 4450 4850 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E3B8
+P 5250 4650
+AR Path="/6102E3B8" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E3B8" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5250 4400 50  0001 C CNN
+F 1 "GND" H 5255 4477 50  0000 C CNN
+F 2 "" H 5250 4650 50  0001 C CNN
+F 3 "" H 5250 4650 50  0001 C CNN
+	1    5250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E3BE
+P 5250 3650
+AR Path="/6102E3BE" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E3BE" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5250 3500 50  0001 C CNN
+F 1 "+5V" H 5265 3823 50  0000 C CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3650 5250 3750
+Text HLabel 4550 4450 0    50   Input ~ 0
+BI_9
+Text HLabel 5400 4150 2    50   Output ~ 0
+B0_9
+Wire Wire Line
+	5400 4150 5250 4150
+Connection ~ 5250 4150
+Wire Wire Line
+	5250 4150 5250 4250
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E3CA
+P 6600 4450
+AR Path="/6102E3CA" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E3CA" Ref="Q12"  Part="1" 
+F 0 "Q12" H 6791 4496 50  0000 L CNN
+F 1 "BC108" H 6791 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 6800 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 6600 4450 50  0001 L CNN
+	1    6600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3D0
+P 6150 4450
+AR Path="/6102E3D0" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3D0" Ref="R27"  Part="1" 
+F 0 "R27" V 5943 4450 50  0000 C CNN
+F 1 "39k" V 6034 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 4450 50  0001 C CNN
+F 3 "~" H 6150 4450 50  0001 C CNN
+	1    6150 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3D6
+P 6700 3900
+AR Path="/6102E3D6" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3D6" Ref="R21"  Part="1" 
+F 0 "R21" H 6770 3946 50  0000 L CNN
+F 1 "10k" H 6770 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 3900 50  0001 C CNN
+F 3 "~" H 6700 3900 50  0001 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4050 6700 4150
+Wire Wire Line
+	6400 4450 6300 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E3DE
+P 6700 4650
+AR Path="/6102E3DE" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E3DE" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 6700 4400 50  0001 C CNN
+F 1 "GND" H 6705 4477 50  0000 C CNN
+F 2 "" H 6700 4650 50  0001 C CNN
+F 3 "" H 6700 4650 50  0001 C CNN
+	1    6700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E3E4
+P 6700 3650
+AR Path="/6102E3E4" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E3E4" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 6700 3500 50  0001 C CNN
+F 1 "+5V" H 6715 3823 50  0000 C CNN
+F 2 "" H 6700 3650 50  0001 C CNN
+F 3 "" H 6700 3650 50  0001 C CNN
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3650 6700 3750
+Text HLabel 6000 4450 0    50   Input ~ 0
+BI_10
+Text HLabel 6850 4150 2    50   Output ~ 0
+B0_10
+Wire Wire Line
+	6850 4150 6700 4150
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4150 6700 4250
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E3F0
+P 8000 4450
+AR Path="/6102E3F0" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E3F0" Ref="Q13"  Part="1" 
+F 0 "Q13" H 8191 4496 50  0000 L CNN
+F 1 "BC108" H 8191 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 8200 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 8000 4450 50  0001 L CNN
+	1    8000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3F6
+P 7550 4450
+AR Path="/6102E3F6" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3F6" Ref="R28"  Part="1" 
+F 0 "R28" V 7343 4450 50  0000 C CNN
+F 1 "39k" V 7434 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 4450 50  0001 C CNN
+F 3 "~" H 7550 4450 50  0001 C CNN
+	1    7550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E3FC
+P 8100 3900
+AR Path="/6102E3FC" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E3FC" Ref="R22"  Part="1" 
+F 0 "R22" H 8170 3946 50  0000 L CNN
+F 1 "10k" H 8170 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8030 3900 50  0001 C CNN
+F 3 "~" H 8100 3900 50  0001 C CNN
+	1    8100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4050 8100 4150
+Wire Wire Line
+	7800 4450 7700 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E404
+P 8100 4650
+AR Path="/6102E404" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E404" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 8100 4400 50  0001 C CNN
+F 1 "GND" H 8105 4477 50  0000 C CNN
+F 2 "" H 8100 4650 50  0001 C CNN
+F 3 "" H 8100 4650 50  0001 C CNN
+	1    8100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E40A
+P 8100 3650
+AR Path="/6102E40A" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E40A" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 8100 3500 50  0001 C CNN
+F 1 "+5V" H 8115 3823 50  0000 C CNN
+F 2 "" H 8100 3650 50  0001 C CNN
+F 3 "" H 8100 3650 50  0001 C CNN
+	1    8100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3650 8100 3750
+Text HLabel 7400 4450 0    50   Input ~ 0
+BI_11
+Text HLabel 8250 4150 2    50   Output ~ 0
+B0_12
+Wire Wire Line
+	8250 4150 8100 4150
+Connection ~ 8100 4150
+Wire Wire Line
+	8100 4150 8100 4250
+$Comp
+L Transistor_BJT:BC108 Q?
+U 1 1 6102E416
+P 9450 4450
+AR Path="/6102E416" Ref="Q?"  Part="1" 
+AR Path="/61009DBF/6102E416" Ref="Q14"  Part="1" 
+F 0 "Q14" H 9641 4496 50  0000 L CNN
+F 1 "BC108" H 9641 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 9650 4375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 9450 4450 50  0001 L CNN
+	1    9450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E41C
+P 9000 4450
+AR Path="/6102E41C" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E41C" Ref="R29"  Part="1" 
+F 0 "R29" V 8793 4450 50  0000 C CNN
+F 1 "39k" V 8884 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 4450 50  0001 C CNN
+F 3 "~" H 9000 4450 50  0001 C CNN
+	1    9000 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6102E422
+P 9550 3900
+AR Path="/6102E422" Ref="R?"  Part="1" 
+AR Path="/61009DBF/6102E422" Ref="R23"  Part="1" 
+F 0 "R23" H 9620 3946 50  0000 L CNN
+F 1 "10k" H 9620 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9480 3900 50  0001 C CNN
+F 3 "~" H 9550 3900 50  0001 C CNN
+	1    9550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4050 9550 4150
+Wire Wire Line
+	9250 4450 9150 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6102E42A
+P 9550 4650
+AR Path="/6102E42A" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E42A" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 9550 4400 50  0001 C CNN
+F 1 "GND" H 9555 4477 50  0000 C CNN
+F 2 "" H 9550 4650 50  0001 C CNN
+F 3 "" H 9550 4650 50  0001 C CNN
+	1    9550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6102E430
+P 9550 3650
+AR Path="/6102E430" Ref="#PWR?"  Part="1" 
+AR Path="/61009DBF/6102E430" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 9550 3500 50  0001 C CNN
+F 1 "+5V" H 9565 3823 50  0000 C CNN
+F 2 "" H 9550 3650 50  0001 C CNN
+F 3 "" H 9550 3650 50  0001 C CNN
+	1    9550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3650 9550 3750
+Text HLabel 8850 4450 0    50   Input ~ 0
+BI_13
+Text HLabel 9700 4150 2    50   Output ~ 0
+B0_13
+Wire Wire Line
+	9700 4150 9550 4150
+Connection ~ 9550 4150
+Wire Wire Line
+	9550 4150 9550 4250
+$EndSCHEMATC

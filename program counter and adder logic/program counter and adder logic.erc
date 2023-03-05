@@ -1,0 +1,97 @@
+ERC report (Saturday, 05 June 2021 at 10:18:20 pm, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 356.87 mm): Pin 28 (Input) of component J1 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(146.05 mm, 77.47 mm): Pin 3 (Input) of component U1 is not driven (Net 6).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 351.79 mm): Pin 26 (Input) of component J1 is not driven (Net 7).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(151.13 mm, 77.47 mm): Pin 6 (Input) of component U1 is not driven (Net 8).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(153.67 mm, 77.47 mm): Pin 7 (Input) of component U1 is not driven (Net 9).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(162.56 mm, 77.47 mm): Pin 8 (Input) of component U1 is not driven (Net 20).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(167.64 mm, 68.58 mm): Pin 16 (Input) of component U1 is not driven (Net 21).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(86.36 mm, 60.96 mm): Pin 1 (Power input) of component #PWR0101 is not driven (Net 22).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(170.18 mm, 64.77 mm): Pin 1 (Power input) of component #PWR0104 is not driven (Net 23).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(166.37 mm, 173.99 mm): Pin 13 (Input) of component U13 is not driven (Net 27).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(49.53 mm, 165.10 mm): Pin 1 (Input) of component U6 is not driven (Net 30).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 313.69 mm): Pin 11 (Input) of component J1 is not driven (Net 32).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(144.78 mm, 287.02 mm): Pin 4 (Input) of component J5 is not driven (Net 37).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(317.50 mm, 59.69 mm): Pin 12 (Input) of component U6 is not driven (Net 39).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(340.36 mm, 64.77 mm): Pin 5 (Input) of component U9 is not driven (Net 40).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(144.78 mm, 203.20 mm): Pin 11 (Input) of component U12 is not driven (Net 44).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(328.93 mm, 158.75 mm): Pin 5 (Input) of component U6 is not driven (Net 46).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(146.05 mm, 185.42 mm): Pin 4 (Input) of component U3 is not driven (Net 52).
+ErrType(8): Global label not connected to any other global label
+    @(378.46 mm, 152.40 mm): Global label X2 is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 306.07 mm): Pin 8 (Input) of component J1 is not driven (Net 57).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(144.78 mm, 284.48 mm): Pin 3 (Input) of component J5 is not driven (Net 59).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(299.72 mm, 215.90 mm): Pin 10 (Input) of component U10 is not driven (Net 60).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(327.66 mm, 218.44 mm): Pin 13 (Input) of component U5 is not driven (Net 61).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(327.66 mm, 223.52 mm): Pin 1 (Input) of component U5 is not driven (Net 62).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(299.72 mm, 236.22 mm): Pin 5 (Input) of component U11 is not driven (Net 63).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(90.17 mm, 364.49 mm): Pin 31 (Input) of component J1 is not driven (Net 66).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(144.78 mm, 279.40 mm): Pin 1 (Input) of component J5 is not driven (Net 68).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(327.66 mm, 274.32 mm): Pin 1 (Input) of component U9 is not driven (Net 69).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(144.78 mm, 297.18 mm): Pin 8 (Input) of component J5 is not driven (Net 72).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(264.16 mm, 279.40 mm): Pin 3 (Input) of component U5 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(269.24 mm, 284.48 mm): Global label ~IOT_SKP is not connected to any other global label.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(237.49 mm, 313.69 mm): Pin 1 (Input) of component U10 is not driven (Net 75).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(262.89 mm, 308.61 mm): Pin 9 (Input) of component U9 is not driven (Net 82).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(90.17 mm, 311.15 mm): Pin 10 (Input) of component J1 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(82.55 mm, 311.15 mm): Global label ~IOT.SKP is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(90.17 mm, 334.01 mm): Pin 19 (Input) of component J1 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(63.50 mm, 334.01 mm): Global label ~T29.ISZ is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(62.23 mm, 339.09 mm): Global label ~T14-21(JMS+JMP) is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(90.17 mm, 339.09 mm): Pin 21 (Input) of component J1 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(90.17 mm, 341.63 mm): Pin 22 (Input) of component J1 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @(82.55 mm, 341.63 mm): Global label ~T14-21.SKP is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(52.07 mm, 358.14 mm): Global label MEMORY_ENABLE is not connected to any other global label.
+ErrType(8): Global label not connected to any other global label
+    @(52.07 mm, 355.60 mm): Global label ~F.T23.OPR~~OPR+IOT is not connected to any other global label.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(110.49 mm, 219.71 mm): Pin 6 (Output) of component U4 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(330.20 mm, 304.80 mm): Pin 14 (Power input) of component U3 is not driven (Net 106).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(533.40 mm, 330.20 mm): Pin 7 (Power input) of component U9 is not driven (Net 107).
+
+ ** ERC messages: 46  Errors 0  Warnings 46

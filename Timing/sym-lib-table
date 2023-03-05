@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name educ-8-timing--rescue)(type Legacy)(uri "${KIPRJMOD}/educ 8 timing -rescue.lib")(options "")(descr ""))
+)

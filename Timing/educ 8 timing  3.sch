@@ -1,0 +1,3203 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "EDUC-8 TIMING "
+Date "2019-07-20"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2100 2450
+Connection ~ 2100 3650
+Connection ~ 2500 1550
+Connection ~ 2500 2750
+Connection ~ 2750 7500
+Connection ~ 2850 6200
+Connection ~ 3000 2000
+Connection ~ 3000 2250
+Connection ~ 3000 2350
+Connection ~ 3650 4600
+Connection ~ 3700 4850
+Connection ~ 4000 2400
+Connection ~ 4300 2500
+Connection ~ 4300 2600
+Connection ~ 5200 2550
+Connection ~ 5250 2550
+Connection ~ 6150 3100
+Connection ~ 6150 3600
+Connection ~ 6400 4100
+Connection ~ 7750 12500
+Connection ~ 7750 14150
+Connection ~ 7950 2900
+Connection ~ 8050 2300
+Connection ~ 8050 2400
+Connection ~ 8050 2500
+Connection ~ 8200 12500
+Connection ~ 8200 14150
+Connection ~ 8500 12500
+Connection ~ 8500 14150
+Connection ~ 8950 12500
+Connection ~ 8950 14150
+Connection ~ 9250 12500
+Connection ~ 9250 14150
+Connection ~ 9450 3000
+Connection ~ 9700 11300
+Connection ~ 9800 12500
+Connection ~ 9800 14150
+Connection ~ 9900 10850
+Connection ~ 10150 12500
+Connection ~ 10150 14150
+Connection ~ 10200 10850
+Connection ~ 10550 12500
+Connection ~ 10550 14150
+Connection ~ 10850 12500
+Connection ~ 10850 14150
+Connection ~ 10900 1450
+Connection ~ 11150 3400
+Connection ~ 11200 10450
+Connection ~ 11200 10550
+Connection ~ 11300 12500
+Connection ~ 11300 14150
+Connection ~ 11450 12500
+Connection ~ 11500 14150
+Connection ~ 11600 12500
+Connection ~ 11600 14150
+Connection ~ 12000 10600
+Connection ~ 12050 12500
+Connection ~ 12050 14150
+Connection ~ 12350 12500
+Connection ~ 12350 14150
+Connection ~ 12800 12500
+Connection ~ 12800 14150
+Connection ~ 13100 12500
+Connection ~ 13100 14150
+Connection ~ 13150 15300
+Connection ~ 13450 9050
+Connection ~ 13550 12500
+Connection ~ 13550 14150
+Connection ~ 13650 7850
+Connection ~ 13700 7200
+Connection ~ 13750 2950
+Connection ~ 13800 4950
+Connection ~ 13850 1550
+Connection ~ 13900 3100
+Connection ~ 14200 8950
+Connection ~ 14300 12500
+Connection ~ 14300 14150
+Connection ~ 15000 2850
+Connection ~ 15000 3200
+Connection ~ 15000 3550
+Connection ~ 15000 9800
+Connection ~ 15050 5100
+Connection ~ 15100 10250
+Connection ~ 15100 12500
+Connection ~ 15100 14150
+Connection ~ 15200 2100
+Connection ~ 15200 3050
+Connection ~ 15200 3750
+Connection ~ 15200 5300
+Connection ~ 15200 7950
+Connection ~ 15350 2300
+Connection ~ 15400 4450
+Connection ~ 15850 12500
+Connection ~ 15850 14150
+Connection ~ 16400 9200
+Connection ~ 16400 9900
+Connection ~ 16400 10350
+Connection ~ 16450 3400
+Connection ~ 16450 4050
+Connection ~ 16450 4650
+Connection ~ 16450 5300
+Connection ~ 16650 12500
+Connection ~ 16650 14150
+Connection ~ 17300 8100
+Connection ~ 17350 10900
+Connection ~ 17450 12500
+Connection ~ 17450 14150
+Connection ~ 17700 9300
+Connection ~ 17850 10700
+Connection ~ 18150 12500
+Connection ~ 18150 14150
+Connection ~ 18700 5950
+Connection ~ 18700 10800
+Connection ~ 18950 8900
+Connection ~ 18950 9300
+Connection ~ 18950 12500
+Connection ~ 18950 14150
+Connection ~ 19400 7750
+Connection ~ 19700 12500
+Connection ~ 19700 14150
+Connection ~ 20450 12500
+Connection ~ 20450 14150
+NoConn ~ 6900 7200
+NoConn ~ 7050 7100
+NoConn ~ 7350 6800
+NoConn ~ 14700 3600
+NoConn ~ 17100 10350
+Wire Wire Line
+	1700 2450 1700 2600
+Wire Wire Line
+	1700 3050 1700 2900
+Wire Wire Line
+	1750 7400 1850 7400
+Wire Wire Line
+	2100 2450 1700 2450
+Wire Wire Line
+	2100 3650 1800 3650
+Wire Wire Line
+	2100 3650 2100 2450
+Wire Wire Line
+	2200 2450 2100 2450
+Wire Wire Line
+	2400 4500 2950 4500
+Wire Wire Line
+	2400 15850 2400 10900
+Wire Wire Line
+	2450 7300 2500 7300
+Wire Wire Line
+	2450 7500 2750 7500
+Wire Wire Line
+	2500 1550 2500 1400
+Wire Wire Line
+	2500 2250 2500 1550
+Wire Wire Line
+	2500 2750 2500 2650
+Wire Wire Line
+	2500 2900 2500 2750
+Wire Wire Line
+	2500 3300 2500 3200
+Wire Wire Line
+	2750 6150 2750 6200
+Wire Wire Line
+	2750 6200 2850 6200
+Wire Wire Line
+	2750 6900 2750 7500
+Wire Wire Line
+	2750 7500 2850 7500
+Wire Wire Line
+	2850 4700 2950 4700
+Wire Wire Line
+	2850 4850 2850 4700
+Wire Wire Line
+	2850 4950 2850 5200
+Wire Wire Line
+	2850 5200 2950 5200
+Wire Wire Line
+	2850 5400 2850 5550
+Wire Wire Line
+	2850 6200 2950 6200
+Wire Wire Line
+	2850 6300 2850 6200
+Wire Wire Line
+	2900 2450 2900 2750
+Wire Wire Line
+	2900 2750 2500 2750
+Wire Wire Line
+	2950 5400 2850 5400
+Wire Wire Line
+	2950 6200 2950 6150
+Wire Wire Line
+	2950 6900 2950 7000
+Wire Wire Line
+	2950 7000 3100 7000
+Wire Wire Line
+	3000 1550 2500 1550
+Wire Wire Line
+	3000 1650 3000 1550
+Wire Wire Line
+	3000 2000 3000 1950
+Wire Wire Line
+	3000 2250 3000 2000
+Wire Wire Line
+	3000 2350 3000 2250
+Wire Wire Line
+	3000 2550 3000 2350
+Wire Wire Line
+	3250 2250 3000 2250
+Wire Wire Line
+	3250 2350 3000 2350
+Wire Wire Line
+	3250 2450 2900 2450
+Wire Wire Line
+	3250 2550 3000 2550
+Wire Wire Line
+	3450 7400 3600 7400
+Wire Wire Line
+	3450 7600 3550 7600
+Wire Wire Line
+	3450 8300 3450 8400
+Wire Wire Line
+	3450 8400 3150 8400
+Wire Wire Line
+	3550 4600 3650 4600
+Wire Wire Line
+	3550 5300 3700 5300
+Wire Wire Line
+	3550 7600 3550 7700
+Wire Wire Line
+	3550 9050 3300 9050
+Wire Wire Line
+	3650 4600 3650 4950
+Wire Wire Line
+	3650 4600 4450 4600
+Wire Wire Line
+	3650 4950 2850 4950
+Wire Wire Line
+	3650 8300 3650 8450
+Wire Wire Line
+	3700 4800 3700 4850
+Wire Wire Line
+	3700 4850 2850 4850
+Wire Wire Line
+	3700 4850 3700 5300
+Wire Wire Line
+	3750 9050 4000 9050
+Wire Wire Line
+	3850 2400 4000 2400
+Wire Wire Line
+	4000 2400 4450 2400
+Wire Wire Line
+	4000 2700 4000 2400
+Wire Wire Line
+	4000 3000 4000 3650
+Wire Wire Line
+	4000 3650 2100 3650
+Wire Wire Line
+	4300 2000 3000 2000
+Wire Wire Line
+	4300 2500 4300 2000
+Wire Wire Line
+	4300 2500 4300 2600
+Wire Wire Line
+	4300 2600 4300 2700
+Wire Wire Line
+	4300 2700 4450 2700
+Wire Wire Line
+	4350 4700 4450 4700
+Wire Wire Line
+	4450 2500 4300 2500
+Wire Wire Line
+	4450 2600 4300 2600
+Wire Wire Line
+	4450 4800 3700 4800
+Wire Wire Line
+	4750 5000 4750 5100
+Wire Wire Line
+	4750 5100 5000 5100
+Wire Wire Line
+	5050 2550 5200 2550
+Wire Wire Line
+	5050 4600 5200 4600
+Wire Wire Line
+	5050 4800 5200 4800
+Wire Wire Line
+	5200 2550 5200 3000
+Wire Wire Line
+	5200 2550 5250 2550
+Wire Wire Line
+	5200 3000 5400 3000
+Wire Wire Line
+	5200 3200 5200 4600
+Wire Wire Line
+	5250 2350 5250 2550
+Wire Wire Line
+	5250 2550 5300 2550
+Wire Wire Line
+	5400 3200 5200 3200
+Wire Wire Line
+	6150 3100 6000 3100
+Wire Wire Line
+	6150 3100 6150 3600
+Wire Wire Line
+	6150 3600 6400 3600
+Wire Wire Line
+	6150 4100 6150 3600
+Wire Wire Line
+	6400 4000 6400 4100
+Wire Wire Line
+	6400 4100 6150 4100
+Wire Wire Line
+	6400 4100 6400 4200
+Wire Wire Line
+	6400 4200 6450 4200
+Wire Wire Line
+	6450 4000 6400 4000
+Wire Wire Line
+	6500 4700 7700 4700
+Wire Wire Line
+	6950 4800 7700 4800
+Wire Wire Line
+	7000 3600 7200 3600
+Wire Wire Line
+	7050 4100 7200 4100
+Wire Wire Line
+	7050 7100 7700 7100
+Wire Wire Line
+	7300 7800 7300 8450
+Wire Wire Line
+	7400 12500 7750 12500
+Wire Wire Line
+	7400 12800 7400 12500
+Wire Wire Line
+	7400 13800 7400 14150
+Wire Wire Line
+	7400 14150 7750 14150
+Wire Wire Line
+	7450 2500 7450 2400
+Wire Wire Line
+	7450 2900 7450 2800
+Wire Wire Line
+	7600 2800 8150 2800
+Wire Wire Line
+	7600 4100 7600 2800
+Wire Wire Line
+	7700 4900 6500 4900
+Wire Wire Line
+	7700 5000 7350 5000
+Wire Wire Line
+	7700 5100 6500 5100
+Wire Wire Line
+	7700 5200 7350 5200
+Wire Wire Line
+	7700 5300 6800 5300
+Wire Wire Line
+	7700 5400 7350 5400
+Wire Wire Line
+	7700 5500 7050 5500
+Wire Wire Line
+	7700 5600 7350 5600
+Wire Wire Line
+	7700 5700 7050 5700
+Wire Wire Line
+	7700 5800 7350 5800
+Wire Wire Line
+	7700 5900 7050 5900
+Wire Wire Line
+	7700 6000 7350 6000
+Wire Wire Line
+	7700 6100 7050 6100
+Wire Wire Line
+	7700 6200 7350 6200
+Wire Wire Line
+	7700 6300 6700 6300
+Wire Wire Line
+	7700 6400 7350 6400
+Wire Wire Line
+	7700 6500 6750 6500
+Wire Wire Line
+	7700 6600 7350 6600
+Wire Wire Line
+	7700 6700 7050 6700
+Wire Wire Line
+	7700 6800 7350 6800
+Wire Wire Line
+	7700 6900 7050 6900
+Wire Wire Line
+	7700 7000 7350 7000
+Wire Wire Line
+	7700 7200 6900 7200
+Wire Wire Line
+	7700 7300 7300 7300
+Wire Wire Line
+	7700 7400 6900 7400
+Wire Wire Line
+	7700 7500 7350 7500
+Wire Wire Line
+	7700 7600 6900 7600
+Wire Wire Line
+	7700 7700 7300 7700
+Wire Wire Line
+	7700 7800 7300 7800
+Wire Wire Line
+	7750 12500 8200 12500
+Wire Wire Line
+	7750 13200 7750 12500
+Wire Wire Line
+	7750 13500 7750 14150
+Wire Wire Line
+	7750 14150 8200 14150
+Wire Wire Line
+	7850 2300 7850 2450
+Wire Wire Line
+	7950 2900 7450 2900
+Wire Wire Line
+	7950 2900 7950 3000
+Wire Wire Line
+	7950 3000 8150 3000
+Wire Wire Line
+	8050 2300 7850 2300
+Wire Wire Line
+	8050 2300 8050 2400
+Wire Wire Line
+	8050 2400 8050 2500
+Wire Wire Line
+	8050 2500 8050 2600
+Wire Wire Line
+	8050 2600 8150 2600
+Wire Wire Line
+	8050 3300 8150 3300
+Wire Wire Line
+	8150 2300 8050 2300
+Wire Wire Line
+	8150 2400 8050 2400
+Wire Wire Line
+	8150 2500 8050 2500
+Wire Wire Line
+	8150 2900 7950 2900
+Wire Wire Line
+	8150 3100 6150 3100
+Wire Wire Line
+	8200 12500 8500 12500
+Wire Wire Line
+	8200 12800 8200 12500
+Wire Wire Line
+	8200 13800 8200 14150
+Wire Wire Line
+	8200 14150 8500 14150
+Wire Wire Line
+	8500 12500 8950 12500
+Wire Wire Line
+	8500 13200 8500 12500
+Wire Wire Line
+	8500 13500 8500 14150
+Wire Wire Line
+	8500 14150 8950 14150
+Wire Wire Line
+	8650 1900 8650 2000
+Wire Wire Line
+	8650 3700 8650 3600
+Wire Wire Line
+	8800 6850 8800 7000
+Wire Wire Line
+	8800 7000 9100 7000
+Wire Wire Line
+	8800 7350 9100 7350
+Wire Wire Line
+	8800 7400 8800 7350
+Wire Wire Line
+	8950 12500 9250 12500
+Wire Wire Line
+	8950 12800 8950 12500
+Wire Wire Line
+	8950 13800 8950 14150
+Wire Wire Line
+	8950 14150 9250 14150
+Wire Wire Line
+	9150 2300 9700 2300
+Wire Wire Line
+	9150 2400 9700 2400
+Wire Wire Line
+	9150 2500 9700 2500
+Wire Wire Line
+	9150 2600 9700 2600
+Wire Wire Line
+	9250 12500 9800 12500
+Wire Wire Line
+	9250 13200 9250 12500
+Wire Wire Line
+	9250 13500 9250 14150
+Wire Wire Line
+	9250 14150 9800 14150
+Wire Wire Line
+	9450 2800 9450 3000
+Wire Wire Line
+	9450 3000 9700 3000
+Wire Wire Line
+	9450 3100 9450 3000
+Wire Wire Line
+	9550 10850 9550 10900
+Wire Wire Line
+	9550 11200 9550 11300
+Wire Wire Line
+	9550 11300 9700 11300
+Wire Wire Line
+	9700 2800 9450 2800
+Wire Wire Line
+	9700 11300 9900 11300
+Wire Wire Line
+	9700 11400 9700 11300
+Wire Wire Line
+	9800 12500 10150 12500
+Wire Wire Line
+	9800 12750 9800 12500
+Wire Wire Line
+	9800 13750 9800 14150
+Wire Wire Line
+	9800 14150 10150 14150
+Wire Wire Line
+	9900 10850 9550 10850
+Wire Wire Line
+	9900 10900 9900 10850
+Wire Wire Line
+	9900 11300 9900 11200
+Wire Wire Line
+	10150 12500 10550 12500
+Wire Wire Line
+	10150 13200 10150 12500
+Wire Wire Line
+	10150 13500 10150 14150
+Wire Wire Line
+	10150 14150 10550 14150
+Wire Wire Line
+	10200 10650 10200 10850
+Wire Wire Line
+	10200 10850 9900 10850
+Wire Wire Line
+	10250 2200 10250 2100
+Wire Wire Line
+	10250 3900 10250 3950
+Wire Wire Line
+	10400 10650 10200 10650
+Wire Wire Line
+	10400 10850 10200 10850
+Wire Wire Line
+	10550 12500 10850 12500
+Wire Wire Line
+	10550 12750 10550 12500
+Wire Wire Line
+	10550 13750 10550 14150
+Wire Wire Line
+	10550 14150 10850 14150
+Wire Wire Line
+	10800 2300 10900 2300
+Wire Wire Line
+	10800 2400 11250 2400
+Wire Wire Line
+	10800 2500 11400 2500
+Wire Wire Line
+	10800 2600 11400 2600
+Wire Wire Line
+	10800 2700 11400 2700
+Wire Wire Line
+	10800 2900 12000 2900
+Wire Wire Line
+	10800 3000 11400 3000
+Wire Wire Line
+	10800 3200 11400 3200
+Wire Wire Line
+	10800 3300 12400 3300
+Wire Wire Line
+	10800 3400 11150 3400
+Wire Wire Line
+	10850 12500 11300 12500
+Wire Wire Line
+	10850 13200 10850 12500
+Wire Wire Line
+	10850 13500 10850 14150
+Wire Wire Line
+	10850 14150 11300 14150
+Wire Wire Line
+	10900 1100 19400 1100
+Wire Wire Line
+	10900 1450 10900 1100
+Wire Wire Line
+	10900 2300 10900 1450
+Wire Wire Line
+	11150 3400 11150 4100
+Wire Wire Line
+	11150 3400 11550 3400
+Wire Wire Line
+	11150 4100 7600 4100
+Wire Wire Line
+	11200 10050 11200 9850
+Wire Wire Line
+	11200 10350 11200 10450
+Wire Wire Line
+	11200 10450 11350 10450
+Wire Wire Line
+	11200 10550 11200 10450
+Wire Wire Line
+	11200 10650 11200 10550
+Wire Wire Line
+	11250 1450 10900 1450
+Wire Wire Line
+	11250 2300 13500 2300
+Wire Wire Line
+	11250 2400 11250 2300
+Wire Wire Line
+	11300 12500 11450 12500
+Wire Wire Line
+	11300 12750 11300 12500
+Wire Wire Line
+	11300 13750 11300 14150
+Wire Wire Line
+	11300 14150 11500 14150
+Wire Wire Line
+	11350 10550 11200 10550
+Wire Wire Line
+	11350 10650 11200 10650
+Wire Wire Line
+	11350 10750 11000 10750
+Wire Wire Line
+	11400 3100 10800 3100
+Wire Wire Line
+	11450 12300 11450 12500
+Wire Wire Line
+	11450 12500 11600 12500
+Wire Wire Line
+	11500 14150 11600 14150
+Wire Wire Line
+	11500 14300 11500 14150
+Wire Wire Line
+	11550 3400 11550 4000
+Wire Wire Line
+	11550 4950 11550 4600
+Wire Wire Line
+	11600 12500 12050 12500
+Wire Wire Line
+	11600 13150 11600 12500
+Wire Wire Line
+	11600 13450 11600 14150
+Wire Wire Line
+	11600 14150 12050 14150
+Wire Wire Line
+	11950 10600 12000 10600
+Wire Wire Line
+	12000 2600 13050 2600
+Wire Wire Line
+	12000 2750 12000 2800
+Wire Wire Line
+	12000 2800 10800 2800
+Wire Wire Line
+	12000 2900 12000 2950
+Wire Wire Line
+	12000 2950 12100 2950
+Wire Wire Line
+	12000 3100 13050 3100
+Wire Wire Line
+	12000 10300 12000 10600
+Wire Wire Line
+	12000 10600 12100 10600
+Wire Wire Line
+	12050 10300 12000 10300
+Wire Wire Line
+	12050 12500 12350 12500
+Wire Wire Line
+	12050 12750 12050 12500
+Wire Wire Line
+	12050 13750 12050 14150
+Wire Wire Line
+	12050 14150 12350 14150
+Wire Wire Line
+	12100 2750 12000 2750
+Wire Wire Line
+	12350 12500 12800 12500
+Wire Wire Line
+	12350 13150 12350 12500
+Wire Wire Line
+	12350 13450 12350 14150
+Wire Wire Line
+	12350 14150 12800 14150
+Wire Wire Line
+	12350 15300 13150 15300
+Wire Wire Line
+	12400 3300 12400 4550
+Wire Wire Line
+	12400 4550 12650 4550
+Wire Wire Line
+	12750 1650 13100 1650
+Wire Wire Line
+	12800 12500 13100 12500
+Wire Wire Line
+	12800 12750 12800 12500
+Wire Wire Line
+	12800 13750 12800 14150
+Wire Wire Line
+	12800 14150 13100 14150
+Wire Wire Line
+	13000 9050 13450 9050
+Wire Wire Line
+	13100 1450 11850 1450
+Wire Wire Line
+	13100 12500 13550 12500
+Wire Wire Line
+	13100 13150 13100 12500
+Wire Wire Line
+	13100 13450 13100 14150
+Wire Wire Line
+	13100 14150 13550 14150
+Wire Wire Line
+	13150 15300 13850 15300
+Wire Wire Line
+	13250 4550 14000 4550
+Wire Wire Line
+	13300 2850 13750 2850
+Wire Wire Line
+	13350 5200 13350 5350
+Wire Wire Line
+	13350 6200 13350 5950
+Wire Wire Line
+	13350 7200 13350 10150
+Wire Wire Line
+	13350 10150 15250 10150
+Wire Wire Line
+	13450 9050 13550 9050
+Wire Wire Line
+	13450 10900 13450 9050
+Wire Wire Line
+	13500 6400 14000 6400
+Wire Wire Line
+	13500 7850 13500 8850
+Wire Wire Line
+	13500 8850 13550 8850
+Wire Wire Line
+	13550 12500 13550 12750
+Wire Wire Line
+	13550 12500 14300 12500
+Wire Wire Line
+	13550 14150 13550 13750
+Wire Wire Line
+	13550 14150 14300 14150
+Wire Wire Line
+	13650 3100 13900 3100
+Wire Wire Line
+	13650 7450 13650 7850
+Wire Wire Line
+	13650 7850 13500 7850
+Wire Wire Line
+	13650 7850 13800 7850
+Wire Wire Line
+	13700 1550 13850 1550
+Wire Wire Line
+	13700 7200 13350 7200
+Wire Wire Line
+	13700 7200 13800 7200
+Wire Wire Line
+	13700 7600 13700 7200
+Wire Wire Line
+	13750 2850 13750 2950
+Wire Wire Line
+	13750 2950 13750 3700
+Wire Wire Line
+	13750 3700 14000 3700
+Wire Wire Line
+	13800 4950 11550 4950
+Wire Wire Line
+	13800 4950 13800 6300
+Wire Wire Line
+	13850 1450 13850 1550
+Wire Wire Line
+	13850 1550 13850 1650
+Wire Wire Line
+	13850 1650 13950 1650
+Wire Wire Line
+	13900 2850 14150 2850
+Wire Wire Line
+	13900 3100 13900 2850
+Wire Wire Line
+	13900 3100 13900 3500
+Wire Wire Line
+	13900 3500 14000 3500
+Wire Wire Line
+	13950 1450 13850 1450
+Wire Wire Line
+	14000 4350 13800 4350
+Wire Wire Line
+	14000 5200 13350 5200
+Wire Wire Line
+	14000 6200 13350 6200
+Wire Wire Line
+	14000 6300 13800 6300
+Wire Wire Line
+	14100 2300 15350 2300
+Wire Wire Line
+	14150 2600 13650 2600
+Wire Wire Line
+	14150 2750 14150 2600
+Wire Wire Line
+	14150 2950 13750 2950
+Wire Wire Line
+	14150 8950 14200 8950
+Wire Wire Line
+	14200 8850 14200 8950
+Wire Wire Line
+	14200 8950 14200 9050
+Wire Wire Line
+	14200 9050 14250 9050
+Wire Wire Line
+	14250 8850 14200 8850
+Wire Wire Line
+	14300 6600 14300 6700
+Wire Wire Line
+	14300 6700 14050 6700
+Wire Wire Line
+	14300 12500 15100 12500
+Wire Wire Line
+	14300 12800 14300 12500
+Wire Wire Line
+	14300 13600 14300 14150
+Wire Wire Line
+	14300 14150 15100 14150
+Wire Wire Line
+	14400 7100 15700 7100
+Wire Wire Line
+	14400 7300 14400 7450
+Wire Wire Line
+	14400 7450 13650 7450
+Wire Wire Line
+	14400 7600 13700 7600
+Wire Wire Line
+	14400 7750 14400 7600
+Wire Wire Line
+	14400 7950 14550 7950
+Wire Wire Line
+	14450 9650 14450 9800
+Wire Wire Line
+	14450 9800 14550 9800
+Wire Wire Line
+	14600 3600 14700 3600
+Wire Wire Line
+	14600 4450 15400 4450
+Wire Wire Line
+	14600 5300 15200 5300
+Wire Wire Line
+	14600 6400 15500 6400
+Wire Wire Line
+	14850 8950 15250 8950
+Wire Wire Line
+	14850 9800 15000 9800
+Wire Wire Line
+	15000 2850 14750 2850
+Wire Wire Line
+	15000 3200 15000 2850
+Wire Wire Line
+	15000 3200 15000 3550
+Wire Wire Line
+	15000 3550 15000 3850
+Wire Wire Line
+	15000 3550 15400 3550
+Wire Wire Line
+	15000 3850 16650 3850
+Wire Wire Line
+	15000 9150 15000 9800
+Wire Wire Line
+	15000 9800 15000 10350
+Wire Wire Line
+	15000 10350 15250 10350
+Wire Wire Line
+	15050 4950 13800 4950
+Wire Wire Line
+	15050 5100 14600 5100
+Wire Wire Line
+	15050 5100 15050 4950
+Wire Wire Line
+	15100 9050 15100 10250
+Wire Wire Line
+	15100 9050 15250 9050
+Wire Wire Line
+	15100 10250 15100 10600
+Wire Wire Line
+	15100 10250 15250 10250
+Wire Wire Line
+	15100 10600 14900 10600
+Wire Wire Line
+	15100 12500 15850 12500
+Wire Wire Line
+	15100 12700 15100 12500
+Wire Wire Line
+	15100 13700 15100 14150
+Wire Wire Line
+	15100 14150 15850 14150
+Wire Wire Line
+	15150 7850 15200 7850
+Wire Wire Line
+	15200 1750 15400 1750
+Wire Wire Line
+	15200 2100 15200 1750
+Wire Wire Line
+	15200 2100 15200 3050
+Wire Wire Line
+	15200 3050 15200 3750
+Wire Wire Line
+	15200 3050 15400 3050
+Wire Wire Line
+	15200 3750 15200 5300
+Wire Wire Line
+	15200 3750 15400 3750
+Wire Wire Line
+	15200 5300 15200 6200
+Wire Wire Line
+	15200 6200 14600 6200
+Wire Wire Line
+	15200 7850 15200 7950
+Wire Wire Line
+	15200 7950 15200 8050
+Wire Wire Line
+	15200 7950 15300 7950
+Wire Wire Line
+	15200 8050 15150 8050
+Wire Wire Line
+	15250 9150 15000 9150
+Wire Wire Line
+	15350 2300 15400 2300
+Wire Wire Line
+	15350 2550 15350 2300
+Wire Wire Line
+	15400 1550 14550 1550
+Wire Wire Line
+	15400 2100 15200 2100
+Wire Wire Line
+	15400 2850 15000 2850
+Wire Wire Line
+	15400 4350 15400 4450
+Wire Wire Line
+	15400 4450 15400 4550
+Wire Wire Line
+	15500 5650 16450 5650
+Wire Wire Line
+	15500 6400 15500 5650
+Wire Wire Line
+	15550 9350 15550 9400
+Wire Wire Line
+	15550 9400 15650 9400
+Wire Wire Line
+	15550 10550 15550 10650
+Wire Wire Line
+	15550 10650 15650 10650
+Wire Wire Line
+	15850 8950 15950 8950
+Wire Wire Line
+	15850 9150 15950 9150
+Wire Wire Line
+	15850 12500 16650 12500
+Wire Wire Line
+	15850 12800 15850 12500
+Wire Wire Line
+	15850 13600 15850 14150
+Wire Wire Line
+	15850 14150 16650 14150
+Wire Wire Line
+	15900 7850 16400 7850
+Wire Wire Line
+	15900 8050 15950 8050
+Wire Wire Line
+	16000 1650 19500 1650
+Wire Wire Line
+	16000 2200 18000 2200
+Wire Wire Line
+	16000 2950 18000 2950
+Wire Wire Line
+	16000 3650 18000 3650
+Wire Wire Line
+	16000 4450 16650 4450
+Wire Wire Line
+	16300 7050 16700 7050
+Wire Wire Line
+	16300 7150 16850 7150
+Wire Wire Line
+	16300 7250 16400 7250
+Wire Wire Line
+	16400 7850 16400 9200
+Wire Wire Line
+	16400 9200 16400 9900
+Wire Wire Line
+	16400 9900 16400 10350
+Wire Wire Line
+	16400 10350 15850 10350
+Wire Wire Line
+	16400 10350 16500 10350
+Wire Wire Line
+	16450 2750 16450 3400
+Wire Wire Line
+	16450 3400 16450 4050
+Wire Wire Line
+	16450 3400 16650 3400
+Wire Wire Line
+	16450 4050 16450 4650
+Wire Wire Line
+	16450 4650 16450 5300
+Wire Wire Line
+	16450 5300 16650 5300
+Wire Wire Line
+	16450 5650 16450 5300
+Wire Wire Line
+	16650 2550 15350 2550
+Wire Wire Line
+	16650 2750 16450 2750
+Wire Wire Line
+	16650 3200 15000 3200
+Wire Wire Line
+	16650 4050 16450 4050
+Wire Wire Line
+	16650 4650 16450 4650
+Wire Wire Line
+	16650 5100 15050 5100
+Wire Wire Line
+	16650 9900 16400 9900
+Wire Wire Line
+	16650 12500 17450 12500
+Wire Wire Line
+	16650 12700 16650 12500
+Wire Wire Line
+	16650 13700 16650 14150
+Wire Wire Line
+	16650 14150 17450 14150
+Wire Wire Line
+	16700 7050 16700 7500
+Wire Wire Line
+	16700 7500 16900 7500
+Wire Wire Line
+	16900 6950 16300 6950
+Wire Wire Line
+	17250 3950 17600 3950
+Wire Wire Line
+	17250 4550 17600 4550
+Wire Wire Line
+	17250 5200 17600 5200
+Wire Wire Line
+	17300 7750 17300 8100
+Wire Wire Line
+	17300 8100 17300 8200
+Wire Wire Line
+	17300 8100 19550 8100
+Wire Wire Line
+	17300 8800 17300 8900
+Wire Wire Line
+	17300 8900 18950 8900
+Wire Wire Line
+	17350 9400 17350 10900
+Wire Wire Line
+	17350 10900 13450 10900
+Wire Wire Line
+	17350 10900 18000 10900
+Wire Wire Line
+	17450 12500 18150 12500
+Wire Wire Line
+	17450 12700 17450 12500
+Wire Wire Line
+	17450 13700 17450 14150
+Wire Wire Line
+	17450 14150 18150 14150
+Wire Wire Line
+	17500 6950 17550 6950
+Wire Wire Line
+	17500 7500 19400 7500
+Wire Wire Line
+	17600 2650 17250 2650
+Wire Wire Line
+	17600 3300 17250 3300
+Wire Wire Line
+	17700 9300 17500 9300
+Wire Wire Line
+	17700 9900 17700 9300
+Wire Wire Line
+	17850 5850 17750 5850
+Wire Wire Line
+	17850 6050 17750 6050
+Wire Wire Line
+	17850 10350 18950 10350
+Wire Wire Line
+	17850 10700 17850 10350
+Wire Wire Line
+	17850 10700 18000 10700
+Wire Wire Line
+	17850 10800 17850 10700
+Wire Wire Line
+	18000 9200 16400 9200
+Wire Wire Line
+	18000 9300 17700 9300
+Wire Wire Line
+	18000 9400 17350 9400
+Wire Wire Line
+	18000 9900 17700 9900
+Wire Wire Line
+	18000 10800 17850 10800
+Wire Wire Line
+	18150 6900 18150 7850
+Wire Wire Line
+	18150 7850 18600 7850
+Wire Wire Line
+	18150 12500 18950 12500
+Wire Wire Line
+	18150 12700 18150 12500
+Wire Wire Line
+	18150 13700 18150 14150
+Wire Wire Line
+	18150 14150 18950 14150
+Wire Wire Line
+	18200 2650 19500 2650
+Wire Wire Line
+	18200 3300 19500 3300
+Wire Wire Line
+	18200 3950 19500 3950
+Wire Wire Line
+	18200 4550 19500 4550
+Wire Wire Line
+	18200 5200 18300 5200
+Wire Wire Line
+	18500 6900 18150 6900
+Wire Wire Line
+	18500 7650 18600 7650
+Wire Wire Line
+	18600 2200 19500 2200
+Wire Wire Line
+	18600 2950 19500 2950
+Wire Wire Line
+	18600 3650 19500 3650
+Wire Wire Line
+	18600 7750 17300 7750
+Wire Wire Line
+	18600 9300 18950 9300
+Wire Wire Line
+	18600 9900 19500 9900
+Wire Wire Line
+	18600 10800 18700 10800
+Wire Wire Line
+	18700 5850 18750 5850
+Wire Wire Line
+	18700 5950 18450 5950
+Wire Wire Line
+	18700 5950 18700 5850
+Wire Wire Line
+	18700 6050 18700 5950
+Wire Wire Line
+	18700 10800 18700 11500
+Wire Wire Line
+	18700 10800 18850 10800
+Wire Wire Line
+	18700 11500 19250 11500
+Wire Wire Line
+	18750 6050 18700 6050
+Wire Wire Line
+	18950 8900 19550 8900
+Wire Wire Line
+	18950 9300 18950 8900
+Wire Wire Line
+	18950 10350 18950 9300
+Wire Wire Line
+	18950 12500 19700 12500
+Wire Wire Line
+	18950 12700 18950 12500
+Wire Wire Line
+	18950 13700 18950 14150
+Wire Wire Line
+	18950 14150 19700 14150
+Wire Wire Line
+	19100 6900 19550 6900
+Wire Wire Line
+	19150 11300 19250 11300
+Wire Wire Line
+	19200 7750 19400 7750
+Wire Wire Line
+	19350 5950 19450 5950
+Wire Wire Line
+	19400 7500 19400 7750
+Wire Wire Line
+	19400 7750 19550 7750
+Wire Wire Line
+	19450 10800 20150 10800
+Wire Wire Line
+	19700 12500 20450 12500
+Wire Wire Line
+	19700 12700 19700 12500
+Wire Wire Line
+	19700 13700 19700 14150
+Wire Wire Line
+	19700 14150 20450 14150
+Wire Wire Line
+	19850 11400 20150 11400
+Wire Wire Line
+	20450 12500 21250 12500
+Wire Wire Line
+	20450 12650 20450 12500
+Wire Wire Line
+	20450 13650 20450 14150
+Wire Wire Line
+	20450 14150 21250 14150
+Wire Wire Line
+	21250 12500 21250 12650
+Wire Wire Line
+	21250 14150 21250 13650
+Wire Notes Line
+	700  10850 700  15900
+Wire Notes Line
+	700  15900 6250 15900
+Wire Notes Line
+	750  10900 6200 10900
+Wire Notes Line
+	750  11100 6200 11100
+Wire Notes Line
+	750  11300 6200 11300
+Wire Notes Line
+	750  11500 6200 11500
+Wire Notes Line
+	750  11700 6200 11700
+Wire Notes Line
+	750  11900 6250 11900
+Wire Notes Line
+	750  12100 6200 12100
+Wire Notes Line
+	750  12300 6200 12300
+Wire Notes Line
+	750  12500 6200 12500
+Wire Notes Line
+	750  12700 6200 12700
+Wire Notes Line
+	750  12900 6200 12900
+Wire Notes Line
+	750  13100 6200 13100
+Wire Notes Line
+	750  13300 6200 13300
+Wire Notes Line
+	750  13500 6200 13500
+Wire Notes Line
+	750  13700 6200 13700
+Wire Notes Line
+	750  13900 6200 13900
+Wire Notes Line
+	750  14100 6200 14100
+Wire Notes Line
+	750  14300 6200 14300
+Wire Notes Line
+	750  14500 6200 14500
+Wire Notes Line
+	750  14700 6200 14700
+Wire Notes Line
+	750  14900 6200 14900
+Wire Notes Line
+	750  15100 6200 15100
+Wire Notes Line
+	750  15300 6200 15300
+Wire Notes Line
+	750  15500 6200 15500
+Wire Notes Line
+	750  15700 6200 15700
+Wire Notes Line
+	750  15850 750  10900
+Wire Notes Line
+	750  15850 6200 15850
+Wire Notes Line
+	1350 10900 1350 15850
+Wire Notes Line
+	3450 10900 3450 15850
+Wire Notes Line
+	6200 10900 6200 15850
+Wire Notes Line
+	6200 11150 750  11150
+Wire Notes Line
+	6250 10850 700  10850
+Wire Notes Line
+	6250 10850 6250 15900
+Wire Notes Line
+	9250 9550 9250 12000
+Wire Notes Line
+	9250 12000 12650 12000
+Wire Notes Line
+	12650 9550 9250 9550
+Wire Notes Line
+	12650 12000 12650 9550
+Text Notes 800  11050 0    98   ~ 0
+RefDes
+Text Notes 900  13100 0    98   ~ 0
+U10
+Text Notes 900  13300 0    98   ~ 0
+U11
+Text Notes 900  13500 0    98   ~ 0
+U12
+Text Notes 900  13700 0    98   ~ 0
+U13
+Text Notes 900  13900 0    98   ~ 0
+U14
+Text Notes 900  14100 0    98   ~ 0
+U15
+Text Notes 900  14300 0    98   ~ 0
+U16
+Text Notes 900  14500 0    98   ~ 0
+U17
+Text Notes 900  14700 0    98   ~ 0
+U18
+Text Notes 900  14900 0    98   ~ 0
+U19
+Text Notes 900  15100 0    98   ~ 0
+U20
+Text Notes 900  15300 0    98   ~ 0
+U21
+Text Notes 900  15500 0    98   ~ 0
+Q1
+Text Notes 950  11300 0    98   ~ 0
+U1\n
+Text Notes 950  11500 0    98   ~ 0
+U2
+Text Notes 950  11700 0    98   ~ 0
+U3\n
+Text Notes 950  11900 0    98   ~ 0
+U4
+Text Notes 950  12100 0    98   ~ 0
+U5
+Text Notes 950  12300 0    98   ~ 0
+U6
+Text Notes 950  12500 0    98   ~ 0
+U7
+Text Notes 950  12700 0    98   ~ 0
+U8
+Text Notes 950  12900 0    98   ~ 0
+U9
+Text Notes 1450 15500 0    98   ~ 0
+BC548
+Text Notes 1500 11050 0    98   ~ 0
+Part No
+Text Notes 1500 11300 0    98   ~ 0
+74LS20
+Text Notes 1500 11500 0    98   ~ 0
+7400
+Text Notes 1500 11700 0    98   ~ 0
+7404\n
+Text Notes 1500 11900 0    98   ~ 0
+7410
+Text Notes 1500 12100 0    98   ~ 0
+9316\n
+Text Notes 1500 12300 0    98   ~ 0
+7413\n
+Text Notes 1500 12500 0    98   ~ 0
+7400\n
+Text Notes 1500 12700 0    98   ~ 0
+7400
+Text Notes 1500 12900 0    98   ~ 0
+7400
+Text Notes 1500 13100 0    98   ~ 0
+7400
+Text Notes 1500 13300 0    98   ~ 0
+9311
+Text Notes 1500 13500 0    98   ~ 0
+7473
+Text Notes 1500 13700 0    98   ~ 0
+7400
+Text Notes 1500 13900 0    98   ~ 0
+7473
+Text Notes 1500 14100 0    98   ~ 0
+7404
+Text Notes 1500 14300 0    98   ~ 0
+7400
+Text Notes 1500 14500 0    98   ~ 0
+7404
+Text Notes 1500 14700 0    98   ~ 0
+7400
+Text Notes 1500 14900 0    98   ~ 0
+7410
+Text Notes 1500 15100 0    98   ~ 0
+7404
+Text Notes 1500 15300 0    98   ~ 0
+7400
+Text Notes 1700 10750 0    50   ~ 0
+Gate\n
+Text Notes 2550 11050 0    98   ~ 0
+Substitute\n
+Text Notes 2550 15500 0    98   ~ 0
+BC108
+Text Notes 2600 12100 0    98   ~ 0
+74161
+Text Notes 2600 13300 0    98   ~ 0
+74154
+Text Notes 3450 12100 0    98   ~ 0
+4Bit binary counter with ripple carry
+Text Notes 3500 12300 0    98   ~ 0
+Dual 4 input NAND, open collector
+Text Notes 3700 13500 0    98   ~ 0
+Dual J/K flip flow with clear
+Text Notes 3900 13300 0    98   ~ 0
+1 of 16 binary decoder
+Text Notes 3900 15500 0    98   ~ 0
+NPN signal transistor\n
+Text Notes 3950 11300 0    98   ~ 0
+Dual 4 input NAND
+Text Notes 3950 11500 0    98   ~ 0
+Quad 2 input NAND
+Text Notes 3950 11700 0    98   ~ 0
+Hex Inverter\n
+Text Notes 3950 11900 0    98   ~ 0
+Triple 3 input NAND
+Text Notes 4250 11050 0    98   ~ 0
+Description
+Text Notes 4550 4250 0    50   ~ 0
+RUN\nCONTROL
+Text Notes 4600 12500 0    98   ~ 0
+“
+Text Notes 4600 12700 0    98   ~ 0
+“
+Text Notes 4600 12900 0    98   ~ 0
+“
+Text Notes 4600 13100 0    98   ~ 0
+“
+Text Notes 4600 13700 0    98   ~ 0
+“
+Text Notes 4600 13900 0    98   ~ 0
+“
+Text Notes 5600 3450 0    50   ~ 0
+MAIN \nGATE\n
+Text Notes 10450 11900 0    87   ~ 0
+RESET \nGENERATOR
+Text Notes 11350 5500 0    50   ~ 0
+** SPARE GATE U10A 
+Text Notes 11650 4100 0    50   ~ 0
+***
+Text Notes 15400 8600 0    50   ~ 0
+EXECUTE \nCONTROL
+Text Notes 15400 9800 0    50   ~ 0
+DEFER \nCONTROL
+Text Notes 16100 8900 0    50   ~ 0
+*
+Text Label 1900 3650 0    50   ~ 0
+7
+Text Label 7400 4700 0    50   ~ 0
+1_GND
+Text Label 7400 4800 0    50   ~ 0
+2_+5V
+Text Label 7450 7200 0    50   ~ 0
+26
+Text Label 7450 7300 0    50   ~ 0
+27
+Text Label 7450 7400 0    50   ~ 0
+28
+Text Label 7450 7600 0    50   ~ 0
+30
+Text Label 7450 7700 0    50   ~ 0
+31
+Text Label 7450 7800 0    50   ~ 0
+32
+Text Label 7450 7900 0    50   ~ 0
+33
+Text Label 7450 8000 0    50   ~ 0
+34
+Text Label 7500 7500 0    50   ~ 0
+29
+Text Label 7550 4900 0    50   ~ 0
+3
+Text Label 7550 5000 0    50   ~ 0
+4
+Text Label 7550 5100 0    50   ~ 0
+5
+Text Label 7550 5200 0    50   ~ 0
+6
+Text Label 7550 5300 0    50   ~ 0
+7
+Text Label 7550 5400 0    50   ~ 0
+8
+Text Label 7550 5500 0    50   ~ 0
+9
+Text Label 7550 5600 0    50   ~ 0
+10
+Text Label 7550 5700 0    50   ~ 0
+11
+Text Label 7550 5800 0    50   ~ 0
+12
+Text Label 7550 5900 0    50   ~ 0
+13
+Text Label 7550 6000 0    50   ~ 0
+14
+Text Label 7550 6100 0    50   ~ 0
+15
+Text Label 7550 6200 0    50   ~ 0
+16
+Text Label 7550 6300 0    50   ~ 0
+17
+Text Label 7550 6400 0    50   ~ 0
+18
+Text Label 7550 6500 0    50   ~ 0
+19
+Text Label 7550 6600 0    50   ~ 0
+20
+Text Label 7550 6700 0    50   ~ 0
+21
+Text Label 7550 6800 0    50   ~ 0
+22
+Text Label 7550 6900 0    50   ~ 0
+23
+Text Label 7550 7000 0    50   ~ 0
+24
+Text Label 7550 7100 0    50   ~ 0
+25
+Text Label 19250 1650 0    50   ~ 0
+~{T0.5}
+Text Label 19250 2200 0    50   ~ 0
+T1
+Text Label 19250 2650 0    50   ~ 0
+T13
+Text GLabel 1750 7400 0    50   Output ~ 0
+~{CANCEL+DEP+EXM}
+Text GLabel 1800 3650 0    50   Input ~ 0
+FAST_SLOW
+Text GLabel 2400 4500 0    50   Input ~ 0
+~{RUN_COMMAND}
+Text GLabel 2500 7300 2    50   Input ~ 0
+~{RUN}
+Text GLabel 3100 7000 2    50   Input ~ 0
+~{RST}
+Text GLabel 3150 8400 0    50   Input ~ 0
+~{DEP+EXM}
+Text GLabel 3300 9050 0    50   Input ~ 0
+HLT_COMMAND
+Text GLabel 3600 7400 2    50   Input ~ 0
+T23.5
+Text GLabel 4000 9050 2    50   Input ~ 0
+EXEC_Q
+Text GLabel 4350 4700 0    50   Input ~ 0
+CLK
+Text GLabel 5000 5100 2    50   Input ~ 0
+~{RST}
+Text GLabel 5200 4800 2    50   Output ~ 0
+~{RUN}
+Text GLabel 5300 2550 2    50   Output ~ 0
+CLK
+Text GLabel 6500 4700 0    50   Input ~ 0
+GND
+Text GLabel 6500 4900 0    50   Input ~ 0
+T22.5
+Text GLabel 6500 5100 0    50   Input ~ 0
+HLT_COMMAND
+Text GLabel 6700 6300 0    50   Input ~ 0
+~{CANCEL+DEP+EXM}
+Text GLabel 6750 6500 0    50   Input ~ 0
+~{T2-9(F+D+E})
+Text GLabel 6800 5300 0    50   Input ~ 0
+FAST_SLOW
+Text GLabel 6900 7400 0    50   Input ~ 0
+~{FETCH}
+Text GLabel 6900 7600 0    50   Input ~ 0
+~{EXEC}
+Text GLabel 6950 4800 0    50   Input ~ 0
++5V
+Text GLabel 7050 5500 0    50   Input ~ 0
+~{T0+T12}
+Text GLabel 7050 5700 0    50   Input ~ 0
+MCPB
+Text GLabel 7050 5900 0    50   Input ~ 0
+MCPA
+Text GLabel 7050 6100 0    50   Input ~ 0
+T2.9_1
+Text GLabel 7050 6700 0    50   Input ~ 0
+FETCH
+Text GLabel 7050 6900 0    50   Input ~ 0
+EXECUTE
+Text GLabel 7200 3600 2    50   Output ~ 0
+MCPA
+Text GLabel 7200 4100 2    50   Output ~ 0
+MCPB
+Text GLabel 7300 7300 0    50   Input ~ 0
+~{RUN}
+Text GLabel 7300 7700 0    50   Input ~ 0
+MB4
+Text GLabel 7350 5000 0    50   Input ~ 0
+~{RUN_COMMAND}
+Text GLabel 7350 5200 0    50   Input ~ 0
+~{DEP+EXM}
+Text GLabel 7350 5400 0    50   Input ~ 0
+~{T0.5}
+Text GLabel 7350 5600 0    50   Input ~ 0
+T14-21_1
+Text GLabel 7350 5800 0    50   Input ~ 0
+T14-21_2
+Text GLabel 7350 6000 0    50   Input ~ 0
+T13
+Text GLabel 7350 6200 0    50   Input ~ 0
+T1
+Text GLabel 7350 6400 0    50   Input ~ 0
+~{F.T23.OPR+IOT}
+Text GLabel 7350 6600 0    50   Input ~ 0
+OPR+IOT
+Text GLabel 7350 7000 0    50   Input ~ 0
+~{F+DEP+EXM}
+Text GLabel 7350 7500 0    50   Input ~ 0
+~{DEFER}
+Text GLabel 8050 3300 0    50   Input ~ 0
+~{RST}
+Text GLabel 9100 7000 2    50   Output ~ 0
++5V
+Text GLabel 9100 7350 2    50   Output ~ 0
+GND
+Text GLabel 12100 10600 2    50   Output ~ 0
+~{RST}
+Text GLabel 12750 1650 0    50   Input ~ 0
+MCPA
+Text GLabel 13000 9050 0    50   Input ~ 0
+~{DEP+EXM}
+Text GLabel 13500 6400 0    50   Input ~ 0
+T23
+Text GLabel 13800 4350 0    50   Input ~ 0
+MCPA
+Text GLabel 14050 6700 0    50   Input ~ 0
+~{RST}
+Text GLabel 14900 10600 0    50   Input ~ 0
+T23.5
+Text GLabel 15650 9400 2    50   Input ~ 0
+~{RST}
+Text GLabel 15650 10650 2    50   Input ~ 0
+~{RST}
+Text GLabel 15950 8050 2    50   Input ~ 0
+~{RST}
+Text GLabel 15950 8950 2    50   Output ~ 0
+EXEC_Q
+Text GLabel 15950 9150 2    50   Output ~ 0
+~{EXEC}
+Text GLabel 16400 7250 2    50   Input ~ 0
+MB4
+Text GLabel 16650 9900 2    50   Output ~ 0
+~{DEFER}
+Text GLabel 16850 7150 2    50   Input ~ 0
+~{T0+T12}
+Text GLabel 17500 9300 0    50   Input ~ 0
+~{EXEC}
+Text GLabel 17550 6950 2    50   Input ~ 0
+T23.5
+Text GLabel 17750 5850 0    50   Input ~ 0
+T23
+Text GLabel 17750 6050 0    50   Input ~ 0
+MCPB
+Text GLabel 18300 5200 2    50   Output ~ 0
+T23
+Text GLabel 18500 7650 0    50   Input ~ 0
+T23
+Text GLabel 19150 11300 0    50   Input ~ 0
+T2.9_2
+Text GLabel 19400 1100 2    50   Output ~ 0
+~{T0+T12}
+Text GLabel 19450 5950 2    50   Output ~ 0
+T23.5
+Text GLabel 19500 1650 2    50   Output ~ 0
+~{T0.5}
+Text GLabel 19500 2200 2    50   Output ~ 0
+T1
+Text GLabel 19500 2650 2    50   Output ~ 0
+T13
+Text GLabel 19500 2950 2    50   Output ~ 0
+T2.9_1
+Text GLabel 19500 3300 2    50   Output ~ 0
+T14-21_1
+Text GLabel 19500 3650 2    50   Output ~ 0
+T2.9_2
+Text GLabel 19500 3950 2    50   Output ~ 0
+T14-21_2
+Text GLabel 19500 4550 2    50   Output ~ 0
+T22.5
+Text GLabel 19500 9900 2    50   Output ~ 0
+EXECUTE
+Text GLabel 19550 6900 2    50   Input ~ 0
+OPR+IOT
+Text GLabel 19550 7750 2    50   Output ~ 0
+~{F.T23.OPR+IOT}
+Text GLabel 19550 8100 2    50   Output ~ 0
+FETCH
+Text GLabel 19550 8900 2    50   Output ~ 0
+~{FETCH}
+Text GLabel 20150 10800 2    50   Output ~ 0
+~{F+DEP+EXM}
+Text GLabel 20150 11400 2    50   Output ~ 0
+~{T2-9(F+D+E})
+$Comp
+L power:+5V #PWR0107
+U 1 1 5DCEA59D
+P 2500 1400
+F 0 "#PWR0107" H 2500 1250 50  0001 C CNN
+F 1 "+5V" H 2515 1573 50  0000 C CNN
+F 2 "" H 2500 1400 50  0001 C CNN
+F 3 "" H 2500 1400 50  0001 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5E40BA89
+P 7450 2400
+F 0 "#PWR0112" H 7450 2250 50  0001 C CNN
+F 1 "+5V" H 7465 2573 50  0000 C CNN
+F 2 "" H 7450 2400 50  0001 C CNN
+F 3 "" H 7450 2400 50  0001 C CNN
+	1    7450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5FACFFF9
+P 8650 1900
+F 0 "#PWR0116" H 8650 1750 50  0001 C CNN
+F 1 "+5V" H 8665 2073 50  0000 C CNN
+F 2 "" H 8650 1900 50  0001 C CNN
+F 3 "" H 8650 1900 50  0001 C CNN
+	1    8650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5DAC5C53
+P 8800 6850
+F 0 "#PWR0106" H 8800 6700 50  0001 C CNN
+F 1 "+5V" H 8815 7023 50  0000 C CNN
+F 2 "" H 8800 6850 50  0001 C CNN
+F 3 "" H 8800 6850 50  0001 C CNN
+	1    8800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5D65E0F1
+P 10250 2100
+F 0 "#PWR0103" H 10250 1950 50  0001 C CNN
+F 1 "+5V" H 10265 2273 50  0000 C CNN
+F 2 "" H 10250 2100 50  0001 C CNN
+F 3 "" H 10250 2100 50  0001 C CNN
+	1    10250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 5FA5BDE4
+P 11200 9850
+F 0 "#PWR0115" H 11200 9700 50  0001 C CNN
+F 1 "+5V" H 11215 10023 50  0000 C CNN
+F 2 "" H 11200 9850 50  0001 C CNN
+F 3 "" H 11200 9850 50  0001 C CNN
+	1    11200 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 609FF8A6
+P 11450 12300
+F 0 "#PWR0119" H 11450 12150 50  0001 C CNN
+F 1 "+5V" H 11465 12473 50  0000 C CNN
+F 2 "" H 11450 12300 50  0001 C CNN
+F 3 "" H 11450 12300 50  0001 C CNN
+	1    11450 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 6131255C
+P 14450 9650
+F 0 "#PWR0120" H 14450 9500 50  0001 C CNN
+F 1 "+5V" H 14465 9823 50  0000 C CNN
+F 2 "" H 14450 9650 50  0001 C CNN
+F 3 "" H 14450 9650 50  0001 C CNN
+	1    14450 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 60D9368A
+P 5450 2350
+F 0 "J2" H 5422 2282 50  0000 R CNN
+F 1 "CLK" H 5422 2373 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 5450 2350 50  0001 C CNN
+F 3 "~" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 611303C6
+P 12250 10300
+F 0 "J3" H 12222 10226 50  0000 R CNN
+F 1 "~RST" H 12222 10324 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 12250 10300 50  0001 C CNN
+F 3 "~" H 12250 10300 50  0001 C CNN
+	1    12250 10300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5DCED867
+P 1700 3050
+F 0 "#PWR0109" H 1700 2800 50  0001 C CNN
+F 1 "GND" H 1705 2877 50  0000 C CNN
+F 2 "" H 1700 3050 50  0001 C CNN
+F 3 "" H 1700 3050 50  0001 C CNN
+	1    1700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DCEC216
+P 2500 3300
+F 0 "#PWR0108" H 2500 3050 50  0001 C CNN
+F 1 "GND" H 2505 3127 50  0000 C CNN
+F 2 "" H 2500 3300 50  0001 C CNN
+F 3 "" H 2500 3300 50  0001 C CNN
+	1    2500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E5295E8
+P 7300 8450
+F 0 "#PWR0113" H 7300 8200 50  0001 C CNN
+F 1 "GND" H 7305 8277 50  0000 C CNN
+F 2 "" H 7300 8450 50  0001 C CNN
+F 3 "" H 7300 8450 50  0001 C CNN
+	1    7300 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 613B9C98
+P 7850 2450
+F 0 "#PWR0121" H 7850 2200 50  0001 C CNN
+F 1 "GND" H 7855 2277 50  0000 C CNN
+F 2 "" H 7850 2450 50  0001 C CNN
+F 3 "" H 7850 2450 50  0001 C CNN
+	1    7850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5FAD2823
+P 8650 3700
+F 0 "#PWR0117" H 8650 3450 50  0001 C CNN
+F 1 "GND" H 8655 3527 50  0000 C CNN
+F 2 "" H 8650 3700 50  0001 C CNN
+F 3 "" H 8650 3700 50  0001 C CNN
+	1    8650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DAC49F2
+P 8800 7400
+F 0 "#PWR0105" H 8800 7150 50  0001 C CNN
+F 1 "GND" H 8805 7227 50  0000 C CNN
+F 2 "" H 8800 7400 50  0001 C CNN
+F 3 "" H 8800 7400 50  0001 C CNN
+	1    8800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D64EE4B
+P 9450 3100
+F 0 "#PWR0101" H 9450 2850 50  0001 C CNN
+F 1 "GND" H 9455 2927 50  0000 C CNN
+F 2 "" H 9450 3100 50  0001 C CNN
+F 3 "" H 9450 3100 50  0001 C CNN
+	1    9450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5FA59AA4
+P 9700 11400
+F 0 "#PWR0114" H 9700 11150 50  0001 C CNN
+F 1 "GND" H 9705 11227 50  0000 C CNN
+F 2 "" H 9700 11400 50  0001 C CNN
+F 3 "" H 9700 11400 50  0001 C CNN
+	1    9700 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D6463B7
+P 10250 3950
+F 0 "#PWR0102" H 10250 3700 50  0001 C CNN
+F 1 "GND" H 10100 3900 50  0000 C CNN
+F 2 "" H 10250 3950 50  0001 C CNN
+F 3 "" H 10250 3950 50  0001 C CNN
+	1    10250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 609FCA36
+P 11500 14300
+F 0 "#PWR0118" H 11500 14050 50  0001 C CNN
+F 1 "GND" H 11505 14127 50  0000 C CNN
+F 2 "" H 11500 14300 50  0001 C CNN
+F 3 "" H 11500 14300 50  0001 C CNN
+	1    11500 14300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 60EA660E
+P 13150 15300
+F 0 "#PWR0110" H 13150 15050 50  0001 C CNN
+F 1 "GND" H 13155 15127 50  0000 C CNN
+F 2 "" H 13150 15300 50  0001 C CNN
+F 3 "" H 13150 15300 50  0001 C CNN
+	1    13150 15300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DB1791B
+P 2500 3050
+F 0 "R2" H 2570 3096 50  0000 L CNN
+F 1 "470R" H 2570 3005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2430 3050 50  0001 C CNN
+F 3 "~" H 2500 3050 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DB18FCC
+P 3000 1800
+F 0 "R1" H 3070 1846 50  0000 L CNN
+F 1 "2k2" H 3070 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 2930 1800 50  0001 C CNN
+F 3 "~" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DD1E92E
+P 4000 2850
+F 0 "R3" H 4070 2896 50  0000 L CNN
+F 1 "10k" H 4070 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 3930 2850 50  0001 C CNN
+F 3 "~" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E40A012
+P 7450 2650
+F 0 "R4" H 7520 2696 50  0000 L CNN
+F 1 "2K2" H 7520 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 7380 2650 50  0001 C CNN
+F 3 "~" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F8460C2
+P 9550 11050
+F 0 "R5" H 9300 11100 50  0000 L CNN
+F 1 "100K" H 9250 11000 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9480 11050 50  0001 C CNN
+F 3 "~" H 9550 11050 50  0001 C CNN
+	1    9550 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F84887B
+P 11200 10200
+F 0 "R6" H 11270 10246 50  0000 L CNN
+F 1 "2k2" H 11270 10155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 11130 10200 50  0001 C CNN
+F 3 "~" H 11200 10200 50  0001 C CNN
+	1    11200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6130CCD9
+P 14700 9800
+F 0 "R7" V 14493 9800 50  0000 C CNN
+F 1 "2k2" V 14584 9800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 14630 9800 50  0001 C CNN
+F 3 "~" H 14700 9800 50  0001 C CNN
+	1    14700 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DB1604E
+P 1700 2750
+F 0 "C1" H 1815 2796 50  0000 L CNN
+F 1 "220pF" H 1815 2705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1738 2600 50  0001 C CNN
+F 3 "~" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60D1C8F7
+P 7750 13350
+F 0 "C3" H 7750 13450 50  0000 L CNN
+F 1 "47nF" H 7800 13200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 7788 13200 50  0001 C CNN
+F 3 "~" H 7750 13350 50  0001 C CNN
+	1    7750 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60D1F4CC
+P 8500 13350
+F 0 "C4" H 8500 13450 50  0000 L CNN
+F 1 "47nF" H 8615 13305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 8538 13200 50  0001 C CNN
+F 3 "~" H 8500 13350 50  0001 C CNN
+	1    8500 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60D21F9F
+P 9250 13350
+F 0 "C5" H 9250 13450 50  0000 L CNN
+F 1 "47nF" H 9365 13305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9288 13200 50  0001 C CNN
+F 3 "~" H 9250 13350 50  0001 C CNN
+	1    9250 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L educ-8-timing--rescue:CP-Device C2
+U 1 1 5F843005
+P 9900 11050
+F 0 "C2" H 10018 11096 50  0000 L CNN
+F 1 "47uF" H 10018 11005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9938 10900 50  0001 C CNN
+F 3 "~" H 9900 11050 50  0001 C CNN
+	1    9900 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60D24CC3
+P 10150 13350
+F 0 "C6" H 10150 13450 50  0000 L CNN
+F 1 "1uF" H 10265 13305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 10188 13200 50  0001 C CNN
+F 3 "~" H 10150 13350 50  0001 C CNN
+	1    10150 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60D27B80
+P 10850 13350
+F 0 "C7" H 10965 13396 50  0000 L CNN
+F 1 "47nF" H 10965 13305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 10888 13200 50  0001 C CNN
+F 3 "~" H 10850 13350 50  0001 C CNN
+	1    10850 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60D2A7D7
+P 11600 13300
+F 0 "C8" H 11715 13346 50  0000 L CNN
+F 1 "47nF" H 11715 13255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 11638 13150 50  0001 C CNN
+F 3 "~" H 11600 13300 50  0001 C CNN
+	1    11600 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 60D2D166
+P 12350 13300
+F 0 "C9" H 12465 13346 50  0000 L CNN
+F 1 "1uF" H 12465 13255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 12388 13150 50  0001 C CNN
+F 3 "~" H 12350 13300 50  0001 C CNN
+	1    12350 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 60D2FC32
+P 13100 13300
+F 0 "C10" H 13215 13346 50  0000 L CNN
+F 1 "47nF" H 13215 13255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 13138 13150 50  0001 C CNN
+F 3 "~" H 13100 13300 50  0001 C CNN
+	1    13100 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC108 Q1
+U 1 1 5DB14319
+P 2400 2450
+F 0 "Q1" H 2591 2496 50  0000 L CNN
+F 1 "BC108" H 2591 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-18-3" H 2600 2375 50  0001 L CIN
+F 3 "http://www.b-kainka.de/Daten/Transistor/BC108.pdf" H 2400 2450 50  0001 L CNN
+	1    2400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U21
+U 3 1 5F4E8FBA
+P 2150 7400
+F 0 "U21" H 2150 7725 50  0000 C CNN
+F 1 "7400" H 2150 7634 50  0000 C CNN
+F 2 "" H 2150 7400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 2150 7400 50  0001 C CNN
+	3    2150 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U18
+U 3 1 5F231F33
+P 2850 5850
+F 0 "U18" V 2896 5670 50  0000 R CNN
+F 1 "7400" V 2805 5670 50  0000 R CNN
+F 2 "" H 2850 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 2850 5850 50  0001 C CNN
+	3    2850 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:7400 U18
+U 4 1 5F23AA61
+P 2850 6600
+F 0 "U18" V 2896 6420 50  0000 R CNN
+F 1 "7400" V 2805 6420 50  0000 R CNN
+F 2 "" H 2850 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 2850 6600 50  0001 C CNN
+	4    2850 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:7400 U21
+U 2 1 5F4F64AC
+P 3150 7500
+F 0 "U21" H 3150 7183 50  0000 C CNN
+F 1 "7400" H 3150 7274 50  0000 C CNN
+F 2 "" H 3150 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3150 7500 50  0001 C CNN
+	2    3150 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U13
+U 3 1 5F1855CB
+P 3250 4600
+F 0 "U13" H 3250 4600 50  0000 C CNN
+F 1 "7400" H 3250 4834 50  0000 C CNN
+F 2 "" H 3250 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3250 4600 50  0001 C CNN
+	3    3250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U13
+U 4 1 5F18B05E
+P 3250 5300
+F 0 "U13" H 3250 5300 50  0000 C CNN
+F 1 "7400" H 3250 5534 50  0000 C CNN
+F 2 "" H 3250 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3250 5300 50  0001 C CNN
+	4    3250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U21
+U 4 1 5F4FB3DE
+P 3550 8000
+F 0 "U21" V 3596 8188 50  0000 L CNN
+F 1 "7400" V 3505 8188 50  0000 L CNN
+F 2 "" H 3550 8000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3550 8000 50  0001 C CNN
+	4    3550 8000
+	0    1    -1   0   
+$EndComp
+$Comp
+L 74xx:7400 U21
+U 1 1 5F5DC9E9
+P 3650 8750
+F 0 "U21" V 3696 8570 50  0000 R CNN
+F 1 "7400" V 3605 8570 50  0000 R CNN
+F 2 "" H 3650 8750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3650 8750 50  0001 C CNN
+	1    3650 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:7400 U13
+U 1 1 5DE55D3F
+P 5700 3100
+F 0 "U13" H 5700 3425 50  0000 C CNN
+F 1 "7400" H 5700 3334 50  0000 C CNN
+F 2 "" H 5700 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 5 1 5D445289
+P 6700 3600
+F 0 "U17" H 6650 3600 50  0000 C CNN
+F 1 "74LS04" H 6700 3826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6700 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6700 3600 50  0001 C CNN
+	5    6700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U13
+U 2 1 5D44EB45
+P 6750 4100
+F 0 "U13" H 6650 4100 50  0000 L CNN
+F 1 "7400" H 6795 4288 50  0000 L CNN
+F 2 "" H 6750 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6750 4100 50  0001 C CNN
+	2    6750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U2
+U 2 1 617E24A3
+P 10700 10750
+F 0 "U2" H 10700 11075 50  0000 C CNN
+F 1 "7400" H 10700 10984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10700 10750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 10700 10750 50  0001 C CNN
+	2    10700 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 6 1 5D3E9295
+P 11550 1450
+F 0 "U3" H 11500 1450 50  0000 C CNN
+F 1 "74LS04" H 11550 1676 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11550 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 11550 1450 50  0001 C CNN
+	6    11550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 2 1 5D545FB8
+P 11550 4300
+F 0 "U17" V 11450 4500 50  0000 L CNN
+F 1 "74LS04" V 11600 4450 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11550 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 11550 4300 50  0001 C CNN
+	2    11550 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS10 U4
+U 1 1 5D3B0158
+P 11700 2600
+F 0 "U4" H 11700 2600 50  0000 C CNN
+F 1 "74LS10" H 12000 2750 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11700 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 11700 2600 50  0001 C CNN
+	1    11700 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS10 U4
+U 2 1 5D3B37CE
+P 11700 3100
+F 0 "U4" H 11700 3100 50  0000 C CNN
+F 1 "74LS10" H 12000 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11700 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 11700 3100 50  0001 C CNN
+	2    11700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U10
+U 4 1 5D3C1777
+P 12400 2850
+F 0 "U10" H 12400 2850 50  0000 C CNN
+F 1 "7400" H 12650 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 12400 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 12400 2850 50  0001 C CNN
+	4    12400 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 3 1 5D5170D3
+P 12950 4550
+F 0 "U3" H 12900 4550 50  0000 C CNN
+F 1 "74LS04" H 12950 4776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 12950 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 12950 4550 50  0001 C CNN
+	3    12950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 4 1 5D3D4F56
+P 13000 2850
+F 0 "U3" H 12950 2850 50  0000 C CNN
+F 1 "74LS04" H 13100 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13000 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13000 2850 50  0001 C CNN
+	4    13000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 1 1 5D3D17E3
+P 13350 2600
+F 0 "U3" H 13300 2600 50  0000 C CNN
+F 1 "74LS04" H 13350 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13350 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13350 2600 50  0001 C CNN
+	1    13350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 2 1 5D3D942E
+P 13350 3100
+F 0 "U3" H 13300 3100 50  0000 C CNN
+F 1 "74LS04" H 13400 2900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13350 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13350 3100 50  0001 C CNN
+	2    13350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 6 1 5D5591E0
+P 13350 5650
+F 0 "U17" V 13304 5830 50  0000 L CNN
+F 1 "74LS04" V 13395 5830 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13350 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13350 5650 50  0001 C CNN
+	6    13350 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS00 U2
+U 4 1 5D3ED6F7
+P 13400 1550
+F 0 "U2" H 13400 1550 50  0000 C CNN
+F 1 "7400" H 13400 1784 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13400 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 13400 1550 50  0001 C CNN
+	4    13400 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 5 1 5D42C93C
+P 13800 2300
+F 0 "U3" H 13750 2300 50  0000 C CNN
+F 1 "74LS04" H 13800 2526 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13800 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13800 2300 50  0001 C CNN
+	5    13800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 1 1 5EC0B1DE
+P 13850 8950
+F 0 "U7" H 13850 9275 50  0000 C CNN
+F 1 "7400" H 13850 9184 50  0000 C CNN
+F 2 "" H 13850 8950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 13850 8950 50  0001 C CNN
+	1    13850 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 4 1 5EA71494
+P 14100 7200
+F 0 "U7" H 14100 6883 50  0000 C CNN
+F 1 "7400" H 14100 6974 50  0000 C CNN
+F 2 "" H 14100 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14100 7200 50  0001 C CNN
+	4    14100 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 3 1 5EA75A20
+P 14100 7850
+F 0 "U7" H 14100 7850 50  0000 C CNN
+F 1 "7400" H 14350 8000 50  0000 C CNN
+F 2 "" H 14100 7850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14100 7850 50  0001 C CNN
+	3    14100 7850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 4 1 5D3F3DA8
+P 14250 1550
+F 0 "U8" H 14250 1550 50  0000 C CNN
+F 1 "7400" H 14250 1784 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14250 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14250 1550 50  0001 C CNN
+	4    14250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U10
+U 1 1 5E7422E2
+P 14300 3600
+F 0 "U10" H 14300 3283 50  0000 C CNN
+F 1 "7400" H 14300 3374 50  0000 C CNN
+F 2 "" H 14300 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14300 3600 50  0001 C CNN
+	1    14300 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U2
+U 3 1 5D3C4D4C
+P 14300 4450
+F 0 "U2" H 14300 4450 50  0000 C CNN
+F 1 "7400" H 14300 4684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14300 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14300 4450 50  0001 C CNN
+	3    14300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U16
+U 3 1 5D5208C2
+P 14300 5200
+F 0 "U16" H 14300 5200 50  0000 C CNN
+F 1 "7400" H 14250 4950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14300 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14300 5200 50  0001 C CNN
+	3    14300 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS10 U4
+U 3 1 5D3AB97F
+P 14450 2850
+F 0 "U4" H 14450 2850 50  0000 C CNN
+F 1 "74LS10" H 14450 3084 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14450 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 14450 2850 50  0001 C CNN
+	3    14450 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 2 1 5EC0F6AB
+P 14550 8950
+F 0 "U7" H 14550 9275 50  0000 C CNN
+F 1 "7400" H 14550 9184 50  0000 C CNN
+F 2 "" H 14550 8950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14550 8950 50  0001 C CNN
+	2    14550 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 2 1 6189FC72
+P 14850 7950
+F 0 "U8" H 14850 7633 50  0000 C CNN
+F 1 "7400" H 14850 7724 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14850 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 14850 7950 50  0001 C CNN
+	2    14850 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 1 1 61789EE7
+P 15600 7950
+F 0 "U8" H 15600 7633 50  0000 C CNN
+F 1 "7400" H 15600 7724 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15600 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15600 7950 50  0001 C CNN
+	1    15600 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 3 1 5D429802
+P 15700 1650
+F 0 "U8" H 15700 1650 50  0000 C CNN
+F 1 "7400" H 15700 1400 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15700 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15700 1650 50  0001 C CNN
+	3    15700 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U9
+U 2 1 5D4314B7
+P 15700 2200
+F 0 "U9" H 15700 2200 50  0000 C CNN
+F 1 "7400" H 15700 1974 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15700 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15700 2200 50  0001 C CNN
+	2    15700 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U9
+U 4 1 5D4570BD
+P 15700 2950
+F 0 "U9" H 15700 2950 50  0000 C CNN
+F 1 "7400" H 15700 2700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15700 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15700 2950 50  0001 C CNN
+	4    15700 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U10
+U 2 1 5D4B1E02
+P 15700 3650
+F 0 "U10" H 15700 3650 50  0000 C CNN
+F 1 "7400" H 15700 3884 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15700 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15700 3650 50  0001 C CNN
+	2    15700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U2
+U 1 1 5D4B4DED
+P 15700 4450
+F 0 "U2" H 15700 4450 50  0000 C CNN
+F 1 "7400" H 15700 4684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15700 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15700 4450 50  0001 C CNN
+	1    15700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 2 1 61937ADA
+P 16800 10350
+F 0 "U20" H 16750 10350 50  0000 C CNN
+F 1 "74LS04" H 16800 10576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16800 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16800 10350 50  0001 C CNN
+	2    16800 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U9
+U 1 1 5D449D5C
+P 16950 2650
+F 0 "U9" H 16950 2650 50  0000 C CNN
+F 1 "7400" H 17200 2500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16950 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 16950 2650 50  0001 C CNN
+	1    16950 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U9
+U 3 1 5D459927
+P 16950 3300
+F 0 "U9" H 16950 3300 50  0000 C CNN
+F 1 "7400" H 17200 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16950 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 16950 3300 50  0001 C CNN
+	3    16950 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U10
+U 3 1 5D49EB31
+P 16950 3950
+F 0 "U10" H 16950 3950 50  0000 C CNN
+F 1 "7400" H 17200 4100 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16950 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 16950 3950 50  0001 C CNN
+	3    16950 3950
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U16
+U 2 1 5D4A0F0D
+P 16950 4550
+F 0 "U16" H 16950 4550 50  0000 C CNN
+F 1 "7400" H 17200 4700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16950 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 16950 4550 50  0001 C CNN
+	2    16950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U16
+U 4 1 619075D0
+P 16950 5200
+F 0 "U16" H 16950 5200 50  0000 C CNN
+F 1 "7400" H 16950 5434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16950 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 16950 5200 50  0001 C CNN
+	4    16950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 4 1 5D4FDAC6
+P 17200 6950
+F 0 "U17" H 17150 6950 50  0000 C CNN
+F 1 "74LS04" H 17350 6750 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17200 6950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17200 6950 50  0001 C CNN
+	4    17200 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 4 1 5D5913D7
+P 17200 7500
+F 0 "U20" H 17150 7500 50  0000 C CNN
+F 1 "74LS04" H 17350 7650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17200 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17200 7500 50  0001 C CNN
+	4    17200 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 3 1 5D617B2E
+P 17300 8500
+F 0 "U20" V 17350 8800 50  0000 R CNN
+F 1 "74LS04" V 17250 8950 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17300 8500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17300 8500 50  0001 C CNN
+	3    17300 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 1 1 5D44D128
+P 17900 2650
+F 0 "U15" H 17850 2650 50  0000 C CNN
+F 1 "74LS04" H 17900 2876 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17900 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17900 2650 50  0001 C CNN
+	1    17900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 3 1 5D4687D9
+P 17900 3300
+F 0 "U15" H 17850 3300 50  0000 C CNN
+F 1 "74LS04" H 17900 3526 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17900 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17900 3300 50  0001 C CNN
+	3    17900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 4 1 5D4D2D81
+P 17900 3950
+F 0 "U15" H 17850 3950 50  0000 C CNN
+F 1 "74LS04" H 17900 4150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17900 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17900 3950 50  0001 C CNN
+	4    17900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 1 1 5D4D4E68
+P 17900 4550
+F 0 "U17" H 17850 4550 50  0000 C CNN
+F 1 "74LS04" H 17900 4776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17900 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17900 4550 50  0001 C CNN
+	1    17900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 3 1 5D4D6461
+P 17900 5200
+F 0 "U17" H 17850 5200 50  0000 C CNN
+F 1 "74LS04" H 17900 5400 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17900 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 17900 5200 50  0001 C CNN
+	3    17900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U18
+U 1 1 5D3CF495
+P 18150 5950
+F 0 "U18" H 18050 5950 50  0000 L CNN
+F 1 "7400" H 18195 6138 50  0000 L CNN
+F 2 "" H 18150 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 18150 5950 50  0001 C CNN
+	1    18150 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 2 1 5D43B70F
+P 18300 2200
+F 0 "U15" H 18250 2200 50  0000 C CNN
+F 1 "74LS04" H 18300 2400 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18300 2200 50  0001 C CNN
+	2    18300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 6 1 5D45DBA1
+P 18300 2950
+F 0 "U15" H 18250 2950 50  0000 C CNN
+F 1 "74LS04" H 18300 3150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18300 2950 50  0001 C CNN
+	6    18300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 5 1 5D498E01
+P 18300 3650
+F 0 "U15" H 18250 3650 50  0000 C CNN
+F 1 "74LS04" H 18300 3850 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18300 3650 50  0001 C CNN
+	5    18300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U19
+U 3 1 5EE0D7F5
+P 18300 9300
+F 0 "U19" H 18300 9300 50  0000 C CNN
+F 1 "74LS10" H 18250 9550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 9300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 18300 9300 50  0001 C CNN
+	3    18300 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 1 1 5EF3BF34
+P 18300 9900
+F 0 "U20" H 18250 9900 50  0000 C CNN
+F 1 "74LS04" H 18300 10126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 9900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18300 9900 50  0001 C CNN
+	1    18300 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U19
+U 1 1 5EFD2BF5
+P 18300 10800
+F 0 "U19" H 18300 10800 50  0000 C CNN
+F 1 "74LS10" H 18300 10574 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18300 10800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 18300 10800 50  0001 C CNN
+	1    18300 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 5 1 5D4952EE
+P 18800 6900
+F 0 "U20" H 18750 6900 50  0000 C CNN
+F 1 "74LS04" H 18950 6750 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18800 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18800 6900 50  0001 C CNN
+	5    18800 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS10 U19
+U 2 1 5D492505
+P 18900 7750
+F 0 "U19" H 18900 7750 50  0000 C CNN
+F 1 "74LS10" H 18900 7550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18900 7750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 18900 7750 50  0001 C CNN
+	2    18900 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U18
+U 2 1 5D3F8BDC
+P 19050 5950
+F 0 "U18" H 18950 5950 50  0000 L CNN
+F 1 "7400" H 19095 6138 50  0000 L CNN
+F 2 "" H 19050 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 19050 5950 50  0001 C CNN
+	2    19050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 6 1 5F047F54
+P 19150 10800
+F 0 "U20" H 19100 10800 50  0000 C CNN
+F 1 "74LS04" H 19150 11026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 19150 10800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 19150 10800 50  0001 C CNN
+	6    19150 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U16
+U 1 1 619638D3
+P 19550 11400
+F 0 "U16" H 19550 11725 50  0000 C CNN
+F 1 "7400" H 19550 11634 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 19550 11400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 19550 11400 50  0001 C CNN
+	1    19550 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS13 U6
+U 1 1 5DB7E066
+P 3550 2400
+F 0 "U6" H 3550 2400 50  0000 C CNN
+F 1 "74LS13" H 3550 2684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3550 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS13" H 3550 2400 50  0001 C CNN
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS13 U6
+U 2 1 5DC11AE7
+P 4750 2550
+F 0 "U6" H 4700 2550 50  0000 C CNN
+F 1 "74LS13" H 4750 2834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4750 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS13" H 4750 2550 50  0001 C CNN
+	2    4750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS20 U1
+U 1 1 5F838173
+P 11650 10600
+F 0 "U1" H 11650 10258 50  0000 C CNN
+F 1 "74LS20" H 11650 10349 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11650 10600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 11650 10600 50  0001 C CNN
+	1    11650 10600
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS20 U1
+U 2 1 5D509D7F
+P 16000 7100
+F 0 "U1" H 16000 7100 50  0000 C CNN
+F 1 "74LS20" H 16000 7384 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16000 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 16000 7100 50  0001 C CNN
+	2    16000 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L educ-8-timing--rescue:Card_handle-EDUC-8 H1
+U 1 1 60E4C610
+P 12350 15050
+F 0 "H1" H 12728 15013 50  0000 L CNN
+F 1 "Card_handle" H 12728 14922 50  0000 L CNN
+F 2 "EDUC-8:Card_handle" H 12350 15050 50  0001 C CNN
+F 3 "" H 12350 15050 50  0001 C CNN
+	1    12350 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L educ-8-timing--rescue:Card_handle-EDUC-8 H2
+U 1 1 60EACD78
+P 13850 15050
+F 0 "H2" H 14228 15013 50  0000 L CNN
+F 1 "Card_handle" H 14228 14922 50  0000 L CNN
+F 2 "EDUC-8:Card_handle" H 13850 15050 50  0001 C CNN
+F 3 "" H 13850 15050 50  0001 C CNN
+	1    13850 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U12
+U 2 1 5F18210F
+P 4750 4700
+F 0 "U12" H 4750 5067 50  0000 C CNN
+F 1 "74LS73" H 4750 4976 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4750 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 4750 4700 50  0001 C CNN
+	2    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U12
+U 1 1 5D523822
+P 14300 6300
+F 0 "U12" H 14300 6667 50  0000 C CNN
+F 1 "74LS73" H 14300 6576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14300 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 14300 6300 50  0001 C CNN
+	1    14300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U14
+U 1 1 5EA6C420
+P 15550 9050
+F 0 "U14" H 15550 9417 50  0000 C CNN
+F 1 "74LS73" H 15550 9326 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15550 9050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 15550 9050 50  0001 C CNN
+	1    15550 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U14
+U 2 1 5EA6E903
+P 15550 10250
+F 0 "U14" H 15550 10617 50  0000 C CNN
+F 1 "74LS73" H 15550 10526 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15550 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 15550 10250 50  0001 C CNN
+	2    15550 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U12
+U 3 1 5FEC50E0
+P 14300 13200
+F 0 "U12" H 14250 13200 50  0000 L CNN
+F 1 "74LS73" H 14350 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 14300 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 14300 13200 50  0001 C CNN
+	3    14300 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS73 U14
+U 3 1 5FECC6E4
+P 15850 13200
+F 0 "U14" H 15750 13200 50  0000 L CNN
+F 1 "74LS73" H 15900 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15850 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 15850 13200 50  0001 C CNN
+	3    15850 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS20 U1
+U 3 1 5FEA1FBC
+P 7400 13300
+F 0 "U1" H 7300 13300 50  0000 L CNN
+F 1 "74LS20" H 7450 12900 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7400 13300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 7400 13300 50  0001 C CNN
+	3    7400 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U2
+U 5 1 614CF4E3
+P 8200 13300
+F 0 "U2" H 8150 13300 50  0000 L CNN
+F 1 "7400" H 8200 12900 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8200 13300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 8200 13300 50  0001 C CNN
+	5    8200 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 7 1 5FEA7D33
+P 8950 13300
+F 0 "U3" H 8900 13300 50  0000 L CNN
+F 1 "74LS04" H 9000 12900 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8950 13300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8950 13300 50  0001 C CNN
+	7    8950 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U4
+U 4 1 5FEAF939
+P 9800 13250
+F 0 "U4" H 9750 13250 50  0000 L CNN
+F 1 "74LS10" H 9850 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9800 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 9800 13250 50  0001 C CNN
+	4    9800 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS13 U6
+U 3 1 5FEB35E6
+P 10550 13250
+F 0 "U6" H 10500 13250 50  0000 L CNN
+F 1 "74LS13" H 10650 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10550 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS13" H 10550 13250 50  0001 C CNN
+	3    10550 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 5 1 5FEB6664
+P 11300 13250
+F 0 "U7" H 11250 13250 50  0000 L CNN
+F 1 "7400" H 11350 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 11300 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 11300 13250 50  0001 C CNN
+	5    11300 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U8
+U 5 1 6157FB4E
+P 12050 13250
+F 0 "U8" H 12000 13250 50  0000 L CNN
+F 1 "7400" H 12050 12850 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 12050 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 12050 13250 50  0001 C CNN
+	5    12050 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U9
+U 5 1 61585937
+P 12800 13250
+F 0 "U9" H 12750 13250 50  0000 L CNN
+F 1 "7400" H 12800 12850 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 12800 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 12800 13250 50  0001 C CNN
+	5    12800 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U10
+U 5 1 616DFCF4
+P 13550 13250
+F 0 "U10" H 13780 13296 50  0000 L CNN
+F 1 "7400" H 13780 13205 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 13550 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 13550 13250 50  0001 C CNN
+	5    13550 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U13
+U 5 1 5FEC8AC8
+P 15100 13200
+F 0 "U13" H 15050 13200 50  0000 L CNN
+F 1 "7400" H 15150 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 15100 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 15100 13200 50  0001 C CNN
+	5    15100 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U15
+U 7 1 5FECF4AD
+P 16650 13200
+F 0 "U15" H 16550 13200 50  0000 L CNN
+F 1 "74LS04" H 16700 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 16650 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16650 13200 50  0001 C CNN
+	7    16650 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U16
+U 5 1 61476721
+P 17450 13200
+F 0 "U16" H 17350 13200 50  0000 L CNN
+F 1 "7400" H 17500 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 17450 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 17450 13200 50  0001 C CNN
+	5    17450 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U17
+U 7 1 5FED642E
+P 18150 13200
+F 0 "U17" H 18050 13200 50  0000 L CNN
+F 1 "74LS04" H 18200 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18150 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 18150 13200 50  0001 C CNN
+	7    18150 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U18
+U 5 1 5FF6802F
+P 18950 13200
+F 0 "U18" H 18900 13200 50  0000 L CNN
+F 1 "7400" H 19050 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 18950 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 18950 13200 50  0001 C CNN
+	5    18950 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U19
+U 4 1 5FED9B4E
+P 19700 13200
+F 0 "U19" H 19650 13200 50  0000 L CNN
+F 1 "74LS10" H 19750 12800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 19700 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 19700 13200 50  0001 C CNN
+	4    19700 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U20
+U 7 1 5FEDF43D
+P 20450 13150
+F 0 "U20" H 20350 13150 50  0000 L CNN
+F 1 "74LS04" H 20500 12750 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 20450 13150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 20450 13150 50  0001 C CNN
+	7    20450 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U21
+U 5 1 5FEE271B
+P 21250 13150
+F 0 "U21" H 21150 13150 50  0000 L CNN
+F 1 "7400" H 21350 12750 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 21250 13150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 21250 13150 50  0001 C CNN
+	5    21250 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L educ-8-timing--rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8 J1
+U 1 1 615EC638
+P 7800 6450
+F 0 "J1" H 8028 6701 50  0000 L CNN
+F 1 "32-way-pcb-edge-Educ-8-connectors" H 8028 6610 50  0000 L CNN
+F 2 "Connector_PCBEdge:PCB_32pin" H 7900 7750 50  0001 C CNN
+F 3 "" H 7900 7750 50  0001 C CNN
+	1    7800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS161 U5
+U 1 1 5D39B771
+P 8650 2800
+F 0 "U5" H 8650 2750 50  0000 C CNN
+F 1 "74LS161" H 8300 3650 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8650 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 8650 2800 50  0001 C CNN
+	1    8650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74154 U11
+U 1 1 5D39A718
+P 10250 3100
+F 0 "U11" H 10250 3100 50  0000 C CNN
+F 1 "74154" H 9900 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_LongPads" H 10250 3100 50  0001 C CNN
+F 3 "" H 10250 3100 50  0001 C CNN
+	1    10250 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

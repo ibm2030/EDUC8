@@ -1,0 +1,20 @@
+Annotated 74LS13 (unit C) as U22C
+Annotated 74LS04 (unit A) as U23A
+Annotated 7400 (unit C) as U24C
+Annotated 7400 (unit A) as U8A
+Error: Different values for U10E (7400) and U10A (74LS00)
+Error: Multiple item U13 (unit 4)
+
+Error: Multiple item U15 (unit 3)
+
+Error: Different values for U16E (7400) and U16A (74LS00)
+Error: Multiple item U17 (unit 1)
+
+Error: Different values for U2E (7400) and U2A (74LS00)
+Error: Multiple item U4 (unit 1)
+
+Error: Different values for U8E (7400) and U8C (74LS00)
+Error: Different values for U9E (7400) and U9A (74LS00)
+Error: Multiple item U9 (unit 3)
+
+Error: Different values for U9C (74LS00) and U9B (74LS10)

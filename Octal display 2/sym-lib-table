@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Octal-display-rescue")(type "Legacy")(uri "${KIPRJMOD}/Octal display-rescue.lib")(options "")(descr ""))
+)

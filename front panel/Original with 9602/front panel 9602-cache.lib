@@ -1,14 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx_7400
+# front-panel-9602-rescue_+5V-power
 #
-DEF 74xx_7400 U 0 40 Y Y 5 L N
-F0 "U" 0 50 50 H V C CNN
-F1 "74xx_7400" 0 -50 50 H V C CNN
+DEF front-panel-9602-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "front-panel-9602-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74LS37 7400 74HCT00 74HC00
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_7400-74xx
+#
+DEF front-panel-9602-rescue_7400-74xx U 0 40 Y Y 5 L N
+F0 "U" 0 50 50 H V C CNN
+F1 "front-panel-9602-rescue_7400-74xx" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*W7.62mm*
  SO14*
@@ -76,14 +90,48 @@ X ~ 13 -300 -100 170 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# 74xx_74LS05
+# front-panel-9602-rescue_7417-74xx-front-panel-rescue-front-panel-9602-rescue
 #
-DEF 74xx_74LS05 U 0 40 Y Y 7 L N
+DEF front-panel-9602-rescue_7417-74xx-front-panel-rescue-front-panel-9602-rescue U 0 40 Y Y 7 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "74xx_74LS05" 0 -50 50 H V C CNN
+F1 "front-panel-9602-rescue_7417-74xx-front-panel-rescue-front-panel-9602-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74LS06 74LS06N
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -200 300 200 -300 7 1 10 f
+P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 2 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 4 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 5 0 10 -150 150 -150 -150 150 0 -150 150 f
+P 4 6 0 10 -150 150 -150 -150 150 0 -150 150 f
+X ~ 1 -300 0 150 R 50 50 1 0 I
+X ~ 2 300 0 150 L 50 50 1 0 O
+X ~ 3 -300 0 150 R 50 50 2 0 I
+X ~ 4 300 0 150 L 50 50 2 0 O
+X ~ 5 -300 0 150 R 50 50 3 0 I
+X ~ 6 300 0 150 L 50 50 3 0 O
+X ~ 8 300 0 150 L 50 50 4 0 O
+X ~ 9 -300 0 150 R 50 50 4 0 I
+X ~ 10 300 0 150 L 50 50 5 0 O
+X ~ 11 -300 0 150 R 50 50 5 0 I
+X ~ 12 300 0 150 L 50 50 6 0 O
+X ~ 13 -300 0 150 R 50 50 6 0 I
+X VCC 14 0 500 200 D 50 50 7 0 W
+X GND 7 0 -500 200 U 50 50 7 0 W
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_74LS05-74xx
+#
+DEF front-panel-9602-rescue_74LS05-74xx U 0 40 Y Y 7 L N
+F0 "U" 0 50 50 H V C CNN
+F1 "front-panel-9602-rescue_74LS05-74xx" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  DIP*W7.62mm*
 $ENDFPLIST
@@ -112,14 +160,13 @@ X GND 7 0 -500 200 U 50 50 7 0 W
 ENDDRAW
 ENDDEF
 #
-# 74xx_74LS123
+# front-panel-9602-rescue_74LS123-74xx
 #
-DEF 74xx_74LS123 U 0 40 Y Y 3 L N
+DEF front-panel-9602-rescue_74LS123-74xx U 0 40 Y Y 3 L N
 F0 "U" -300 350 50 H V C CNN
-F1 "74xx_74LS123" -300 -350 50 H V C CNN
+F1 "front-panel-9602-rescue_74LS123-74xx" -300 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS 74AHCT123 74HCT123 74HC123
 $FPLIST
  DIP?16*
 $ENDFPLIST
@@ -146,11 +193,67 @@ X GND 8 0 -500 200 U 50 50 3 0 W
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x01_Female
+# front-panel-9602-rescue_C-Device
 #
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
+DEF front-panel-9602-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "front-panel-9602-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_CP_Small-Device
+#
+DEF front-panel-9602-rescue_CP_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "front-panel-9602-rescue_CP_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_C_Small-Device
+#
+DEF front-panel-9602-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "front-panel-9602-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_Conn_01x01_Female-Connector
+#
+DEF front-panel-9602-rescue_Conn_01x01_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
+F1 "front-panel-9602-rescue_Conn_01x01_Female-Connector" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -163,11 +266,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x04_Female
+# front-panel-9602-rescue_Conn_01x04_Female-Connector
 #
-DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
+DEF front-panel-9602-rescue_Conn_01x04_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
+F1 "front-panel-9602-rescue_Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -189,11 +292,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x08_Female
+# front-panel-9602-rescue_Conn_01x08_Female-Connector
 #
-DEF Connector_Conn_01x08_Female J 0 40 Y N 1 F N
+DEF front-panel-9602-rescue_Conn_01x08_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Conn_01x08_Female" 0 -500 50 H V C CNN
+F1 "front-panel-9602-rescue_Conn_01x08_Female-Connector" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +330,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x16_Female
+# front-panel-9602-rescue_Conn_01x16_Female-Connector
 #
-DEF Connector_Conn_01x16_Female J 0 40 Y N 1 F N
+DEF front-panel-9602-rescue_Conn_01x16_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 800 50 H V C CNN
-F1 "Connector_Conn_01x16_Female" 0 -900 50 H V C CNN
+F1 "front-panel-9602-rescue_Conn_01x16_Female-Connector" 0 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -289,67 +392,24 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# front-panel-9602-rescue_GND-power
 #
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_CP_Small
-#
-DEF Device_CP_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_CP_Small" 10 -80 50 H V L CNN
+DEF front-panel-9602-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "front-panel-9602-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
 DRAW
-S -60 -12 60 -27 0 1 0 F
-S -60 27 60 12 0 1 0 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 73 D 50 50 1 1 P
-X ~ 2 0 -100 73 U 50 50 1 1 P
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# front-panel-9602-rescue_LED-Device
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
+DEF front-panel-9602-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "front-panel-9602-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -368,11 +428,42 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# front-panel-9602-rescue_MountingHole-Mechanical
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF front-panel-9602-rescue_MountingHole-Mechanical H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "front-panel-9602-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_MountingHole_Pad-Mechanical
+#
+DEF front-panel-9602-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "front-panel-9602-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# front-panel-9602-rescue_R-Device
+#
+DEF front-panel-9602-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "front-panel-9602-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -385,11 +476,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Small
+# front-panel-9602-rescue_R_Small-Device
 #
-DEF Device_R_Small R 0 10 N N 1 F N
+DEF front-panel-9602-rescue_R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
+F1 "front-panel-9602-rescue_R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -402,42 +493,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole
+# front-panel-9602-rescue_SW_DPDT_x2-Switch
 #
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DPDT_x2
-#
-DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
+DEF front-panel-9602-rescue_SW_DPDT_x2-Switch SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
+F1 "front-panel-9602-rescue_SW_DPDT_x2-Switch" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -454,69 +514,6 @@ X C 3 200 -100 100 L 50 50 1 1 P
 X A 4 200 100 100 L 50 50 2 1 P
 X B 5 -200 0 100 R 50 50 2 1 P
 X C 6 200 -100 100 L 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# front-panel-9602-rescue_7417-74xx-front-panel-rescue
-#
-DEF front-panel-9602-rescue_7417-74xx-front-panel-rescue U 0 40 Y Y 7 L N
-F0 "U" 0 50 50 H V C CNN
-F1 "front-panel-9602-rescue_7417-74xx-front-panel-rescue" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DIP*W7.62mm*
-$ENDFPLIST
-DRAW
-S -200 300 200 -300 7 1 10 f
-P 4 1 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 2 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 3 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 4 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 5 0 10 -150 150 -150 -150 150 0 -150 150 f
-P 4 6 0 10 -150 150 -150 -150 150 0 -150 150 f
-X ~ 1 -300 0 150 R 50 50 1 0 I
-X ~ 2 300 0 150 L 50 50 1 0 O
-X ~ 3 -300 0 150 R 50 50 2 0 I
-X ~ 4 300 0 150 L 50 50 2 0 O
-X ~ 5 -300 0 150 R 50 50 3 0 I
-X ~ 6 300 0 150 L 50 50 3 0 O
-X ~ 8 300 0 150 L 50 50 4 0 O
-X ~ 9 -300 0 150 R 50 50 4 0 I
-X ~ 10 300 0 150 L 50 50 5 0 O
-X ~ 11 -300 0 150 R 50 50 5 0 I
-X ~ 12 300 0 150 L 50 50 6 0 O
-X ~ 13 -300 0 150 R 50 50 6 0 I
-X VCC 14 0 500 200 D 50 50 7 0 W
-X GND 7 0 -500 200 U 50 50 7 0 W
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

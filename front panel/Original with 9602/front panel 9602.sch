@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS123 U10
+L front-panel-9602-rescue:74LS123-74xx U10
 U 1 1 6025301B
 P 18850 1700
 F 0 "U10" H 18850 2167 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 18850 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U9
+L front-panel-9602-rescue:7400-74xx U9
 U 2 1 60256122
 P 17300 1800
 F 0 "U9" H 17250 1800 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17300 1800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U9
+L front-panel-9602-rescue:7400-74xx U9
 U 1 1 6025B4D2
 P 17300 2400
 F 0 "U9" H 17300 2400 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17300 2400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U8
+L front-panel-9602-rescue:7400-74xx U8
 U 2 1 6025C4BE
 P 17300 3250
 F 0 "U8" H 17300 3250 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17300 3250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U8
+L front-panel-9602-rescue:7400-74xx U8
 U 1 1 6025C887
 P 17300 3850
 F 0 "U8" H 17300 3850 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U8
+L front-panel-9602-rescue:7400-74xx U8
 U 3 1 6025DF05
 P 17300 4800
 F 0 "U8" H 17300 4800 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17300 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U8
+L front-panel-9602-rescue:7400-74xx U8
 U 4 1 6025E7B9
 P 17300 5400
 F 0 "U8" H 17300 5400 50  0000 C CNN
@@ -114,7 +114,7 @@ Connection ~ 17750 1800
 Wire Wire Line
 	17750 1800 18350 1800
 $Comp
-L Device:R_Small R55
+L front-panel-9602-rescue:R_Small-Device R55
 U 1 1 602978FA
 P 16550 1900
 F 0 "R55" H 16609 1946 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "~" H 16550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R56
+L front-panel-9602-rescue:R_Small-Device R56
 U 1 1 6029826D
 P 16550 2300
 F 0 "R56" H 16609 2346 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "~" H 16550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R57
+L front-panel-9602-rescue:R_Small-Device R57
 U 1 1 602989CE
 P 16550 3350
 F 0 "R57" H 16609 3396 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "~" H 16550 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R58
+L front-panel-9602-rescue:R_Small-Device R58
 U 1 1 60298E9F
 P 16550 3750
 F 0 "R58" H 16609 3796 50  0000 L CNN
@@ -158,7 +158,7 @@ F 3 "~" H 16550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R59
+L front-panel-9602-rescue:R_Small-Device R59
 U 1 1 60299818
 P 16550 4900
 F 0 "R59" H 16609 4946 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "~" H 16550 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R60
+L front-panel-9602-rescue:R_Small-Device R60
 U 1 1 60299DDB
 P 16550 5300
 F 0 "R60" H 16609 5346 50  0000 L CNN
@@ -261,7 +261,7 @@ Connection ~ 16550 5100
 Wire Wire Line
 	16550 5100 16550 5200
 $Comp
-L 74xx:7400 U6
+L front-panel-9602-rescue:7400-74xx U6
 U 1 1 602A9A02
 P 18850 2700
 F 0 "U6" V 18896 2520 50  0000 R CNN
@@ -272,7 +272,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 18850 2700 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L 74xx:7400 U9
+L front-panel-9602-rescue:7400-74xx U9
 U 3 1 602B0EE1
 P 18950 3500
 F 0 "U9" V 18996 3320 50  0000 R CNN
@@ -283,7 +283,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 18950 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:7400 U9
+L front-panel-9602-rescue:7400-74xx U9
 U 4 1 602B33AC
 P 18950 4300
 F 0 "U9" V 18996 4120 50  0000 R CNN
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	19050 4600 19050 4800
 $Comp
-L 74xx:7400 U6
+L front-panel-9602-rescue:7400-74xx U6
 U 2 1 602DFD84
 P 20000 1600
 F 0 "U6" H 20000 1925 50  0000 C CNN
@@ -344,7 +344,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 20000 1600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U6
+L front-panel-9602-rescue:7400-74xx U6
 U 3 1 602E5803
 P 21000 1700
 F 0 "U6" H 21000 2025 50  0000 C CNN
@@ -355,7 +355,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 21000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U6
+L front-panel-9602-rescue:7400-74xx U6
 U 4 1 602E79C2
 P 21000 2350
 F 0 "U6" H 21000 2675 50  0000 C CNN
@@ -413,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	19500 1150 21650 1150
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 5 1 60308F96
 P 2500 1450
 F 0 "U3" H 2500 1133 50  0000 C CNN
@@ -424,7 +424,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D9
+L front-panel-9602-rescue:LED-Device D9
 U 1 1 6030C82B
 P 1600 1450
 F 0 "D9" H 1593 1195 50  0000 C CNN
@@ -439,7 +439,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1450 3200 1450
 $Comp
-L Device:R_Small R20
+L front-panel-9602-rescue:R_Small-Device R20
 U 1 1 6031364A
 P 1950 1450
 F 0 "R20" V 1754 1450 50  0000 C CNN
@@ -450,7 +450,7 @@ F 3 "~" H 1950 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0104
+L front-panel-9602-rescue:+5V-power #PWR0104
 U 1 1 60316C72
 P 1250 1450
 F 0 "#PWR0104" H 1250 1300 50  0001 C CNN
@@ -463,7 +463,7 @@ $EndComp
 Wire Wire Line
 	1250 1450 1450 1450
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 1 1 603272C1
 P 2500 1950
 F 0 "U3" H 2500 1633 50  0000 C CNN
@@ -474,7 +474,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D10
+L front-panel-9602-rescue:LED-Device D10
 U 1 1 603272C7
 P 1600 1950
 F 0 "D10" H 1593 1695 50  0000 C CNN
@@ -489,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1950 3200 1950
 $Comp
-L Device:R_Small R9
+L front-panel-9602-rescue:R_Small-Device R9
 U 1 1 603272CF
 P 1950 1950
 F 0 "R9" V 1754 1950 50  0000 C CNN
@@ -500,7 +500,7 @@ F 3 "~" H 1950 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L front-panel-9602-rescue:+5V-power #PWR0105
 U 1 1 603272D6
 P 1250 1950
 F 0 "#PWR0105" H 1250 1800 50  0001 C CNN
@@ -513,7 +513,7 @@ $EndComp
 Wire Wire Line
 	1250 1950 1450 1950
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 3 1 6032AD85
 P 2500 2500
 F 0 "U3" H 2500 2183 50  0000 C CNN
@@ -524,7 +524,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D11
+L front-panel-9602-rescue:LED-Device D11
 U 1 1 6032AD8B
 P 1600 2500
 F 0 "D11" H 1593 2245 50  0000 C CNN
@@ -539,7 +539,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2500 3200 2500
 $Comp
-L Device:R_Small R10
+L front-panel-9602-rescue:R_Small-Device R10
 U 1 1 6032AD93
 P 1950 2500
 F 0 "R10" V 1754 2500 50  0000 C CNN
@@ -550,7 +550,7 @@ F 3 "~" H 1950 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0106
+L front-panel-9602-rescue:+5V-power #PWR0106
 U 1 1 6032AD9A
 P 1250 2500
 F 0 "#PWR0106" H 1250 2350 50  0001 C CNN
@@ -563,7 +563,7 @@ $EndComp
 Wire Wire Line
 	1250 2500 1450 2500
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 5 1 6032EFA6
 P 2500 3050
 F 0 "U2" H 2500 2733 50  0000 C CNN
@@ -574,7 +574,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D12
+L front-panel-9602-rescue:LED-Device D12
 U 1 1 6032EFAC
 P 1600 3050
 F 0 "D12" H 1593 2795 50  0000 C CNN
@@ -589,7 +589,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 3050 3200 3050
 $Comp
-L Device:R_Small R11
+L front-panel-9602-rescue:R_Small-Device R11
 U 1 1 6032EFB4
 P 1950 3050
 F 0 "R11" V 1754 3050 50  0000 C CNN
@@ -600,7 +600,7 @@ F 3 "~" H 1950 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L front-panel-9602-rescue:+5V-power #PWR0107
 U 1 1 6032EFBB
 P 1250 3050
 F 0 "#PWR0107" H 1250 2900 50  0001 C CNN
@@ -613,7 +613,7 @@ $EndComp
 Wire Wire Line
 	1250 3050 1450 3050
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 3 1 603335D8
 P 2500 3600
 F 0 "U2" H 2500 3283 50  0000 C CNN
@@ -624,7 +624,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D13
+L front-panel-9602-rescue:LED-Device D13
 U 1 1 603335DE
 P 1600 3600
 F 0 "D13" H 1593 3345 50  0000 C CNN
@@ -639,7 +639,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 3600 3200 3600
 $Comp
-L Device:R_Small R12
+L front-panel-9602-rescue:R_Small-Device R12
 U 1 1 603335E6
 P 1950 3600
 F 0 "R12" V 1754 3600 50  0000 C CNN
@@ -650,7 +650,7 @@ F 3 "~" H 1950 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L front-panel-9602-rescue:+5V-power #PWR0108
 U 1 1 603335ED
 P 1250 3600
 F 0 "#PWR0108" H 1250 3450 50  0001 C CNN
@@ -663,7 +663,7 @@ $EndComp
 Wire Wire Line
 	1250 3600 1450 3600
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 5 1 60337AC7
 P 2500 4150
 F 0 "U1" H 2500 3833 50  0000 C CNN
@@ -674,7 +674,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D14
+L front-panel-9602-rescue:LED-Device D14
 U 1 1 60337ACD
 P 1600 4150
 F 0 "D14" H 1593 3895 50  0000 C CNN
@@ -689,7 +689,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4150 3200 4150
 $Comp
-L Device:R_Small R13
+L front-panel-9602-rescue:R_Small-Device R13
 U 1 1 60337AD5
 P 1950 4150
 F 0 "R13" V 1754 4150 50  0000 C CNN
@@ -700,7 +700,7 @@ F 3 "~" H 1950 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0109
+L front-panel-9602-rescue:+5V-power #PWR0109
 U 1 1 60337ADC
 P 1250 4150
 F 0 "#PWR0109" H 1250 4000 50  0001 C CNN
@@ -713,7 +713,7 @@ $EndComp
 Wire Wire Line
 	1250 4150 1450 4150
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 6 1 6033E7D7
 P 2500 4650
 F 0 "U1" H 2500 4333 50  0000 C CNN
@@ -724,7 +724,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2500 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D15
+L front-panel-9602-rescue:LED-Device D15
 U 1 1 6033E7DD
 P 1600 4650
 F 0 "D15" H 1593 4395 50  0000 C CNN
@@ -739,7 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4650 3200 4650
 $Comp
-L Device:R_Small R14
+L front-panel-9602-rescue:R_Small-Device R14
 U 1 1 6033E7E5
 P 1950 4650
 F 0 "R14" V 1754 4650 50  0000 C CNN
@@ -750,7 +750,7 @@ F 3 "~" H 1950 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0110
+L front-panel-9602-rescue:+5V-power #PWR0110
 U 1 1 6033E7EC
 P 1250 4650
 F 0 "#PWR0110" H 1250 4500 50  0001 C CNN
@@ -763,7 +763,7 @@ $EndComp
 Wire Wire Line
 	1250 4650 1450 4650
 $Comp
-L Device:LED D16
+L front-panel-9602-rescue:LED-Device D16
 U 1 1 603454B0
 P 1600 5200
 F 0 "D16" H 1593 4945 50  0000 C CNN
@@ -774,7 +774,7 @@ F 3 "~" H 1600 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R15
+L front-panel-9602-rescue:R_Small-Device R15
 U 1 1 603454B8
 P 1950 5200
 F 0 "R15" V 1754 5200 50  0000 C CNN
@@ -785,7 +785,7 @@ F 3 "~" H 1950 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0111
+L front-panel-9602-rescue:+5V-power #PWR0111
 U 1 1 603454BF
 P 1250 5200
 F 0 "#PWR0111" H 1250 5050 50  0001 C CNN
@@ -798,7 +798,7 @@ $EndComp
 Wire Wire Line
 	1250 5200 1450 5200
 $Comp
-L Device:LED D17
+L front-panel-9602-rescue:LED-Device D17
 U 1 1 6035CB74
 P 4100 1400
 F 0 "D17" H 4093 1145 50  0000 C CNN
@@ -813,7 +813,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1400 5700 1400
 $Comp
-L Device:R_Small R16
+L front-panel-9602-rescue:R_Small-Device R16
 U 1 1 6035CB7C
 P 4450 1400
 F 0 "R16" V 4254 1400 50  0000 C CNN
@@ -824,7 +824,7 @@ F 3 "~" H 4450 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0112
+L front-panel-9602-rescue:+5V-power #PWR0112
 U 1 1 6035CB83
 P 3750 1400
 F 0 "#PWR0112" H 3750 1250 50  0001 C CNN
@@ -837,7 +837,7 @@ $EndComp
 Wire Wire Line
 	3750 1400 3950 1400
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 4 1 6035CB8A
 P 5000 1900
 F 0 "U3" H 5000 1583 50  0000 C CNN
@@ -848,7 +848,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D18
+L front-panel-9602-rescue:LED-Device D18
 U 1 1 6035CB90
 P 4100 1900
 F 0 "D18" H 4093 1645 50  0000 C CNN
@@ -863,7 +863,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 1900 5700 1900
 $Comp
-L Device:R_Small R17
+L front-panel-9602-rescue:R_Small-Device R17
 U 1 1 6035CB98
 P 4450 1900
 F 0 "R17" V 4254 1900 50  0000 C CNN
@@ -874,7 +874,7 @@ F 3 "~" H 4450 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0113
+L front-panel-9602-rescue:+5V-power #PWR0113
 U 1 1 6035CB9F
 P 3750 1900
 F 0 "#PWR0113" H 3750 1750 50  0001 C CNN
@@ -887,7 +887,7 @@ $EndComp
 Wire Wire Line
 	3750 1900 3950 1900
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 2 1 6035CBA6
 P 5000 2450
 F 0 "U3" H 5000 2133 50  0000 C CNN
@@ -898,7 +898,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D19
+L front-panel-9602-rescue:LED-Device D19
 U 1 1 6035CBAC
 P 4100 2450
 F 0 "D19" H 4093 2195 50  0000 C CNN
@@ -913,7 +913,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2450 5700 2450
 $Comp
-L Device:R_Small R18
+L front-panel-9602-rescue:R_Small-Device R18
 U 1 1 6035CBB4
 P 4450 2450
 F 0 "R18" V 4254 2450 50  0000 C CNN
@@ -924,7 +924,7 @@ F 3 "~" H 4450 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L front-panel-9602-rescue:+5V-power #PWR0114
 U 1 1 6035CBBB
 P 3750 2450
 F 0 "#PWR0114" H 3750 2300 50  0001 C CNN
@@ -937,7 +937,7 @@ $EndComp
 Wire Wire Line
 	3750 2450 3950 2450
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 6 1 6035CBC2
 P 5000 3000
 F 0 "U2" H 5000 2683 50  0000 C CNN
@@ -948,7 +948,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D20
+L front-panel-9602-rescue:LED-Device D20
 U 1 1 6035CBC8
 P 4100 3000
 F 0 "D20" H 4093 2745 50  0000 C CNN
@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3000 5700 3000
 $Comp
-L Device:R_Small R19
+L front-panel-9602-rescue:R_Small-Device R19
 U 1 1 6035CBD0
 P 4450 3000
 F 0 "R19" V 4254 3000 50  0000 C CNN
@@ -974,7 +974,7 @@ F 3 "~" H 4450 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L front-panel-9602-rescue:+5V-power #PWR0115
 U 1 1 6035CBD7
 P 3750 3000
 F 0 "#PWR0115" H 3750 2850 50  0001 C CNN
@@ -987,7 +987,7 @@ $EndComp
 Wire Wire Line
 	3750 3000 3950 3000
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 4 1 6035CBDE
 P 5000 3550
 F 0 "U2" H 5000 3233 50  0000 C CNN
@@ -998,7 +998,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D21
+L front-panel-9602-rescue:LED-Device D21
 U 1 1 6035CBE4
 P 4100 3550
 F 0 "D21" H 4093 3295 50  0000 C CNN
@@ -1013,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3550 5700 3550
 $Comp
-L Device:R_Small R21
+L front-panel-9602-rescue:R_Small-Device R21
 U 1 1 6035CBEC
 P 4450 3550
 F 0 "R21" V 4254 3550 50  0000 C CNN
@@ -1024,7 +1024,7 @@ F 3 "~" H 4450 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0116
+L front-panel-9602-rescue:+5V-power #PWR0116
 U 1 1 6035CBF3
 P 3750 3550
 F 0 "#PWR0116" H 3750 3400 50  0001 C CNN
@@ -1037,7 +1037,7 @@ $EndComp
 Wire Wire Line
 	3750 3550 3950 3550
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 1 1 6035CBFA
 P 5000 4100
 F 0 "U2" H 5000 3783 50  0000 C CNN
@@ -1048,7 +1048,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D22
+L front-panel-9602-rescue:LED-Device D22
 U 1 1 6035CC00
 P 4100 4100
 F 0 "D22" H 4093 3845 50  0000 C CNN
@@ -1063,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4100 5700 4100
 $Comp
-L Device:R_Small R22
+L front-panel-9602-rescue:R_Small-Device R22
 U 1 1 6035CC08
 P 4450 4100
 F 0 "R22" V 4254 4100 50  0000 C CNN
@@ -1074,7 +1074,7 @@ F 3 "~" H 4450 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0117
+L front-panel-9602-rescue:+5V-power #PWR0117
 U 1 1 6035CC0F
 P 3750 4100
 F 0 "#PWR0117" H 3750 3950 50  0001 C CNN
@@ -1087,7 +1087,7 @@ $EndComp
 Wire Wire Line
 	3750 4100 3950 4100
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 2 1 6035CC16
 P 5000 4600
 F 0 "U2" H 5000 4283 50  0000 C CNN
@@ -1098,7 +1098,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D23
+L front-panel-9602-rescue:LED-Device D23
 U 1 1 6035CC1C
 P 4100 4600
 F 0 "D23" H 4093 4345 50  0000 C CNN
@@ -1113,7 +1113,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4600 5700 4600
 $Comp
-L Device:R_Small R23
+L front-panel-9602-rescue:R_Small-Device R23
 U 1 1 6035CC24
 P 4450 4600
 F 0 "R23" V 4254 4600 50  0000 C CNN
@@ -1124,7 +1124,7 @@ F 3 "~" H 4450 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0118
+L front-panel-9602-rescue:+5V-power #PWR0118
 U 1 1 6035CC2B
 P 3750 4600
 F 0 "#PWR0118" H 3750 4450 50  0001 C CNN
@@ -1137,7 +1137,7 @@ $EndComp
 Wire Wire Line
 	3750 4600 3950 4600
 $Comp
-L Device:LED D24
+L front-panel-9602-rescue:LED-Device D24
 U 1 1 6035CC38
 P 4100 5150
 F 0 "D24" H 4093 4895 50  0000 C CNN
@@ -1148,7 +1148,7 @@ F 3 "~" H 4100 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R24
+L front-panel-9602-rescue:R_Small-Device R24
 U 1 1 6035CC40
 P 4450 5150
 F 0 "R24" V 4254 5150 50  0000 C CNN
@@ -1159,7 +1159,7 @@ F 3 "~" H 4450 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0119
+L front-panel-9602-rescue:+5V-power #PWR0119
 U 1 1 6035CC47
 P 3750 5150
 F 0 "#PWR0119" H 3750 5000 50  0001 C CNN
@@ -1172,7 +1172,7 @@ $EndComp
 Wire Wire Line
 	3750 5150 3950 5150
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 3 1 6037DB14
 P 2450 5950
 F 0 "U11" H 2450 5633 50  0000 C CNN
@@ -1183,7 +1183,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D1
+L front-panel-9602-rescue:LED-Device D1
 U 1 1 6037DB1A
 P 1550 5950
 F 0 "D1" H 1543 5695 50  0000 C CNN
@@ -1194,7 +1194,7 @@ F 3 "~" H 1550 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R1
+L front-panel-9602-rescue:R_Small-Device R1
 U 1 1 6037DB22
 P 1950 5950
 F 0 "R1" V 1754 5950 50  0000 C CNN
@@ -1205,7 +1205,7 @@ F 3 "~" H 1950 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0120
+L front-panel-9602-rescue:+5V-power #PWR0120
 U 1 1 6037DB29
 P 1200 5950
 F 0 "#PWR0120" H 1200 5800 50  0001 C CNN
@@ -1218,7 +1218,7 @@ $EndComp
 Wire Wire Line
 	1200 5950 1400 5950
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 2 1 6037DB30
 P 2450 6450
 F 0 "U11" H 2450 6133 50  0000 C CNN
@@ -1229,7 +1229,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D2
+L front-panel-9602-rescue:LED-Device D2
 U 1 1 6037DB36
 P 1550 6450
 F 0 "D2" H 1543 6195 50  0000 C CNN
@@ -1240,7 +1240,7 @@ F 3 "~" H 1550 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0121
+L front-panel-9602-rescue:+5V-power #PWR0121
 U 1 1 6037DB45
 P 1200 6450
 F 0 "#PWR0121" H 1200 6300 50  0001 C CNN
@@ -1253,7 +1253,7 @@ $EndComp
 Wire Wire Line
 	1200 6450 1400 6450
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 1 1 6037DB4C
 P 2450 7000
 F 0 "U11" H 2450 6683 50  0000 C CNN
@@ -1264,7 +1264,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 7000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D3
+L front-panel-9602-rescue:LED-Device D3
 U 1 1 6037DB52
 P 1550 7000
 F 0 "D3" H 1543 6745 50  0000 C CNN
@@ -1279,7 +1279,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7000 3150 7000
 $Comp
-L Device:R_Small R3
+L front-panel-9602-rescue:R_Small-Device R3
 U 1 1 6037DB5A
 P 1900 7000
 F 0 "R3" V 1704 7000 50  0000 C CNN
@@ -1292,7 +1292,7 @@ $EndComp
 Wire Wire Line
 	1700 7000 1800 7000
 $Comp
-L power:+5V #PWR0122
+L front-panel-9602-rescue:+5V-power #PWR0122
 U 1 1 6037DB61
 P 1200 7000
 F 0 "#PWR0122" H 1200 6850 50  0001 C CNN
@@ -1305,7 +1305,7 @@ $EndComp
 Wire Wire Line
 	1200 7000 1400 7000
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 4 1 6037DB68
 P 2450 7550
 F 0 "U11" H 2450 7233 50  0000 C CNN
@@ -1316,7 +1316,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 7550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D4
+L front-panel-9602-rescue:LED-Device D4
 U 1 1 6037DB6E
 P 1550 7550
 F 0 "D4" H 1543 7295 50  0000 C CNN
@@ -1331,7 +1331,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7550 3150 7550
 $Comp
-L Device:R_Small R4
+L front-panel-9602-rescue:R_Small-Device R4
 U 1 1 6037DB76
 P 1900 7550
 F 0 "R4" V 1704 7550 50  0000 C CNN
@@ -1344,7 +1344,7 @@ $EndComp
 Wire Wire Line
 	1700 7550 1800 7550
 $Comp
-L power:+5V #PWR0123
+L front-panel-9602-rescue:+5V-power #PWR0123
 U 1 1 6037DB7D
 P 1200 7550
 F 0 "#PWR0123" H 1200 7400 50  0001 C CNN
@@ -1357,7 +1357,7 @@ $EndComp
 Wire Wire Line
 	1200 7550 1400 7550
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 5 1 6037DB84
 P 2450 8100
 F 0 "U11" H 2450 7783 50  0000 C CNN
@@ -1368,7 +1368,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 8100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D5
+L front-panel-9602-rescue:LED-Device D5
 U 1 1 6037DB8A
 P 1550 8100
 F 0 "D5" H 1543 7845 50  0000 C CNN
@@ -1383,7 +1383,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 8100 3150 8100
 $Comp
-L Device:R_Small R5
+L front-panel-9602-rescue:R_Small-Device R5
 U 1 1 6037DB92
 P 1950 8100
 F 0 "R5" V 1754 8100 50  0000 C CNN
@@ -1396,7 +1396,7 @@ $EndComp
 Wire Wire Line
 	1700 8100 1850 8100
 $Comp
-L power:+5V #PWR0124
+L front-panel-9602-rescue:+5V-power #PWR0124
 U 1 1 6037DB99
 P 1200 8100
 F 0 "#PWR0124" H 1200 7950 50  0001 C CNN
@@ -1409,7 +1409,7 @@ $EndComp
 Wire Wire Line
 	1200 8100 1400 8100
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 6 1 6037DBA0
 P 2450 8650
 F 0 "U11" H 2450 8333 50  0000 C CNN
@@ -1420,7 +1420,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 8650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D6
+L front-panel-9602-rescue:LED-Device D6
 U 1 1 6037DBA6
 P 1550 8650
 F 0 "D6" H 1543 8395 50  0000 C CNN
@@ -1435,7 +1435,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 8650 3150 8650
 $Comp
-L Device:R_Small R6
+L front-panel-9602-rescue:R_Small-Device R6
 U 1 1 6037DBAE
 P 1950 8650
 F 0 "R6" V 1754 8650 50  0000 C CNN
@@ -1446,7 +1446,7 @@ F 3 "~" H 1950 8650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0125
+L front-panel-9602-rescue:+5V-power #PWR0125
 U 1 1 6037DBB5
 P 1200 8650
 F 0 "#PWR0125" H 1200 8500 50  0001 C CNN
@@ -1459,7 +1459,7 @@ $EndComp
 Wire Wire Line
 	1200 8650 1400 8650
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 1 1 6037DBBC
 P 2450 9150
 F 0 "U7" H 2450 8833 50  0000 C CNN
@@ -1470,7 +1470,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 9150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D7
+L front-panel-9602-rescue:LED-Device D7
 U 1 1 6037DBC2
 P 1550 9150
 F 0 "D7" H 1543 8895 50  0000 C CNN
@@ -1485,7 +1485,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 9150 3150 9150
 $Comp
-L Device:R_Small R7
+L front-panel-9602-rescue:R_Small-Device R7
 U 1 1 6037DBCA
 P 1950 9150
 F 0 "R7" V 1754 9150 50  0000 C CNN
@@ -1496,7 +1496,7 @@ F 3 "~" H 1950 9150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0126
+L front-panel-9602-rescue:+5V-power #PWR0126
 U 1 1 6037DBD1
 P 1200 9150
 F 0 "#PWR0126" H 1200 9000 50  0001 C CNN
@@ -1509,7 +1509,7 @@ $EndComp
 Wire Wire Line
 	1200 9150 1400 9150
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 2 1 6037DBD8
 P 2450 9700
 F 0 "U7" H 2450 9383 50  0000 C CNN
@@ -1520,7 +1520,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 2450 9700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D8
+L front-panel-9602-rescue:LED-Device D8
 U 1 1 6037DBDE
 P 1900 9700
 F 0 "D8" H 1893 9445 50  0000 C CNN
@@ -1535,7 +1535,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 9700 3150 9700
 $Comp
-L Device:R_Small R8
+L front-panel-9602-rescue:R_Small-Device R8
 U 1 1 6037DBE6
 P 1500 9700
 F 0 "R8" V 1304 9700 50  0000 C CNN
@@ -1546,7 +1546,7 @@ F 3 "~" H 1500 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0127
+L front-panel-9602-rescue:+5V-power #PWR0127
 U 1 1 6037DBED
 P 1200 9700
 F 0 "#PWR0127" H 1200 9550 50  0001 C CNN
@@ -1559,7 +1559,7 @@ $EndComp
 Wire Wire Line
 	1200 9700 1400 9700
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 4 1 603A27E6
 P 5000 5950
 F 0 "U1" H 5000 5633 50  0000 C CNN
@@ -1570,7 +1570,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D25
+L front-panel-9602-rescue:LED-Device D25
 U 1 1 603A27EC
 P 4100 5950
 F 0 "D25" H 4093 5695 50  0000 C CNN
@@ -1585,7 +1585,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5950 5700 5950
 $Comp
-L Device:R_Small R25
+L front-panel-9602-rescue:R_Small-Device R25
 U 1 1 603A27F4
 P 4450 5950
 F 0 "R25" V 4254 5950 50  0000 C CNN
@@ -1596,7 +1596,7 @@ F 3 "~" H 4450 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0128
+L front-panel-9602-rescue:+5V-power #PWR0128
 U 1 1 603A27FB
 P 3750 5950
 F 0 "#PWR0128" H 3750 5800 50  0001 C CNN
@@ -1609,7 +1609,7 @@ $EndComp
 Wire Wire Line
 	3750 5950 3950 5950
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 3 1 603A2802
 P 5000 6450
 F 0 "U1" H 5000 6133 50  0000 C CNN
@@ -1620,7 +1620,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D26
+L front-panel-9602-rescue:LED-Device D26
 U 1 1 603A2808
 P 4100 6450
 F 0 "D26" H 4093 6195 50  0000 C CNN
@@ -1635,7 +1635,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 6450 5700 6450
 $Comp
-L Device:R_Small R26
+L front-panel-9602-rescue:R_Small-Device R26
 U 1 1 603A2810
 P 4450 6450
 F 0 "R26" V 4254 6450 50  0000 C CNN
@@ -1646,7 +1646,7 @@ F 3 "~" H 4450 6450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0129
+L front-panel-9602-rescue:+5V-power #PWR0129
 U 1 1 603A2817
 P 3750 6450
 F 0 "#PWR0129" H 3750 6300 50  0001 C CNN
@@ -1659,7 +1659,7 @@ $EndComp
 Wire Wire Line
 	3750 6450 3950 6450
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 2 1 603A281E
 P 5000 7000
 F 0 "U1" H 5000 6683 50  0000 C CNN
@@ -1670,7 +1670,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 7000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D27
+L front-panel-9602-rescue:LED-Device D27
 U 1 1 603A2824
 P 4100 7000
 F 0 "D27" H 4093 6745 50  0000 C CNN
@@ -1685,7 +1685,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 7000 5700 7000
 $Comp
-L Device:R_Small R27
+L front-panel-9602-rescue:R_Small-Device R27
 U 1 1 603A282C
 P 4450 7000
 F 0 "R27" V 4254 7000 50  0000 C CNN
@@ -1696,7 +1696,7 @@ F 3 "~" H 4450 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0130
+L front-panel-9602-rescue:+5V-power #PWR0130
 U 1 1 603A2833
 P 3750 7000
 F 0 "#PWR0130" H 3750 6850 50  0001 C CNN
@@ -1709,7 +1709,7 @@ $EndComp
 Wire Wire Line
 	3750 7000 3950 7000
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 1 1 603A283A
 P 5000 7550
 F 0 "U1" H 5000 7233 50  0000 C CNN
@@ -1720,7 +1720,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 7550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D28
+L front-panel-9602-rescue:LED-Device D28
 U 1 1 603A2840
 P 4100 7550
 F 0 "D28" H 4093 7295 50  0000 C CNN
@@ -1735,7 +1735,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 7550 5700 7550
 $Comp
-L Device:R_Small R28
+L front-panel-9602-rescue:R_Small-Device R28
 U 1 1 603A2848
 P 4450 7550
 F 0 "R28" V 4254 7550 50  0000 C CNN
@@ -1746,7 +1746,7 @@ F 3 "~" H 4450 7550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0131
+L front-panel-9602-rescue:+5V-power #PWR0131
 U 1 1 603A284F
 P 3750 7550
 F 0 "#PWR0131" H 3750 7400 50  0001 C CNN
@@ -1759,7 +1759,7 @@ $EndComp
 Wire Wire Line
 	3750 7550 3950 7550
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 6 1 603A2856
 P 5000 8100
 F 0 "U7" H 5000 7783 50  0000 C CNN
@@ -1770,7 +1770,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 8100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D29
+L front-panel-9602-rescue:LED-Device D29
 U 1 1 603A285C
 P 4100 8100
 F 0 "D29" H 4093 7845 50  0000 C CNN
@@ -1785,7 +1785,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 8100 5700 8100
 $Comp
-L Device:R_Small R29
+L front-panel-9602-rescue:R_Small-Device R29
 U 1 1 603A2864
 P 4450 8100
 F 0 "R29" V 4254 8100 50  0000 C CNN
@@ -1796,7 +1796,7 @@ F 3 "~" H 4450 8100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0132
+L front-panel-9602-rescue:+5V-power #PWR0132
 U 1 1 603A286B
 P 3750 8100
 F 0 "#PWR0132" H 3750 7950 50  0001 C CNN
@@ -1809,7 +1809,7 @@ $EndComp
 Wire Wire Line
 	3750 8100 3950 8100
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 5 1 603A2872
 P 5000 8650
 F 0 "U7" H 5000 8333 50  0000 C CNN
@@ -1820,7 +1820,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 8650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D30
+L front-panel-9602-rescue:LED-Device D30
 U 1 1 603A2878
 P 4100 8650
 F 0 "D30" H 4093 8395 50  0000 C CNN
@@ -1835,7 +1835,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 8650 5700 8650
 $Comp
-L Device:R_Small R30
+L front-panel-9602-rescue:R_Small-Device R30
 U 1 1 603A2880
 P 4450 8650
 F 0 "R30" V 4254 8650 50  0000 C CNN
@@ -1846,7 +1846,7 @@ F 3 "~" H 4450 8650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0133
+L front-panel-9602-rescue:+5V-power #PWR0133
 U 1 1 603A2887
 P 3750 8650
 F 0 "#PWR0133" H 3750 8500 50  0001 C CNN
@@ -1859,7 +1859,7 @@ $EndComp
 Wire Wire Line
 	3750 8650 3950 8650
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 4 1 603A288E
 P 5000 9150
 F 0 "U7" H 5000 8833 50  0000 C CNN
@@ -1870,7 +1870,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 9150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D31
+L front-panel-9602-rescue:LED-Device D31
 U 1 1 603A2894
 P 4100 9150
 F 0 "D31" H 4093 8895 50  0000 C CNN
@@ -1885,7 +1885,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 9150 5700 9150
 $Comp
-L Device:R_Small R31
+L front-panel-9602-rescue:R_Small-Device R31
 U 1 1 603A289C
 P 4450 9150
 F 0 "R31" V 4254 9150 50  0000 C CNN
@@ -1896,7 +1896,7 @@ F 3 "~" H 4450 9150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0134
+L front-panel-9602-rescue:+5V-power #PWR0134
 U 1 1 603A28A3
 P 3750 9150
 F 0 "#PWR0134" H 3750 9000 50  0001 C CNN
@@ -1909,7 +1909,7 @@ $EndComp
 Wire Wire Line
 	3750 9150 3950 9150
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 3 1 603A28AA
 P 5000 9700
 F 0 "U7" H 5000 9383 50  0000 C CNN
@@ -1920,7 +1920,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5000 9700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D32
+L front-panel-9602-rescue:LED-Device D32
 U 1 1 603A28B0
 P 4400 9700
 F 0 "D32" H 4393 9445 50  0000 C CNN
@@ -1935,7 +1935,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 9700 5700 9700
 $Comp
-L Device:R_Small R32
+L front-panel-9602-rescue:R_Small-Device R32
 U 1 1 603A28B8
 P 4050 9700
 F 0 "R32" V 3854 9700 50  0000 C CNN
@@ -1946,7 +1946,7 @@ F 3 "~" H 4050 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0135
+L front-panel-9602-rescue:+5V-power #PWR0135
 U 1 1 603A28BF
 P 3750 9700
 F 0 "#PWR0135" H 3750 9550 50  0001 C CNN
@@ -2031,7 +2031,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1350 6700 1350
 $Comp
-L power:+5V #PWR0136
+L front-panel-9602-rescue:+5V-power #PWR0136
 U 1 1 5D43138D
 P 6500 1350
 F 0 "#PWR0136" H 6500 1200 50  0001 C CNN
@@ -2042,7 +2042,7 @@ F 3 "" H 6500 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R33
+L front-panel-9602-rescue:R_Small-Device R33
 U 1 1 5D431386
 P 7200 1350
 F 0 "R33" V 7004 1350 50  0000 C CNN
@@ -2053,7 +2053,7 @@ F 3 "~" H 7200 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D33
+L front-panel-9602-rescue:LED-Device D33
 U 1 1 5D431380
 P 6850 1350
 F 0 "D33" H 6843 1095 50  0000 C CNN
@@ -2064,7 +2064,7 @@ F 3 "~" H 6850 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 1 1 5D405BCF
 P 7700 1350
 F 0 "U4" H 7700 1033 50  0000 C CNN
@@ -2083,7 +2083,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1850 6700 1850
 $Comp
-L power:+5V #PWR0137
+L front-panel-9602-rescue:+5V-power #PWR0137
 U 1 1 5D4D5D5F
 P 6500 1850
 F 0 "#PWR0137" H 6500 1700 50  0001 C CNN
@@ -2094,7 +2094,7 @@ F 3 "" H 6500 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R34
+L front-panel-9602-rescue:R_Small-Device R34
 U 1 1 5D4D5D66
 P 7200 1850
 F 0 "R34" V 7004 1850 50  0000 C CNN
@@ -2105,7 +2105,7 @@ F 3 "~" H 7200 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D34
+L front-panel-9602-rescue:LED-Device D34
 U 1 1 5D4D5D6C
 P 6850 1850
 F 0 "D34" H 6843 1595 50  0000 C CNN
@@ -2116,7 +2116,7 @@ F 3 "~" H 6850 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 3 1 5D4D5D72
 P 7700 1850
 F 0 "U4" H 7700 1533 50  0000 C CNN
@@ -2135,7 +2135,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2350 6700 2350
 $Comp
-L power:+5V #PWR0138
+L front-panel-9602-rescue:+5V-power #PWR0138
 U 1 1 5D4EBFF2
 P 6500 2350
 F 0 "#PWR0138" H 6500 2200 50  0001 C CNN
@@ -2146,7 +2146,7 @@ F 3 "" H 6500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R35
+L front-panel-9602-rescue:R_Small-Device R35
 U 1 1 5D4EBFF9
 P 7200 2350
 F 0 "R35" V 7004 2350 50  0000 C CNN
@@ -2157,7 +2157,7 @@ F 3 "~" H 7200 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D35
+L front-panel-9602-rescue:LED-Device D35
 U 1 1 5D4EBFFF
 P 6850 2350
 F 0 "D35" H 6843 2095 50  0000 C CNN
@@ -2168,7 +2168,7 @@ F 3 "~" H 6850 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 6 1 5D4EC005
 P 7700 2350
 F 0 "U4" H 7700 2033 50  0000 C CNN
@@ -2187,7 +2187,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2850 6700 2850
 $Comp
-L power:+5V #PWR0139
+L front-panel-9602-rescue:+5V-power #PWR0139
 U 1 1 5D502C4B
 P 6500 2850
 F 0 "#PWR0139" H 6500 2700 50  0001 C CNN
@@ -2198,7 +2198,7 @@ F 3 "" H 6500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R36
+L front-panel-9602-rescue:R_Small-Device R36
 U 1 1 5D502C52
 P 7200 2850
 F 0 "R36" V 7004 2850 50  0000 C CNN
@@ -2209,7 +2209,7 @@ F 3 "~" H 7200 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D36
+L front-panel-9602-rescue:LED-Device D36
 U 1 1 5D502C58
 P 6850 2850
 F 0 "D36" H 6843 2595 50  0000 C CNN
@@ -2220,7 +2220,7 @@ F 3 "~" H 6850 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 2 1 5D502C5E
 P 7700 2850
 F 0 "U4" H 7700 2533 50  0000 C CNN
@@ -2239,7 +2239,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3350 6700 3350
 $Comp
-L power:+5V #PWR0140
+L front-panel-9602-rescue:+5V-power #PWR0140
 U 1 1 5D519F41
 P 6500 3350
 F 0 "#PWR0140" H 6500 3200 50  0001 C CNN
@@ -2250,7 +2250,7 @@ F 3 "" H 6500 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R37
+L front-panel-9602-rescue:R_Small-Device R37
 U 1 1 5D519F48
 P 7200 3350
 F 0 "R37" V 7004 3350 50  0000 C CNN
@@ -2261,7 +2261,7 @@ F 3 "~" H 7200 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D37
+L front-panel-9602-rescue:LED-Device D37
 U 1 1 5D519F4E
 P 6850 3350
 F 0 "D37" H 6843 3095 50  0000 C CNN
@@ -2272,7 +2272,7 @@ F 3 "~" H 6850 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 5 1 5D519F54
 P 7700 3350
 F 0 "U4" H 7700 3033 50  0000 C CNN
@@ -2291,7 +2291,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3850 6700 3850
 $Comp
-L power:+5V #PWR0141
+L front-panel-9602-rescue:+5V-power #PWR0141
 U 1 1 5D532D1B
 P 6500 3850
 F 0 "#PWR0141" H 6500 3700 50  0001 C CNN
@@ -2302,7 +2302,7 @@ F 3 "" H 6500 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R38
+L front-panel-9602-rescue:R_Small-Device R38
 U 1 1 5D532D22
 P 7200 3850
 F 0 "R38" V 7004 3850 50  0000 C CNN
@@ -2313,7 +2313,7 @@ F 3 "~" H 7200 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D38
+L front-panel-9602-rescue:LED-Device D38
 U 1 1 5D532D28
 P 6850 3850
 F 0 "D38" H 6843 3595 50  0000 C CNN
@@ -2324,7 +2324,7 @@ F 3 "~" H 6850 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 4 1 5D532D2E
 P 7700 3850
 F 0 "U4" H 7700 3533 50  0000 C CNN
@@ -2343,7 +2343,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5150 6700 5150
 $Comp
-L power:+5V #PWR0142
+L front-panel-9602-rescue:+5V-power #PWR0142
 U 1 1 5D54B94C
 P 6500 5150
 F 0 "#PWR0142" H 6500 5000 50  0001 C CNN
@@ -2354,7 +2354,7 @@ F 3 "" H 6500 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R39
+L front-panel-9602-rescue:R_Small-Device R39
 U 1 1 5D54B953
 P 7200 5150
 F 0 "R39" V 7004 5150 50  0000 C CNN
@@ -2365,7 +2365,7 @@ F 3 "~" H 7200 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D39
+L front-panel-9602-rescue:LED-Device D39
 U 1 1 5D54B959
 P 6850 5150
 F 0 "D39" H 6843 4895 50  0000 C CNN
@@ -2376,7 +2376,7 @@ F 3 "~" H 6850 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 1 1 5D54B95F
 P 7700 5150
 F 0 "U5" H 7700 4833 50  0000 C CNN
@@ -2395,7 +2395,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5700 6700 5700
 $Comp
-L power:+5V #PWR0143
+L front-panel-9602-rescue:+5V-power #PWR0143
 U 1 1 5D564F51
 P 6500 5700
 F 0 "#PWR0143" H 6500 5550 50  0001 C CNN
@@ -2406,7 +2406,7 @@ F 3 "" H 6500 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R40
+L front-panel-9602-rescue:R_Small-Device R40
 U 1 1 5D564F58
 P 7200 5700
 F 0 "R40" V 7004 5700 50  0000 C CNN
@@ -2417,7 +2417,7 @@ F 3 "~" H 7200 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D40
+L front-panel-9602-rescue:LED-Device D40
 U 1 1 5D564F5E
 P 6850 5700
 F 0 "D40" H 6843 5445 50  0000 C CNN
@@ -2428,7 +2428,7 @@ F 3 "~" H 6850 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 2 1 5D564F64
 P 7700 5700
 F 0 "U5" H 7700 5383 50  0000 C CNN
@@ -2447,7 +2447,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 6250 6700 6250
 $Comp
-L power:+5V #PWR0144
+L front-panel-9602-rescue:+5V-power #PWR0144
 U 1 1 5D57FB24
 P 6500 6250
 F 0 "#PWR0144" H 6500 6100 50  0001 C CNN
@@ -2458,7 +2458,7 @@ F 3 "" H 6500 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R41
+L front-panel-9602-rescue:R_Small-Device R41
 U 1 1 5D57FB2B
 P 7200 6250
 F 0 "R41" V 7004 6250 50  0000 C CNN
@@ -2469,7 +2469,7 @@ F 3 "~" H 7200 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D41
+L front-panel-9602-rescue:LED-Device D41
 U 1 1 5D57FB31
 P 6850 6250
 F 0 "D41" H 6843 5995 50  0000 C CNN
@@ -2480,7 +2480,7 @@ F 3 "~" H 6850 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 3 1 5D57FB37
 P 7700 6250
 F 0 "U5" H 7700 5933 50  0000 C CNN
@@ -2499,7 +2499,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 6800 6700 6800
 $Comp
-L power:+5V #PWR0145
+L front-panel-9602-rescue:+5V-power #PWR0145
 U 1 1 5D59AB73
 P 6500 6800
 F 0 "#PWR0145" H 6500 6650 50  0001 C CNN
@@ -2510,7 +2510,7 @@ F 3 "" H 6500 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R42
+L front-panel-9602-rescue:R_Small-Device R42
 U 1 1 5D59AB7A
 P 7200 6800
 F 0 "R42" V 7004 6800 50  0000 C CNN
@@ -2521,7 +2521,7 @@ F 3 "~" H 7200 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D42
+L front-panel-9602-rescue:LED-Device D42
 U 1 1 5D59AB80
 P 6850 6800
 F 0 "D42" H 6843 6545 50  0000 C CNN
@@ -2532,7 +2532,7 @@ F 3 "~" H 6850 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 6 1 5D59AB86
 P 7700 6800
 F 0 "U5" H 7700 6483 50  0000 C CNN
@@ -2551,7 +2551,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 7350 6700 7350
 $Comp
-L power:+5V #PWR0146
+L front-panel-9602-rescue:+5V-power #PWR0146
 U 1 1 5D5B7020
 P 6500 7350
 F 0 "#PWR0146" H 6500 7200 50  0001 C CNN
@@ -2562,7 +2562,7 @@ F 3 "" H 6500 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R43
+L front-panel-9602-rescue:R_Small-Device R43
 U 1 1 5D5B7027
 P 7200 7350
 F 0 "R43" V 7004 7350 50  0000 C CNN
@@ -2573,7 +2573,7 @@ F 3 "~" H 7200 7350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D43
+L front-panel-9602-rescue:LED-Device D43
 U 1 1 5D5B702D
 P 6850 7350
 F 0 "D43" H 6843 7095 50  0000 C CNN
@@ -2584,7 +2584,7 @@ F 3 "~" H 6850 7350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 5 1 5D5B7033
 P 7700 7350
 F 0 "U5" H 7700 7033 50  0000 C CNN
@@ -2603,7 +2603,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 7900 6700 7900
 $Comp
-L power:+5V #PWR0147
+L front-panel-9602-rescue:+5V-power #PWR0147
 U 1 1 5D5D419D
 P 6500 7900
 F 0 "#PWR0147" H 6500 7750 50  0001 C CNN
@@ -2614,7 +2614,7 @@ F 3 "" H 6500 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R44
+L front-panel-9602-rescue:R_Small-Device R44
 U 1 1 5D5D41A4
 P 7200 7900
 F 0 "R44" V 7004 7900 50  0000 C CNN
@@ -2625,7 +2625,7 @@ F 3 "~" H 7200 7900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D44
+L front-panel-9602-rescue:LED-Device D44
 U 1 1 5D5D41AA
 P 6850 7900
 F 0 "D44" H 6843 7645 50  0000 C CNN
@@ -2636,7 +2636,7 @@ F 3 "~" H 6850 7900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 4 1 5D5D41B0
 P 7700 7900
 F 0 "U5" H 7700 7583 50  0000 C CNN
@@ -2689,7 +2689,7 @@ Wire Wire Line
 	16050 5500 16550 5500
 Connection ~ 16550 5500
 $Comp
-L power:GND #PWR0148
+L front-panel-9602-rescue:GND-power #PWR0148
 U 1 1 5D6B59EF
 P 15500 5250
 F 0 "#PWR0148" H 15500 5000 50  0001 C CNN
@@ -2700,7 +2700,7 @@ F 3 "" H 15500 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0149
+L front-panel-9602-rescue:GND-power #PWR0149
 U 1 1 5D6B5B99
 P 15500 3700
 F 0 "#PWR0149" H 15500 3450 50  0001 C CNN
@@ -2711,7 +2711,7 @@ F 3 "" H 15500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0150
+L front-panel-9602-rescue:GND-power #PWR0150
 U 1 1 5D6B61EE
 P 15450 2350
 F 0 "#PWR0150" H 15450 2100 50  0001 C CNN
@@ -2771,7 +2771,7 @@ Connection ~ 9800 2450
 Wire Wire Line
 	9800 2450 9800 2950
 $Comp
-L power:GND #PWR0151
+L front-panel-9602-rescue:GND-power #PWR0151
 U 1 1 5D8A0C40
 P 9800 6050
 F 0 "#PWR0151" H 9800 5800 50  0001 C CNN
@@ -2782,7 +2782,7 @@ F 3 "" H 9800 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R45
+L front-panel-9602-rescue:R_Small-Device R45
 U 1 1 5D8A132C
 P 10950 1350
 F 0 "R45" V 10754 1350 50  0000 C CNN
@@ -2793,7 +2793,7 @@ F 3 "~" H 10950 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R46
+L front-panel-9602-rescue:R_Small-Device R46
 U 1 1 5D8A312E
 P 11250 1350
 F 0 "R46" V 11054 1350 50  0000 C CNN
@@ -2804,7 +2804,7 @@ F 3 "~" H 11250 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R47
+L front-panel-9602-rescue:R_Small-Device R47
 U 1 1 5D8A34BB
 P 11550 1350
 F 0 "R47" V 11354 1350 50  0000 C CNN
@@ -2815,7 +2815,7 @@ F 3 "~" H 11550 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R48
+L front-panel-9602-rescue:R_Small-Device R48
 U 1 1 5D8A3887
 P 11850 1350
 F 0 "R48" V 11654 1350 50  0000 C CNN
@@ -2826,7 +2826,7 @@ F 3 "~" H 11850 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R49
+L front-panel-9602-rescue:R_Small-Device R49
 U 1 1 5D8A3BD5
 P 12150 1350
 F 0 "R49" V 11954 1350 50  0000 C CNN
@@ -2837,7 +2837,7 @@ F 3 "~" H 12150 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R50
+L front-panel-9602-rescue:R_Small-Device R50
 U 1 1 5D8A3F23
 P 12450 1350
 F 0 "R50" V 12254 1350 50  0000 C CNN
@@ -2848,7 +2848,7 @@ F 3 "~" H 12450 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R51
+L front-panel-9602-rescue:R_Small-Device R51
 U 1 1 5D8A436D
 P 12750 1350
 F 0 "R51" V 12554 1350 50  0000 C CNN
@@ -2954,7 +2954,7 @@ Wire Wire Line
 	12000 1050 12000 950 
 Connection ~ 12000 1050
 $Comp
-L power:+5V #PWR0152
+L front-panel-9602-rescue:+5V-power #PWR0152
 U 1 1 5DD3FEA3
 P 12000 950
 F 0 "#PWR0152" H 12000 800 50  0001 C CNN
@@ -3009,7 +3009,7 @@ EXAM
 Text Notes 15800 4700 2    50   ~ 0
 DEP
 $Comp
-L 74xx:7400 U12
+L front-panel-9602-rescue:7400-74xx U12
 U 2 1 5DF1C47D
 P 17000 8600
 F 0 "U12" H 17000 8283 50  0000 C CNN
@@ -3020,7 +3020,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17000 8600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74xx:7400 U12
+L front-panel-9602-rescue:7400-74xx U12
 U 1 1 5DF23056
 P 18550 7300
 F 0 "U12" V 18504 7488 50  0000 L CNN
@@ -3031,7 +3031,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 18550 7300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS123 U10
+L front-panel-9602-rescue:74LS123-74xx U10
 U 2 1 5DF2ED73
 P 19600 8450
 F 0 "U10" H 19600 8917 50  0000 C CNN
@@ -3046,7 +3046,7 @@ Wire Wire Line
 Wire Wire Line
 	19100 8650 19100 8900
 $Comp
-L 74xx:7400 U12
+L front-panel-9602-rescue:7400-74xx U12
 U 3 1 5DF8DEDC
 P 21200 8650
 F 0 "U12" H 21200 8975 50  0000 C CNN
@@ -3057,7 +3057,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 21200 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U12
+L front-panel-9602-rescue:7400-74xx U12
 U 4 1 5DF91C10
 P 21200 7750
 F 0 "U12" H 21200 7433 50  0000 C CNN
@@ -3121,7 +3121,7 @@ Wire Wire Line
 Wire Wire Line
 	17750 9300 21500 9300
 $Comp
-L Device:R_Small R54
+L front-panel-9602-rescue:R_Small-Device R54
 U 1 1 5E4C5F09
 P 16200 7500
 F 0 "R54" V 16004 7500 50  0000 C CNN
@@ -3137,7 +3137,7 @@ Wire Wire Line
 	16200 8700 16700 8700
 Connection ~ 16200 8700
 $Comp
-L power:+5V #PWR0153
+L front-panel-9602-rescue:+5V-power #PWR0153
 U 1 1 5E5B9E89
 P 16200 7300
 F 0 "#PWR0153" H 16200 7150 50  0001 C CNN
@@ -3148,7 +3148,7 @@ F 3 "" H 16200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R53
+L front-panel-9602-rescue:R_Small-Device R53
 U 1 1 5E5BA4CB
 P 16150 6400
 F 0 "R53" V 15954 6400 50  0000 C CNN
@@ -3159,7 +3159,7 @@ F 3 "~" H 16150 6400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0154
+L front-panel-9602-rescue:+5V-power #PWR0154
 U 1 1 5E5BA9E7
 P 16150 6200
 F 0 "#PWR0154" H 16150 6050 50  0001 C CNN
@@ -3186,7 +3186,7 @@ Connection ~ 15200 8800
 Wire Wire Line
 	15200 8800 15200 9000
 $Comp
-L power:GND #PWR0155
+L front-panel-9602-rescue:GND-power #PWR0155
 U 1 1 5E71AC8E
 P 15200 10000
 F 0 "#PWR0155" H 15200 9750 50  0001 C CNN
@@ -3197,7 +3197,7 @@ F 3 "" H 15200 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L front-panel-9602-rescue:C_Small-Device C1
 U 1 1 5E71E0BF
 P 16000 6950
 F 0 "C1" H 16092 6996 50  0000 L CNN
@@ -3208,7 +3208,7 @@ F 3 "~" H 16000 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0156
+L front-panel-9602-rescue:GND-power #PWR0156
 U 1 1 5E71EF1F
 P 16000 7150
 F 0 "#PWR0156" H 16000 6900 50  0001 C CNN
@@ -3226,7 +3226,7 @@ Connection ~ 16000 6750
 Wire Wire Line
 	16000 6750 15900 6750
 $Comp
-L Device:CP_Small C2
+L front-panel-9602-rescue:CP_Small-Device C2
 U 1 1 5E7BA011
 P 16250 9650
 F 0 "C2" V 16025 9650 50  0000 C CNN
@@ -3349,7 +3349,7 @@ Quad NAND
 Text Notes 5850 10450 2    98   ~ 0
 1.PC7 and MA7 buffers are located on E8-M
 $Comp
-L Device:R R61
+L front-panel-9602-rescue:R-Device R61
 U 1 1 5F838533
 P 17800 1250
 F 0 "R61" H 17870 1296 50  0000 L CNN
@@ -3360,7 +3360,7 @@ F 3 "~" H 17800 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L front-panel-9602-rescue:C-Device C3
 U 1 1 5F83AC3A
 P 18050 1600
 F 0 "C3" V 17798 1600 50  0000 C CNN
@@ -3384,7 +3384,7 @@ Connection ~ 17800 1500
 Wire Wire Line
 	17800 1100 17800 1000
 $Comp
-L power:+5V #PWR0157
+L front-panel-9602-rescue:+5V-power #PWR0157
 U 1 1 5F9138BE
 P 17800 1000
 F 0 "#PWR0157" H 17800 850 50  0001 C CNN
@@ -3395,7 +3395,7 @@ F 3 "" H 17800 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L front-panel-9602-rescue:C-Device C4
 U 1 1 5F915F83
 P 18850 8350
 F 0 "C4" V 18598 8350 50  0000 C CNN
@@ -3406,7 +3406,7 @@ F 3 "~" H 18850 8350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R62
+L front-panel-9602-rescue:R-Device R62
 U 1 1 5F918EA8
 P 18150 8000
 F 0 "R62" H 18220 8046 50  0000 L CNN
@@ -3430,7 +3430,7 @@ Wire Wire Line
 Wire Wire Line
 	18150 7850 18150 7750
 $Comp
-L power:+5V #PWR0158
+L front-panel-9602-rescue:+5V-power #PWR0158
 U 1 1 5FA2FE5D
 P 18150 7750
 F 0 "#PWR0158" H 18150 7600 50  0001 C CNN
@@ -3441,7 +3441,7 @@ F 3 "" H 18150 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0159
+L front-panel-9602-rescue:GND-power #PWR0159
 U 1 1 5FA31906
 P 19100 8900
 F 0 "#PWR0159" H 19100 8650 50  0001 C CNN
@@ -3452,7 +3452,7 @@ F 3 "" H 19100 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L front-panel-9602-rescue:MountingHole-Mechanical H1
 U 1 1 6232728E
 P 5000 14500
 F 0 "H1" H 5100 14546 50  0000 L CNN
@@ -3463,7 +3463,7 @@ F 3 "~" H 5000 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L front-panel-9602-rescue:MountingHole-Mechanical H3
 U 1 1 6235CD45
 P 5750 14500
 F 0 "H3" H 5850 14546 50  0000 L CNN
@@ -3474,7 +3474,7 @@ F 3 "~" H 5750 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
+L front-panel-9602-rescue:MountingHole-Mechanical H5
 U 1 1 6235D32C
 P 6550 14500
 F 0 "H5" H 6650 14546 50  0000 L CNN
@@ -3485,7 +3485,7 @@ F 3 "~" H 6550 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 6 1 6035CB6E
 P 5000 1400
 F 0 "U3" H 5000 1083 50  0000 C CNN
@@ -3500,7 +3500,7 @@ Text GLabel 21650 4800 2    50   Output ~ 0
 Text GLabel 21650 3100 2    50   Output ~ 0
 ~DEPOSIT
 $Comp
-L Device:R R52
+L front-panel-9602-rescue:R-Device R52
 U 1 1 625239D2
 P 20400 4500
 F 0 "R52" H 20470 4546 50  0000 L CNN
@@ -3511,7 +3511,7 @@ F 3 "~" H 20400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L front-panel-9602-rescue:C-Device C5
 U 1 1 6252425F
 P 20300 5100
 F 0 "C5" V 20048 5100 50  0000 C CNN
@@ -3522,7 +3522,7 @@ F 3 "~" H 20300 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0160
+L front-panel-9602-rescue:GND-power #PWR0160
 U 1 1 62524EC7
 P 20300 5350
 F 0 "#PWR0160" H 20300 5100 50  0001 C CNN
@@ -3533,7 +3533,7 @@ F 3 "" H 20300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0161
+L front-panel-9602-rescue:+5V-power #PWR0161
 U 1 1 62525646
 P 20400 4250
 F 0 "#PWR0161" H 20400 4100 50  0001 C CNN
@@ -3564,7 +3564,7 @@ Text GLabel 21650 2350 2    50   Output ~ 0
 Text GLabel 21650 1150 2    50   Output ~ 0
 ~RUN_COMMAND
 $Comp
-L Device:R_Small R2
+L front-panel-9602-rescue:R_Small-Device R2
 U 1 1 6037DB3E
 P 1950 6450
 F 0 "R2" V 1754 6450 50  0000 C CNN
@@ -3605,7 +3605,7 @@ Connection ~ 10650 3450
 Wire Wire Line
 	10650 3450 11850 3450
 $Comp
-L Connector:Conn_01x08_Female J1
+L front-panel-9602-rescue:Conn_01x08_Female-Connector J1
 U 1 1 62F79ED8
 P 1500 11450
 F 0 "J1" H 1573 11380 50  0000 C CNN
@@ -3616,7 +3616,7 @@ F 3 "~" H 1500 11450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J2
+L front-panel-9602-rescue:Conn_01x08_Female-Connector J2
 U 1 1 62F7CEAF
 P 3200 11500
 F 0 "J2" H 3250 11400 50  0000 C CNN
@@ -3747,7 +3747,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 7900 7100 7900
 $Comp
-L Connector:Conn_01x16_Female J3
+L front-panel-9602-rescue:Conn_01x16_Female-Connector J3
 U 1 1 63C0048D
 P 1400 13150
 F 0 "J3" H 1292 12125 50  0000 C CNN
@@ -3848,7 +3848,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1450 1750 1450
 $Comp
-L Connector:Conn_01x04_Female J4
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J4
 U 1 1 64C0EA8E
 P 1450 14650
 F 0 "J4" H 1342 14225 50  0000 C CNN
@@ -3859,7 +3859,7 @@ F 3 "~" H 1450 14650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J5
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J5
 U 1 1 64C12BEE
 P 3150 13600
 F 0 "J5" H 3042 13175 50  0000 C CNN
@@ -3870,7 +3870,7 @@ F 3 "~" H 3150 13600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J6
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J6
 U 1 1 64C1394D
 P 1450 15550
 F 0 "J6" H 1342 15125 50  0000 C CNN
@@ -3955,7 +3955,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 15700 1850 15700
 $Comp
-L Connector:Conn_01x08_Female J7
+L front-panel-9602-rescue:Conn_01x08_Female-Connector J7
 U 1 1 65072FE0
 P 3150 12550
 F 0 "J7" H 3223 12480 50  0000 C CNN
@@ -3998,7 +3998,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 12850 3650 12850
 $Comp
-L Device:R_Small R63
+L front-panel-9602-rescue:R_Small-Device R63
 U 1 1 65E553B0
 P 13050 1350
 F 0 "R63" V 12854 1350 50  0000 C CNN
@@ -4054,7 +4054,7 @@ Connection ~ 10650 5100
 Wire Wire Line
 	10650 5100 12750 5100
 $Comp
-L Switch:SW_DPDT_x2 SW1
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW1
 U 1 1 66188259
 P 10350 1800
 F 0 "SW1" H 10350 1450 50  0000 C CNN
@@ -4065,7 +4065,7 @@ F 3 "~" H 10350 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW1
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW1
 U 2 1 6618D0F4
 P 9400 1750
 F 0 "SW1" H 9400 1450 50  0000 C CNN
@@ -4208,7 +4208,7 @@ Connection ~ 9800 5700
 Wire Wire Line
 	9800 5700 9800 5750
 $Comp
-L Switch:SW_DPDT_x2 SW12
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW12
 U 2 1 66DF8527
 P 15150 2200
 F 0 "SW12" H 15150 2400 50  0000 C CNN
@@ -4219,7 +4219,7 @@ F 3 "~" H 15150 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW3
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW3
 U 2 1 66DF8F97
 P 9400 2850
 F 0 "SW3" H 9400 2550 50  0000 C CNN
@@ -4235,7 +4235,7 @@ Connection ~ 9800 2950
 Wire Wire Line
 	9800 2950 9800 3000
 $Comp
-L Switch:SW_DPDT_x2 SW4
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW4
 U 2 1 66E6565D
 P 9400 3400
 F 0 "SW4" H 9400 3100 50  0000 C CNN
@@ -4246,7 +4246,7 @@ F 3 "~" H 9400 3400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW5
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW5
 U 2 1 66E65D17
 P 9400 3950
 F 0 "SW5" H 9400 3650 50  0000 C CNN
@@ -4257,7 +4257,7 @@ F 3 "~" H 9400 3950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW6
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW6
 U 2 1 66E6662E
 P 9400 4500
 F 0 "SW6" H 9400 4200 50  0000 C CNN
@@ -4268,7 +4268,7 @@ F 3 "~" H 9400 4500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW7
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW7
 U 2 1 66E66F25
 P 9400 5050
 F 0 "SW7" H 9400 4750 50  0000 C CNN
@@ -4279,7 +4279,7 @@ F 3 "~" H 9400 5050 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW8
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW8
 U 2 1 66E67661
 P 9400 5600
 F 0 "SW8" H 9400 5300 50  0000 C CNN
@@ -4290,7 +4290,7 @@ F 3 "~" H 9400 5600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW2
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW2
 U 1 1 66E693E8
 P 10350 2350
 F 0 "SW2" H 10350 2000 50  0000 C CNN
@@ -4301,7 +4301,7 @@ F 3 "~" H 10350 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW3
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW3
 U 1 1 66E69B7E
 P 10350 2900
 F 0 "SW3" H 10350 2550 50  0000 C CNN
@@ -4312,7 +4312,7 @@ F 3 "~" H 10350 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW4
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW4
 U 1 1 66E6A1DE
 P 10350 3450
 F 0 "SW4" H 10350 3100 50  0000 C CNN
@@ -4323,7 +4323,7 @@ F 3 "~" H 10350 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW5
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW5
 U 1 1 66E6A6B3
 P 10350 4000
 F 0 "SW5" H 10350 3650 50  0000 C CNN
@@ -4334,7 +4334,7 @@ F 3 "~" H 10350 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW6
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW6
 U 1 1 66E6B015
 P 10350 4550
 F 0 "SW6" H 10350 4200 50  0000 C CNN
@@ -4345,7 +4345,7 @@ F 3 "~" H 10350 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW7
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW7
 U 1 1 66E6B9F9
 P 10350 5100
 F 0 "SW7" H 10350 4750 50  0000 C CNN
@@ -4356,7 +4356,7 @@ F 3 "~" H 10350 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW8
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW8
 U 1 1 66E6C4FA
 P 10350 5650
 F 0 "SW8" H 10350 5300 50  0000 C CNN
@@ -4367,7 +4367,7 @@ F 3 "~" H 10350 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW12
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW12
 U 1 1 66FC5534
 P 15700 2200
 F 0 "SW12" H 15750 2400 50  0000 C CNN
@@ -4378,7 +4378,7 @@ F 3 "~" H 15700 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW11
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW11
 U 1 1 66FC7617
 P 15750 3550
 F 0 "SW11" H 15750 3200 50  0000 C CNN
@@ -4389,7 +4389,7 @@ F 3 "~" H 15750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW10
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW10
 U 1 1 66FC7FCE
 P 15750 5100
 F 0 "SW10" H 15750 4750 50  0000 C CNN
@@ -4410,7 +4410,7 @@ Wire Wire Line
 	14950 2500 14950 2300
 Connection ~ 16000 2500
 $Comp
-L power:+5V #PWR0101
+L front-panel-9602-rescue:+5V-power #PWR0101
 U 1 1 670A7B22
 P 16400 2100
 F 0 "#PWR0101" H 16400 1950 50  0001 C CNN
@@ -4421,7 +4421,7 @@ F 3 "" H 16400 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0102
+L front-panel-9602-rescue:+5V-power #PWR0102
 U 1 1 670A7F11
 P 16400 3550
 F 0 "#PWR0102" H 16400 3400 50  0001 C CNN
@@ -4432,7 +4432,7 @@ F 3 "" H 16400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L front-panel-9602-rescue:+5V-power #PWR0103
 U 1 1 670A821C
 P 16400 5100
 F 0 "#PWR0103" H 16400 4950 50  0001 C CNN
@@ -4443,7 +4443,7 @@ F 3 "" H 16400 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW2
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW2
 U 2 1 670A9932
 P 9400 2300
 F 0 "SW2" H 9400 2000 50  0000 C CNN
@@ -4457,7 +4457,7 @@ Wire Wire Line
 	15350 2200 15450 2200
 Connection ~ 15450 2200
 $Comp
-L Switch:SW_DPDT_x2 SW11
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW11
 U 2 1 67114D7C
 P 15200 3550
 F 0 "SW11" H 15200 3750 50  0000 C CNN
@@ -4468,7 +4468,7 @@ F 3 "~" H 15200 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW10
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW10
 U 2 1 67115C01
 P 15200 5100
 F 0 "SW10" H 15200 5300 50  0000 C CNN
@@ -4479,7 +4479,7 @@ F 3 "~" H 15200 5100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW9
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW9
 U 2 1 67116778
 P 14850 6600
 F 0 "SW9" H 14850 6800 50  0000 C CNN
@@ -4490,7 +4490,7 @@ F 3 "~" H 14850 6600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW13
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW13
 U 2 1 67117F42
 P 14850 7700
 F 0 "SW13" H 14700 7800 50  0000 C CNN
@@ -4501,7 +4501,7 @@ F 3 "~" H 14850 7700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW14
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW14
 U 2 1 67118C91
 P 14900 8700
 F 0 "SW14" H 14900 8900 50  0000 C CNN
@@ -4512,7 +4512,7 @@ F 3 "~" H 14900 8700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW15
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW15
 U 2 1 671190CB
 P 14900 9650
 F 0 "SW15" H 14900 9850 50  0000 C CNN
@@ -4538,7 +4538,7 @@ Wire Wire Line
 Wire Wire Line
 	15850 10300 15850 9850
 $Comp
-L Switch:SW_DPDT_x2 SW9
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW9
 U 1 1 671F6D6E
 P 15650 6650
 F 0 "SW9" H 15650 6300 50  0000 C CNN
@@ -4549,7 +4549,7 @@ F 3 "~" H 15650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW13
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW13
 U 1 1 671F8184
 P 15650 7700
 F 0 "SW13" H 15500 7800 50  0000 C CNN
@@ -4560,7 +4560,7 @@ F 3 "~" H 15650 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW14
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW14
 U 1 1 671F8D61
 P 15650 8800
 F 0 "SW14" H 15600 9050 50  0000 C CNN
@@ -4650,7 +4650,7 @@ Wire Wire Line
 	15500 3550 15400 3550
 Connection ~ 15500 3550
 $Comp
-L Switch:SW_DPDT_x2 SW15
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW15
 U 1 1 67A51C2C
 P 15650 9750
 F 0 "SW15" H 15650 9400 50  0000 C CNN
@@ -4680,7 +4680,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 8450 15900 8450
 $Comp
-L Connector:Conn_01x04_Female J9
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J9
 U 1 1 67D562A0
 P 5100 11300
 F 0 "J9" H 4992 10875 50  0000 C CNN
@@ -4703,7 +4703,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 11300 5400 11300
 $Comp
-L power:GND #PWR0162
+L front-panel-9602-rescue:GND-power #PWR0162
 U 1 1 67ECDD76
 P 5450 11400
 F 0 "#PWR0162" H 5450 11150 50  0001 C CNN
@@ -4716,7 +4716,7 @@ $EndComp
 Wire Wire Line
 	5450 11400 5300 11400
 $Comp
-L Connector:Conn_01x04_Female J10
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J10
 U 1 1 67F4BB8F
 P 5100 12200
 F 0 "J10" H 4992 11775 50  0000 C CNN
@@ -4727,7 +4727,7 @@ F 3 "~" H 5100 12200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J11
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J11
 U 1 1 67F4C27E
 P 5100 12950
 F 0 "J11" H 4992 12525 50  0000 C CNN
@@ -4740,7 +4740,7 @@ $EndComp
 Text GLabel 5400 13050 2    50   Output ~ 0
 ~RUN_COMMAND
 $Comp
-L power:GND #PWR0163
+L front-panel-9602-rescue:GND-power #PWR0163
 U 1 1 67F4CB9E
 P 6150 12900
 F 0 "#PWR0163" H 6150 12650 50  0001 C CNN
@@ -4768,7 +4768,7 @@ Text GLabel 5400 12750 2    50   Output ~ 0
 Wire Wire Line
 	5400 12750 5300 12750
 $Comp
-L Connector:Conn_01x04_Female J8
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J8
 U 1 1 681C8649
 P 5050 13850
 F 0 "J8" H 4942 13425 50  0000 C CNN
@@ -4795,7 +4795,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 13950 5250 13950
 $Comp
-L power:GND #PWR0165
+L front-panel-9602-rescue:GND-power #PWR0165
 U 1 1 684D3617
 P 6100 13600
 F 0 "#PWR0165" H 6100 13350 50  0001 C CNN
@@ -4817,7 +4817,7 @@ Connection ~ 5350 13650
 Wire Wire Line
 	5350 13650 5350 13750
 $Comp
-L Connector:Conn_01x04_Female J12
+L front-panel-9602-rescue:Conn_01x04_Female-Connector J12
 U 1 1 686339D2
 P 3250 14650
 F 0 "J12" H 3142 14225 50  0000 C CNN
@@ -4844,7 +4844,7 @@ Connection ~ 3650 14650
 Wire Wire Line
 	3650 14650 3650 14550
 $Comp
-L power:+5V #PWR0166
+L front-panel-9602-rescue:+5V-power #PWR0166
 U 1 1 687C3EAC
 P 3650 14400
 F 0 "#PWR0166" H 3650 14250 50  0001 C CNN
@@ -4903,7 +4903,7 @@ Connection ~ 16200 7700
 Wire Wire Line
 	16200 7700 16200 8700
 $Comp
-L Connector:Conn_01x01_Female J13
+L front-panel-9602-rescue:Conn_01x01_Female-Connector J13
 U 1 1 6924EE59
 P 21750 7100
 F 0 "J13" H 21778 7132 50  0000 L CNN
@@ -4921,7 +4921,7 @@ Connection ~ 21200 6750
 Wire Wire Line
 	21200 6750 21650 6750
 $Comp
-L Mechanical:MountingHole_Pad H2
+L front-panel-9602-rescue:MountingHole_Pad-Mechanical H2
 U 1 1 696DFAD0
 P 5000 15050
 F 0 "H2" H 5100 15099 50  0000 L CNN
@@ -4932,7 +4932,7 @@ F 3 "~" H 5000 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L front-panel-9602-rescue:MountingHole_Pad-Mechanical H4
 U 1 1 696E0179
 P 5750 15050
 F 0 "H4" H 5850 15099 50  0000 L CNN
@@ -4943,7 +4943,7 @@ F 3 "~" H 5750 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
+L front-panel-9602-rescue:MountingHole_Pad-Mechanical H6
 U 1 1 696E0ABA
 P 6550 15050
 F 0 "H6" H 6650 15099 50  0000 L CNN
@@ -4965,7 +4965,7 @@ Connection ~ 5750 15300
 Wire Wire Line
 	5750 15300 6550 15300
 $Comp
-L power:GND #PWR0167
+L front-panel-9602-rescue:GND-power #PWR0167
 U 1 1 698938AB
 P 5600 15400
 F 0 "#PWR0167" H 5600 15150 50  0001 C CNN
@@ -4981,7 +4981,7 @@ Connection ~ 5600 15300
 Wire Wire Line
 	5600 15300 5750 15300
 $Comp
-L 74xx:74LS05 U1
+L front-panel-9602-rescue:74LS05-74xx U1
 U 7 1 69929573
 P 9000 13500
 F 0 "U1" H 9230 13546 50  0000 L CNN
@@ -4992,7 +4992,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS05 U2
+L front-panel-9602-rescue:74LS05-74xx U2
 U 7 1 6992B0D5
 P 10000 13500
 F 0 "U2" H 10230 13546 50  0000 L CNN
@@ -5003,7 +5003,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 10000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS05 U7
+L front-panel-9602-rescue:74LS05-74xx U7
 U 7 1 6992C5E3
 P 11000 13500
 F 0 "U7" H 11230 13546 50  0000 L CNN
@@ -5014,7 +5014,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 11000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS05 U11
+L front-panel-9602-rescue:74LS05-74xx U11
 U 7 1 6992CD28
 P 12000 13500
 F 0 "U11" H 12230 13546 50  0000 L CNN
@@ -5025,7 +5025,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 12000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U4
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U4
 U 7 1 699C7AD7
 P 13000 13500
 F 0 "U4" H 13230 13546 50  0000 L CNN
@@ -5036,7 +5036,7 @@ F 3 "" H 13000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L front-panel-9602-rescue:7417-74xx-front-panel-rescue U5
+L front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue U5
 U 7 1 699CA092
 P 13950 13500
 F 0 "U5" H 14180 13546 50  0000 L CNN
@@ -5047,7 +5047,7 @@ F 3 "" H 13950 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS05 U3
+L front-panel-9602-rescue:74LS05-74xx U3
 U 7 1 699CBEE8
 P 8000 13500
 F 0 "U3" H 8230 13546 50  0000 L CNN
@@ -5058,7 +5058,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 8000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U6
+L front-panel-9602-rescue:7400-74xx U6
 U 5 1 699CCD06
 P 15000 13500
 F 0 "U6" H 15230 13546 50  0000 L CNN
@@ -5069,7 +5069,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 15000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U9
+L front-panel-9602-rescue:7400-74xx U9
 U 5 1 699CEFE8
 P 16000 13500
 F 0 "U9" H 16230 13546 50  0000 L CNN
@@ -5080,7 +5080,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 16000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U8
+L front-panel-9602-rescue:7400-74xx U8
 U 5 1 699D0E70
 P 17000 13500
 F 0 "U8" H 17230 13546 50  0000 L CNN
@@ -5091,7 +5091,7 @@ F 3 "http://www.ti.com/lit/gpn/sn7400" H 17000 13500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:7400 U12
+L front-panel-9602-rescue:7400-74xx U12
 U 5 1 699D359A
 P 18000 13500
 F 0 "U12" H 18230 13546 50  0000 L CNN
@@ -5174,7 +5174,7 @@ Connection ~ 15000 14200
 Wire Wire Line
 	15000 14200 16000 14200
 $Comp
-L 74xx:74LS123 U10
+L front-panel-9602-rescue:74LS123-74xx U10
 U 3 1 6A2BC98A
 P 19000 13500
 F 0 "U10" H 19230 13546 50  0000 L CNN
@@ -5225,7 +5225,7 @@ Connection ~ 9000 14200
 Wire Wire Line
 	9000 14200 10000 14200
 $Comp
-L Device:C_Small C6
+L front-panel-9602-rescue:C_Small-Device C6
 U 1 1 6A7BA55B
 P 8500 13900
 F 0 "C6" H 8592 13946 50  0000 L CNN
@@ -5236,7 +5236,7 @@ F 3 "~" H 8500 13900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L front-panel-9602-rescue:C_Small-Device C7
 U 1 1 6A7BB12D
 P 11500 13900
 F 0 "C7" H 11592 13946 50  0000 L CNN
@@ -5247,7 +5247,7 @@ F 3 "~" H 11500 13900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L front-panel-9602-rescue:C_Small-Device C8
 U 1 1 6A7BB972
 P 13500 13900
 F 0 "C8" H 13592 13946 50  0000 L CNN
@@ -5288,7 +5288,7 @@ Connection ~ 13500 12850
 Wire Wire Line
 	13500 12850 13950 12850
 $Comp
-L power:GND #PWR0168
+L front-panel-9602-rescue:GND-power #PWR0168
 U 1 1 6AC3DB10
 P 12600 14300
 F 0 "#PWR0168" H 12600 14050 50  0001 C CNN
@@ -5304,7 +5304,7 @@ Connection ~ 12600 14200
 Wire Wire Line
 	12600 14200 13000 14200
 $Comp
-L power:+5V #PWR0169
+L front-panel-9602-rescue:+5V-power #PWR0169
 U 1 1 6ACE521F
 P 12600 12700
 F 0 "#PWR0169" H 12600 12550 50  0001 C CNN
@@ -5320,7 +5320,7 @@ Connection ~ 12600 12850
 Wire Wire Line
 	12600 12850 13000 12850
 $Comp
-L power:GND #PWR0170
+L front-panel-9602-rescue:GND-power #PWR0170
 U 1 1 60F246CA
 P 15200 11550
 F 0 "#PWR0170" H 15200 11300 50  0001 C CNN
@@ -5341,7 +5341,7 @@ Wire Wire Line
 Wire Wire Line
 	15850 11850 15850 11300
 $Comp
-L Switch:SW_DPDT_x2 SW16
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW16
 U 2 1 60F246E7
 P 15650 11200
 F 0 "SW16" H 15650 10850 50  0000 C CNN
@@ -5368,7 +5368,7 @@ Connection ~ 15250 11200
 Wire Wire Line
 	15250 11200 15450 11200
 $Comp
-L Connector:Conn_01x01_Female J14
+L front-panel-9602-rescue:Conn_01x01_Female-Connector J14
 U 1 1 611D623C
 P 16200 10750
 F 0 "J14" H 16228 10776 50  0000 L CNN
@@ -5379,7 +5379,7 @@ F 3 "~" H 16200 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW16
+L front-panel-9602-rescue:SW_DPDT_x2-Switch SW16
 U 1 1 60F246D9
 P 14900 11200
 F 0 "SW16" H 14900 11400 50  0000 C CNN

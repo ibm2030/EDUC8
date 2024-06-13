@@ -1,91 +1,266 @@
-Source:,/Users/gwyllymsuter/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/front panel/Original with 9602/front panel 9602.kicad_sch,,,,,
-Date:,"Saturday, 29 October 2022 at 07:42:30 pm",,,,,
-Tool:,Eeschema (6.0.8-1)-1,,,,,
-Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value_with_fp.py,,,,,
-Component Count:,164,,,,,
-Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor
-"C1, C5, ",2,100nF,C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,Unpolarized capacitor,
-"C2, ",1,47uf,CP_Small-Device,Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal,,
-"C3, ",1,1nF,C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,Unpolarized capacitor,
-"C4, ",1,100pF,C,Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm,Unpolarized capacitor,
-"C6, C7, C8, ",3,100nF,C_Small,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,"Unpolarized capacitor, small symbol",
-"D1, ",1,AC0,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D2, ",1,AC1,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D3, ",1,AC2,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D4, ",1,AC3,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D5, ",1,AC4,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D6, ",1,AC5,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D7, ",1,AC6,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D8, ",1,AC7,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D9, ",1,PC0,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D10, ",1,PC1,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D11, ",1,PC2,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D12, ",1,PC3,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D13, ",1,PC4,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D14, ",1,PC5,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D15, ",1,PC6,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D16, ",1,PC7,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D17, ",1,MA0,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D18, ",1,MA1,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D19, ",1,MA2,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D20, ",1,MA3,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D21, ",1,MA4,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D22, ",1,MA5,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D23, ",1,MA6,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D24, ",1,MA7,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D25, ",1,MB0,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D26, ",1,MB1,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D27, ",1,MB2,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D28, ",1,MB3,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D29, ",1,MB4,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D30, ",1,MB5,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D31, ",1,MB6,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D32, ",1,MB7,LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D33, ",1,~{OPR},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D34, ",1,~{JMP},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D35, ",1,~{JMS},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D36, ",1,~{IOT},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D37, ",1,~{DCA},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D38, ",1,~{ISZ},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D39, ",1,~{TAD},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D40, ",1,~{AND},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D41, ",1,~{EXEC},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D42, ",1,~{DEFER},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D43, ",1,~{FETCH},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"D44, ",1,~{RUN},LED,LED_THT:LED_D5.0mm,Light emitting diode,
-"H1, H3, H5, ",3,MountingHole,MountingHole,MountingHole:MountingHole_3.2mm_M3,Mounting Hole without connection,
-"H2, H4, H6, ",3,MountingHole_Pad,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_Pad_Via,Mounting Hole with connection,
-"J1, ",1,Accumulator,Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J2, ",1,Mem_Buffer,Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J3, ",1,Conn_01x16_Female,Conn_01x16_Female,Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical,"Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J4, J5, J6, J8, J9, J10, J11, J12, ",8,Conn_01x04_Female,Conn_01x04_Female,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J7, ",1,SR_REGISTER,Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J13, ",1,~EXT.LA,Conn_01x01_Female,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"J14, ",1,Z-BIT,Conn_01x01_Female,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",
-"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, ",43,180R,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, small symbol",
-"R23, ",1,180R,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal,"Resistor, small symbol",
-"R45, R46, R47, R48, R49, R50, R51, R53, R54, R61, R62, R63, ",12,10K,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, small symbol",
-"R52, ",1,22k,R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Resistor,
-"R55, R56, R57, R58, R59, R60, ",6,10k,R_Small,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,"Resistor, small symbol",
-"R64, ",1,1K,R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Resistor,
-"SW1, ",1,SR0,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW2, ",1,SR1,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW3, ",1,SR2,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW4, ",1,SR3,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW5, ",1,SR4,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW6, ",1,SR5,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW7, ",1,SR6,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW8, ",1,SR7,SW_DPDT_x2,dBSound_library:DPDT_toggle_switch_wired,"Switch, dual pole double throw, separate symbols",
-"SW9, ",1,LD_ADDR,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW10, ",1,DEPOSIT,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW11, ",1,HALT,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW12, ",1,SINGLE,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW13, ",1,F/S,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW14, ",1,PAGE ZERO,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW15, ",1,RUN,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"SW16, ",1,EXAM,SW_SPDT,EDUC-8:SPDT_toggle_switch_wired,"Switch, single pole double throw",
-"U1, U3, U7, U11, ",4,74LS05,74LS05,Package_DIP:DIP-14_W7.62mm_LongPads,Inverter Open Collect,
-"U2, ",1,74LS05,74LS05,Package_DIP:DIP-14_W7.62mm,Inverter Open Collect,
-"U4, U5, ",2,74LS07,74LS07,Package_DIP:DIP-14_W7.62mm_LongPads,,
-"U6, U8, U9, U12, ",4,74LS00,74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,quad 2-input NAND gate,
-"U10, ",1,DM9602,DM9602,Package_DIP:DIP-16_W7.62mm_Socket_LongPads,Dual retriggerable Monostable,
+"Source:","/Users/gwyllymsuter/Library/Mobile Documents/com~apple~CloudDocs/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/front panel/Original with 9602/front panel 9602.kicad_sch"
+"Date:","Monday, 01 April 2024 at 11:44:23 am"
+"Tool:","Eeschema (6.0.4-0)"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","164"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","100nF","Device:C_Small","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"","","C2","47uf","front-panel-9602-rescue:CP_Small-Device","Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal",""
+"","","C3","1nF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"","","C4","100pF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"","","C5","100nF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"","","C6","100nF","Device:C_Small","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"","","C7","100nF","Device:C_Small","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"","","C8","100nF","Device:C_Small","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"","","D1","AC0","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D2","AC1","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D3","AC2","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D4","AC3","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D5","AC4","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D6","AC5","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D7","AC6","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D8","AC7","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D9","PC0","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D10","PC1","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D11","PC2","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D12","PC3","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D13","PC4","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D14","PC5","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D15","PC6","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D16","PC7","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D17","MA0","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D18","MA1","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D19","MA2","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D20","MA3","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D21","MA4","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D22","MA5","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D23","MA6","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D24","MA7","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D25","MB0","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D26","MB1","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D27","MB2","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D28","MB3","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D29","MB4","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D30","MB5","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D31","MB6","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D32","MB7","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D33","~{OPR}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D34","~{JMP}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D35","~{JMS}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D36","~{IOT}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D37","~{DCA}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D38","~{ISZ}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D39","~{TAD}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D40","~{AND}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D41","~{EXEC}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D42","~{DEFER}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D43","~{FETCH}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","D44","~{RUN}","Device:LED","LED_THT:LED_D5.0mm","~"
+"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
+"","","H2","MountingHole_Pad","Mechanical:MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~"
+"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
+"","","H4","MountingHole_Pad","Mechanical:MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~"
+"","","H5","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
+"","","H6","MountingHole_Pad","Mechanical:MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~"
+"","","J1","Accumulator","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"","","J2","Mem_Buffer","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"","","J3","Conn_01x16_Female","Connector:Conn_01x16_Female","Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical","~"
+"","","J4","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J5","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J6","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J7","SR_REGISTER","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"","","J8","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J9","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J10","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J11","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J12","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"","","J13","~EXT.LA","Connector:Conn_01x01_Female","Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical","~"
+"","","J14","Conn_01x02_Male","Connector:Conn_01x02_Male","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","~"
+"","","R1","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R2","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R3","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R4","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R5","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R6","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R7","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R8","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R9","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R10","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R11","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R12","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R13","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R14","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R15","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R16","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R17","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R18","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R19","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R20","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R21","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R22","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R23","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal","~"
+"","","R24","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R25","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R26","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R27","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R28","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R29","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R30","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R31","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R32","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R33","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R34","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R35","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R36","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R37","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R38","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R39","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R40","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R41","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R42","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R43","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R44","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R45","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R46","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R47","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R48","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R49","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R50","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R51","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R52","22k","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R53","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R54","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R55","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R56","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R57","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R58","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R59","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R60","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R61","10K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R62","10K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R63","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","R64","1K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"","","SW1","0","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW2","1","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW3","2","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW4","3","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW5","4","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW6","5","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW7","6","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW8","7","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW9","LD_ADDR","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW10","DEPOSIT","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW11","HALT","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW12","SINGLE","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW13","F/S","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW14","PAGE ZERO","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW15","RUN","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","SW16","EXAM","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"","","U1","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS05"
+"","","U2","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm","http://www.ti.com/lit/gpn/sn74LS05"
+"","","U3","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS05"
+"","","U4","74LS07","front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
+"","","U5","74LS07","front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
+"","","U6","74LS00","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
+"","","U7","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS05"
+"","","U8","74LS00","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
+"","","U9","74LS00","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
+"","","U10","DM9602","DM series IC:DM9602","Package_DIP:DIP-16_W7.62mm_Socket_LongPads","http://www.ti.com/lit/gpn/sn74LS123"
+"","","U11","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS05"
+"","","U12","74LS00","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","C1","100nF","Device:C_Small","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"2","1","C2","47uf","front-panel-9602-rescue:CP_Small-Device","Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal",""
+"3","1","C3","1nF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"4","1","C4","100pF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"5","1","C5","100nF","Device:C","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","~"
+"6","3","C6, C7, C8","100nF","Device:C_Small","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"7","1","D1","AC0","Device:LED","LED_THT:LED_D5.0mm","~"
+"8","1","D2","AC1","Device:LED","LED_THT:LED_D5.0mm","~"
+"9","1","D3","AC2","Device:LED","LED_THT:LED_D5.0mm","~"
+"10","1","D4","AC3","Device:LED","LED_THT:LED_D5.0mm","~"
+"11","1","D5","AC4","Device:LED","LED_THT:LED_D5.0mm","~"
+"12","1","D6","AC5","Device:LED","LED_THT:LED_D5.0mm","~"
+"13","1","D7","AC6","Device:LED","LED_THT:LED_D5.0mm","~"
+"14","1","D8","AC7","Device:LED","LED_THT:LED_D5.0mm","~"
+"15","1","D9","PC0","Device:LED","LED_THT:LED_D5.0mm","~"
+"16","1","D10","PC1","Device:LED","LED_THT:LED_D5.0mm","~"
+"17","1","D11","PC2","Device:LED","LED_THT:LED_D5.0mm","~"
+"18","1","D12","PC3","Device:LED","LED_THT:LED_D5.0mm","~"
+"19","1","D13","PC4","Device:LED","LED_THT:LED_D5.0mm","~"
+"20","1","D14","PC5","Device:LED","LED_THT:LED_D5.0mm","~"
+"21","1","D15","PC6","Device:LED","LED_THT:LED_D5.0mm","~"
+"22","1","D16","PC7","Device:LED","LED_THT:LED_D5.0mm","~"
+"23","1","D17","MA0","Device:LED","LED_THT:LED_D5.0mm","~"
+"24","1","D18","MA1","Device:LED","LED_THT:LED_D5.0mm","~"
+"25","1","D19","MA2","Device:LED","LED_THT:LED_D5.0mm","~"
+"26","1","D20","MA3","Device:LED","LED_THT:LED_D5.0mm","~"
+"27","1","D21","MA4","Device:LED","LED_THT:LED_D5.0mm","~"
+"28","1","D22","MA5","Device:LED","LED_THT:LED_D5.0mm","~"
+"29","1","D23","MA6","Device:LED","LED_THT:LED_D5.0mm","~"
+"30","1","D24","MA7","Device:LED","LED_THT:LED_D5.0mm","~"
+"31","1","D25","MB0","Device:LED","LED_THT:LED_D5.0mm","~"
+"32","1","D26","MB1","Device:LED","LED_THT:LED_D5.0mm","~"
+"33","1","D27","MB2","Device:LED","LED_THT:LED_D5.0mm","~"
+"34","1","D28","MB3","Device:LED","LED_THT:LED_D5.0mm","~"
+"35","1","D29","MB4","Device:LED","LED_THT:LED_D5.0mm","~"
+"36","1","D30","MB5","Device:LED","LED_THT:LED_D5.0mm","~"
+"37","1","D31","MB6","Device:LED","LED_THT:LED_D5.0mm","~"
+"38","1","D32","MB7","Device:LED","LED_THT:LED_D5.0mm","~"
+"39","1","D33","~{OPR}","Device:LED","LED_THT:LED_D5.0mm","~"
+"40","1","D34","~{JMP}","Device:LED","LED_THT:LED_D5.0mm","~"
+"41","1","D35","~{JMS}","Device:LED","LED_THT:LED_D5.0mm","~"
+"42","1","D36","~{IOT}","Device:LED","LED_THT:LED_D5.0mm","~"
+"43","1","D37","~{DCA}","Device:LED","LED_THT:LED_D5.0mm","~"
+"44","1","D38","~{ISZ}","Device:LED","LED_THT:LED_D5.0mm","~"
+"45","1","D39","~{TAD}","Device:LED","LED_THT:LED_D5.0mm","~"
+"46","1","D40","~{AND}","Device:LED","LED_THT:LED_D5.0mm","~"
+"47","1","D41","~{EXEC}","Device:LED","LED_THT:LED_D5.0mm","~"
+"48","1","D42","~{DEFER}","Device:LED","LED_THT:LED_D5.0mm","~"
+"49","1","D43","~{FETCH}","Device:LED","LED_THT:LED_D5.0mm","~"
+"50","1","D44","~{RUN}","Device:LED","LED_THT:LED_D5.0mm","~"
+"51","3","H1, H3, H5","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
+"52","3","H2, H4, H6","MountingHole_Pad","Mechanical:MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_Via","~"
+"53","1","J1","Accumulator","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"54","1","J2","Mem_Buffer","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"55","1","J3","Conn_01x16_Female","Connector:Conn_01x16_Female","Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical","~"
+"56","8","J4, J5, J6, J8, J9, J10, J11, J12","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","~"
+"57","1","J7","SR_REGISTER","Connector:Conn_01x08_Female","Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical","~"
+"58","1","J13","~EXT.LA","Connector:Conn_01x01_Female","Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical","~"
+"59","1","J14","Conn_01x02_Male","Connector:Conn_01x02_Male","Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical","~"
+"60","43","R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"61","1","R23","180R","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal","~"
+"62","10","R45, R46, R47, R48, R49, R50, R51, R53, R54, R63","10K","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"63","1","R52","22k","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"64","6","R55, R56, R57, R58, R59, R60","10k","Device:R_Small","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"65","2","R61, R62","10K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"66","1","R64","1K","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","~"
+"67","1","SW1","0","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"68","1","SW2","1","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"69","1","SW3","2","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"70","1","SW4","3","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"71","1","SW5","4","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"72","1","SW6","5","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"73","1","SW7","6","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"74","1","SW8","7","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"75","1","SW9","LD_ADDR","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"76","1","SW10","DEPOSIT","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"77","1","SW11","HALT","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"78","1","SW12","SINGLE","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"79","1","SW13","F/S","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"80","1","SW14","PAGE ZERO","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"81","1","SW15","RUN","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"82","1","SW16","EXAM","Switch:SW_SPDT","EDUC-8:SPDT_toggle_switch_wired","~"
+"83","4","U1, U3, U7, U11","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS05"
+"84","1","U2","74LS05","74xx:74LS05","Package_DIP:DIP-14_W7.62mm","http://www.ti.com/lit/gpn/sn74LS05"
+"85","2","U4, U5","74LS07","front-panel-9602-rescue:7417-74xx-front-panel-rescue-front-panel-9602-rescue","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
+"86","4","U6, U8, U9, U12","74LS00","74xx:7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
+"87","1","U10","DM9602","DM series IC:DM9602","Package_DIP:DIP-16_W7.62mm_Socket_LongPads","http://www.ti.com/lit/gpn/sn74LS123"

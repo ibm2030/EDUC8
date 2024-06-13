@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/gwyllymsuter/Library/Mobile Documents/com~apple~CloudDocs/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/Accumulator/Accumulator.kicad_sch</source>
+    <date>Monday, 01 April 2024 at 11:40:44 am</date>
+    <tool>Eeschema (6.0.4-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EDUC-8A</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2019-08-04</date>
+        <source>Accumulator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006c161664</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006c15f9da</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006c6fb693</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>47nF</value>
+      <footprint>Capacitor_THT:C_Rect_L11.0mm_W2.8mm_P10.00mm_MKT</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006c6fb68d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Card_handle</value>
+      <footprint>EDUC-8:Card_handle</footprint>
+      <libsource lib="EDUC8" part="Card_handle-EDUC-8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006107350a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>Card_handle</value>
+      <footprint>EDUC-8:Card_handle</footprint>
+      <libsource lib="EDUC8" part="Card_handle-EDUC-8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061073bd5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>16-way-pcb-edge-Educ-8-connectors</value>
+      <footprint>Connector_PCBEdge:PCB_16pin</footprint>
+      <libsource lib="EDUC8" part="16-way-pcb-edge-Educ-8-connectors-EDUC-8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061f530d9</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>16-way-pcb-edge-Educ-8-connectors</value>
+      <footprint>Connector_PCBEdge:PCB_16pin</footprint>
+      <libsource lib="EDUC8" part="16-way-pcb-edge-Educ-8-connectors-EDUC-8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061f55e19</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>820</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b8cd267</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b4d8c04</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b532c15</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b59b16f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74LS95</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS95</datasheet>
+      <libsource lib="74xx" part="74LS95" description="Shift Register 5-bit (in/out)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b42fbe7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74LS05</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS05</datasheet>
+      <libsource lib="74xx" part="74LS05" description="Inverter Open Collect"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd62ddb 00000000-0000-0000-0000-00006b4565f8 00000000-0000-0000-0000-00006b4565f2 00000000-0000-0000-0000-00006b4565ec 00000000-0000-0000-0000-00006b4565e6 00000000-0000-0000-0000-00006b431282</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74LS95</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS95</datasheet>
+      <libsource lib="74xx" part="74LS95" description="Shift Register 5-bit (in/out)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006b42db40</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>74LS05</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS05</datasheet>
+      <libsource lib="74xx" part="74LS05" description="Inverter Open Collect"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd64a1f 00000000-0000-0000-0000-00006b4392bd 00000000-0000-0000-0000-00006b43a521 00000000-0000-0000-0000-00006bbd1110 00000000-0000-0000-0000-00006b434c05</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74LS01</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf</datasheet>
+      <libsource lib="74xx" part="74LS01" description="quad 2-input NAND gate, open collector outputs NRND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd6508a 00000000-0000-0000-0000-00006bbbecd9 00000000-0000-0000-0000-00006b4d5a12 00000000-0000-0000-0000-00006b4d1e4c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>74LS04</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
+      <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd7019f 00000000-0000-0000-0000-00006b782577 00000000-0000-0000-0000-00006bcbe3c6 00000000-0000-0000-0000-00006b87c191 00000000-0000-0000-0000-00006b5ba3a9 00000000-0000-0000-0000-00006b56993a 00000000-0000-0000-0000-00006b5034b4</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>7400</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn7400</datasheet>
+      <libsource lib="74xx" part="7400" description="quad 2-input NAND gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd712cd 00000000-0000-0000-0000-00006b69fedf 00000000-0000-0000-0000-00006b6bb02b 00000000-0000-0000-0000-00006b66faea 00000000-0000-0000-0000-00006b4bfd33</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>74LS10</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS10</datasheet>
+      <libsource lib="74xx" part="74LS10" description="Triple 3-input NAND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd73953 00000000-0000-0000-0000-00006b5d76d8 00000000-0000-0000-0000-00006b515614 00000000-0000-0000-0000-00006b49790a</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>7400</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn7400</datasheet>
+      <libsource lib="74xx" part="7400" description="quad 2-input NAND gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd759e3 00000000-0000-0000-0000-00006b5468c4 00000000-0000-0000-0000-00006b5443f5 00000000-0000-0000-0000-00006b5d3637 00000000-0000-0000-0000-00006b53ac04</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>74LS01</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf</datasheet>
+      <libsource lib="74xx" part="74LS01" description="quad 2-input NAND gate, open collector outputs NRND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Accumulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006bd68119 00000000-0000-0000-0000-00006b513c0d 00000000-0000-0000-0000-00006b4d030e 00000000-0000-0000-0000-00006b4f192e 00000000-0000-0000-0000-00006b4cd72b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="7400">
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn7400</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7400</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn7400</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS01">
+      <description>quad 2-input NAND gate, open collector outputs NRND</description>
+      <docs>http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS01</field>
+        <field name="Datasheet">http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="open_collector"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="open_collector"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="open_collector"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="open_collector"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS04">
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS04</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS04</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS05">
+      <description>Inverter Open Collect</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS05</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS05</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="open_collector"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="open_collector"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="open_collector"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="open_collector"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="open_collector"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="open_collector"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS10">
+      <description>Triple 3-input NAND</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS10</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS10</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS95">
+      <description>Shift Register 5-bit (in/out)</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS95</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS95</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS95</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Ds" type="input"/>
+        <pin num="2" name="P0" type="input"/>
+        <pin num="3" name="P1" type="input"/>
+        <pin num="4" name="P2" type="input"/>
+        <pin num="5" name="P3" type="input"/>
+        <pin num="6" name="Mode" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Cp2.Lshift" type="input"/>
+        <pin num="9" name="Cp1.Rshift" type="input"/>
+        <pin num="10" name="Q3" type="output"/>
+        <pin num="11" name="Q2" type="output"/>
+        <pin num="12" name="Q1" type="output"/>
+        <pin num="13" name="Q0" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EDUC8" part="16-way-pcb-edge-Educ-8-connectors-EDUC-8">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">16-way-pcb-edge-Educ-8-connectors-EDUC-8</field>
+        <field name="Footprint">Connector_PCBEdge:PCB_16pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="EDUC8" part="Card_handle-EDUC-8">
+      <fields>
+        <field name="Reference">H1</field>
+        <field name="Value">Card_handle-EDUC-8</field>
+        <field name="Footprint">EDUC-8:Card_handle</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="EDUC8">
+      <uri>/Users/gwyllymsuter/Documents/KiCad/6.0/symbols/EDUC8.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U10" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="A-BUS">
+      <node ref="J1" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="U5" pin="4" pintype="open_collector"/>
+      <node ref="U6" pin="9" pintype="input"/>
+    </net>
+    <net code="3" name="AC0">
+      <node ref="J1" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J2" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="Q3" pintype="output"/>
+      <node ref="U1" pin="4" pinfunction="P2" pintype="input"/>
+      <node ref="U10" pin="12" pintype="input"/>
+      <node ref="U10" pin="3" pintype="input"/>
+      <node ref="U10" pin="5" pintype="input"/>
+      <node ref="U2" pin="9" pintype="input"/>
+      <node ref="U9" pin="13" pintype="input"/>
+      <node ref="U9" pin="2" pintype="input"/>
+    </net>
+    <net code="4" name="AC1">
+      <node ref="J2" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="Q2" pintype="output"/>
+      <node ref="U1" pin="3" pinfunction="P1" pintype="input"/>
+      <node ref="U2" pin="11" pintype="input"/>
+    </net>
+    <net code="5" name="AC2">
+      <node ref="J2" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="Q1" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="P0" pintype="input"/>
+      <node ref="U2" pin="13" pintype="input"/>
+    </net>
+    <net code="6" name="AC3">
+      <node ref="J2" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="Q0" pintype="output"/>
+      <node ref="U2" pin="1" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="P3" pintype="input"/>
+    </net>
+    <net code="7" name="AC4">
+      <node ref="J2" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="Ds" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="Q3" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="P2" pintype="input"/>
+      <node ref="U4" pin="9" pintype="input"/>
+    </net>
+    <net code="8" name="AC5">
+      <node ref="J2" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="Q2" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="P1" pintype="input"/>
+      <node ref="U4" pin="11" pintype="input"/>
+    </net>
+    <net code="9" name="AC6">
+      <node ref="J2" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="Q1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="P0" pintype="input"/>
+      <node ref="U4" pin="13" pintype="input"/>
+    </net>
+    <net code="10" name="AC7">
+      <node ref="J2" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="P3" pintype="input"/>
+      <node ref="U2" pin="5" pintype="input"/>
+      <node ref="U3" pin="13" pinfunction="Q0" pintype="output"/>
+    </net>
+    <net code="11" name="AC=0">
+      <node ref="J1" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pintype="open_collector"/>
+      <node ref="U2" pin="12" pintype="open_collector"/>
+      <node ref="U2" pin="2" pintype="open_collector"/>
+      <node ref="U2" pin="6" pintype="open_collector"/>
+      <node ref="U2" pin="8" pintype="open_collector"/>
+      <node ref="U4" pin="10" pintype="open_collector"/>
+      <node ref="U4" pin="12" pintype="open_collector"/>
+      <node ref="U4" pin="8" pintype="open_collector"/>
+    </net>
+    <net code="12" name="B-BUS">
+      <node ref="J1" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="U10" pin="1" pintype="open_collector"/>
+      <node ref="U10" pin="4" pintype="open_collector"/>
+      <node ref="U5" pin="1" pintype="open_collector"/>
+    </net>
+    <net code="13" name="C-BUS">
+      <node ref="J1" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="U10" pin="13" pintype="open_collector"/>
+    </net>
+    <net code="14" name="CPA">
+      <node ref="U1" pin="9" pinfunction="Cp1.Rshift" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="Cp1.Rshift" pintype="input"/>
+      <node ref="U7" pin="8" pintype="output"/>
+    </net>
+    <net code="15" name="D-BUS">
+      <node ref="J1" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="U9" pin="1" pintype="input"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="MCP">
+      <node ref="J1" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="U7" pin="1" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pintype="open_collector"/>
+      <node ref="U9" pin="9" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U10" pin="10" pintype="open_collector"/>
+      <node ref="U10" pin="6" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="open_collector"/>
+      <node ref="U5" pin="3" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="Ds" pintype="input"/>
+      <node ref="U6" pin="8" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2" pintype="input"/>
+      <node ref="U9" pin="11" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5" pintype="input"/>
+      <node ref="U9" pin="6" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6" pintype="input"/>
+      <node ref="U6" pin="2" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11" pintype="input"/>
+      <node ref="U7" pin="6" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U6-Pad12)">
+      <node ref="U6" pin="12" pintype="output"/>
+      <node ref="U8" pin="3" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2" pintype="input"/>
+      <node ref="U8" pin="12" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4" pintype="input"/>
+      <node ref="U7" pin="5" pintype="input"/>
+      <node ref="U8" pin="8" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10" pintype="input"/>
+      <node ref="U7" pin="3" pintype="output"/>
+      <node ref="U7" pin="9" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2" pintype="input"/>
+      <node ref="U9" pin="8" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(U9-Pad3)">
+      <node ref="U9" pin="3" pintype="output"/>
+      <node ref="U9" pin="4" pintype="input"/>
+      <node ref="U9" pin="5" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2" pintype="input"/>
+      <node ref="U7" pin="11" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(U10-Pad8)">
+      <node ref="U10" pin="8" pintype="input"/>
+      <node ref="U10" pin="9" pintype="input"/>
+      <node ref="U8" pin="6" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U10-Pad11)">
+      <node ref="U10" pin="11" pintype="input"/>
+      <node ref="U6" pin="4" pintype="output"/>
+    </net>
+    <net code="35" name="RAL">
+      <node ref="U1" pin="6" pinfunction="Mode" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="Mode" pintype="input"/>
+      <node ref="U6" pin="10" pintype="output"/>
+    </net>
+    <net code="36" name="T1">
+      <node ref="J1" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="Cp2.Lshift" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="Cp2.Lshift" pintype="input"/>
+    </net>
+    <net code="37" name="T2-9">
+      <node ref="J1" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="U9" pin="10" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U6-Pad6)">
+      <node ref="U6" pin="6" pintype="output+no_connect"/>
+    </net>
+    <net code="40" name="~{AND}">
+      <node ref="J2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U6" pin="1" pintype="input"/>
+      <node ref="U8" pin="10" pintype="input"/>
+    </net>
+    <net code="41" name="~{CLA}">
+      <node ref="J2" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="U5" pin="12" pintype="input"/>
+      <node ref="U8" pin="5" pintype="input"/>
+      <node ref="U9" pin="12" pintype="input"/>
+    </net>
+    <net code="42" name="~{CMA}">
+      <node ref="J2" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="U4" pin="1" pintype="input"/>
+      <node ref="U8" pin="4" pintype="input"/>
+    </net>
+    <net code="43" name="~{DCA}">
+      <node ref="J2" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="U6" pin="3" pintype="input"/>
+      <node ref="U8" pin="9" pintype="input"/>
+    </net>
+    <net code="44" name="~{IAC}">
+      <node ref="J2" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="U6" pin="13" pintype="input"/>
+    </net>
+    <net code="45" name="~{IOT_Shift}">
+      <node ref="J1" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="U8" pin="11" pintype="input"/>
+    </net>
+    <net code="46" name="~{RAL}">
+      <node ref="J2" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="U6" pin="11" pintype="input"/>
+    </net>
+    <net code="47" name="~{RAR}">
+      <node ref="J2" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="U7" pin="12" pintype="input"/>
+    </net>
+    <net code="48" name="~{T2-9(TAD+IAC+CMA})">
+      <node ref="J1" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="U8" pin="13" pintype="input"/>
+    </net>
+    <net code="49" name="~{T13.RAR}">
+      <node ref="J1" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="U8" pin="1" pintype="input"/>
+    </net>
+    <net code="50" name="~{TAD}">
+      <node ref="J2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U7" pin="13" pintype="input"/>
+    </net>
+  </nets>
+</export>

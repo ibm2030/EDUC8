@@ -1,120 +1,127 @@
 {
-  "Header":
-  {
-    "GenerationSoftware":
-    {
-      "Vendor":      "KiCad",
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.10-1-10_14)"
+      "Version": "(6.0.4-0)"
     },
-    "CreationDate":  "2022-02-06T20:45:04+11:00"
+    "CreationDate": "2024-04-14T15:13:14+10:00"
   },
-  "GeneralSpecs":
-  {
-    "ProjectId":
-    {
+  "GeneralSpecs": {
+    "ProjectId": {
       "Name": "Accumulator",
       "GUID": "41636375-6d75-46c6-9174-6f722e6b6963",
       "Revision": "rev?"
     },
-    "Size":
-    {
-      "X": 220.050,
-      "Y": 160.050
+    "Size": {
+      "X": 220.05,
+      "Y": 160.05
     },
     "LayerNumber": 2,
-    "BoardThickness":  1.600
+    "BoardThickness": 1.6,
+    "Finish": "None"
   },
-  "DesignRules":
-  [
+  "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.200,
-      "MinLineWidth":  0.500,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.5,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
     }
   ],
-  "FilesAttributes":
-  [
+  "FilesAttributes": [
     {
-      "Path":  "Accumulator-F_Cu.gbr",
-      "FileFunction":  "Copper,L1,Top",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-B_Cu.gbr",
-      "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-F_SilkS.gbr",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
+      "Path": "Accumulator-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "Accumulator-B_Mask.gbr",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
+      "Path": "Accumulator-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
-      "Path":  "Accumulator-Edge_Cuts.gbr",
-      "FileFunction":  "Profile",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-F_Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Top",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
     },
     {
-      "Path":  "Accumulator-B_Fab.gbr",
-      "FileFunction":  "AssemblyDrawing,Bot",
-      "FilePolarity":  "Positive"
+      "Path": "Accumulator-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
     }
   ],
-  "MaterialStackup":
-  [
+  "MaterialStackup": [
     {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer F.Cu"
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
     },
     {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L1/L2"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
     },
     {
-      "Type":  "Copper",
-      "Notes":  "Layer B.Cu"
+      "Type": "Dielectric",
+      "Thickness": 1.51,
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
     },
     {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
     }
   ]
 }

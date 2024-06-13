@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4-0)"
     },
-    "CreationDate": "2022-10-26T21:03:16+11:00"
+    "CreationDate": "2024-04-14T14:43:09+10:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
@@ -41,16 +41,6 @@
     {
       "Path": "256 word memory-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "256 word memory-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "256 word memory-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {

@@ -1,0 +1,68 @@
+Source:,/Users/gwyllymsuter/Library/Mobile Documents/com~apple~CloudDocs/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/256 word memory/256 word memory.kicad_sch,,,,,
+Date:,"Monday, 01 April 2024 at 11:32:15 am",,,,,
+Tool:,Eeschema (6.0.4-0),,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,36,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+,,C2,47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+,,C3,47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+,,C4,47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+,,C5,47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+,,H1,Card_handle,256-word-memory-rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,H2,Card_handle,256-word-memory-rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,J1,Conn_01x02_Male,Connector:Conn_01x02_Male,Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal,~
+,,J2,Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,~
+,,J3,16-way-pcb-edge,256-word-memory-rescue:16-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_16pin,
+,,J4,Conn_01x01_Male,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+,,J5,32-way-pcb-edge,256-word-memory-rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_32pin,
+,,R1,820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R2,820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R3,820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R4,820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R5,820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,U1,74LS05,74xx:74LS05,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS05
+,,U2,74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf
+,,U3,D2115,256-word-memory-rescue:D2115-Memory_RAM,Package_DIP:DIP-16_W7.62mm,
+,,U4,74LS157,74xx:74LS157,Package_DIP:DIP-16_W7.62mm,http://www.ti.com/lit/gpn/sn74LS157
+,,U5,7496,256-word-memory-rescue:7496-74xx,Package_DIP:DIP-16_W7.62mm,
+,,U6,74LS95,74xx:74LS95,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS95
+,,U7,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U8,D2115,256-word-memory-rescue:D2115-Memory_RAM,Package_DIP:DIP-16_W7.62mm,
+,,U9,7496,256-word-memory-rescue:7496-74xx,Package_DIP:DIP-16_W7.62mm,
+,,U10,74LS95,74xx:74LS95,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS95
+,,U11,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U12,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U13,74LS93,74xx:74LS93,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS93
+,,U14,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U15,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U16,74LS05,74xx:74LS05,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS05
+,,U17,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U18,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04
+,,U19,74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,5,"C1, C2, C3, C4, C5",47nF,Device:C,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,~
+2,2,"H1, H2",Card_handle,256-word-memory-rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+3,1,J1,Conn_01x02_Male,Connector:Conn_01x02_Male,Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal,~
+4,1,J2,Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,~
+5,1,J3,16-way-pcb-edge-Educ-8-connectors,256-word-memory-rescue:16-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_16pin,
+6,1,J4,Conn_01x01_Male,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+7,1,J5,32-way-pcb-edge-Educ-8-connectors,256-word-memory-rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_32pin,
+8,5,"R1, R2, R3, R4, R5",820R,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+9,2,"U1, U16",74LS05,74xx:74LS05,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS05
+10,2,"U2, U19",74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf
+11,2,"U3, U8",D2115,256-word-memory-rescue:D2115-Memory_RAM,Package_DIP:DIP-16_W7.62mm,
+12,1,U4,74LS157,74xx:74LS157,Package_DIP:DIP-16_W7.62mm,http://www.ti.com/lit/gpn/sn74LS157
+13,2,"U5, U9",7496,256-word-memory-rescue:7496-74xx,Package_DIP:DIP-16_W7.62mm,
+14,2,"U6, U10",74LS95,74xx:74LS95,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS95
+15,6,"U7, U11, U12, U14, U15, U17",7400,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+16,1,U13,74LS93,74xx:74LS93,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS93
+17,1,U18,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04

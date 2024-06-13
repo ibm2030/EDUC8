@@ -1,41 +1,83 @@
-Reference, Value, Footprint, Datasheet
-"U11","74154","Package_DIP:DIP-24_W15.24mm_LongPads",""
-"U5","74LS161","Package_DIP:DIP-16_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS161"
-"U4","74LS10","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS10"
-"U10","74LS00","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74ls00"
-"U2","74LS00","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74ls00"
-"U3","74LS04","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
-"U8","74LS00","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74ls00"
-"U9","74LS00","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74ls00"
-"U15","74LS04","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
-"U16","74LS00","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74ls00"
-"U17","74LS04","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
-"U12","74LS73","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS73"
-"U19","74LS10","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS10"
-"U20","74LS04","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS04"
-"U1","74LS20","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS20"
-"Q1","BC108","Package_TO_SOT_THT:TO-18-3","http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-"C1","22pF","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"R2","470R","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"R1","2k2","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"U6","74LS13","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS13"
-"R3","10k","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"U13","7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
-"R4","2K2","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"U18","7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
-"U14","74LS73","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74LS73"
-"U7","7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
-"U21","7400","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn7400"
-"C2","47uF","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","~"
-"R5","100K","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"R6","R","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"C3","100nf","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C4","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C5","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C6","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C7","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C8","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C9","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"C10","C","Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm","~"
-"R7","2k2","Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal","~"
-"J1","36-way-pcb-edge","EDUC_8:PCB_36pin",""
+Source:,/Users/gwyllymsuter/Library/Mobile Documents/com~apple~CloudDocs/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/Timing/educ 8 timing .kicad_sch,,,,,
+Date:,"Monday, 01 April 2024 at 11:49:19 am",,,,,
+Tool:,Eeschema (6.0.4-0),,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,44,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,220pF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,C2,47uF,educ-8-timing--rescue:CP-Device,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+,,C3,47nF,Device:C,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal,~
+,,C4,47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,C5,47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,C6,1uF,Device:C,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal,~
+,,C7,47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,C8,47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,C9,1uF,Device:C,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal,~
+,,C10,47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+,,H1,Card_handle,educ-8-timing--rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,H2,Card_handle,educ-8-timing--rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,J1,32-way-pcb-edge-Educ-8-connectors,educ-8-timing--rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_32pin,
+,,J2,CLK,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+,,J3,~RST,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+,,Q1,BC108,Transistor_BJT:BC108,Package_TO_SOT_THT:TO-18-3,http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+,,R1,2k2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R2,470R,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R3,10k,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R4,2K2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R5,100K,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R6,2k2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,R7,2k2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+,,U1,74LS20,74xx:74LS20,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS20
+,,U2,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U3,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U4,74LS10,74xx:74LS10,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS10
+,,U5,74LS161,74xx:74LS161,Package_DIP:DIP-16_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS161
+,,U6,74LS13,74xx:74LS13,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS13
+,,U7,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U8,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U9,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U10,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U11,74154,74xx_IEEE:74154,Package_DIP:DIP-24_W15.24mm_LongPads,
+,,U12,74LS73,74xx:74LS73,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS73
+,,U13,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U14,74LS73,74xx:74LS73,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS73
+,,U15,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U16,74LS00,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U17,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U18,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,U19,74LS10,74xx:74LS10,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS10
+,,U20,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+,,U21,74LS00,74xx:7400,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,C1,220pF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+2,1,C2,47uF,educ-8-timing--rescue:CP-Device,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,
+3,1,C3,47nF,Device:C,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal,~
+4,5,"C4, C5, C7, C8, C10",47nF,Device:C,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,~
+5,2,"C6, C9",1uF,Device:C,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal,~
+6,2,"H1, H2",Card_handle,educ-8-timing--rescue:Card_handle-EDUC-8,EDUC-8:Card_handle,
+7,1,J1,32-way-pcb-edge-Educ-8-connectors,educ-8-timing--rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_32pin,
+8,1,J2,CLK,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+9,1,J3,~RST,Connector:Conn_01x01_Male,Connector_Pin:Pin_D1.0mm_L10.0mm,~
+10,1,Q1,BC108,Transistor_BJT:BC108,Package_TO_SOT_THT:TO-18-3,http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+11,3,"R1, R6, R7",2k2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+12,1,R2,470R,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+13,1,R3,10k,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+14,1,R4,2K2,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+15,1,R5,100K,Device:R,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,~
+16,1,U1,74LS20,74xx:74LS20,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS20
+17,5,"U2, U8, U9, U10, U16",7400,74xx:74LS00,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+18,4,"U3, U15, U17, U20",74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS04
+19,2,"U4, U19",74LS10,74xx:74LS10,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS10
+20,1,U5,74LS161,74xx:74LS161,Package_DIP:DIP-16_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS161
+21,1,U6,74LS13,74xx:74LS13,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS13
+22,4,"U7, U13, U18, U21",7400,74xx:7400,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn7400
+23,1,U11,74154,74xx_IEEE:74154,Package_DIP:DIP-24_W15.24mm_LongPads,
+24,2,"U12, U14",74LS73,74xx:74LS73,Package_DIP:DIP-14_W7.62mm_LongPads,http://www.ti.com/lit/gpn/sn74LS73

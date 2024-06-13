@@ -865,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 5300 13450 5300
 $Comp
-L Device:R R1
+L educ-8-decoder-rescue:R-Device R1
 U 1 1 5D801CC1
 P 13950 5500
 F 0 "R1" V 14050 5500 50  0000 C CNN
@@ -882,7 +882,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 5500 13250 5400
 $Comp
-L power:+5V #PWR0101
+L educ-8-decoder-rescue:+5V-power #PWR0101
 U 1 1 5D8172F0
 P 13250 5400
 F 0 "#PWR0101" H 13250 5250 50  0001 C CNN
@@ -2162,7 +2162,7 @@ Connection ~ 12700 11800
 Wire Wire Line
 	12700 11800 12200 11800
 $Comp
-L power:+5V #PWR0102
+L educ-8-decoder-rescue:+5V-power #PWR0102
 U 1 1 5E4BD966
 P 7950 11700
 F 0 "#PWR0102" H 7950 11550 50  0001 C CNN
@@ -2173,7 +2173,7 @@ F 3 "" H 7950 11700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L educ-8-decoder-rescue:+5V-power #PWR0103
 U 1 1 5E4BFA49
 P 4450 3650
 F 0 "#PWR0103" H 4450 3500 50  0001 C CNN
@@ -2184,7 +2184,7 @@ F 3 "" H 4450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L educ-8-decoder-rescue:GND-power #PWR0104
 U 1 1 5E4C0D34
 P 8000 14000
 F 0 "#PWR0104" H 8000 13750 50  0001 C CNN
@@ -2195,7 +2195,7 @@ F 3 "" H 8000 14000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L educ-8-decoder-rescue:GND-power #PWR0105
 U 1 1 5E4C2DDC
 P 4450 5250
 F 0 "#PWR0105" H 4450 5000 50  0001 C CNN
@@ -2380,7 +2380,7 @@ Connection ~ 8000 13850
 Wire Wire Line
 	8000 13850 8750 13850
 $Comp
-L Device:C C1
+L educ-8-decoder-rescue:C-Device C1
 U 1 1 5F2D4A65
 P 1900 12100
 F 0 "C1" H 2015 12146 50  0000 L CNN
@@ -2391,7 +2391,7 @@ F 3 "~" H 1900 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L educ-8-decoder-rescue:GND-power #PWR0108
 U 1 1 5F2D6A7C
 P 1900 12400
 F 0 "#PWR0108" H 1900 12150 50  0001 C CNN
@@ -2409,7 +2409,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 12250 1900 12400
 $Comp
-L Device:C C2
+L educ-8-decoder-rescue:C-Device C2
 U 1 1 5F34792E
 P 2850 12100
 F 0 "C2" H 2965 12146 50  0000 L CNN
@@ -2420,7 +2420,7 @@ F 3 "~" H 2850 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L educ-8-decoder-rescue:GND-power #PWR0109
 U 1 1 5F347934
 P 2850 12400
 F 0 "#PWR0109" H 2850 12150 50  0001 C CNN
@@ -2433,7 +2433,7 @@ $EndComp
 Wire Wire Line
 	2850 12250 2850 12400
 $Comp
-L Device:C C4
+L educ-8-decoder-rescue:C-Device C4
 U 1 1 5F38F9B9
 P 4700 12100
 F 0 "C4" H 4815 12146 50  0000 L CNN
@@ -2444,7 +2444,7 @@ F 3 "~" H 4700 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L educ-8-decoder-rescue:GND-power #PWR0111
 U 1 1 5F38F9BF
 P 4700 12400
 F 0 "#PWR0111" H 4700 12150 50  0001 C CNN
@@ -2457,7 +2457,7 @@ $EndComp
 Wire Wire Line
 	4700 12250 4700 12400
 $Comp
-L Device:C C10
+L educ-8-decoder-rescue:C-Device C10
 U 1 1 5F5643FB
 P 10250 12100
 F 0 "C10" H 10365 12146 50  0000 L CNN
@@ -2468,7 +2468,7 @@ F 3 "~" H 10250 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L educ-8-decoder-rescue:GND-power #PWR0116
 U 1 1 5F564401
 P 10250 12400
 F 0 "#PWR0116" H 10250 12150 50  0001 C CNN
@@ -2481,7 +2481,7 @@ $EndComp
 Wire Wire Line
 	10250 12250 10250 12400
 $Comp
-L Device:C C11
+L educ-8-decoder-rescue:C-Device C11
 U 1 1 5F588DA0
 P 11200 12100
 F 0 "C11" H 11315 12146 50  0000 L CNN
@@ -2492,7 +2492,7 @@ F 3 "~" H 11200 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L educ-8-decoder-rescue:GND-power #PWR0117
 U 1 1 5F588DA6
 P 11200 12400
 F 0 "#PWR0117" H 11200 12150 50  0001 C CNN
@@ -2505,7 +2505,7 @@ $EndComp
 Wire Wire Line
 	11200 12250 11200 12400
 $Comp
-L Device:C C12
+L educ-8-decoder-rescue:C-Device C12
 U 1 1 5F5ADA72
 P 12200 12100
 F 0 "C12" H 12315 12146 50  0000 L CNN
@@ -2516,7 +2516,7 @@ F 3 "~" H 12200 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L educ-8-decoder-rescue:GND-power #PWR0118
 U 1 1 5F5ADA78
 P 12200 12400
 F 0 "#PWR0118" H 12200 12150 50  0001 C CNN
@@ -2677,7 +2677,7 @@ Wire Wire Line
 Text GLabel 16500 7950 0    49   Output ~ 0
 GND
 $Comp
-L educ-8-decoder-rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8 J1
+L educ-8-decoder-rescue:32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue J1
 U 1 1 60B6130C
 P 17000 9700
 F 0 "J1" H 17228 9951 50  0000 L CNN
@@ -2688,7 +2688,7 @@ F 3 "" H 17100 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L educ-8-decoder-rescue:16-way-pcb-edge-Educ-8-connectors-EDUC-8 J2
+L educ-8-decoder-rescue:16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue J2
 U 1 1 60C0F5B3
 P 17000 12550
 F 0 "J2" H 17228 12701 50  0000 L CNN
@@ -2760,7 +2760,7 @@ Wire Wire Line
 	6200 9000 6500 9000
 Connection ~ 6200 8450
 $Comp
-L Device:R R2
+L educ-8-decoder-rescue:R-Device R2
 U 1 1 61545921
 P 3750 4050
 F 0 "R2" V 3850 4050 50  0000 C CNN
@@ -2771,7 +2771,7 @@ F 3 "~" H 3750 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR01
+L educ-8-decoder-rescue:+5V-power #PWR01
 U 1 1 61546A9E
 P 3500 4000
 F 0 "#PWR01" H 3500 3850 50  0001 C CNN
@@ -2957,7 +2957,7 @@ Wire Wire Line
 Text Label 2450 4550 0    50   ~ 0
 T0.5
 $Comp
-L educ-8-decoder-rescue:Card_handle-EDUC-8 H1
+L educ-8-decoder-rescue:Card_handle-EDUC-8-educ-8-decoder-rescue H1
 U 1 1 61C6081F
 P 20100 10150
 F 0 "H1" H 20478 10113 50  0000 L CNN
@@ -2968,7 +2968,7 @@ F 3 "" H 20100 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L educ-8-decoder-rescue:Card_handle-EDUC-8 H2
+L educ-8-decoder-rescue:Card_handle-EDUC-8-educ-8-decoder-rescue H2
 U 1 1 61C60BCA
 P 21500 10150
 F 0 "H2" H 21878 10113 50  0000 L CNN
@@ -2989,7 +2989,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 11800 7200 11800
 $Comp
-L power:GND #PWR0106
+L educ-8-decoder-rescue:GND-power #PWR0106
 U 1 1 62C7CD81
 P 20900 10400
 F 0 "#PWR0106" H 20900 10150 50  0001 C CNN

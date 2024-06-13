@@ -264,46 +264,26 @@ X Q4 9 500 0 200 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# educ-8-decoder-rescue_+5V-power
 #
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
+DEF educ-8-decoder-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "educ-8-decoder-rescue_+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
 DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue
 #
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8
-#
-DEF educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8 J 0 40 Y Y 1 F N
+DEF educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue J 0 40 Y Y 1 F N
 F0 "J" 250 300 50 H V C CNN
-F1 "educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8" 100 1000 50 H V C CNN
+F1 "educ-8-decoder-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue" 100 1000 50 H V C CNN
 F2 "" 100 400 50 H I C CNN
 F3 "" 100 400 50 H I C CNN
 DRAW
@@ -327,11 +307,11 @@ X 9 9 -100 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8
+# educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue
 #
-DEF educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8 J 0 40 Y Y 1 F N
+DEF educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue J 0 40 Y Y 1 F N
 F0 "J" 100 2000 50 H V C CNN
-F1 "educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8" 100 1900 50 H V C CNN
+F1 "educ-8-decoder-rescue_32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue" 100 1900 50 H V C CNN
 F2 "Connector_PCBEdge:PCB_32pin" 100 1300 50 H I C CNN
 F3 "" 100 1300 50 H I C CNN
 DRAW
@@ -371,11 +351,29 @@ X 9 9 -100 950 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# educ-8-decoder-rescue_Card_handle-EDUC-8
+# educ-8-decoder-rescue_C-Device
 #
-DEF educ-8-decoder-rescue_Card_handle-EDUC-8 H 0 40 Y Y 1 F N
+DEF educ-8-decoder-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "educ-8-decoder-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# educ-8-decoder-rescue_Card_handle-EDUC-8-educ-8-decoder-rescue
+#
+DEF educ-8-decoder-rescue_Card_handle-EDUC-8-educ-8-decoder-rescue H 0 40 Y Y 1 F N
 F0 "H" 0 100 50 H V C CNN
-F1 "educ-8-decoder-rescue_Card_handle-EDUC-8" 0 200 50 H V C CNN
+F1 "educ-8-decoder-rescue_Card_handle-EDUC-8-educ-8-decoder-rescue" 0 200 50 H V C CNN
 F2 "EDUC-8:Card_handle" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -387,31 +385,33 @@ X GND 1 0 -250 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# educ-8-decoder-rescue_GND-power
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF educ-8-decoder-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "educ-8-decoder-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# educ-8-decoder-rescue_R-Device
+#
+DEF educ-8-decoder-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "educ-8-decoder-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

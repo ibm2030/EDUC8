@@ -50,8 +50,8 @@ $Comp
 L 74xx:7400 U3
 U 3 1 60BF98A8
 P 7900 2150
-F 0 "U3" H 7900 2150 50  0000 C CNN
-F 1 "7400" H 7900 2350 50  0000 C CNN
+F 0 "U3" H 7900 1850 50  0000 C CNN
+F 1 "7400" H 7900 1950 50  0000 C CNN
 F 2 "" H 7900 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 7900 2150 50  0001 C CNN
 	3    7900 2150
@@ -61,64 +61,31 @@ $Comp
 L 74xx:7400 U3
 U 4 1 60BFC749
 P 7900 2750
-F 0 "U3" H 7850 2750 50  0000 C CNN
-F 1 "7400" H 7900 2524 50  0000 C CNN
+F 0 "U3" H 7900 2550 50  0000 C CNN
+F 1 "7400" H 7900 2450 50  0000 C CNN
 F 2 "" H 7900 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7400" H 7900 2750 50  0001 C CNN
 	4    7900 2750
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS04 U2
 U 2 1 60C00E16
-P 9450 2250
-F 0 "U2" H 9450 1933 50  0000 C CNN
-F 1 "74LS04" H 9450 2024 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9450 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 9450 2250 50  0001 C CNN
-	2    9450 2250
+P 9450 2650
+F 0 "U2" H 9450 2333 50  0000 C CNN
+F 1 "74LS04" H 9450 2424 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9450 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 9450 2650 50  0001 C CNN
+	2    9450 2650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9150 800  8400 800 
-Wire Wire Line
-	8200 1400 8400 1400
-Wire Wire Line
-	8400 1400 8400 800 
-Connection ~ 8400 800 
-Wire Wire Line
-	8400 800  8200 800 
-Wire Wire Line
-	9750 800  10000 800 
-Wire Wire Line
-	8950 2050 8950 1350
-Wire Wire Line
-	8950 1350 10000 1350
-Wire Wire Line
-	10000 1350 10000 800 
-Connection ~ 10000 800 
-Wire Wire Line
-	10000 800  10550 800 
-Wire Wire Line
-	8200 2850 8400 2850
-Wire Wire Line
-	8200 1600 8400 1600
-Wire Wire Line
-	8400 1600 8400 2850
 Text Label 10250 800  0    50   ~ 0
 6
-Text Label 10250 2250 0    50   ~ 0
+Text Label 10250 2650 0    50   ~ 0
 5
-Wire Wire Line
-	8950 2650 8950 2050
-Connection ~ 8950 2050
-Wire Wire Line
-	8200 2650 8950 2650
-Wire Wire Line
-	8200 2050 8950 2050
 Text GLabel 10550 800  2    50   Input ~ 0
 I_O_GATING
-Text GLabel 10450 2250 2    50   Input ~ 0
+Text GLabel 10450 2650 2    50   Input ~ 0
 I_O_DEVICE_SELECT
 Text Notes 10600 1050 0    50   ~ 0
 H = I/P\nL = O/P
@@ -329,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2750 7600 2750
 $Comp
-L Device:R R1
+L Input:Output-Interface-rescue_Output-Interface-rescue_R-Device-Input R1
 U 1 1 60C518AD
 P 7200 8450
 F 0 "R1" H 7270 8496 50  0000 L CNN
@@ -564,7 +531,7 @@ Connection ~ 10500 6800
 Wire Wire Line
 	10500 6800 10500 6900
 $Comp
-L Device:R R4
+L Input:Output-Interface-rescue_Output-Interface-rescue_R-Device-Input R4
 U 1 1 60CF8C83
 P 10150 6900
 F 0 "R4" V 10357 6900 50  0000 C CNN
@@ -575,7 +542,7 @@ F 3 "~" H 10150 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0101
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0101
 U 1 1 60D03E50
 P 9850 6850
 F 0 "#PWR0101" H 9850 6700 50  0001 C CNN
@@ -631,7 +598,7 @@ F 3 "http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf" H 9350 8600 50  0
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R3
+L Input:Output-Interface-rescue_Output-Interface-rescue_R-Device-Input R3
 U 1 1 60D2FE21
 P 9850 8350
 F 0 "R3" H 9920 8396 50  0000 L CNN
@@ -642,7 +609,7 @@ F 3 "~" H 9850 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Input:Output-Interface-rescue_Output-Interface-rescue_R-Device-Input R2
 U 1 1 60D30AFF
 P 8550 8350
 F 0 "R2" H 8620 8396 50  0000 L CNN
@@ -664,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 8200 9850 8100
 $Comp
-L power:+5V #PWR0102
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0102
 U 1 1 60D3E150
 P 9850 8100
 F 0 "#PWR0102" H 9850 7950 50  0001 C CNN
@@ -703,7 +670,7 @@ Connection ~ 8550 8700
 Wire Wire Line
 	8550 8700 9050 8700
 $Comp
-L power:+5V #PWR0103
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0103
 U 1 1 60D55945
 P 8550 8100
 F 0 "#PWR0103" H 8550 7950 50  0001 C CNN
@@ -727,7 +694,7 @@ Connection ~ 7450 8700
 Wire Wire Line
 	7450 8700 7450 8800
 $Comp
-L power:+5V #PWR0104
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0104
 U 1 1 60D9B825
 P 7200 8200
 F 0 "#PWR0104" H 7200 8050 50  0001 C CNN
@@ -743,7 +710,7 @@ Wire Wire Line
 	7200 8600 7200 8700
 Connection ~ 7200 8700
 $Comp
-L Connector:Conn_01x03_Male J1
+L Input:Output-Interface-rescue_Output-Interface-rescue_Conn_01x03_Male-Connector-Input J1
 U 1 1 60DB4FBC
 P 7550 6400
 F 0 "J1" H 7658 6681 50  0000 C CNN
@@ -754,7 +721,7 @@ F 3 "~" H 7550 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J2
+L Input:Output-Interface-rescue_Output-Interface-rescue_Conn_01x03_Male-Connector-Input J2
 U 1 1 60DB6847
 P 7550 7000
 F 0 "J2" H 7658 7281 50  0000 C CNN
@@ -1056,7 +1023,7 @@ Connection ~ 4100 7400
 Wire Wire Line
 	4100 7400 3050 7400
 $Comp
-L EDUC-8:16-way-pcb-edge-Educ-8-connectors J4
+L Input:Output-Interface-rescue_Output-Interface-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8-Input J4
 U 1 1 6106ED6B
 P 15350 2350
 F 0 "J4" H 15578 2501 50  0000 L CNN
@@ -1085,7 +1052,7 @@ Text GLabel 15100 2100 0    50   Input ~ 0
 Text GLabel 14800 2700 0    50   Input ~ 0
 T13
 $Comp
-L power:+5V #PWR0105
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0105
 U 1 1 61077016
 P 14550 1600
 F 0 "#PWR0105" H 14550 1450 50  0001 C CNN
@@ -1096,7 +1063,7 @@ F 3 "" H 14550 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L Input:Output-Interface-rescue_Output-Interface-rescue_GND-power-Input #PWR0106
 U 1 1 61079285
 P 14950 1300
 F 0 "#PWR0106" H 14950 1050 50  0001 C CNN
@@ -1139,7 +1106,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 2300 15250 2300
 $Comp
-L power:GND #PWR0107
+L Input:Output-Interface-rescue_Output-Interface-rescue_GND-power-Input #PWR0107
 U 1 1 61137FC6
 P 15050 3000
 F 0 "#PWR0107" H 15050 2750 50  0001 C CNN
@@ -1152,7 +1119,7 @@ $EndComp
 Wire Wire Line
 	15250 3000 15050 3000
 $Comp
-L EDUC-8:16-way-pcb-edge-Educ-8-connectors J3
+L Input:Output-Interface-rescue_Output-Interface-rescue_16-way-pcb-edge-Educ-8-connectors-EDUC-8-Input J3
 U 1 1 611491AA
 P 15350 4400
 F 0 "J3" H 15578 4551 50  0000 L CNN
@@ -1303,29 +1270,10 @@ Text Notes 8900 750  2    50   ~ 0
 CORRECT
 Text Notes 10100 750  2    50   ~ 0
 CORRECT
-Text Notes 8550 2050 2    50   ~ 0
+Text Notes 8850 2050 2    50   ~ 0
 CORRECT
-Text Notes 8550 2600 2    50   ~ 0
+Text Notes 8800 2600 2    50   ~ 0
 CORRECT
-Wire Wire Line
-	8200 2250 9100 2250
-Wire Wire Line
-	9850 1000 9850 2250
-Wire Wire Line
-	8200 1000 9850 1000
-Connection ~ 9850 2250
-Wire Wire Line
-	9850 2250 9750 2250
-Wire Wire Line
-	9850 2250 10450 2250
-Wire Wire Line
-	9100 2250 9100 2850
-Wire Wire Line
-	9100 2850 8400 2850
-Connection ~ 9100 2250
-Wire Wire Line
-	9100 2250 9150 2250
-Connection ~ 8400 2850
 Connection ~ 3150 6350
 Connection ~ 3150 5850
 Wire Wire Line
@@ -1484,7 +1432,7 @@ Connection ~ 1850 11000
 Wire Wire Line
 	1850 11000 2850 11000
 $Comp
-L power:+5V #PWR0108
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0108
 U 1 1 61A4E904
 P 3100 9750
 F 0 "#PWR0108" H 3100 9600 50  0001 C CNN
@@ -1495,7 +1443,7 @@ F 3 "" H 3100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L Input:Output-Interface-rescue_Output-Interface-rescue_GND-power-Input #PWR0109
 U 1 1 61A507E9
 P 3250 11050
 F 0 "#PWR0109" H 3250 10800 50  0001 C CNN
@@ -1669,7 +1617,7 @@ Connection ~ 5100 5700
 Wire Wire Line
 	5100 5700 5100 7800
 $Comp
-L Device:C C1
+L Input:Output-Interface-rescue_Output-Interface-rescue_C-Device-Input C1
 U 1 1 61D91026
 P 11750 4050
 F 0 "C1" H 11865 4096 50  0000 L CNN
@@ -1680,7 +1628,7 @@ F 3 "~" H 11750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Input:Output-Interface-rescue_Output-Interface-rescue_C-Device-Input C2
 U 1 1 61D91723
 P 12200 4050
 F 0 "C2" H 12315 4096 50  0000 L CNN
@@ -1691,7 +1639,7 @@ F 3 "~" H 12200 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Input:Output-Interface-rescue_Output-Interface-rescue_C-Device-Input C3
 U 1 1 61D91989
 P 12650 4050
 F 0 "C3" H 12765 4096 50  0000 L CNN
@@ -1702,7 +1650,7 @@ F 3 "~" H 12650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Input:Output-Interface-rescue_Output-Interface-rescue_C-Device-Input C4
 U 1 1 61D91B02
 P 13100 4050
 F 0 "C4" H 13215 4096 50  0000 L CNN
@@ -1745,7 +1693,7 @@ Connection ~ 12200 3650
 Wire Wire Line
 	12200 3650 12400 3650
 $Comp
-L power:+5V #PWR0110
+L Input:Output-Interface-rescue_Output-Interface-rescue_+5V-power-Input #PWR0110
 U 1 1 61E2E864
 P 12400 3550
 F 0 "#PWR0110" H 12400 3400 50  0001 C CNN
@@ -1756,7 +1704,7 @@ F 3 "" H 12400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L Input:Output-Interface-rescue_Output-Interface-rescue_GND-power-Input #PWR0111
 U 1 1 61E2EDA5
 P 12450 4500
 F 0 "#PWR0111" H 12450 4250 50  0001 C CNN
@@ -1777,7 +1725,7 @@ Connection ~ 12450 4400
 Wire Wire Line
 	12450 4400 12650 4400
 $Comp
-L EDUC-8:Card_handle H1
+L Input:Output-Interface-rescue_Output-Interface-rescue_Card_handle-EDUC-8-Input H1
 U 1 1 61DFC554
 P 12700 8150
 F 0 "H1" H 13078 8113 50  0000 L CNN
@@ -1788,7 +1736,7 @@ F 3 "" H 12700 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EDUC-8:Card_handle H2
+L Input:Output-Interface-rescue_Output-Interface-rescue_Card_handle-EDUC-8-Input H2
 U 1 1 61DFCEA4
 P 14000 8150
 F 0 "H2" H 14378 8113 50  0000 L CNN
@@ -1798,10 +1746,8 @@ F 3 "" H 14000 8150 50  0001 C CNN
 	1    14000 8150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12700 8400 13350 8400
 $Comp
-L power:GND #PWR0112
+L Input:Output-Interface-rescue_Output-Interface-rescue_GND-power-Input #PWR0112
 U 1 1 61E18F0E
 P 13350 8400
 F 0 "#PWR0112" H 13350 8150 50  0001 C CNN
@@ -1811,7 +1757,82 @@ F 3 "" H 13350 8400 50  0001 C CNN
 	1    13350 8400
 	1    0    0    -1  
 $EndComp
-Connection ~ 13350 8400
 Wire Wire Line
-	13350 8400 14000 8400
+	12700 8400 14000 8400
+Text Notes 7850 1550 0    50   ~ 0
+00
+Text Notes 7850 950  0    50   ~ 0
+01
+Text Notes 7850 2800 0    50   ~ 0
+10
+Text Notes 7850 2200 0    50   ~ 0
+11
+Text Notes 7350 850  0    50   ~ 0
+C
+Text Notes 7400 1450 0    50   ~ 0
+c
+Text Notes 7400 2100 0    50   ~ 0
+c
+Text Notes 7400 2700 0    50   ~ 0
+c
+Text Notes 8250 1350 0    50   ~ 0
+c
+Text Notes 8200 750  0    50   ~ 0
+c
+Wire Wire Line
+	9750 800  10100 800 
+Wire Wire Line
+	9750 2650 9950 2650
+Wire Wire Line
+	9150 800  8650 800 
+Wire Wire Line
+	8650 1400 8650 800 
+Wire Wire Line
+	8200 1400 8650 1400
+Connection ~ 8650 800 
+Wire Wire Line
+	8650 800  8200 800 
+Wire Wire Line
+	8650 1600 8650 2650
+Wire Wire Line
+	8650 2650 9150 2650
+Wire Wire Line
+	8200 1600 8650 1600
+Wire Wire Line
+	8200 2650 8650 2650
+Connection ~ 8650 2650
+Wire Wire Line
+	8200 1000 9950 1000
+Wire Wire Line
+	9950 1000 9950 2250
+Connection ~ 9950 2650
+Wire Wire Line
+	9950 2650 10450 2650
+Wire Wire Line
+	8200 2250 9950 2250
+Connection ~ 9950 2250
+Wire Wire Line
+	9950 2250 9950 2650
+Wire Wire Line
+	8200 2050 10100 2050
+Wire Wire Line
+	10100 2050 10100 800 
+Connection ~ 10100 800 
+Wire Wire Line
+	10100 800  10550 800 
+Wire Wire Line
+	10100 2050 10100 2850
+Wire Wire Line
+	10100 2850 8200 2850
+Connection ~ 10100 2050
+Text Notes 6150 900  0    50   ~ 0
+616
+Text Notes 6150 1500 0    50   ~ 0
+606
+Text Notes 6150 2150 0    50   ~ 0
+636
+Text Notes 6150 2750 0    50   ~ 0
+626
+Text Notes 6150 3400 0    50   ~ 0
+DATA
 $EndSCHEMATC

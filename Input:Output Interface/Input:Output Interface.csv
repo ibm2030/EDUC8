@@ -1,0 +1,49 @@
+Source:,/Users/gwyllymsuter/Library/Mobile Documents/com~apple~CloudDocs/Documents/Ole electronics stuff /EDUC-8 KiCAD/EDUC_8 Main computer/Input:Output Interface/Input:Output Interface.kicad_sch,,,,,
+Date:,"Monday, 01 April 2024 at 11:17:42 am",,,,,
+Tool:,Eeschema (6.0.4-0),,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,25,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,C,Device:C,Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,~
+,,C2,C,Device:C,Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,~
+,,C3,C,Device:C,Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,~
+,,C4,C,Device:C,Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,~
+,,H1,Card_handle,EDUC8:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,H2,Card_handle,EDUC8:Card_handle-EDUC-8,EDUC-8:Card_handle,
+,,J1,Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,J2,Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,,J3,16-way-pcb-edge,EDUC8:16-way-pcb-edge,Connector_PCBEdge:PCB_16pin,
+,,J4,16-way-pcb-edge,EDUC8:16-way-pcb-edge,Connector_PCBEdge:PCB_16pin,
+,,R1,1K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R2,1K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R3,1K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,R4,1K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+,,U1,74LS37,74xx:74LS37,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74ls37
+,,U2,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04
+,,U3,7400,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U4,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04
+,,U5,7400,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U6,74LS37,74xx:74LS37,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74ls37
+,,U7,74LS37,74xx:74LS37,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74ls37
+,,U8,74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf
+,,U9,7400,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+,,U10,74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf
+,,U11,74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,4,"C1, C2, C3, C4",C,Device:C,Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm,~
+2,2,"H1, H2",Card_handle,EDUC8:Card_handle-EDUC-8,EDUC-8:Card_handle,
+3,2,"J1, J2",Conn_01x03_Male,Connector:Conn_01x03_Male,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+4,2,"J3, J4",16-way-pcb-edge-Educ-8-connectors,EDUC8:16-way-pcb-edge-Educ-8-connectors-EDUC-8,Connector_PCBEdge:PCB_16pin,
+5,4,"R1, R2, R3, R4",1K,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,~
+6,3,"U1, U6, U7",74LS37,74xx:74LS37,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74ls37
+7,3,"U2, U4, U11",74LS04,74xx:74LS04,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn74LS04
+8,3,"U3, U5, U9",7400,74xx:7400,Package_DIP:DIP-14_W7.62mm,http://www.ti.com/lit/gpn/sn7400
+9,2,"U8, U10",74LS01,74xx:74LS01,Package_DIP:DIP-14_W7.62mm,http://www.nteinc.com/specs/7400to7499/pdf/nte74LS01.pdf

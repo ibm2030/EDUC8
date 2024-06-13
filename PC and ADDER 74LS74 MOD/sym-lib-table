@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "program-counter-and-adder-logic-rescue")(type "Legacy")(uri "${KIPRJMOD}/PC and ADDER 74LS74 MOD-rescue.lib")(options "")(descr ""))
+)

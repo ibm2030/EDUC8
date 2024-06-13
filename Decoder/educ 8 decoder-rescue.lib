@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 16-way-pcb-edge-Educ-8-connectors-EDUC-8
+# 16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue
 #
-DEF 16-way-pcb-edge-Educ-8-connectors-EDUC-8 J 0 40 Y Y 1 F N
+DEF 16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue J 0 40 Y Y 1 F N
 F0 "J" 250 300 50 H V C CNN
-F1 "16-way-pcb-edge-Educ-8-connectors-EDUC-8" 100 1000 50 H V C CNN
+F1 "16-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue" 100 1000 50 H V C CNN
 F2 "" 100 400 50 H I C CNN
 F3 "" 100 400 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X 9 9 -100 50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 32-way-pcb-edge-Educ-8-connectors-EDUC-8
+# 32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue
 #
-DEF 32-way-pcb-edge-Educ-8-connectors-EDUC-8 J 0 40 Y Y 1 F N
+DEF 32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue J 0 40 Y Y 1 F N
 F0 "J" 100 2000 50 H V C CNN
-F1 "32-way-pcb-edge-Educ-8-connectors-EDUC-8" 100 1900 50 H V C CNN
+F1 "32-way-pcb-edge-Educ-8-connectors-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue" 100 1900 50 H V C CNN
 F2 "Connector_PCBEdge:PCB_32pin" 100 1300 50 H I C CNN
 F3 "" 100 1300 50 H I C CNN
 DRAW
@@ -73,11 +73,11 @@ X 9 9 -100 950 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Card_handle-EDUC-8
+# Card_handle-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue
 #
-DEF Card_handle-EDUC-8 H 0 40 Y Y 1 F N
+DEF Card_handle-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue H 0 40 Y Y 1 F N
 F0 "H" 0 100 50 H V C CNN
-F1 "Card_handle-EDUC-8" 0 200 50 H V C CNN
+F1 "Card_handle-EDUC-8-educ-8-decoder-rescue-educ-8-decoder-rescue" 0 200 50 H V C CNN
 F2 "EDUC-8:Card_handle" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

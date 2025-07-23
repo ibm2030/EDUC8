@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "Accumulator-rescue")(type "Legacy")(uri "${KIPRJMOD}/Accumulator-rescue.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "Accumulator-rescue")(type "KiCad")(uri "${KIPRJMOD}/Accumulator-rescue.kicad_sym")(options "")(descr ""))
 )

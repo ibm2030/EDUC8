@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "E8Serial-rescue")(type "KiCad")(uri "${KIPRJMOD}/E8Serial-rescue.kicad_sym")(options "")(descr ""))
+)

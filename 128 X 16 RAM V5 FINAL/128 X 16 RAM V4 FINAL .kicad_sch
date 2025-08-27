@@ -9504,7 +9504,7 @@
 		)
 		(uuid "6eb7a9c6-edee-426a-9b98-cf1cfdaf23a4")
 	)
-	(text "When ~{RUN} goes low on the timer board it disables the \nEXTERNAL PROGRAMMING INTERFACE.\nused to BANK 0-15\n"
+	(text "When ~{DEP}+~{LA} goes low on the timer board it disables the \nEXTERNAL PROGRAMMING INTERFACE.\nused to select BANK 0-15\n"
 		(exclude_from_sim no)
 		(at 262.89 231.14 0)
 		(effects
@@ -9596,9 +9596,9 @@
 		)
 		(uuid "df7f3a90-bf4d-4437-b49f-15f139baba77")
 	)
-	(text "CONNECT TO RUN ON E8/T"
+	(text "CONNECT TO ~{DEP+LA} ON E8/T"
 		(exclude_from_sim no)
-		(at 241.3 274.32 0)
+		(at 245.11 274.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9616,16 +9616,6 @@
 			)
 		)
 		(uuid "e6eadd27-795b-40cd-a7db-59677c201dd0")
-	)
-	(text "U2B is triggerer either by U2A at the end of\nof set RAM bank escape sequence or by clock \npulses to an O/P device."
-		(exclude_from_sim no)
-		(at 264.16 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd2254e1-71de-4207-bfb0-424dd6da2a1d")
 	)
 	(text "BINARY SELECT WHICH BANK OF RAM\nTO PROGRAM"
 		(exclude_from_sim no)
@@ -9708,6 +9698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ccca0e8-ca0b-434a-8283-7b0f44172dc4")
+	)
+	(junction
+		(at 73.66 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f9f6205-eec4-4f39-9f8f-8cc5dba73a2e")
 	)
 	(junction
 		(at 87.63 33.02)
@@ -9824,6 +9820,12 @@
 		(uuid "5fd197fa-e583-4ea7-a8b5-6909034390f0")
 	)
 	(junction
+		(at 201.93 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60dc6276-b24b-4b43-aea3-e48fb40cf36c")
+	)
+	(junction
 		(at 254 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9834,12 +9836,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "636d9472-a8c2-43f7-91df-5e103892c8e4")
-	)
-	(junction
-		(at 73.66 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "666b5300-973c-4040-93be-6bbbdd9fda12")
 	)
 	(junction
 		(at 464.82 273.05)
@@ -9942,6 +9938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bfb745a-31b1-4b47-92a7-9a8e554ea75f")
+	)
+	(junction
+		(at 80.01 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ff3d848-e86f-4fc4-9243-cc76d563ab99")
 	)
 	(junction
 		(at 215.9 33.02)
@@ -10056,6 +10058,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db407d8c-890e-47ec-8276-b3d676a8743d")
+	)
+	(junction
+		(at 226.06 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de179831-39cc-43c6-aa57-c2b3e28db4f8")
 	)
 	(junction
 		(at 86.36 280.67)
@@ -12073,6 +12081,16 @@
 		)
 		(uuid "0605350f-113c-49f8-b1c7-3cbd35db20ea")
 	)
+	(wire
+		(pts
+			(xy 73.66 180.34) (xy 201.93 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0610d237-02f2-4d2c-a175-fa41f872f55e")
+	)
 	(bus
 		(pts
 			(xy 444.5 153.67) (xy 444.5 156.21)
@@ -12355,7 +12373,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 185.42) (xy 238.76 185.42)
+			(xy 80.01 185.42) (xy 238.76 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12915,6 +12933,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 191.77) (xy 73.66 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecd9199-78f8-4918-9985-b8c749c1d8e7")
+	)
+	(wire
+		(pts
 			(xy 53.34 54.61) (xy 63.5 54.61)
 		)
 		(stroke
@@ -13455,6 +13483,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 199.39) (xy 73.66 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a9c207-c0df-4885-b0d2-ec5f6393f47e")
+	)
+	(wire
+		(pts
 			(xy 68.58 373.38) (xy 69.85 373.38)
 		)
 		(stroke
@@ -13565,6 +13603,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 212.09) (xy 213.36 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331b4d31-b765-42bd-8a4e-de46e68c9e48")
+	)
+	(wire
+		(pts
 			(xy 180.34 156.21) (xy 185.42 156.21)
 		)
 		(stroke
@@ -13613,6 +13661,16 @@
 			(color 0 0 72 1)
 		)
 		(uuid "35cb59d7-5a00-4af4-8865-92193d5b0e92")
+	)
+	(wire
+		(pts
+			(xy 201.93 180.34) (xy 201.93 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360b0297-6f17-4cf9-9c59-6c7c7b2ce274")
 	)
 	(wire
 		(pts
@@ -14176,7 +14234,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 212.09) (xy 73.66 214.63)
+			(xy 80.01 212.09) (xy 80.01 214.63)
 		)
 		(stroke
 			(width 0)
@@ -14825,6 +14883,16 @@
 		)
 		(uuid "5c9a7863-b505-4ba6-b302-805c71f26e3b")
 	)
+	(wire
+		(pts
+			(xy 80.01 212.09) (xy 91.44 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc86b42-93d7-4f68-bf1c-3a41adbbd128")
+	)
 	(bus
 		(pts
 			(xy 406.4 107.95) (xy 368.3 107.95)
@@ -14994,16 +15062,6 @@
 			(type default)
 		)
 		(uuid "63352172-e79b-4e92-8f41-e3cc42181c56")
-	)
-	(wire
-		(pts
-			(xy 281.94 270.51) (xy 297.18 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "635d632e-73c0-4db1-b76c-e42400fed47d")
 	)
 	(wire
 		(pts
@@ -15677,7 +15735,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 185.42) (xy 73.66 201.93)
+			(xy 80.01 185.42) (xy 80.01 191.77)
 		)
 		(stroke
 			(width 0)
@@ -16168,7 +16226,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 209.55) (xy 73.66 212.09)
+			(xy 80.01 199.39) (xy 80.01 212.09)
 		)
 		(stroke
 			(width 0)
@@ -16496,6 +16554,16 @@
 			(type default)
 		)
 		(uuid "9cf8ac41-9b93-480e-9f5f-c2bb020d2722")
+	)
+	(wire
+		(pts
+			(xy 73.66 212.09) (xy 80.01 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56d7da-7279-4f1a-b9df-f4bf836afdcb")
 	)
 	(bus
 		(pts
@@ -16887,16 +16955,6 @@
 			(type default)
 		)
 		(uuid "af53b383-0f72-47b6-857c-fd1bca81a21e")
-	)
-	(wire
-		(pts
-			(xy 199.39 212.09) (xy 213.36 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06eaa3d-327d-457b-a65f-2ca67f31fbe8")
 	)
 	(bus
 		(pts
@@ -18679,6 +18737,16 @@
 		)
 		(uuid "eba55e25-91d0-4b4d-b77c-797b267e08b6")
 	)
+	(wire
+		(pts
+			(xy 213.36 219.71) (xy 226.06 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2db4e5-d2d8-4ca5-8bb8-7c1ce2fc04fe")
+	)
 	(bus
 		(pts
 			(xy 292.1 60.96) (xy 292.1 63.5)
@@ -18721,7 +18789,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 270.51) (xy 260.35 270.51)
+			(xy 260.35 270.51) (xy 297.18 270.51)
 		)
 		(stroke
 			(width 0)
@@ -18838,16 +18906,6 @@
 			(type default)
 		)
 		(uuid "f0339cf1-05f6-4ff7-b412-45d8403552a6")
-	)
-	(wire
-		(pts
-			(xy 73.66 212.09) (xy 91.44 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f08d2035-3569-4022-882c-426961f26ad2")
 	)
 	(bus
 		(pts
@@ -23065,7 +23123,7 @@
 			)
 		)
 	)
-	(global_label "~{RUN}"
+	(global_label "~{DEP+LA}"
 		(shape input)
 		(at 55.88 160.655 0)
 		(fields_autoplaced yes)
@@ -23077,7 +23135,7 @@
 		)
 		(uuid "76d4ad74-57e1-4252-8a0b-f62432544036")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.7962 160.655 0)
+			(at 66.2433 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24341,7 +24399,7 @@
 			)
 		)
 	)
-	(global_label "~{RUN}"
+	(global_label "~{DEP+LA}"
 		(shape input)
 		(at 260.35 270.51 180)
 		(fields_autoplaced yes)
@@ -24353,7 +24411,7 @@
 		)
 		(uuid "ca4b315e-ef45-4fc4-8208-830c541186af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0059 270.4306 0)
+			(at 249.9867 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25345,7 +25403,7 @@
 		(dnp no)
 		(uuid "04907035-fe92-4334-bca3-a6b8f964e664")
 		(property "Reference" "R30"
-			(at 203.2 198.12 0)
+			(at 212.09 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25353,7 +25411,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 203.2 199.39 0)
+			(at 212.09 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27334,7 +27392,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT48RL")
-		(at 73.66 205.74 90)
+		(at 80.01 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27343,7 +27401,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d584813-4a7f-47d9-a170-f65ce2093e96")
 		(property "Reference" "D18"
-			(at 76.2 204.7874 90)
+			(at 82.55 194.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27352,7 +27410,7 @@
 			)
 		)
 		(property "Value" "BAT48"
-			(at 76.2 207.3274 90)
+			(at 82.55 197.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27361,7 +27419,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 78.105 205.74 0)
+			(at 84.455 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27370,7 +27428,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 73.66 205.74 0)
+			(at 80.01 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27379,7 +27437,7 @@
 			)
 		)
 		(property "Description" "40V 0.35A Small Signal Schottky Diode, DO-35"
-			(at 73.66 205.74 0)
+			(at 80.01 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29205,7 +29263,7 @@
 				)
 			)
 		)
-		(property "Value" "220pF"
+		(property "Value" "1nF"
 			(at 210.82 207.01 90)
 			(effects
 				(font
@@ -29826,7 +29884,7 @@
 				)
 			)
 		)
-		(property "Value" "220pF"
+		(property "Value" "1nF"
 			(at 171.45 207.01 90)
 			(effects
 				(font
@@ -31769,7 +31827,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 73.66 217.17 0)
+		(at 80.01 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31777,7 +31835,7 @@
 		(dnp no)
 		(uuid "6dc30a7e-2619-4af1-846b-db672f71d57d")
 		(property "Reference" "R27"
-			(at 68.58 215.9 0)
+			(at 74.93 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31786,7 +31844,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 68.58 218.44 0)
+			(at 74.93 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31795,7 +31853,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 73.66 217.17 0)
+			(at 80.01 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31804,7 +31862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 217.17 0)
+			(at 80.01 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31813,7 +31871,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 73.66 217.17 0)
+			(at 80.01 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33734,7 +33792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 238.76 252.73 0)
 			(effects
 				(font
@@ -34467,7 +34525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 219.71 0)
+		(at 80.01 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34475,7 +34533,7 @@
 		(dnp no)
 		(uuid "8eda8c98-1f4a-4fcd-985f-d999fd3ccbfa")
 		(property "Reference" "#PWR070"
-			(at 73.66 226.06 0)
+			(at 80.01 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34484,7 +34542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 223.52 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34492,7 +34550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 219.71 0)
+			(at 80.01 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34501,7 +34559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 219.71 0)
+			(at 80.01 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34510,7 +34568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 219.71 0)
+			(at 80.01 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38901,6 +38959,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT48RL")
+		(at 73.66 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d299e6ce-99b2-48ef-ac25-8c475352eeeb")
+		(property "Reference" "D22"
+			(at 67.31 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT48"
+			(at 66.04 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 78.105 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/bat48.pdf"
+			(at 73.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 0.35A Small Signal Schottky Diode, DO-35"
+			(at 73.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a108be-2cf4-44d6-aa61-b0a1dd2588bd")
+		)
+		(pin "2"
+			(uuid "4f41fbc3-460c-49cb-a3b1-839eb25ac376")
+		)
+		(instances
+			(project "128 X 16 RAM V4 FINAL "
+				(path "/a4063a53-36aa-4c9e-a40f-332a1b588143"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 345.44 374.65 0)
 		(unit 1)
@@ -40544,110 +40671,6 @@
 				(path "/a4063a53-36aa-4c9e-a40f-332a1b588143"
 					(reference "U20")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS04")
-		(at 274.32 270.51 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8a05a78-9c92-4beb-9aac-ef2d027383cb")
-		(property "Reference" "U24"
-			(at 274.32 261.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 274.32 264.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
-			(at 274.32 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066949f3-f3d0-4d4b-8c69-970ba5f18510")
-		)
-		(pin "2"
-			(uuid "30ac3395-a218-4e0a-8d06-ecb5626fcfe7")
-		)
-		(pin "3"
-			(uuid "a5501fdd-19a8-4831-9217-b0530597b586")
-		)
-		(pin "4"
-			(uuid "7a789f7d-e140-4e58-b88f-8a13828c36a7")
-		)
-		(pin "5"
-			(uuid "1bc04f09-c31d-4d9f-b1f0-d727555a9554")
-		)
-		(pin "6"
-			(uuid "8db2af74-1a85-426f-bc0e-b84559f9b624")
-		)
-		(pin "8"
-			(uuid "573e9ee3-2cb1-4dcd-9a79-29cc575f61bd")
-		)
-		(pin "9"
-			(uuid "18e60bae-c3c9-45aa-bd83-004df46796da")
-		)
-		(pin "10"
-			(uuid "07b9a1d4-699b-4712-a618-555b8ffddc4a")
-		)
-		(pin "11"
-			(uuid "b77f2d15-c370-4f87-bb7c-b867768718ee")
-		)
-		(pin "12"
-			(uuid "006e2de5-27f6-4146-911d-17ba7464d535")
-		)
-		(pin "13"
-			(uuid "c4260909-f9a7-4a39-bdaa-2a84f18cef74")
-		)
-		(pin "14"
-			(uuid "bb56b68b-fb43-430f-9182-2e86cf024b95")
-		)
-		(pin "7"
-			(uuid "5e361ed3-3a10-4775-add8-f70a72b9000d")
-		)
-		(instances
-			(project "128 x 16 RAm"
-				(path "/a4063a53-36aa-4c9e-a40f-332a1b588143"
-					(reference "U24")
-					(unit 5)
 				)
 			)
 		)

@@ -1,0 +1,838 @@
+
+
+---
+
+EDUC-8 ASSEMBLER PROGRAMMING MANUAL
+====================================
+
+Version: 2.0
+Date: May 2026
+Target: EDUC-8 Computer (Electronics Australia 1974)
+
+
+TABLE OF CONTENTS
+-----------------
+1. Introduction
+2. Basic Syntax Rules
+3. Punctuation Rules
+4. Number Formats
+5. Labels
+6. Comments
+7. Instruction Set
+8. Addressing Modes
+9. Subroutines (JMS)
+10. Combined OPR Instructions
+11. I/O Programming
+12. Terminal Control
+13. Memory Organization
+14. Programming Techniques
+15. Complete Examples
+16. Common Errors and Solutions
+17. Quick Reference Card
+
+
+1. INTRODUCTION
+===============
+
+The EDUC-8 assembler converts human-readable assembly code into machine
+code that runs on the EDUC-8 computer. This manual documents the exact
+syntax the assembler expects.
+
+1.1 Compiler Behavior
+---------------------
+| Feature         | Description                                      |
+|-----------------|--------------------------------------------------|
+| Case sensitivity| Uppercase recommended (converted internally)    |
+| Line numbers    | Optional, stripped by compiler, no punctuation after |
+| Spaces          | Delimit tokens (instructions, operands, labels) |
+| Blank lines     | Ignored                                         |
+| Comments        | Everything after ' is ignored                   |
+| Output file     | Same name as input file with .bin extension     |
+
+1.2 Memory Limits
+-----------------
+| Limit          | Value                         |
+|----------------|-------------------------------|
+| Total memory   | 256 bytes (o000-o377 octal)   |
+| Page size      | 16 bytes                      |
+| Pages          | 16 (0-15)                     |
+| Word size      | 8 bits                        |
+
+
+2. BASIC SYNTAX RULES
+======================
+
+2.1 Line Structure
+------------------
+Each line can contain:
+- Optional line number (3 octal digits, no punctuation)
+- Optional label (ends with :)
+- Optional instruction or data
+- Optional comment (starts with ')
+
+Order matters:
+[line number] [label:] [instruction] [operands] [' comment]
+
+2.2 Examples
+------------
+' This is a comment line
+
+        CLA             ' Clear accumulator
+
+100 START: CLA          ' Line number 100, label START, instruction CLA
+
+200      TAD VALUE      ' Line number 200, no label
+
+VALUE: 0                ' Data definition
+
+2.3 One Instruction Per Line (CRITICAL!)
+-----------------------------------------
+Each line can contain only one instruction.
+
+CORRECT:
+CLA
+TAD VALUE
+DCA RESULT
+
+INCORRECT - multiple instructions on one line:
+CLA TAD VALUE DCA RESULT
+
+
+3. PUNCTUATION RULES
+=====================
+
+3.1 Colon (:) - Labels Only
+----------------------------
+The colon is used ONLY for labels. Never for anything else.
+
+| Usage               | Correct            | Incorrect          |
+|---------------------|--------------------|--------------------|
+| Label definition    | START: CLA         | START CLA          |
+| Label in operand    | JMP START          | JMP START:         |
+| Data label          | VALUE: 0           | VALUE:0 (space optional) |
+| Line numbers        | 100 CLA            | 100: CLA           |
+
+3.2 Apostrophe (') - Comments Only
+-----------------------------------
+Everything after an apostrophe is ignored by the compiler.
+
+' This is a comment
+CLA             ' This is also a comment
+TAD VALUE       ' Load the value
+
+3.3 Dot (.) - Combined OPR Only
+--------------------------------
+The dot separates operations in combined OPR instructions. No spaces.
+
+| Instruction | Meaning                    |
+|-------------|----------------------------|
+| CLA.IAC     | Clear and Increment        |
+| CLA.CMA     | Clear and Complement       |
+| CMA.IAC     | Complement and Increment   |
+| SZA.SMA     | Skip if Zero or Negative   |
+
+CORRECT:
+CLA.IAC
+
+INCORRECT:
+CLA. IAC
+CLA .IAC
+CLA . IAC
+
+3.4 No Other Punctuation
+------------------------
+| Character | Usage                  | Status                        |
+|-----------|------------------------|-------------------------------|
+| ;         | Comment                | NOT USED - use ' instead      |
+| ,         | Operand separator      | NOT USED - use spaces         |
+| *         | Indirect addressing    | NOT USED - use I suffix       |
+| #         | Immediate value        | NOT USED - use direct values  |
+
+
+4. NUMBER FORMATS
+==================
+
+4.1 The Rule — One Format
+--------------------------
+| Format     | Prefix | Example      | Value         |
+|------------|--------|--------------|---------------|
+| Octal      | o      | o377         | 255 decimal   |
+| Decimal    | none   | 255          | 255 decimal   |
+
+IMPORTANT: All numbers without a prefix are DECIMAL.
+Octal numbers MUST have the 'o' prefix.
+
+4.2 Octal is Used for Addresses and I/O
+----------------------------------------
+The EDUC-8 is an octal machine. Use octal with 'o' prefix for addresses.
+
+START: CLA
+       TAD o100      ' Octal 100 = 64 decimal
+       DCA o200      ' Octal 200 = 128 decimal
+
+4.3 Decimal is Used for Counters and Data
+------------------------------------------
+Counters and arithmetic values use decimal.
+
+COUNT: 16            ' Decimal 16
+       TAD 255       ' Decimal 255
+       DCA RESULT
+
+4.4 Valid Octal Digits
+-----------------------
+Octal digits are 0 through 7 only. Must have 'o' prefix.
+
+Valid:   o0, o1, o2, o3, o4, o5, o6, o7, o10, o377
+Invalid: o8, o9, 377 (no prefix = decimal 377, not octal)
+
+
+5. LABELS
+==========
+
+5.1 Label Definition
+--------------------
+Labels end with a colon : and can be on the same line as an instruction or data.
+
+START: CLA           ' Label with instruction
+COUNT: 0             ' Label with data
+
+LOOP:                ' Label alone on its own line
+       TAD COUNT
+       JMP LOOP
+
+5.2 Label Usage in Operands
+----------------------------
+Labels used as operands do NOT need a trailing colon.
+
+TAD COUNT       ' Load value from COUNT
+JMP START       ' Jump to START
+JMS OUTCH       ' Call subroutine
+
+5.3 Label Scope
+---------------
+| Type   | Syntax    | Scope                         |
+|--------|-----------|-------------------------------|
+| Global | LABEL:    | Entire 256-byte memory        |
+| Local  | ^LABEL:   | Current 16-byte page only     |
+
+5.4 Valid Label Characters
+---------------------------
+Labels can contain letters, numbers, and underscores. Uppercase recommended.
+
+Valid labels:
+START: CLA
+COUNT1: 0
+^LOOP: NOP
+
+Invalid labels (cannot start with number):
+1START: CLA
+
+
+6. COMMENTS
+============
+
+6.1 Comment Syntax
+------------------
+Comments start with an apostrophe ' and continue to the end of the line.
+
+' This is a full-line comment
+CLA          ' This is an end-of-line comment
+
+6.2 Comment Placement
+---------------------
+Comments can appear anywhere on a line after the apostrophe.
+
+START: CLA   ' Clear accumulator
+       IAC   ' Increment accumulator
+       HLT   ' Halt the processor
+
+6.3 No Multi-line Comments
+--------------------------
+The assembler does not support multi-line comments. Use multiple lines.
+
+' This is a multi-line
+' comment using multiple
+' apostrophe lines
+
+
+7. INSTRUCTION SET
+===================
+
+7.1 Memory Reference Instructions (0xx-5xx)
+--------------------------------------------
+| Opcode | Mnemonic | Operation                          | Example          |
+|--------|----------|------------------------------------|------------------|
+| 0xx    | AND      | Logical AND with memory            | AND MASK         |
+| 1xx    | TAD      | Add memory to AC                   | TAD VALUE        |
+| 2xx    | ISZ      | Increment memory, skip if zero     | ISZ COUNT        |
+| 3xx    | DCA      | Deposit AC to memory, clear AC     | DCA RESULT       |
+| 4xx    | JMS      | Jump to subroutine                 | JMS OUTCH        |
+| 5xx    | JMP      | Jump to address                    | JMP START        |
+
+7.2 OPR Instructions (7xx)
+--------------------------
+| Octal | Mnemonic  | Operation                    |
+|-------|-----------|------------------------------|
+| o700  | NOP       | No operation                 |
+| o701  | IAC       | Increment Accumulator        |
+| o702  | RAL       | Rotate Left                  |
+| o703  | CMA       | Complement Accumulator       |
+| o704  | (unused)  |                              |
+| o705  | CMA.IAC   | Complement + Increment       |
+| o710  | CLA       | Clear Accumulator            |
+| o711  | CLA.IAC   | Clear + Increment            |
+| o714  | CLA.CMA   | Clear + Complement           |
+| o720  | NOP       | No operation (alternate)     |
+| o721  | HLT       | Halt                         |
+| o722  | RAR       | Rotate Right                 |
+| o724  | SMA       | Skip if Minus (negative)     |
+| o730  | SZA       | Skip if Zero                 |
+| o734  | SZA.SMA   | Skip if Zero or Negative     |
+
+7.3 IOT Instructions (6xx)
+--------------------------
+ALL IOT mnemonics include the port number directly — no spaces.
+
+PORT 0 (ID0/OD0):
+| Octal | Mnemonic | Port | Operation                      |
+|-------|----------|------|--------------------------------|
+| o601  | SKF0     | ID0  | Skip if input flag set         |
+| o601  | KSF0     | ID0  | Alias for SKF0                 |
+| o602  | KRS0     | ID0  | Read input port                |
+| o604  | RKF0     | ID0  | Reset input flag               |
+| o606  | KRB0     | ID0  | Read input + reset flag        |
+| o621  | SDF0     | OD0  | Skip if output flag ready      |
+| o622  | LDS0     | OD0  | Load output port               |
+| o624  | RDF0     | OD0  | Reset output flag              |
+| o626  | LDB0     | OD0  | Load output + set flag         |
+
+PORT 1 (ID1/OD1):
+| Octal | Mnemonic | Port | Operation                      |
+|-------|----------|------|--------------------------------|
+| o611  | SKF1     | ID1  | Skip if input flag set         |
+| o611  | KSF1     | ID1  | Alias for SKF1                 |
+| o612  | KRS1     | ID1  | Read input port                |
+| o614  | RKF1     | ID1  | Reset input flag               |
+| o616  | KRB1     | ID1  | Read input + reset flag        |
+| o631  | SDF1     | OD1  | Skip if output flag ready      |
+| o632  | LDS1     | OD1  | Load output port               |
+| o634  | RDF1     | OD1  | Reset output flag              |
+| o636  | LDB1     | OD1  | Load output + set flag         |
+
+CRITICAL: Port number is part of the mnemonic — no space.
+CORRECT: SKF0, KRB1, LDS0
+WRONG:   SKF 0, KRB 1, LDS 0
+
+
+8. ADDRESSING MODES
+====================
+
+8.1 Direct Addressing (Default)
+--------------------------------
+Accesses memory within the same 16-byte page.
+
+TAD VALUE       ' Direct access to VALUE (must be in same page)
+DCA RESULT      ' Direct access to RESULT
+JMP START       ' Direct jump within same page
+
+8.2 Indirect Addressing (I suffix)
+-----------------------------------
+Accesses any memory location via a pointer. Use I suffix.
+
+TAD PTR I       ' Indirect: PTR holds address of target
+DCA PTR I       ' Indirect store
+JMP PTR I       ' Indirect jump (for cross-page jumps)
+
+8.3 Pointer Setup
+-----------------
+PTR: TARGET     ' PTR holds the address of TARGET
+TARGET: 0       ' Actual data location
+
+
+9. SUBROUTINES (JMS)
+=====================
+
+9.1 How JMS Works
+-----------------
+When JMS executes:
+1. Return address (current PC + 1) is stored at the FIRST byte of the destination page
+2. Execution jumps to the SECOND byte of that page
+
+9.2 Subroutine Template
+-----------------------
+' Page N - Subroutine
+RTNLABEL: 0        ' First byte reserved for return address
+SUBNAME:           ' Entry point (second byte)
+                   ' Subroutine code
+       JMP RTNLABEL I   ' Return to caller
+
+9.3 Example
+-----------
+' Page 2 - Output character subroutine
+RTNOUT: 0
+OUTCH: LDS0
+       JMP RTNOUT I
+
+' Calling the subroutine
+       TAD o101        ' Octal 101 = ASCII 'A'
+       JMS OUTCH
+
+9.4 Multiple Subroutines in One Page
+-------------------------------------
+If multiple subroutines fit in a 16-byte page:
+
+RTNA: 0
+SUBA: ... code
+      JMP RTNA I
+
+RTNB: 0
+SUBB: ... code
+      JMP RTNB I
+
+
+10. COMBINED OPR INSTRUCTIONS
+==============================
+
+10.1 Available Combined Instructions
+-------------------------------------
+| Instruction | Effect                    | Bytes Saved |
+|-------------|---------------------------|-------------|
+| CLA.IAC     | AC = 1                    | 1 (vs CLA + IAC) |
+| CLA.CMA     | AC = -1                   | 1 (vs CLA + CMA) |
+| CMA.IAC     | AC = -AC (two's complement)| 1 (vs CMA + IAC) |
+| SZA.SMA     | Skip if AC <= 0           | 1 (vs SZA + SMA) |
+
+10.2 Usage Examples
+-------------------
+' Set AC to 1
+CLA.IAC
+
+' Set AC to -1
+CLA.CMA
+
+' Negate the value in AC
+CMA.IAC
+
+' Skip next instruction if AC is zero or negative
+SZA.SMA
+
+10.3 Important Rules
+--------------------
+- Use dot (.) as separator
+- No spaces around the dot
+- These are single instructions (1 byte each)
+
+
+11. I/O PROGRAMMING
+====================
+
+11.1 Flag Behavior
+------------------
+Input Flags (ID0, ID1):
+- Set by hardware when external device has data ready
+- Tested by SKF0 / SKF1 (skip if flag = 1)
+- Cleared by KRB0 / KRB1 after reading
+
+Output Flags (OD0, OD1):
+- Set by LDS0 / LDS1 after sending data
+- Tested by SDF0 / SDF1 (skip if flag = 1, meaning "ready")
+- Cleared by RDF0 / RDF1
+
+11.2 Terminal Output (OD0)
+--------------------------
+' Output character in AC to terminal
+OUTCH: LDS0
+       JMP OUTCH I
+
+11.3 Terminal Input (ID0)
+--------------------------
+' Read character from terminal into AC
+INCH: SKF0
+      JMP INCH
+      KRB0
+      JMP INCH I
+
+11.4 RS-232 Output (OD1)
+------------------------
+' Send character to other computer
+SEND: LDS1
+      JMP SEND I
+
+11.5 RS-232 Input (ID1)
+-----------------------
+' Receive character from other computer
+RECV: SKF1
+      JMP RECV
+      KRB1
+      JMP RECV I
+
+11.6 Send with Flow Control (Transfer Register)
+-----------------------------------------------
+SEND: SKF0             ' Check if receiver ready
+      JMP SEND         ' Not ready, wait
+      TAD DATA_BYTE
+      LDS1             ' Send byte
+
+11.7 Wait and Receive
+---------------------
+WAIT: SKF1             ' Check if flag set on ID1
+      JMP WAIT         ' No, keep waiting
+      KRB1             ' Read byte, clear flag
+      DCA STORE        ' Store received byte
+
+
+12. TERMINAL CONTROL
+=====================
+
+12.1 VT100 Escape Sequences
+---------------------------
+| Function        | Sequence      | Octal Values              |
+|-----------------|---------------|---------------------------|
+| Carriage Return | CR            | o15                       |
+| Line Feed       | LF            | o12                       |
+| Clear Screen    | ESC [ 2 J     | o33, o133, o62, o112      |
+| Cursor Home     | ESC [ H       | o33, o133, o110           |
+
+12.2 Clear Screen Subroutine
+----------------------------
+RTNCLS: 0
+CLS: TAD ESC
+     JMS OUTCH
+     TAD LBK
+     JMS OUTCH
+     TAD CHR2
+     JMS OUTCH
+     TAD CHRJ
+     JMS OUTCH
+     JMP RTNCLS I
+
+ESC:  o33
+LBK:  o133
+CHR2: o62
+CHRJ: o112
+
+12.3 Newline Subroutine
+-----------------------
+RTNCR: 0
+NEWLINE: TAD CR
+         JMS OUTCH
+         TAD LF
+         JMS OUTCH
+         JMP RTNCR I
+
+CR: o15
+LF: o12
+
+
+13. MEMORY ORGANIZATION
+========================
+
+13.1 Memory Map
+---------------
+| Address Range | Size | Use                          |
+|---------------|------|------------------------------|
+| o000-o017     | 16   | Variables                    |
+| o020-o037     | 16   | More variables or grid data  |
+| o040-o057     | 16   | Terminal I/O subroutines     |
+| o060-o077     | 16   | RS-232 I/O subroutines       |
+| o100-o117     | 16   | Bit manipulation subroutines |
+| o120-o137     | 16   | Game subroutines             |
+| o140-o157     | 16   | More game subroutines        |
+| o160-o177     | 16   | Main loop                    |
+| o200-o377     | 128  | Application code             |
+
+13.2 Page Boundaries
+--------------------
+Pages are 16 bytes each. Direct addressing cannot cross page boundaries.
+
+| Page | Address Range |
+|------|---------------|
+| 0    | o000-o017     |
+| 1    | o020-o037     |
+| 2    | o040-o057     |
+| 3    | o060-o077     |
+| 4    | o100-o117     |
+| 5    | o120-o137     |
+| 6    | o140-o157     |
+| 7    | o160-o177     |
+| 8    | o200-o217     |
+| 9    | o220-o237     |
+| 10   | o240-o257     |
+| 11   | o260-o277     |
+| 12   | o300-o317     |
+| 13   | o320-o337     |
+| 14   | o340-o357     |
+| 15   | o360-o377     |
+
+
+14. PROGRAMMING TECHNIQUES
+===========================
+
+14.1 Bit Testing Using RAL and SMA
+-----------------------------------
+' Test bit Y in byte at AC
+BITSUB: DCA TEMP
+        TAD Y
+        DCA BITCNT
+BITLP:  TAD BITCNT
+        SZA
+        JMP ROTATE
+        TAD TEMP
+        SMA
+        JMP BITSET
+        JMP BITCLR
+ROTATE: TAD TEMP
+        RAL
+        DCA TEMP
+        TAD BITCNT
+        CMA.IAC
+        DCA BITCNT
+        JMP BITLP
+BITSET: CLA.IAC
+        JMP BITDONE
+BITCLR: CLA
+BITDONE: JMP BITSUB I
+
+14.2 Two's Complement Negation
+------------------------------
+CMA.IAC        ' AC = -AC
+
+14.3 Decrement by 1
+-------------------
+CLA.CMA        ' AC = -1
+TAD COUNT      ' COUNT - 1
+DCA COUNT
+
+14.4 Loop with Counter
+----------------------
+CLA
+DCA COUNT
+LOOP: TAD COUNT
+      ... do something
+      ISZ COUNT
+      TAD 10       ' Decimal 10 iterations
+      SZA
+      JMP LOOP
+
+
+15. COMPLETE EXAMPLES
+======================
+
+15.1 Example 1: Simple Counter
+------------------------------
+' COUNTER PROGRAM
+COUNT: 0
+
+START: CLA
+       TAD COUNT
+       IAC
+       DCA COUNT
+       LDS0
+       JMP START
+       HLT
+
+15.2 Example 2: Output Character
+--------------------------------
+' OUTPUT CHARACTER
+RTNOUT: 0
+OUTCH: LDS0
+       JMP RTNOUT I
+
+START: TAD o101       ' Octal 101 = ASCII 'A'
+       JMS OUTCH
+       HLT
+
+15.3 Example 3: Read Input
+---------------------------
+' READ INPUT
+RTNIN: 0
+INCH: SKF0
+      JMP INCH
+      KRB0
+      JMP RTNIN I
+
+START: JMS INCH
+       LDS0
+       HLT
+
+15.4 Example 4: Two-Computer Communication
+------------------------------------------
+' SEND AND RECEIVE
+RTNSND: 0
+SEND: LDS1
+      JMP RTNSND I
+
+RTNREC: 0
+RECV: SKF1
+      JMP RECV
+      KRB1
+      JMP RTNREC I
+
+START: TAD o101
+       JMS SEND
+       JMS RECV
+       LDS0
+       HLT
+
+
+16. COMMON ERRORS AND SOLUTIONS
+================================
+
+16.1 Error: Multiple instructions on one line
+----------------------------------------------
+Solution: Put each instruction on its own line.
+
+16.2 Error: Colon after line number
+------------------------------------
+Solution: Remove colon from line numbers. Line numbers have no punctuation.
+
+WRONG: 100: CLA
+RIGHT: 100 CLA
+
+16.3 Error: Port number with space
+-----------------------------------
+Solution: Port number is part of the mnemonic. No space.
+
+WRONG: SKF 1, KRB 0, LDS 1
+RIGHT: SKF1, KRB0, LDS1
+
+16.4 Error: Octal number without 'o' prefix
+--------------------------------------------
+Solution: All octal numbers must have 'o' prefix.
+
+WRONG: TAD 200
+RIGHT: TAD o200
+
+16.5 Error: Decimal number used where octal expected
+-----------------------------------------------------
+Remember: 10 = decimal 10, o10 = octal 10 = decimal 8.
+
+16.6 Error: Using PDP-8 instructions
+-------------------------------------
+Solution: Use only EDUC-8 instructions. No SPA, no JMS I, etc.
+
+16.7 Error: Page boundary violation
+------------------------------------
+Solution: Use indirect addressing (I suffix) for cross-page jumps.
+
+16.8 Error: Unrecognized token
+------------------------------
+Solution: Check for invalid punctuation or spaces in labels.
+
+
+17. QUICK REFERENCE CARD
+=========================
+
+17.1 Punctuation
+----------------
+| Symbol | Usage                          | Example            |
+|--------|--------------------------------|--------------------|
+| :      | After labels only              | START: CLA         |
+| '      | Start of comment               | ' comment          |
+| .      | Combined OPR separator         | CLA.IAC            |
+
+17.2 Number Formats
+-------------------
+| Format     | Prefix | Example      | Value         |
+|------------|--------|--------------|---------------|
+| Octal      | o      | o377         | 255 decimal   |
+| Decimal    | none   | 255          | 255 decimal   |
+
+17.3 Instruction Groups
+-----------------------
+| Group        | Opcodes        | Examples                 |
+|--------------|----------------|--------------------------|
+| Memory Ref   | 0xx-5xx        | AND, TAD, DCA, JMP, JMS  |
+| OPR          | 7xx            | CLA, IAC, HLT, SZA       |
+| IOT          | 6xx            | LDS0, SKF1, KRB0         |
+
+17.4 Addressing
+---------------
+| Mode         | Syntax         | Example                  |
+|--------------|----------------|--------------------------|
+| Direct       | label          | TAD VALUE                |
+| Indirect     | label I        | TAD VALUE I              |
+
+17.5 Subroutines
+----------------
+| Action       | Syntax                     |
+|--------------|----------------------------|
+| Call         | JMS SUB                    |
+| Return       | JMP RTNLABEL I             |
+| Return addr  | RTNLABEL: 0                |
+
+17.6 IOT Quick Reference
+------------------------
+| Port  | Output   | Input               |
+|-------|----------|---------------------|
+| OD0/ID0 | LDS0  | SKF0, KRB0          |
+| OD1/ID1 | LDS1  | SKF1, KRB1          |
+
+ALL IOT mnemonics include the port number with NO space:
+SKF0, KRB0, LDS0, SKF1, KRB1, LDS1
+
+17.7 Common OPR Values
+----------------------
+| Instruction | Effect    | Octal | Hex  |
+|-------------|-----------|-------|------|
+| CLA         | AC = 0    | o710  | 0x1C8|
+| IAC         | AC++      | o701  | 0x1C1|
+| CMA         | AC = ~AC  | o703  | 0x1C3|
+| HLT         | Halt      | o721  | 0x1D1|
+| CLA.IAC     | AC = 1    | o711  | 0x1C9|
+| CLA.CMA     | AC = -1   | o714  | 0x1CC|
+| CMA.IAC     | AC = -AC  | o705  | 0x1C5|
+| SZA         | Skip if 0 | o730  | 0x1D8|
+| SMA         | Skip if - | o724  | 0x1D4|
+| SZA.SMA     | Skip if <=0| o734  | 0x1DC|
+
+17.8 Memory Limits
+------------------
+| Limit            | Value                 |
+|------------------|-----------------------|
+| Total memory     | 256 bytes             |
+| Page size        | 16 bytes              |
+| Max program size | 256 bytes             |
+| Address range    | o000-o377 octal       |
+
+17.9 Compiler Output
+--------------------
+| Input File     | Output File        |
+|----------------|--------------------|
+| program.asm    | program.bin        |
+| handler.asm    | handler.bin        |
+| weather.asm    | weather.bin        |
+
+The compiler generates a .bin file with the same name as the input .asm file.
+
+17.10 Flag Behavior Summary
+---------------------------
+| Flag Type | Set By       | Tested By | Cleared By |
+|-----------|--------------|-----------|------------|
+| ID0 Input | Hardware     | SKF0      | KRB0, RKF0 |
+| ID1 Input | Hardware     | SKF1      | KRB1, RKF1 |
+| OD0 Output| LDS0, LDB0   | SDF0      | RDF0       |
+| OD1 Output| LDS1, LDB1   | SDF1      | RDF1       |
+
+---
+
+========================================
+END OF MANUAL — VERSION 2.0
+========================================
+```
+
+---
+
+## SUMMARY OF ALL CHANGES
+
+| Section | Change |
+|---------|--------|
+| 1.1 | Added output file behavior |
+| 4 | Replaced all number formats with single rule: `o` = octal, bare = decimal |
+| 7.3 | All IOT mnemonics now include port number (SKF0, KRB1, LDS0, no spaces) |
+| 11 | Rewrote all I/O examples with new IOT format, added flag behavior |
+| 12 | Updated octal values with `o` prefix |
+| 13 | Updated all addresses with `o` prefix |
+| 14-15 | Updated all code examples with new formats |
+| 16 | Added new error entries for port spacing and octal prefix |
+| 17 | Complete rewrite — number formats, IOT reference, output files, flags |

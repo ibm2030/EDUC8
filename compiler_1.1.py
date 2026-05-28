@@ -115,15 +115,21 @@ def build(file_path):
                     except ValueError:
                         raise ValueError(f"Line {line_num}: Unresolved label or invalid format: '{target_token}'")
                 
+                # PAGE BOUNDARY CHECK
                 is_cross_page = (addr_context // 16) != (target_addr // 16)
-                mode = 'I' if is_cross_page else (parts[2].upper() if len(parts) > 2 else 'D')
                 
-                if mode == 'D':
-                    if is_cross_page: 
-                        raise MemoryError(
-                            f"Line {line_num}: Page crossing violation! Cannot directly reference "
-                            f"from Page {addr_context // 16} to Page {target_addr // 16}. Use Indirect addressing ('I')."
-                        )
+                # Check for I suffix
+                mode = 'D'
+                if len(parts) > 2:
+                    mode = parts[2].upper()
+                
+                if mode == 'D' and is_cross_page:
+                    raise MemoryError(
+                        f"Line {line_num}: 16-byte Page crossing violation! "
+                        f"Cannot directly reference from Page {addr_context // 16} "
+                        f"to Page {target_addr // 16} (address 0o{target_addr:03o}). "
+                        f"Use Indirect addressing with 'I' suffix."
+                    )
 
                 ind_bit = 0o020 if mode == 'I' else 0o000
                 binary_payload[array_idx] = ((opcodes[cmd] << 5) | ind_bit | (target_addr & 0o017)) & 0xFF
@@ -166,7 +172,7 @@ def build(file_path):
                 else:
                     raise ValueError(f"Line {line_num}: Unrecognized token structure: '{cmd}'")
 
-        main_address = labels.get('MAIN', 0x00)
+        main_address = labels.get('MAIN', start_address)
         arduino_num_bytes = 0 if num_bytes == 256 else num_bytes
         upload_packet = bytearray()
         upload_packet.append(main_address & 0xFF)
